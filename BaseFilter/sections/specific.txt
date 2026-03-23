@@ -920,6 +920,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+tgsearch.su##.tgsearch-advertise
 majorgeeks.com###op1-ad
 fcbayern.com##div[data-upscore-zone^="content(SPONSORBANNER)"]
 krakenfiles.com###myadbox
