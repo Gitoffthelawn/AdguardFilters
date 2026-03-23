@@ -4375,6 +4375,17 @@ lovefilmizle.net,elzemfilm.org,dizicaps.*,erotikfilmtube.com,sexfilmleriizle.com
 ! WARNING: When adding new rules here, try to find an initial source of an actual domain,
 !          or add a last known domain
 !
+! Frequently changed domains: softtv*.com
+! Source: softtv2.com
+! aglint-disable no-invalid-modifiers
+!+ NOT_VALIDATE
+||i.ibb.co/*.gif$domain=/softtv\d+\.com$/
+! aglint-enable no-invalid-modifiers
+[$domain=/softtv\d+\.com$/]##.slot-header_banner
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
+softtv2.com,softtv3.com,softtv4.com,softtv5.com,softtv6.com,softtv7.com,softtv8.com,softtv9.com,softtv10.com,softtv11.com,softtv12.com,softtv13.com,softtv14.com,softtv15.com,softtv16.com,softtv17.com,softtv18.com,softtv19.com,softtv20.com,softtv21.com##.slot-header_banner
+!#endif
+!
 ! Frequently changed domains: nesinetv*.com
 ! Source: nesinetv22.com
 ||nesinetv*.com/*.gif
