@@ -1253,6 +1253,13 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227604
+h-game18.xyz#$#.adsbygoogle.Ad-Container.sidebar-ad.ad-slot.ad.ads.doubleclick.ad-placement.ad-placeholder.adbadge.BannerAd.adsbox { display: block !important; }
+h-game18.xyz#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+@@||h-game18.xyz^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=h-game18.xyz
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227522
 fc-lc.xyz#%#//scriptlet('remove-node-text', 'script', 'AdscoreInit')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -6181,12 +6188,6 @@ codevn.net##.swal2-container
 link.codevn.net#%#//scriptlet('abort-on-property-write', 'checkDomain')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@/|$xmlhttprequest,domain=link.codevn.net
-! https://github.com/AdguardTeam/AdguardFilters/issues/135481
-h-game18.xyz#%#//scriptlet('prevent-addEventListener', 'load', 'pagead2.googlesyndication.com')
-h-game18.xyz#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=h-game18.xyz
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=h-game18.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135457
 truffeonline.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=truffeonline.com
