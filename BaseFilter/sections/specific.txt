@@ -920,6 +920,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+jobzhub.store###iframe_id
 gbmb.org##.mardinad
 tumlook.com##main article.card:has(> header[role="banner"]:not([aria-label]))
 tgsearch.su##.tgsearch-advertise
