@@ -25,6 +25,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227517
+@@||dapi.kakao.com/v*/local/search/address?$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227597
 @@||search-myfonts-api.monotype.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227523
