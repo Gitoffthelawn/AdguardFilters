@@ -11031,7 +11031,6 @@ anime-odcinki.pl##a[href="https://e-neko.pl/"] > img
 @@||anime-odcinki.pl^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/223279
 bezprawnik.pl###adSlotXL2
-bezprawnik.pl##div[data-no-partner-ads] > div.relative
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213127
 !+ NOT_OPTIMIZED
 bezprawnik.pl###adSlotsSidebar
