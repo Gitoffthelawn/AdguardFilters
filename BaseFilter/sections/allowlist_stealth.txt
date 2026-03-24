@@ -1104,7 +1104,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171666
 @@||nv7s.com/key=*/referer=$media,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171898 (regardless of options)
-@@ws://localhost^$stealth,domain=play.sooplive.co.kr
+@@ws://localhost^$stealth,domain=play.sooplive.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171731
 @@||theolivepress.es^$stealth=useragent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171591
