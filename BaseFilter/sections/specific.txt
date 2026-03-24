@@ -920,6 +920,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+tumlook.com##main article.card:has(> header[role="banner"]:not([aria-label]))
 tgsearch.su##.tgsearch-advertise
 majorgeeks.com###op1-ad
 fcbayern.com##div[data-upscore-zone^="content(SPONSORBANNER)"]
