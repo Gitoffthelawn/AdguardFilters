@@ -6874,8 +6874,9 @@ jenprace.cz#$##cookie-bar-outer { display: none !important; }
 ticketswap.fr#?#body > ticketswap-portal:has(a[href="/content/privacy"])
 euclaim.de##.modal--background
 bioseptyl.fr##.nq-c-GdprBanner
+archiveofourown.org#$#body { overflow: auto !important; }
 archiveofourown.org#$##tos_prompt { display: none !important; }
-archiveofourown.org#$##outer { display: block !important; }
+archiveofourown.org#$##outer { display: block !important; visibility: visible !important; }
 hilalplay.com###cookie-preferences-modal
 falconx.io##.cookie-parent
 glavred.info,unian.net###langModal
