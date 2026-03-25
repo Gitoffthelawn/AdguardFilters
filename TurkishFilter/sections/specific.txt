@@ -4620,6 +4620,7 @@ zbahistv26.com,zbahistv27.com,zbahistv28.com,zbahistv29.com,zbahistv30.com,zbahi
 !#endif
 !
 ! Frequently changed domains: turkifsalar*.space
+! Source: turkifsalar26.space
 [$domain=/^turkifsalar\d+\.space$/]##section[data-slot="video_above_player"]
 [$domain=/^turkifsalar\d+\.space$/]#$#.tubesite-modal-overlay { display: none !important; }
 [$domain=/^turkifsalar\d+\.space$/]#$#body { overflow: auto !important; }
