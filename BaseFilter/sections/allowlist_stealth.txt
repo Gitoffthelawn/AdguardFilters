@@ -25,6 +25,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227717
+@@||vidkocu.site/embed.php$stealth=referrer,third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227517
 @@||dapi.kakao.com/v*/local/search/address?$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227597
