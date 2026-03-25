@@ -9,6 +9,10 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227704
+novelaplay.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'bait')
+novelaplay.com#@#.ad-space:not(.textads)
+novelaplay.com#@##adContainer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227703
 pkproject.net#%#//scriptlet('prevent-setTimeout', 'adblock')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227346
