@@ -28,6 +28,7 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||weblog.eseoul.go.kr^
 ||qa-track.ssg.com^
 ||track.ssg.com^
 ||ssgmanual.snov.io^
