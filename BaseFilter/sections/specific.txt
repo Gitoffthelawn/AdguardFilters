@@ -10,6 +10,9 @@
 !
 !### Temporary ###
 ! SECTION: Temporary
+! BUG: https://github.com/AdguardTeam/AdGuardExtra/issues/643
+! TODO: remove when fix will be published
+4pda.to#$?#.article-gallery-image-container > a[data-lightbox^="post-"]:not(#style_important):has(> img) { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/220921
 ||shieldload.neoseeker.com^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/209826#issuecomment-3139083990
