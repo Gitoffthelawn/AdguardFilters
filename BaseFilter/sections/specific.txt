@@ -923,6 +923,11 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+||megatube.xxx/sum.js
+megatube.xxx##.content > div.related-videos:has(> div.box script#fapcash-videos)
+megatube.xxx##.footer-margin > div.content:has(> div.box > div.content--right-ads)
+megatube.xxx##a[href="https://www.megatube.xxx/go/my-tiny-wish/"]
+megatube.xxx##.mt_header-panel-1
 fuxxx.com##.video-wrapper > div.partners
 fuxxx.com##.video-wrapper > div.partners + div[class]
 ||hqfap.com/themes/lite/js/mztn.js
@@ -13633,7 +13638,7 @@ primarygames.com###overlay-hideme
 primarygames.com##.below-gameinfo > .AD300x250-wrapper
 primarygames.com##.outer_gamecat_wrap > .gamecat_wrap300x250
 friv.land##.banner-advertisement
-dropstab.com,stremio-addons.net,pornoreino.com,okporn.xxx,productreview.com.au,videohelp.com,techinferno.com,boyfriendtv.com##a[rel="sponsored"]
+megatube.xxx,dropstab.com,stremio-addons.net,pornoreino.com,okporn.xxx,productreview.com.au,videohelp.com,techinferno.com,boyfriendtv.com##a[rel="sponsored"]
 letmejerk.com##.wrapper > div.container + div[class]
 xxxvogue.net###embed-parrot
 xxxvogue.net###embed-embed-overlay
