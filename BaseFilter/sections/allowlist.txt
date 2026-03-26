@@ -131,6 +131,8 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227726#issuecomment-4130339208
+winaero.com#@##custom_html-10
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227720
 @@||roomlala.*/assets/myspace/myprofile/sponsorship_controller-*.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227189
