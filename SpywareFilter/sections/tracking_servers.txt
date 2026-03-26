@@ -69,6 +69,7 @@
 !
 !
 !
+|| alpha-collector-statistics.nhn-commerce.com^
 ||plausible.vidsonic.net^
 ||delivery.dighty.com^
 ||vault.nqintelligence.com^
