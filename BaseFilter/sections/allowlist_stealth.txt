@@ -25,6 +25,9 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227784
+@@/video.m3u8$stealth=referrer,domain=missav.live
+@@||surrit.com^$image,stealth=referrer,domain=missav.live
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227717
 @@||vidkocu.site/embed.php$stealth=referrer,third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227517
