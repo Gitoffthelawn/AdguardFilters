@@ -25,6 +25,8 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/225737
+@@||tiktok.com^$stealth=java|flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227810
 @@||supabase.co/auth/v*/user|$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227784
