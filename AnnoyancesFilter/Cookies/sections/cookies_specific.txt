@@ -8783,7 +8783,7 @@ bundesanzeiger.de,unternehmensregister.de#$##cc { display: none !important; }
 bundesanzeiger.de,unternehmensregister.de#$#body.cc_open { overflow: visible !important; }
 we-xpats.com,kartell.com,islamicfinder.org###gdprPopup
 canalplus.com###privacy-manager
-cinch.co.uk,kompany.de,kistler.com##div[class^="cookie-consent"]
+bikemap.net,cinch.co.uk,kompany.de,kistler.com##div[class^="cookie-consent"]
 carrefouruae.com##div[data-testid="__checkout_cookie_banner__"]
 fw-kreis-wunsiedel.de,mgs-eportal.de,uk-augsburg.de,sport-bittl.com###vbcn
 fw-kreis-wunsiedel.de,sport-bittl.com###vbcn-backdrop
