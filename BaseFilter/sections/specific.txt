@@ -955,7 +955,7 @@ bigshare.io##.artplayer-ads
 bigshare.io##.artplayer-overlay
 bigshare.io##.artplayer-counter
 pornhub.org##.emptyBlockSpace
-pandamovies.org#%#//scriptlet('remove-node-text', 'script', 'mainAds')
+pandamovies.*#%#//scriptlet('remove-node-text', 'script', 'mainAds')
 metacritic.com##.fandom-ad-placeholder
 perezhilton.com##.lazy-ad-parent
 perezhilton.com##div[class$="-ad-container"]
@@ -1384,7 +1384,7 @@ zeenews.india.com#$##read_button { display: none !important; }
 hexload.com##a[href*="?key="]
 krakenfiles.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'history.go')
 krakenfiles.com##.myardbox
-upns.online,player4me.*,seekplayer.vip,speedporn.net,pornwatch.ws,rpmplay.online,pandamovies.org#%#//scriptlet('prevent-window-open')
+upns.online,player4me.*,seekplayer.vip,speedporn.net,pornwatch.ws,rpmplay.online,pandamovies.*#%#//scriptlet('prevent-window-open')
 embedseek.online#%#//scriptlet('prevent-addEventListener', 'click', 'popunder')
 pandamovies.org##a[href^="https://freepopnews.skin/"]
 ||connatix.com/rtb/
