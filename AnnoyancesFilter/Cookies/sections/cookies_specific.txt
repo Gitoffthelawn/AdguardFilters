@@ -7708,7 +7708,7 @@ lass-dich-nieder.de###id-cookie-layer
 ttoday.it#$#.cli-barmodal-open { overflow: auto !important; }
 ttoday.it#$##cookie-law-info-bar { display: none !important; }
 ttoday.it#$#.cli-modal-backdrop { display: none !important; }
-patienten.helios-gesundheit.de,pendix.de,kickz.com###consent-dialog
+hornyhill.com,patienten.helios-gesundheit.de,pendix.de,kickz.com###consent-dialog
 tatildekirala.com##div[class^="css-"] > button[class^="css-"] + div[class^="css-"]
 qameta.io##div[x-init^="cookie_consent"]
 personal.metrobankonline.co.uk##.metro-cookiebar__block
@@ -8783,7 +8783,7 @@ bundesanzeiger.de,unternehmensregister.de#$##cc { display: none !important; }
 bundesanzeiger.de,unternehmensregister.de#$#body.cc_open { overflow: visible !important; }
 we-xpats.com,kartell.com,islamicfinder.org###gdprPopup
 canalplus.com###privacy-manager
-cinch.co.uk,kompany.de,kistler.com##div[class^="cookie-consent"]
+bikemap.net,cinch.co.uk,kompany.de,kistler.com##div[class^="cookie-consent"]
 carrefouruae.com##div[data-testid="__checkout_cookie_banner__"]
 fw-kreis-wunsiedel.de,mgs-eportal.de,uk-augsburg.de,sport-bittl.com###vbcn
 fw-kreis-wunsiedel.de,sport-bittl.com###vbcn-backdrop
