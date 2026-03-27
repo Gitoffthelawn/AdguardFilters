@@ -25,6 +25,8 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+||vgtimes.*/minified/jvgt_notifications-
+||vgtimes.*/minified/jvgt_push_ask-
 fotospor.com.tr###bildirim-banner
 ||cdn.iterwebcms.com/*/mas-push-min.js
 ||cdn2.bildirt.com/BildirtSDKfiles.js
