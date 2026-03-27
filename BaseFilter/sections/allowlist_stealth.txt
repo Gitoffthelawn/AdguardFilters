@@ -25,6 +25,9 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227889
+@@||58img.top^$image,stealth=referrer,domain=hornysimp.com.lv|mypornerleak.com
+@@||58img.top/muliframe/muliframe$stealth=referrer,domain=mypornerleak.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227881
 @@||lensfrontend-pa.clients6.google.*/v*/crupload$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227884
