@@ -1252,6 +1252,10 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227878
+||krakenfiles.com/assets/js/adb.js
+||krakenfiles.com/assets/js/adpp.js
+krakenfiles.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', '/hidePage|showAB|abReady/')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227823
 claimcoin.in#%#//scriptlet('prevent-element-src-loading', 'script', 'static.surfe.pro')
 claimcoin.in#%#//scriptlet('prevent-fetch', 'adoto.net')
