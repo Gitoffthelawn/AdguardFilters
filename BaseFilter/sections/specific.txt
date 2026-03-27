@@ -923,6 +923,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+cypnow.co.uk##.row-padding:has(+ div[id^="div-gpt-ad"])
 porndig.com###co_sponsor
 porndig.com##.dt_porndig
 porndig.com#?#.main_menu > li.main_menu_item:has(> span.obfs > span.main_menu_txt:contains(/Local MILFs|AI Jerkoff/i))
