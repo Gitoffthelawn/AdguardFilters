@@ -4601,9 +4601,6 @@ gamespot.com#@##onetrust-consent-sdk
 freeyou.ag#@##cookie-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53992
 @@||cdn.cookielaw.org/skins^
-! https://github.com/AdguardTeam/AdguardFilters/issues/53345
-!+ PLATFORM(ios, ext_safari)
-@@||shinsori.com/wp-content/plugins/jetpack/_inc/build/widgets/eu-cookie-law/eu-cookie-law.min.js$domain=shinsori.com
 ! rockpapershotgun.com - fixing YouTube player
 @@||cdn.cookielaw.org^$domain=rockpapershotgun.com
 rockpapershotgun.com#@##onetrust-consent-sdk
