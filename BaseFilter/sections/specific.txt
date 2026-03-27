@@ -924,6 +924,11 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+||fapnado.com/ads/$media
+fapnado.com##.fluid_html_on_pause_container
+fapnado.com##div[style="height: 400px; width: 1240px; margin: 0 auto; text-align: center;"]
+fapnado.com##a[href^="https://www.tckcandy.com/"]
+fapnado.com##a[href^="https://go.gsrv.dev/"]
 sulasok.uno#%#//scriptlet('remove-node-text', 'script', 'lastRunKey')
 sulasokvids.net##.col-md-8 > div[style]:has(> p > a[href="https://Xpinay.tv"])
 sulasok.uno,sulasokvids.net##a[href="https://otits.tv/"]
