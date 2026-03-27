@@ -2858,8 +2858,6 @@ muvc.net##body > div[align="right"]:last-of-type
 parlourfullslotl.com##.side-topad > div.widget_st_custom_html_ad_widget
 pisuke-code.com###execphp-8
 newser.cc###side > h3:last-of-type
-||sp.pachinkoslot.jp/images/ad/
-sp.pachinkoslot.jp##.big_image
 nazo2.net##.side_feed > ul > li:not(:has(a))
 nazo2.net##.ad_article_center
 mangalove.me##.interstitial
