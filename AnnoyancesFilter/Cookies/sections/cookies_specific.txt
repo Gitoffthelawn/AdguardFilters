@@ -354,6 +354,7 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+elsol.com.co,lafmplus.com,lamega.com.co,radiouno.com.co###cookies-div
 beststl.com##modal-widget
 tkkoop.com.tr##.cc_div
 kilernen.de##body > div[style="position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 10000; padding: 0px 16px 16px; pointer-events: none;"]
