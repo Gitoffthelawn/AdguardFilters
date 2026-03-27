@@ -62,9 +62,6 @@ filma24.*#?#.watch-movie > .movie-info[style]:has(> center > a[target="_blank"])
 ||youtube.com/embed/*?*&origin=*.filma24.*&widgetid$domain=filma24.*,important
 ||filma24.*/kazino*.gif
 ||i.imgur.com^$domain=filma24.*
-! https://github.com/AdguardTeam/AdguardFilters/issues/22556
-@@||videotekaime.net/uni/popunder.js|
-videotekaime.net#%#window.ad_permission = "OK";
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17139
 ||gjc.gjirafa.com^
 gjirafa.com##div[id^="an-holder-"]
