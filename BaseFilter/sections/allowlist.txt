@@ -131,6 +131,8 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227958
+paulandshark.com#@#div[data-banner-name]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227726#issuecomment-4130339208
 winaero.com#@##jkhskdfsdf-iycc-5
 winaero.com#@##jkhskdfsdf-iycc-4
