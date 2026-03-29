@@ -5910,7 +5910,6 @@ embtaku.pro##iframe[style*="0px"]
 thingiverse.com##div[class^="ItemCardGrid__"] > div[class^="ItemCardContainer__"]:has(> div[class*=" AdCard__"])
 abtc.ng#?#p:has(> span[style] > span:contains(Advertisement))
 abtc.ng##p:has(> ins.adsbygoogle)
-||twstalker.com/popunderufasssssk9.js
 xbox-now.com##div[style*="text-align: center"] > a[href*="/goto?url="][target="_blank"] > img
 ||hentai2read.com/ark/*.js^
 ||hentai2read.com/ark/arkAPI.php
