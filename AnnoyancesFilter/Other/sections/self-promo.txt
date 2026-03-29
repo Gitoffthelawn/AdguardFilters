@@ -203,6 +203,8 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+cyberdefensemagazine.com#$#.mysticky-welcomebar-fixed { display: none !important; }
+cyberdefensemagazine.com#$#.mysticky-welcomebar-apper { margin-top: 0 !important; }
 shop.mts.ru##.v2-catalog-card-list__promo-banners-slider
 consumer.1-ofd.ru##.con-banner-cards-list
 mynet.com##.item-r-banner
