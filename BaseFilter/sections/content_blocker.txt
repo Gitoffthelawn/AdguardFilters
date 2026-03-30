@@ -457,7 +457,6 @@ cdn.braun634.com^$third-party
 @@||thefightingcock.co.uk^$generichide
 @@||gatevidyalay.com^$generichide
 @@||btcnewz.com^$generichide
-@@||zipraw.com^$generichide
 @@||tranimeizle.*^$generichide
 @@||ktm2day.com^$generichide
 @@||r34anim.com^$generichide
