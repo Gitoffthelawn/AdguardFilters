@@ -354,6 +354,7 @@ ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarber-supplies.de,raz-
 !
 ! NOTE: Regular rules
 !
+applecinemas.com#%#//scriptlet('set-local-storage-item', 'CookieWarning', 'true')
 totalenergiesistasyonlari.com.tr##.cookie-ask--container
 testcisia.it###allow-banner
 nio.com##div[class^="GDPRPopup_gtpr-consent"]
