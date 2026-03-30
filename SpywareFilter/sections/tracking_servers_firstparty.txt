@@ -28,6 +28,7 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||wa.wawlabs.com^
 ||dsas-t.danawa.com^
 ||spm.gmarket.co.kr^
 ||atsssl.gmarket.co.kr^
@@ -2035,7 +2036,6 @@ prd.api.bleacherreport.com^
 ||collector.statowl.com^
 ||collector.szlcsc.com^
 ||collector.trendmd.com^
-||collector.wawlabs.com^
 ||collector.xhwide1.com^
 ||collector1.xhamster.com^
 ||conf.international.baidu.com^
