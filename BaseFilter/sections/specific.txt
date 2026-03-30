@@ -924,6 +924,8 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+thothub.to,thothub.ch,thothub.*##.prm-wrapper
+thothub.to,thothub.ch,thothub.*##.list-videos .item:has(> a[rel="sponsored noopener"])
 pahe.plus##a[href^="https://s0-greate.net/"]
 pcguide.com##.code-block:has(a[href*="-ad-inserter-"])
 hornyleak.tv,hdplayer.gives#%#//scriptlet('prevent-addEventListener', '', 'showPopup')
@@ -3298,7 +3300,6 @@ investors.com##.partner-center
 pornharlot.net#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'popupInterval')
 livenation.com###main > div > .chakra-container > div > div:has(> div > div > .ad-slot)
 livenation.com##.chakra-slide:has(> .chakra-offset-slide > div > .chakra-offset-slide + div > div > .ad-slot)
-host4fap.com##.block-video > .table
 host4fap.com##.sponsor
 rargb.to,footybite.to#%#//scriptlet('prevent-addEventListener', '/mousedown|touchstart|keydown/', 'openSafe()')
 /assets/js/bootstrap.main.js$domain=totalsportek.pro|footybite.to
@@ -15588,7 +15589,7 @@ thehackernews.com##.right-box > .zoho-box
 losmovies.*###nwmedia
 losmovies.*##.aPlaceHolderOnlay
 cambabe.me###list_videos_videos_watched_right_now_items > noindex
-teenxy.com,alotporn.com,tubsexer.*,cambabe.me##.block-video > .table
+thothub.to,thothub.ch,thothub.*,host4fap.com,teenxy.com,alotporn.com,tubsexer.*,cambabe.me##.block-video > .table
 cambabe.me##ul.primary > li[style^="background-color"][style*="color: #fff;"]
 cambabe.me##.list-live-models
 /cp/webcam_gallery^$domain=cambabe.me,third-party
