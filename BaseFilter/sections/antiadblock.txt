@@ -1252,6 +1252,13 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227940
+ondemandkorea.com#%#//scriptlet('prevent-fetch', '/doubleclick\.net|adsbygoogle\.js/')
+ondemandkorea.com#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle\.js|ima3\.js/')
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+@@||s.amazon-adsystem.com/ima/ima3.js$domain=ondemandkorea.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ondemandkorea.com
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228015
 atoz2512.com###adblock-overlay
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227947
