@@ -924,6 +924,8 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+hdporncomics.com##div[data-ad-injected]
+hdporncomics.com###menu-menu > li.menu-item:has(> a[href][target="_blank"][rel="nofollow noopener sponsored"])
 modporn.com#%#//scriptlet("trusted-replace-node-text", "script", "getEmbed", "/adv_pre_src: \'https:\/\/modporn\.com.*mp4/", "adv_pre_src: '")
 modporn.com##a[href^="https://landing.candynetwork.ai/"]
 w1.gimmeporn.xyz###adsone
