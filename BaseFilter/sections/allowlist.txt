@@ -131,6 +131,12 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228104
+!#if (adguard_app_ios || adguard_ext_safari)
+@@||ads.yandex.com^$~third-party
+@@||adv.yandex.com^$~third-party
+@@||adv.yandex.ru^$~third-party
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227958
 paulandshark.com#@#div[data-banner-name]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227726#issuecomment-4130339208
