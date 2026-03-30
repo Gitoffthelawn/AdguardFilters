@@ -13293,9 +13293,10 @@ cdn.loadvid.com#%#//scriptlet('prevent-window-open', '', '1')
 qmh.sex#%#//scriptlet('prevent-window-open')
 qmh.sex#%#//scriptlet('set-constant', 'Object.prototype.directLinkAdsPlayVip2', '')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221866
-cap3.sex#%#//scriptlet('prevent-setTimeout', 'adsbygoogle')
-cap3.sex#%#//scriptlet('prevent-window-open')
-cap3.sex#%#//scriptlet('prevent-setTimeout', '("",!1)', '100')
+cap3.monster#%#//scriptlet('prevent-addEventListener', 'click', '()}', 'elements', '.art-control-fullscreen')
+cap3.monster#%#//scriptlet('prevent-setTimeout', 'adsbygoogle')
+cap3.monster#%#//scriptlet('prevent-window-open')
+cap3.monster#%#//scriptlet('prevent-setTimeout', '("",!1)', '100')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208478
 rophim.me##.sspp-area
 rophim.me##.sspp-modal
