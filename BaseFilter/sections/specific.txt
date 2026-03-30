@@ -924,6 +924,8 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+justporn.com##.grid-temp > li:has(> div > span.ad-label)
+justporn.com##.header-links
 ||porcore.com/plugins/nads/
 porcore.com##.videoitems > div.onevideothumb:has(> a[href][data-id="-1"])
 ||cdn.myhentaicomics.com/assets/Frames/banner
@@ -3419,7 +3421,7 @@ telegramchannels.me##.columns.is-multiline > .column > .card.is-clmd:has(> a[hre
 hqporno.tv#%#//scriptlet("abort-current-inline-script", "String.prototype.substr", "/\.join\(''\)[\s\S]*?;\)\$/")
 4kpornvideos.tv,pornogram.tv##.header-spot
 yogaporn.net##.media_spot
-app.ninekon.com,yogaporn.net,3dporndude.com##.spot
+justporn.com,app.ninekon.com,yogaporn.net,3dporndude.com##.spot
 3dporndude.com##.grid-temp > li:has(> script)
 ||wzzm13.com/ad_
 aniwave.best#%#//scriptlet('prevent-setInterval', 'popunder')
