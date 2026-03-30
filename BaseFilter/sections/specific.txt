@@ -924,6 +924,8 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+cyberdefensemagazine.com##div.homeadswidget
+cyberdefensemagazine.com###featuredimagebanner
 justporn.com##.grid-temp > li:has(> div > span.ad-label)
 justporn.com##.header-links
 ||porcore.com/plugins/nads/
