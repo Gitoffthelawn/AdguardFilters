@@ -306,7 +306,6 @@ cdn.braun634.com^$third-party
 @@||best-shopme.com^$generichide
 @@||swift4claim.com^$generichide
 @@||apps2app.com^$generichide
-@@||filmytoday.com^$generichide
 @@||msmxtended.org^$generichide
 @@||submitclimb.com^$generichide
 @@||adeth.cc^$generichide
