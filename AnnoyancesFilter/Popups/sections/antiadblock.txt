@@ -110,7 +110,6 @@ turbopages.org#%#//scriptlet('json-prune', '*.blockId')
 [$path=/q]yandex.*#%#//scriptlet('json-prune', 'direct rtb')
 !
 ! Kinopoisk
-kinopoisk.ru##div[class*="adfoxSpecialPopup"]
 www.kinopoisk.ru#%#//scriptlet('set-constant', 'Object.prototype.renderToNode', 'undefined')
 www.kinopoisk.ru##div[class^="styles_fixed_"][class*="styles_"][data-tid]
 www.kinopoisk.ru##div[class^="toaster-container"]
@@ -118,6 +117,9 @@ hd.kinopoisk.ru##.ReactModalPortal > div[class*=" styles_fixed__"]:has(> div > a
 kinopoisk.ru##div[class*="_adBlockWarningRoot__"]
 www.kinopoisk.ru##.media-post-page > div[class*=" "][data-tid]:not([class*="media"])
 www.kinopoisk.ru#?#div[class*="_"]:has(> div[aria-hidden][data-tid] > div[id][class][data-tid] + script:contains(/JSON\.parse\(\'\{\"containerId\"/))
+! Breaks useful popups
+! https://github.com/AdguardTeam/AdguardFilters/issues/227462#issue-4110610712
+! kinopoisk.ru##div[class*="adfoxSpecialPopup"]
 !
 ! auto.ru
 auto.ru#%#//scriptlet('json-prune', 'ads')
