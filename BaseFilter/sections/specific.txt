@@ -924,6 +924,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+modporn.com#%#//scriptlet("trusted-replace-node-text", "script", "getEmbed", "/adv_pre_src: \'https:\/\/modporn\.com.*mp4/", "adv_pre_src: '")
 modporn.com##a[href^="https://landing.candynetwork.ai/"]
 w1.gimmeporn.xyz###adsone
 thothub.to,thothub.ch,thothub.*##.prm-wrapper
@@ -2954,7 +2955,6 @@ motorsport.com##.embed-item:not([data-embed-code*="motorsport.com"])
 3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.avd-heading
 3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##.aside-avd-wrap
 3sumxl.com,w1mp.com,pornfant.com,porno-cum.com,babexl.com,pumpjap.com,asianpornxl.com,bigassz.com##div[style="height: 300px;"]
-modporn.com#%#//scriptlet("trusted-replace-node-text", "script", "getEmbed", "/adv_pre_src: \'https:\/\/modporn\.com.*mp4/", "adv_pre_src: '")
 pimpbunny.com#%#//scriptlet("trusted-replace-node-text", "script", "getEmbed", "/adv_pre_src: \'https:\/\/pimpbunny\.com.*mp4/", "adv_pre_src: '")
 pimpbunny.com##div[class^="pb-menu-"] > a[rel="sponsored noopener"][target="_blank"]
 pimpbunny.com##.pb-header > div.pb-header-top-left-menu
