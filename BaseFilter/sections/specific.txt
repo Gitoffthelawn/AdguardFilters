@@ -924,6 +924,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+livemint.com##.desktopAdWrap
 ||static.goplay.su^$script
 ||cineby.sc/scripts/gk.js
 ||go.inxxx.cam^$xmlhttprequest,domain=inxxx.com
