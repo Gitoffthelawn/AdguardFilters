@@ -12919,7 +12919,7 @@ indiabet.com##.bs-callout-ad
 /\/wp-content\/uploads\/.*(trustbadge[0-9]?writingtool|animatedpoof).*\.(png|gif)/$domain=edumanias.com
 tfwiki.net###p-ads
 ||toyhax.com/TFwiki/banner.html
-dailystar.co.uk,abcnews.go.com,manchestereveningnews.co.uk,euronews.com,wgrz.com,newatlas.com,plymouthherald.co.uk,chroniclelive.co.uk,hulldailymail.co.uk,thesportbible.com,foreignpolicy.com##.taboola
+dailystar.co.uk,abcnews.go.com,manchestereveningnews.co.uk,euronews.com,wgrz.com,newatlas.com,plymouthherald.co.uk,chroniclelive.co.uk,hulldailymail.co.uk,foreignpolicy.com##.taboola
 phoenixnap.com,freexcafe.com,majorgeeks.com,wetpussygames.com,lubedfan.com,xtremetop100.com##img[width="160"][height="600"]
 privado.com##.sponsored-mainline
 picbaron.com,imgbaron.com##a[href^="https://sexymeets.club/"]
@@ -18319,7 +18319,6 @@ enjoyfuck.com,fuckgonzo.com,pornokeep.com##.advmnt
 downloadbox.org##.am-comment
 gossipcop.com##.am-ngg-right-ad
 amazon.co.uk,amazon.com##.amsSparkleAdContainer
-thesportbible.com##.article-sidebar__advert
 brightside.me##.article-yandex-direct
 ifate.com##.articleleftfloater
 porn.com##.azF
