@@ -1764,9 +1764,6 @@ rp5.by,rp5.kz,rp5.ru,rp5.ua,rp5.md#@#.adslot_1
 @@||m.rp5.*/mobile/scripts/adblocker.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|rp5.md
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34414
 @@||tagblatt.ch^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/32068
-@@||bankomap.com.ua^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bankomap.com.ua
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30901
 @@||eurogamer.pt^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78471
