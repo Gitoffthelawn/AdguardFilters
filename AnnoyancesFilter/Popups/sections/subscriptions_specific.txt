@@ -112,7 +112,6 @@ plantbasednews.org##.newsletter-popup-iframe
 shazoo.ru##aside > div.grid:has(> div.flex a[href="https://t.me/weareshazoo"])
 yesasia.ru##.ya-box
 bbc.com##section[data-testid^="message-banner-"]
-gamesradar.com###utilitybar__button--newsletter
 gamesradar.com##a[href^="https://google.com/preferences/source?q="]
 realty.yandex.ru##main > div > div[class^="container-"]:has(> div[class^="root-"] > a[href="https://t.me/yatakzhivu_mag"])
 olhardigital.com.br##.fitec-embcmp
@@ -334,8 +333,9 @@ meteomedia.com##div[aria-labelledby="notification-prompt-title"]
 capterra.com##iframe[id^="faas-modal-form-"]
 e-forologia.gr##.linkbox--newsletter
 hipertextual.com###block-158
-livescience.com###utility-bar__google-button
-livescience.com###utilitybar__button--newsletter
+techradar.com,gamesradar.com,livescience.com,windowscentral.com,pcgamer.com,tomshardware.com###clubPopup
+techradar.com,gamesradar.com,livescience.com,windowscentral.com,pcgamer.com,tomshardware.com###utility-bar__google-button
+techradar.com,gamesradar.com,livescience.com,windowscentral.com,pcgamer.com,tomshardware.com###utilitybar__button--newsletter
 cloudykitchen.com##.email-highlight
 newspicks.com##div[data-testid="premiumBanner"]
 zeenews.india.com###googleCTA
@@ -524,7 +524,6 @@ maxidom.ru##.footer-banner-mobile
 pagellapolitica.it##.bg-blue:has(a[class^="hover:text-blue"])
 pagellapolitica.it##section.bg-black:has(> .container > .grid)
 powercompare.co.nz##floating-subscription-element
-tomsguide.com###clubPopup
 tomsguide.com###bannerHeader
 tomsguide.com##a[href^="https://google.com/preferences/source?q=tomsguide.com"]
 reebok.jp##.footer_box
