@@ -69,6 +69,7 @@
 !
 !
 !
+||tpwdg.com^$script
 ||monitoragc.xyz^
 ||analytics.kelasmalam.net^
 ||metrics.rapidedge.io^
