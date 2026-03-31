@@ -5657,6 +5657,9 @@ gmarket.co.kr#%#//scriptlet('fingerprintjs2')
 !
 ! NOTE: Specific rules
 !
+! https://github.com/easylist/easylist/issues/23743
+hm-f.jp/ho.php?t=
+hm-f.jp%2Fho.php%3Ft=
 ! newegg.com
 newegg.com/mr/*.gif?r=
 newegg.com%2Fmr%2F*.gif%3Fr%3D
