@@ -1253,6 +1253,10 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/227847
+donaldco.in#%#//scriptlet('set-constant', 'canRunAds', 'true')
+!+ PLATFORM(ios, ext_android_cb)
+@@/templates/aurblue/enabled-ads.js$domain=donaldco.in
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227940
 ondemandkorea.com#%#//scriptlet('prevent-fetch', '/doubleclick\.net|adsbygoogle\.js/')
 ondemandkorea.com#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle\.js|ima3\.js/')
