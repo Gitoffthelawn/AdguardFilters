@@ -17990,7 +17990,7 @@ ouo.io##a[href*="adk2x.com/imp"]
 independent.co.uk##.partner-slots
 freethesaurus.com##div[class][id] > a > img:not([src^="http"])
 afaqs.com###mast_container
-ctrlq.org,labnol.org##.kuber
+ctrlq.org##.kuber
 outlookindia.com##.inline_ad
 ||widget.crowdynews.com^$domain=forums.hardwarezone.com.sg
 mockupworld.co##.ABD_display_wrapper

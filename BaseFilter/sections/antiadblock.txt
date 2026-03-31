@@ -12344,8 +12344,6 @@ n8fanclub.com##body > center[id]
 n8fanclub.com##body > i[id]
 n8fanclub.com##body > p[id]
 n8fanclub.com##body > strong[id]
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/239#issuecomment-66791045
-labnol.org##.adsbygoogle > img
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/372
 doulci.net#@##adlabel
 doulci.net#@##advertbox3
