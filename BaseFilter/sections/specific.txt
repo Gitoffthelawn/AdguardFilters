@@ -924,6 +924,8 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+geekwire.com##.section-sponsored_tax
+||geekwire.com/wp-json/geekwire/v*/geekwire-sponsor-posts
 technologymagazine.com##div[data-isadrow]
 livemint.com##.desktopAdWrap
 ||static.goplay.su^$script
