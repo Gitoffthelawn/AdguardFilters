@@ -4842,7 +4842,7 @@ espncricinfo.com#?##main-container > div.ds-fixed:has(> div.ds-text-title-subtle
 mathway.com#%#//scriptlet('set-session-storage-item', 'mobileNag', 'true')
 clearnotebooks.com#?#section:has(> div.lazy-app-download-banner)
 takagi-member.jp#$?#.smartbanner { remove: true; }
-takagi-member.jp,bol.com,ekantipur.com,fivepost.ru,31ice.co.jp,mapple.net,deutschlandfunkkultur.de,clearnotebooks.com##.smartbanner
+tagesschau.de,takagi-member.jp,bol.com,ekantipur.com,fivepost.ru,31ice.co.jp,mapple.net,deutschlandfunkkultur.de,clearnotebooks.com##.smartbanner
 lemino.docomo.ne.jp#$#.smartbanner { display: none !important; }
 lemino.docomo.ne.jp#$#html { margin-top: 0 !important; }
 channelchk.com##.fixed.bottom-0.z-\[999\]
