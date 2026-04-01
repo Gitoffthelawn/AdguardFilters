@@ -924,6 +924,9 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+||cdn.hotscope.tv/assets/ai/video-
+hotscope.tv##a[href^="https://www.ourdreamersai.com/"]
+hotscope.tv##main > div.grid + div.mt-1
 ||pornid.xxx/vager/
 pornid.xxx##iframe[src^="/vager/"]
 ||pornid.xxx/grt/dev.js
