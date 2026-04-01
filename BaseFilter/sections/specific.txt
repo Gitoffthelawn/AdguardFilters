@@ -1028,7 +1028,6 @@ youperv.com##li.catmen2:has(> a[href^="https://theporndude.com/"])
 ||youperv.com/*.php|$script,~third-party
 freeonestube.com##.row > div.video-block-wrapper ~ div.order-0
 freeonestube.com##.tracking-url
-asiaxbit.com##.happy-under-player-mobile
 freeconvert.com##.ad-sticky-wrapper:not(#style_important)
 ||xcafe.com/js/script_new.js
 filespayouts.com##center > a[target="_blank"]:not([href*="filespayouts.com"])
