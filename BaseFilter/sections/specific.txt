@@ -1374,7 +1374,6 @@ ahentaitv.com#?#.video > div.header:has(> h2:contains(/Hentai Cam Cosplay|AI Por
 ahentaitv.com#?#.video > div.header:has(> h2:contains(/Hentai Cam Cosplay|AI Porn/)) + div.shadow
 ahentaitv.com##.video > div#similar:has(> div:is(.cam, .game))
 pitchfork.com##div[data-testid="ContentFooterBottom"] > div[data-testid="RowWrapper"]:has(> .ad)
-||kisskh.*/scripts.js
 ascelibrary.org##.pb-las__label
 cinemaexpress.com##div[class^="widget-m__customWidgetWrapper"]
 divinedaolibrary.com##div[style*="height:"][style*="z-index:"]
