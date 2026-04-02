@@ -924,6 +924,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+linkvertise.com#%#//scriptlet('prevent-element-src-loading', 'script', 'integrate.linkvertise.com/serp-script.js')
 pcgamebenchmark.com##.video:has(> div#nn_player)
 linkvertise.com#%#//scriptlet('json-prune', 'data.startTask.ads.* data.getContent.tasks.*.ads.*')
 xfeed.com##a[href^="https://www.ourdreamersai.com/"]
