@@ -1254,7 +1254,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 ! NOTE: Regular rules
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228283
-||biovetro.net/wp-content/plugins/*.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/228360
+/wp-content/plugins/*.js$domain=biovetro.net|dailyjobposting.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228207
 techyorker.com#%#//scriptlet('prevent-setTimeout', 'magnificPopup')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228206
