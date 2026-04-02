@@ -1690,8 +1690,9 @@
 @@||exee.app^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135035
 @@||ok.ru/videoembed$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/228295
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134465
-@@||api.mapy.cz/*/maptiles/$stealth=referrer
+@@||api.mapy.*/maptiles/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134317
 @@||tenor.googleapis.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133607
