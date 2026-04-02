@@ -12016,7 +12016,6 @@ vocativ.com##.voc-article-share-btn
 vocativ.com##.voc-article-share-wrapper
 vox.de##.voxde-social-share
 cheattr.com##.widget-area > #text-13:first-child
-keys4free.com##.widget_apsc_widget
 tichyseinblick.de##.widget_twittertimeline
 hurriyetdailynews.com##.yeniShare
 /jquery.fancybox.pack.js$domain=ultraslan.com
