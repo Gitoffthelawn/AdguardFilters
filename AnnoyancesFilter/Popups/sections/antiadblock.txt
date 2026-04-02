@@ -2300,6 +2300,7 @@ goduke.com,uwaterloo.ca##div[aria-label="Ad Blocker Detected"]
 ! SECTION[id=general]: Anti-adblock - Common '!#safari_cb_affinity(general)' directive
 !#safari_cb_affinity(general)
 !
+@@||usersdrive.com/aclib.js
 fotpforums.com#@#ins.adsbygoogle[data-ad-slot]
 fotpforums.com#@#ins.adsbygoogle[data-ad-client]
 @@||content.adriver.ru/AdRiverFPS.js$domain=rg.ru
