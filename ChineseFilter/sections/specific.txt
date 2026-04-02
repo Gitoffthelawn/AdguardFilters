@@ -2013,6 +2013,7 @@ huoqwk.com,wap.biqugewx.info#%#//scriptlet('prevent-setTimeout', 'addEventListen
 enhuku.com#%#//scriptlet('set-constant', 'adObj', 'noopFunc')
 m.13xsw.com,wap.yushuwu.cloud#%#//scriptlet('prevent-addEventListener', 'touchend', 'clientheight')
 *$script,xmlhttprequest,third-party,domain=m.1024txt.com
+*$script,third-party,domain=m.roushuwu.vip
 m.1024txt.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/(?=^(?![\s\S]*(static|jquery)))/')
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190832
