@@ -69,6 +69,7 @@
 !
 !
 !
+||bbc-reporting-api.app^
 ||spindl.link^
 ||tpwdg.com^$script
 ||monitoragc.xyz^
