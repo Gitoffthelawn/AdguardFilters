@@ -5268,6 +5268,7 @@ tutorialspoint.com##body > .panel-htop.layout-panel-east:has(> #east >  div:is(.
 windowscentral.com##.featured_product_block
 exe-urls.com,evernia.site,cety.app$$script:contains(openPopup)
 exe-urls.com,evernia.site,cety.app#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'openPopup')
+france24.com##.tms-poool
 france24.com##div[data-tms-ad-container]
 ||czech-craft.eu/static/uploads/abanners/
 gumtree.com###integratedMpu
