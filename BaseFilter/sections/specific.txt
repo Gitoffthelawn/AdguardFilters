@@ -967,6 +967,8 @@ geekwire.com##.section-sponsored_tax
 technologymagazine.com##div[data-isadrow]
 livemint.com##.desktopAdWrap
 ||static.goplay.su^$script
+cineby.sc#%#//scriptlet('prevent-addEventListener', '', 'unloaded_at')
+||cineby.sc/scripts/ab.js
 ||cineby.sc/scripts/gk.js
 ||go.inxxx.cam^$xmlhttprequest,domain=inxxx.com
 sunporno.com,inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
