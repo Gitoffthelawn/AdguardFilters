@@ -1254,7 +1254,6 @@ definebabe.com##pjsdiv[id^="DF_player_control_"]
 definebabe.com##.ihlkko_right-sidebar
 definebabe.com##.promo
 definebabe.com###overlay
-definebabe.com##.sponsored
 definebabe.com##.main-container > section.p-ig:has(> div.models-videos)
 definebabe.com##.photos > div.d-flex:has(> a[href^="/go/"])
 watchmygf.me##.cumcoming_thumbs
@@ -16965,7 +16964,7 @@ sap-certification.info##.site-c-header-ad-cr
 rootcracks.org,intoupload.com,profullcrack.com##center > a[href][rel="nofollow"] > img
 codingforums.com###content > center > table > tbody > tr > td[style="width:430px;height:300px"]
 ||carambo.la^$domain=codingforums.com
-fastpeoplesearch.com,videezy.com,infoq.com,english.newstracklive.com,irishtimes.com,libhunt.com,runemate.com,trends.gab.com,gotporn.com##.sponsored
+dekudeals.com,definebabe.com,fastpeoplesearch.com,videezy.com,infoq.com,english.newstracklive.com,irishtimes.com,libhunt.com,runemate.com,trends.gab.com,gotporn.com##.sponsored
 boostbot.org###ipsLayout_footer > div > center > a:not([href^="https://boostbot.org/"]) > img
 boostbot.org###ipsLayout_mainArea > center > a:not([href^="https://boostbot.org/"]) > img
 pornwhite.com##.info_wrap > div[class="cs"]
