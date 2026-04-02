@@ -57,6 +57,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+blog.kilo.ai#%#//scriptlet('trusted-set-cookie-reload', 'intro_popup_last_hidden_at', '$currentISODate$')
 paperpaper.io##.text__content > p:has(> emoji + a[href^="https://t.me/"])
 phys.org##.article__info-goog
 pullandbear.com##newsletter-banner
@@ -633,7 +634,7 @@ businessinsider.com##div[data-component-name="follow-author-inline-signup"]
 arte.tv#%#//scriptlet('trusted-set-local-storage-item', 'ds_message_v3', '["FirstVisit"]')
 psychologyfor.com,nutmegnanny.com,honestcooking.com##.fd-focus-visible-applied[data-ff-type="popup"]
 redfin.com#%#//scriptlet('trusted-click-element', '.RegistrationCTA .bp-DialogHeader--with-close-button button')
-bulten.mserdark.com,thegamebusiness.com##div[class*="pubInvertedTheme-"] > .pencraft.pc-flexDirection-column.pc-justifyContent-center:has(form[action="/api/v1/free?nojs=true"])
+blog.kilo.ai,bulten.mserdark.com,thegamebusiness.com##div[class*="pubInvertedTheme-"] > .pencraft.pc-flexDirection-column.pc-justifyContent-center:has(form[action="/api/v1/free?nojs=true"])
 ||cloud.smile.colgatepalmolive.com/*_WebsitePopup_*_Form$domain=colgate.com
 viewtag.gr##div.e-con-full.e-flex.e-parent[data-settings='{"background_background":"classic"}']:has(label[for="form-field-email"] ~ #form-field-email)
 cntraveller.com##div[class^="NewsletterOneClickWrapper"]
@@ -902,8 +903,8 @@ valspar.com#%#//scriptlet('set-cookie', 'emailSignupDoNotShowvalspar', '30')
 sources.news##.pencraft:has(> div[class^="subscribe-container-"])
 newsletter.gamediscover.co,blog.bytebytego.com#?#.home-sitemap > h4.home-sitemap-title:contains(/newsletter/i)
 thegamebusiness.com###home-body div[id^="block-"]:has(> div[class^="outerContainer-"] > div[class*="innerContainer-"] button[data-href^="https://www.thegamebusiness.com/subscribe?"])
-read.engineerscodex.com##.pencraft:has(> div.pencraft > div.subscribe-widget)
-newsletter.gamediscover.co,read.engineerscodex.com,sources.news,nicolasbustamante.com,blog.bytebytego.com##.home-sitemap > div.pencraft:has(> div.home-sitemap-signup-form)
+blog.kilo.ai,read.engineerscodex.com##.pencraft:has(> div.pencraft > div.subscribe-widget)
+blog.kilo.ai,newsletter.gamediscover.co,read.engineerscodex.com,sources.news,nicolasbustamante.com,blog.bytebytego.com##.home-sitemap > div.pencraft:has(> div.home-sitemap-signup-form)
 sources.news,nicolasbustamante.com,blog.bytebytego.com,thegamebusiness.com##.pencraft:has(> div.subscribe-widget)
 mylust.com##.web-sh-link
 uranusgeneralstore.com###smile-ui-container
@@ -1284,7 +1285,7 @@ malls.ru##article > table:has(> tbody > tr > td > b > a[href="https://t.me/malls
 newtambov.ru##.contentRightMainBanner
 dwarkesh.com#%#//scriptlet('trusted-set-local-storage-item', 'pub-69345-subscribe-prompt-next-shown-at', '99999999999999')
 mayonews.ie##.register_button
-newsletter.gamediscover.co,secondthoughts.ai##.pc-flexDirection-column > div.pencraft.pc-paddingRight-8:has(> div.subscribe-widget)
+blog.kilo.ai,newsletter.gamediscover.co,secondthoughts.ai##.pc-flexDirection-column > div.pencraft.pc-paddingRight-8:has(> div.subscribe-widget)
 secondthoughts.ai##.navbar-buttons > div.pencraft > div.pencraft > button[type="button"]
 nashvillebanner.com###block-47
 animenewsnetwork.com###notifications > .reminder:has(> a[href="/newsletter"])
