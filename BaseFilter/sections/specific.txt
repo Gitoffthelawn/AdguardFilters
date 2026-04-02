@@ -924,6 +924,10 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+scrolller.com##div[aria-label="live-models"]
+scrolller.com##div[class^="index-module"][class$="container"] > button[class^="index-module"][class$="wrapper"]:has(> div[class$="imageContainer"] > div[class$="liveCircle"])
+scrolller.com#$?#div[class^="index-module"][class$="galleryItemHandler"]:has(> div[class$="iframeAdContainer"]) { remove: true; }
+scrolller.com#$#body > div.index-module-scss-module__SGgCpa__container { height: 10vh !important; }
 pornwhite.com##.thumbs-list > div.container-side
 pornwhite.com##a[href^="https://as.fontheader.com/"]
 pornwhite.com##.native-container
