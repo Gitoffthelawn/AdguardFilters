@@ -936,7 +936,7 @@ nsfw247.to##a[href^="https://go.mavrtracktor.com/"]
 nsfw247.to#$#body { padding-top: 0 !important; }
 ||ogfap.com/ad/
 ||ogfap.com/_astro/AdContainer
-ppv.to##a[href^="https://duel.com/"]
+ppv.la,ppv.sh,ppv.to##a[href^="https://duel.com/"]
 ||pimpbunny.com/static/v*/images/advertise/
 pimpbunny.com##.row > .col:has(> div[class^="ui-card-root"] > a[rel="noopener noreferrer sponsored"])
 pimpbunny.com##div[class^="pages-view-video-wrapper"] > .row > .d-lg-block
