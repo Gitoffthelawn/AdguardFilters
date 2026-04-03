@@ -928,6 +928,9 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+bestsexpositions.com##a[href^="https://makehersquirt.org/"]
+bestsexpositions.com##a[href^="/z/"]
+||bestsexpositions.com/pictures/2022/07/bigger-dick-*.gif
 nsfw247.to###network-banner
 nsfw247.to##a[href^="https://go.mavrtracktor.com/"]
 nsfw247.to#$#body { padding-top: 0 !important; }
