@@ -1253,6 +1253,11 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/easylist/easylist/pull/23815
+allindiabullion.com#%#//scriptlet('remove-node-text', 'script', '/adScripts|bait/')
+!+ PLATFORM(ios, ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=allindiabullion.com
+allindiabullion.com#@#.ad-unit:not(.textads)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228283
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228360
 /wp-content/plugins/*.js$domain=biovetro.net|dailyjobposting.xyz
