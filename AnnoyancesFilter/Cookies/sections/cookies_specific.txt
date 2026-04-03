@@ -3388,7 +3388,7 @@ ayex.de,ars24.com#$#body { overflow: auto !important; }
 ayex.de,ars24.com#$#.offcanvas-backdrop { display: none !important; }
 ayex.de,ars24.com#$#.offcanvas-modal { display: none !important; }
 enzinger.com,hidden-audio.de#%#//scriptlet('trusted-click-element', '.btn-c-pop-decline')
-lotto.web.de,lotto.gmx.*#%#//scriptlet('trusted-click-element', 'website-popup-feature-popup-stack button[data-element-id="cookieConsentPromptOverlay.acceptAllButton"] span')
+lotto24.de,lotto.web.de,lotto.gmx.*#%#//scriptlet('trusted-click-element', 'website-popup-feature-popup-stack button[data-element-id="cookieConsentPromptOverlay.acceptAllButton"] span')
 fixpart.*#%#//scriptlet('trusted-click-element', 'button.cookie-accept', '', '300')
 mercedes-benz.com.tr#%#//scriptlet('trusted-click-element', 'cmm-cookie-banner >>> .button--accept-all')
 junglegym.*##div[x-ref="am-cookie-bar"]
