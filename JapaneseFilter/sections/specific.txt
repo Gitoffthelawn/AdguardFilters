@@ -217,7 +217,6 @@ news.denfaminicogamer.jp##.azl
 news.denfaminicogamer.jp##.steam
 news.denfaminicogamer.jp##.articleList > li:has(> aside.steam)
 news.denfaminicogamer.jp##.fade[id*="_"][style="display: flex;"]
-news.denfaminicogamer.jp###subColumn > aside.drc
 u-rennai.jp##.summary_list_box > .items:has(> a[onclick^="ga('send', 'event',"])
 i2chmeijin.com##div[align="center"]:has(> span[style="color: #333333;"] > font[size="2"])
 tokyo-np.co.jp##.cmp-hdg005:has(+ .cmp-lst001 > div > ul > li > div[id^="div-gpt-ad-"])
@@ -1718,7 +1717,6 @@ fashion-news.net##.entry-content > div[style^="height: 44px;"][style$="no-repeat
 qjweb.jp##.l-aside_ad
 qjweb.jp##.ad_detail_box
 qjweb.jp##.l-aside_ad-has-fixed
-qjweb.jp##.l-aside_box > div.l-aside_ad
 shueisha.online##.g-a-banner
 shueisha.online##.g-a-rectangle
 shueisha.online##.g-a-rectangle-wrap
