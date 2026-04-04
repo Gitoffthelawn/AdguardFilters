@@ -1317,7 +1317,7 @@ cyzowoman.jp##.section_common:has(> .entryad)
 ckworks.jp##.adbox310x100
 cyberdaily.au##.dfp-ticker
 zenless.gamerstand.net##.post > div[style="padding:20px 0px;"] > div.execphpwidget
-blog.jp#%#//scriptlet('abort-current-inline-script', 'navigator.userAgent', '_rand')
+blog.jp#%#//scriptlet('abort-current-inline-script', 'document.write', '_rand')
 haberler.com##div[id^="ana_mobile_336x280_"]
 cyberdaily.au##.tabletSkinBlock
 nikkansports.com###photoScrollText
