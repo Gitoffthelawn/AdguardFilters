@@ -928,6 +928,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+||veck.io/ads/
 weebcentral.com##div[class][style]:has(> div.notranslate > iframe[sandbox*="allow-popups"])
 weloma.art#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'dataset.zone')
 bestsexpositions.com##a[href^="https://makehersquirt.org/"]
@@ -11718,7 +11719,7 @@ adz7short.space###banner_slider_right
 ||adsafeprotected.com/vast/$script,xmlhttprequest,other,redirect=noopvast-2.0
 ||x.instreamatic.com/v2/vast/*.xml$script,xmlhttprequest,other,redirect=noopvast-3.0
 ||pubads.g.doubleclick.net/gampad/ads?env=vp&gdfp_req=1&output=xml_vast*&url=http%3A%2F%2Famp.usatoday.com$script,xmlhttprequest,other,redirect=noopvast-2.0
-filmelier.com,ncaa.com,short.croclix.me##.banner-container
+veck.io,filmelier.com,ncaa.com,short.croclix.me##.banner-container
 adz7short.space,short.cliquebook.net,short.goldenfaucet.io##.rectangles
 ||offers4all.net^$subdocument,third-party
 guru99.com##.content6
