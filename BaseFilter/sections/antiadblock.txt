@@ -1254,6 +1254,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228495
+||magesy.net/pepa$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228471
 ||rf4-stat.ru/js/adblock.js
 rf4-stat.ru#%#//scriptlet('set-constant', 'detectAdBlock', 'noopFunc')
