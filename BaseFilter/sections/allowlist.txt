@@ -10,6 +10,9 @@
 ! ATTENTION: The rules in this section must be accompanied by a link of an issue, where the problem will be fixed
 ! or with clear description what to do next
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228051
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||p.liadm.com/click?$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228518
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@?#div[role="feed"] > div:has(div[role="article"] a[attributionsrc^="/privacy_sandbox/comet/register/source/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226854
