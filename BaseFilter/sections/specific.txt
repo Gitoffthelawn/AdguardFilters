@@ -12678,9 +12678,7 @@ myporntape.com##.banner-long
 progameguides.com##div[id^="sideAd-"]
 progameguides.com##div[id^="content_dynamicAd-"]
 owlcation.com,mtonews.com##.m-rev-content
-thetechedvocate.org,embetronicx.com,quillette.com,unityassets4free.com##.AdWidget_HTMLWidget
-unityassets4free.com##img[src^="https://unityassets4free.com/wp-content/uploads/"][src$="/best-url-shortner-for-unityassets4free.jpg"]
-||unityassets4free.com/wp-content/uploads/*/best-url-shortner-for-unityassets4free.jpg
+thetechedvocate.org,embetronicx.com,quillette.com##.AdWidget_HTMLWidget
 hdhub4u.cc##a[href^="https://www.hostdoze.com/"] > img
 vidmoly.me,vidmoly.net,vidmoly.to###vope
 vidmoly.me,vidmoly.net,vidmoly.to###sc-splash
@@ -20560,7 +20558,7 @@ desktophut.com#?#.gridlove-content > .adsfront:has(> center > .adsbygoogle)
 imgtaxi.com#?#.sidebar > div:has( > iframe[src^="frame.php?"])
 imgtaxi.com#?#.sidebar > h3:has( > a:contains(Recommended))
 mi-globe.com#?#.widget_custom_html:has(> div.custom-html-widget > span[id^="ezoic-pub-ad-"])
-kecapku.com,cloutgist.com,link.almaftuchin.com,link1s.com,shorturl.unityassets4free.com,download.windowslite.net,baominh.tech,za.uy,enagato.com,oncehelp.com,tui.click,charexempire.com,adnet.cash,za.gl,curto.win,url.namaidani.com,xz2.xyz,pkr.pw,shortearn.in,stfly.me,mitly.us,rifurl.com,shrt10.com,uii.io,shortearn.eu,shrinkurl.org,lkop.me,shrtfly.net,stfly.io#$?#form[action$="/links/popad"] { remove: true; }
+kecapku.com,cloutgist.com,link.almaftuchin.com,link1s.com,download.windowslite.net,baominh.tech,za.uy,enagato.com,oncehelp.com,tui.click,charexempire.com,adnet.cash,za.gl,curto.win,url.namaidani.com,xz2.xyz,pkr.pw,shortearn.in,stfly.me,mitly.us,rifurl.com,shrt10.com,uii.io,shortearn.eu,shrinkurl.org,lkop.me,shrtfly.net,stfly.io#$?#form[action$="/links/popad"] { remove: true; }
 lifehacker.com#?#body > div > div[class^="sc-"]:has( > .ad-container)
 opencritic.com#?#app-review-table > div >  #ReviewTableTop + div > app-review-table-row ~ .review-row:has(> .col > app-advertisement)
 thegay.com#?#.underplayer__info > div:has( > div#und_ban)

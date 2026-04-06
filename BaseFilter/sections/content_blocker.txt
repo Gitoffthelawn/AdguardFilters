@@ -1335,8 +1335,6 @@ pcgamer.com##amp-ad
 @@||ad.a-ads.com/*?size=$domain=pentafaucet.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67846
 @@||lacuevadeguns.com/forum/banner.gif?|
-! https://github.com/AdguardTeam/AdguardFilters/issues/67517
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=unityassets4free.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67445
 @@||exbulletin.com^$generichide
 @@||ib.adnxs.com^$image,domain=exbulletin.com
