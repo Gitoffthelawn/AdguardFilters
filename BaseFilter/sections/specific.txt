@@ -928,6 +928,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+letmejerk.com##.vid-layout-side
 bscscan.com,basescan.org##img[alt="Ad"]
 bscscan.com,basescan.org##div.noindex-section[data-nosnippet]
 lessentiel.lu##section[class*="ad-content-wrapper"] > div > aside:has(div[data-ad-unit-id])
