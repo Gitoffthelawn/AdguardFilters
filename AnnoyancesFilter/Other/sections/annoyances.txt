@@ -979,7 +979,7 @@ msn.com#$##entry-point-hp-wc-root-wrapper.limited-width { margin-top: 100px !imp
 b1tv.ro##.video-js.dj-is-floating
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228358
 ! https://github.com/AdguardTeam/AdguardFilters/issues/130626
-theweathernetwork.com###forecasts + #feature-videos
+theweathernetwork.com#$##forecasts + #feature-videos { display: none !important; }
 theweathernetwork.com#$#body[style*="overflow"] { overflow-y: visible !important; }
 theweathernetwork.com#%#//scriptlet('remove-class', 'jw-flag-floating', '.news-article-body .jwplayer.jw-flag-floating')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/129699
