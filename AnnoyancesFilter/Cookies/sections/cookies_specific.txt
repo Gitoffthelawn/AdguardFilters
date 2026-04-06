@@ -932,7 +932,6 @@ mineskin.pro##div[aria-labelledby="cookie-settings-title"]
 kamkombank.ru##.cmsl_warning_cookie
 germanwatch.org,memodo.de,xspo.*,web-crossing.com,zehdenick-tourismus.de#%#//scriptlet('trusted-click-element', '.ccm-modal .ccm--decline-cookies', '!localStorage:ccm_consent')
 weidener-thermenwelt.de##.cookie-outer-container-wrap
-bankinform.ru###bisCookieCompliance
 wirkaufendeinauto.de#%#//scriptlet('trusted-click-element', 'span[data-qa-selector="gdpr-banner-configuration-button"], span[data-qa-selector="gdpr-banner-accept-selected-button"]')
 ecofamily.hu#$#body:not(.scroll-lock) .cookie-alert { display: none !important; }
 ecofamily.hu#$#div[data-id="overlay_explicit"] { display: none !important; }
@@ -15166,6 +15165,8 @@ befestigungsfuchs.de,jawoll.de,cafe-royal.com,campingplus.de,bikebox-shop.de,mli
 ! Misc rules, removed during optimization. If some rules are in groups, no need to move them here
 !
 !
+!+ NOT_OPTIMIZED
+bankinform.ru###bisCookieCompliance
 !+ NOT_OPTIMIZED
 vancouverok.com##.cookies:not(html, body)
 !+ NOT_OPTIMIZED
