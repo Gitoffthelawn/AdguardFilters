@@ -28,6 +28,7 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||cca-lite.coinbase.com^
 ||roas-service.store-services-prod.remarkable.com^
 ||umami.syg.ma^
 ||event.dxmdp.com^
