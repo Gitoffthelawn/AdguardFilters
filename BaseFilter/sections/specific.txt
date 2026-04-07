@@ -5098,7 +5098,6 @@ twitchmetrics.net##.list-group > div.container:has(> div[id^="tm-nitro-"])
 vxxx.com##.listing + div.pagination + div[class]
 vxxx.com##.under-header-categories
 wellandgood.com##div[id^="votd-player"]
-chrome-stats.com##.chrome-stats_com_billboard
 4khd.com##.centbtd
 html5.gamemonetize.co###imaContainer
 sporticos.com##div[style^="height: 250px;"]
@@ -21705,6 +21704,8 @@ adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com
 !
 !
 !
+!+ NOT_OPTIMIZED
+chrome-stats.com##.chrome-stats_com_billboard
 !+ NOT_OPTIMIZED
 ||m.media-amazon.com/images/S/al-*.mp4$media,domain=imdb.com
 !+ NOT_OPTIMIZED
