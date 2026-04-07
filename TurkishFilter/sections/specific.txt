@@ -4403,6 +4403,14 @@ lovefilmizle.net,elzemfilm.org,dizicaps.*,erotikfilmtube.com,sexfilmleriizle.com
 ! Don't mix frequently changed domains with other rules, to make it easier to maintain,
 ! except some sites that use non-template domain names of mirror sites
 !
+! Frequently changed domains: doedaturkifsa*.blog
+! Source: doedaturkifsa6.blog
+[$domain=/doedaturkifsa\d+.blog$/]$$script:contains(popUnder)
+[$domain=/doedaturkifsa\d+.blog$/]#%#//scriptlet('remove-node-text', 'script', 'popUnder')
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
+doedaturkifsa6.blog,doedaturkifsa7.blog,doedaturkifsa8.blog,doedaturkifsa9.blog,doedaturkifsa10.blog,doedaturkifsa11.blog,doedaturkifsa12.blog,doedaturkifsa13.blog,doedaturkifsa14.blog,doedaturkifsa15.blog,doedaturkifsa16.blog,doedaturkifsa17.blog,doedaturkifsa18.blog,doedaturkifsa19.blog,doedaturkifsa20.blog,doedaturkifsa21.blog,doedaturkifsa22.blog,doedaturkifsa23.blog,doedaturkifsa24.blog,doedaturkifsa25.blog,doedaturkifsa26.blog,doedaturkifsa27.blog,doedaturkifsa28.blog,doedaturkifsa29.blog,doedaturkifsa30.blog,doedaturkifsa31.blog,doedaturkifsa32.blog,doedaturkifsa33.blog,doedaturkifsa34.blog,doedaturkifsa35.blog#%#//scriptlet('remove-node-text', 'script', 'popUnder')
+!#endif
+!
 ! Frequently changed domains: turkporoclub*.sbs
 ! Source: turkporoclub1.sbs
 [$domain=/turkporoclub\d+\.sbs$/]#%#//scriptlet('remove-node-text', 'script', 'LAST_POP')
