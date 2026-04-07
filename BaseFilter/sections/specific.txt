@@ -20842,6 +20842,7 @@ myabandonware.com###content > .box.metas > div:not([class], [id]):not(:has(> *))
 myabandonware.com#$##content > .box.metas > .gameData { width: 100% !important; }
 myabandonware.com#$?#div[class][id]:has(> div:matches-attr(/data-[a-z][0-9]{3,4}-ad/):only-child) { remove: true; }
 myabandonware.com#?#div:matches-attr(/data-[a-z][0-9]{3,4}-ad/)
+||myabandonware.com/media/img/nextrs/hrwrs/
 ||myabandonware.com/media/img/pwn/
 ||myabandonware.com/media/img/g2a/
 ||myabandonware.com/media/img/innog/
