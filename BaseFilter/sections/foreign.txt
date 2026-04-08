@@ -4096,6 +4096,8 @@ bb.is$$div[class="banner"]
 !
 ! NOTE: Indian
 !
+hindustantimes.com##.inArticleAdCarouselWrapper
+||affliate-api.hindustantimes.com^$xmlhttprequest
 indiaglitz.com##.mrb-banners-wrapper
 cinejosh.com##header > .container:has(> div > .googleAdsSponsered)
 tupaki.com##div[class^="inside-post-ad-"]
