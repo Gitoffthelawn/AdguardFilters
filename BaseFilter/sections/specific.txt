@@ -928,6 +928,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+partitionwizard.com##.side-popup-container
 pimpbunny.com##ul[class^="includes-header-"] > li:has(> a[rel^="sponsored"])
 ||exporntoons.net/static/players/*/vast.js
 calculators.ro##.adv728_90
