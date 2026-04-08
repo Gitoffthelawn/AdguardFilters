@@ -928,6 +928,9 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+technical.city##.adzone-container
+technical.city##.not-mobile-only
+technical.city#$#body[style="overflow-y: scroll"] { padding-top: 0 !important; }
 partitionwizard.com##.side-popup-container
 pimpbunny.com##ul[class^="includes-header-"] > li:has(> a[rel^="sponsored"])
 ||exporntoons.net/static/players/*/vast.js
