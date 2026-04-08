@@ -928,6 +928,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+tunein.com#%#//scriptlet('json-prune', 'Ads')
 hqporner.com##a[href^="https://go.reebr.com/smartpop"]
 technical.city##.adzone-container
 technical.city##.not-mobile-only
