@@ -1254,6 +1254,12 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228712
+cloudfam.io#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle') 
+cloudfam.io#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+@@||cloudfam.io^$generichide
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cloudfam.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228716
 hentaitoon.tv#%#//scriptlet('prevent-setTimeout', 'container.remove')
 !+ PLATFORM(ios, ext_android_cb)
