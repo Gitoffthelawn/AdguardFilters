@@ -1378,11 +1378,10 @@ cloudfam.io#%#//scriptlet('prevent-window-open')
 cloudfam.io#?#.text-center:contains(Advertisement)
 poprant.indiatimes.com##.belly_adslot_wrapper
 ||pornvee.com/ads
-pornvee.com##article > div.flex > div.hidden[style="width:300px"]
-pornvee.com##.fluid_html_on_pause_container
-pornvee.com##.container:has(> div.pubmaison)
-pornvee.com###sticky-header
 pornvee.com##.grid > a[href^="/out/"][target="_blank"]
+pornvee.com##.drawer-content > div.text-neutral-content:has(> div.container > div.flex > a[href^="/out/"])
+pornvee.com##.pubmaison
+pornvee.com##.grow > div[class*="sm"]:has(> div.text-center > center > iframe)
 coolors.co##a[href^="https://milk-books.sjv.io/"]
 fastcompany.co.za##div[class^="google-ad_"]
 crankers.com##.cs-banner-desc
@@ -21719,6 +21718,14 @@ adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com
 !
 !
 !
+!+ NOT_OPTIMIZED
+pornvee.com##article > div.flex > div.hidden[style="width:300px"]
+!+ NOT_OPTIMIZED
+pornvee.com##.fluid_html_on_pause_container
+!+ NOT_OPTIMIZED
+pornvee.com##.container:has(> div.pubmaison)
+!+ NOT_OPTIMIZED
+pornvee.com###sticky-header
 !+ NOT_OPTIMIZED
 uploadrar.com##.card.border-warning
 !+ NOT_OPTIMIZED
