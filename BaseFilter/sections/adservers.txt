@@ -9,7 +9,6 @@
 !
 !
 !
-||iwad.cachefly.net^
 ||spolecznosci.net^$third-party
 ||disloyal-valuable.com^
 ||jadedenergy.com^
