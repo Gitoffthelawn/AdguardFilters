@@ -28,6 +28,7 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||hentaitoon.tv/api/track
 ||data-lake-api.internet.apps.samsung.com^
 ||analytics.sberhealth.ru^
 ||pixel-cdp.sberhealth.ru^
