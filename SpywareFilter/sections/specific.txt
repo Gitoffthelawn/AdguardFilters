@@ -83,6 +83,7 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||users.videasy.net/api/track
 ||rs.kuper.ru/v*/track
 ||rs.kuper.ru/v*/batch|
 ||cpa.kuper.ru/api/tracker/
