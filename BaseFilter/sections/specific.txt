@@ -927,6 +927,11 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+||ero-labs.*/assets/js/appBanner.js
+||ero-labs.*/api/v2/advertise/
+||ero-labs.*/api/v2/system/config?name=partner_mall_url
+ero-labs.com,ero-labs.*#%#//scriptlet('json-prune', 'adList.* adSideList.* pickupList.*')
+ero-labs.com,ero-labs.*###home__banner--mobile
 crazygames.com###game-container + div[class="css-52jk51"]
 semafor.com##div[data-testid^="ad-"]
 tik.porn##div[class*="__sponsor"]
@@ -11578,7 +11583,7 @@ abc11.com##.taboolaArticle
 abc11.com##div[class^="adRectangle-pos-"]
 bagi.co.in##iframe[src^="https://cryptocoinsad.com/ads/"]
 bagi.co.in##.form-group ins[class][style="display:inline-block;width:300px;height:250px;"]
-searchencrypt.com##.home__banner
+ero-labs.com,ero-labs.*,searchencrypt.com##.home__banner
 ||searchencrypt.com/public/amzBanner.png
 ||pussy.org^$subdocument,~third-party
 hindustantimes.com##div[class*="adsHeight"]
