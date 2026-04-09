@@ -924,7 +924,6 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! linksconsole.com
 ||linksconsole.com/ad-system/
-techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
