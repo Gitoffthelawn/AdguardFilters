@@ -927,6 +927,8 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+spankbang.com##.nav-wrapper > li.ls
+spankbang.com##a[data-testid="header-live-cam-link"]
 aporntv.com###player .linkvideo
 aporntv.com##div[align="center"] > iframe[data-src*="/apor/"]
 tr.motor1.com##.m1-header-main > div.top-module
