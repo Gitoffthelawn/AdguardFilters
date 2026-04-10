@@ -14,6 +14,7 @@ gorod24.online,vedomosti.ru,kommersant.ru,rg.ru,glavbukh.ru,chehov-vid.ru,161.ru
 !
 ! NOTE: Specific rules
 !
+mosregtoday.ru##div[class][style]:has(> div:is([id^="yandex_rtb"], [data-smi-blockid], [class^="infox_"], [id^="containerId"]))
 xn--90aivcdt6dxbc.xn--p1ai##.adfox-banner-wrapper
 xn--90aivcdt6dxbc.xn--p1ai##.simple-banner-max
 sravni.ru##div[class^="Sponsor_wrapper_"]
