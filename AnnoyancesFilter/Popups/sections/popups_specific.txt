@@ -43,6 +43,7 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+games.gg#%#//scriptlet('trusted-set-cookie', 'gam3s_subscription_campaign_shown', '2027-04-10T09:13:13.862Z')
 cotozahit.pl###tutorialOverlay
 cotozahit.pl###newsModal
 newsnow.com#%#//scriptlet('trusted-click-element', '.popup--MembershipMain > div > span.close')
