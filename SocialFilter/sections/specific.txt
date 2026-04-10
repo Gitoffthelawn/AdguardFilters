@@ -85,6 +85,7 @@ cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,sma
 !
 ! NOTE: Specific rules
 !
+space.com##div[role="tooltip"]:has(> button#utilitybar__button--share)
 ficbook.net##.justify-content-between > div.jsVueComponent:has(> button.social-btn)
 hotchamas.com##.watch-share-button
 porn300.com##.list__item:has(> button[data-target="video-footer__share"])
