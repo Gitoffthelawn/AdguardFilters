@@ -166,6 +166,9 @@
 /cdn/s/trekkie.storefront.*.min.js
 /shopify-datalayer-minified.js
 /.well-known/shopify/monorail
+! AdvCake
+||hitcrypt.
+||hit.*.ru/*?sid=*&t_tid=
 ! G2Analytics
 /prod/dfm/t8y9347t.min.js
 /prod/dfm/g2i.min.js
