@@ -28,6 +28,10 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||okr.sbdv.ru^
+||api.eye.sbdv.ru^
+||clickbeat.sberdevices.ru^
+||metrics.prom.third-party-app.sberdevices.ru^
 ||stat.katitube.com^
 ||stat.aporntv.com^
 ||hentaitoon.tv/api/track
