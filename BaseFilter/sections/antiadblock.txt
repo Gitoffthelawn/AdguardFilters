@@ -1255,6 +1255,13 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228898
+@@||pagead2.googlesyndication.com/pagead/$domain=dicoall.com
+||fundingchoicesmessages.google.com/$script,domain=dicoall.com
+dicoall.com#@##AdHeader
+dicoall.com#@##AD_Top
+dicoall.com#@##homead
+dicoall.com#@##ad-lead
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228921
 cnxxx.org#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
