@@ -69,6 +69,7 @@
 !
 !
 !
+||analytics.authoritymedia.com^
 ||lytics.fileditch.com^
 ||curalate.com^
 ||containers.dsp.solta.io^
