@@ -688,6 +688,7 @@ king-shoot.tv#@##ads_top
 @@||sshconect.com.br^$generichide
 @@||av-jamak.com^$generichide
 @@||bitfly.io^$generichide
+@@||onlinetutorium.com^$generichide
 @@||3dzip.org^$generichide
 @@||adobeactivators.blogspot.com^$generichide
 @@||4download.net^$generichide
