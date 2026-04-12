@@ -374,6 +374,7 @@ cdn.braun634.com^$third-party
 @@||business-mortgage.pw^$generichide
 @@||credits-loan.pw^$generichide
 @@||business-credits.cc^$generichide
+@@||business-mortgage.info^$generichide
 @@||mmo-population.com^$generichide
 @@||memoriadatv.com^$generichide
 @@||sarapbabe.com^$generichide
