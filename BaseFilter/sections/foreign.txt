@@ -11149,6 +11149,8 @@ wykop.pl#?#aside.tag-top > .hits-slider:matches-css(before, content: /^reklama$/
 @@||wykop.pl/api/v3/tags/reklama/$xmlhttprequest,~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/225300
 ! https://github.com/AdguardTeam/AdguardFilters/issues/140299
+! TODO: Remove later, when it's fixed in Polish filter list
+wykop.pl$badfilter
 ||wykop.pl/api/v*/ads
 ||wykop.pl/static/img/pub/
 wykop.pl##.lisek-app
