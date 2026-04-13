@@ -4681,9 +4681,6 @@ deneblog.jp###shadowv
 deneblog.jp##.page_navi > center > a:not([href^="https://deneblog.jp"]):not([href^="/blog-entry-"]):not([href*="fc2.com"]) > img
 deneblog.jp##.ently_text > center > a
 city.matsuyama.ehime.jp,city.nishitokyo.lg.jp,city.machida.tokyo.jp###press_area
-||yourbengo.jp/assets/front/banner/
-yourbengo.jp##.cta_merci
-yourbengo.jp##.cta_min
 hedgehog.ryukyu##.l-sidebar > aside.widget_block
 tokueromanga.com,eromanga-jkschool.com###enhancedtextwidget-27
 mogeringo.com##div[style="min-height: 280px;height: auto"]
