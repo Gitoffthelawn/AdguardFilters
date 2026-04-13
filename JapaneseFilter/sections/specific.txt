@@ -4676,6 +4676,7 @@ thetv.jp###rewardModal
 city.matsuyama.ehime.jp###lokokoku
 city.tonami.lg.jp,web.pref.hyogo.lg.jp,city.koriyama.lg.jp##.footer_banner
 ||d20aeo683mqd6t.cloudfront.net/*/banner/becos/becos-tj-banner
+deneblog.jp##.intro > center > a[href^="https://www.rs-shop.co.jp/"]
 deneblog.jp###eqlast
 deneblog.jp###shadowv
 deneblog.jp##.page_navi > center > a:not([href^="https://deneblog.jp"]):not([href^="/blog-entry-"]):not([href*="fc2.com"]) > img
