@@ -1383,7 +1383,6 @@ mm.lv##.banner-sidebar
 latlong.net##div[style="height:120px;max-height:120px;margin:5px 0;"]
 latlong.net##div[style^="min-height:250px"]
 latlong.net##div[style="height:300px;margin:4px 0;"]
-dw.com##.cmplazyload
 wings.io##div[id^="slot-"]
 spanishdict.com##div[id^="spdAd"]
 ||medex.com.bd/img/_affiliates/
