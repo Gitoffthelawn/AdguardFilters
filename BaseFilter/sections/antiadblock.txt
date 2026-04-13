@@ -1255,6 +1255,13 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/229045
+elamigosgamez.net$$script:contains(checkAdblockUser)
+elamigosgamez.net#%#//scriptlet('remove-node-text', 'script', 'checkAdblockUser')
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+@@||i.ibb.co/*-728x90.jpg$domain=elamigosgamez.net
+elamigosgamez.net#@#.iframeDiv
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228898
 ||fundingchoicesmessages.google.com/$script,domain=dicoall.com
 dicoall.com#@##AdHeader
