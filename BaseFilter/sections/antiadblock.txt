@@ -11287,8 +11287,6 @@ gardenista.com#%#//scriptlet('set-constant', 'adsAreBlocked', 'false')
 @@||gay69.stream^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28709
 @@||v.fwmrm.net/ad/g/1$domain=stream.nbcsports.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/14650
-||javhiv.net/statics/defaultv2/js/dedect.js
 ! allvideos.me - antiadblock
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||allvideos.me^$generichide
