@@ -10,6 +10,9 @@ citrus.ua,xsport.ua,zi.dn.ua,zi.ua##img[src^="/upload/rk/"]
 !
 !
 !
+||dev.ua/assets/ads/
+dev.ua##.header-banner
+dev.ua##.island__body-aside
 zaxid.net##.partner-insert-container
 24tv.ua,football24.ua##app-adv-placeholder
 24tv.ua,football24.ua##app-video-adv-block
