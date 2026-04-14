@@ -83,6 +83,10 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||s.yimg.com/eh/prebid-config/$domain=aol.com
+||pbd.yahoo.com/data/logs/benji
+||api.picox.bendingspoons.com/v1/events
+||acapi.aol.com/v1/events
 ||the-sun.com/assets/optimizely/
 ||varta1.com.ua/api/ads-analytics
 ||varta1.com.ua/api/analytics
