@@ -6550,8 +6550,13 @@ forum.cstalking.tv##.body_wrapper > table.blockhead
 footyfull.com##.float_bottom
 footyfull.com##div[id^="tw_float_ads"]
 gbnews.com#?#.body-description > .video-inbody:has(> .OUTBRAIN)
-xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,punishworld.com##div[id^="before-list-boxes-mobile-singl"]
-xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,punishworld.com##div[id^="inside-video-boxes-mobile"]
+xanimu.top##div[id^="native-boxes"]
+xanimu.top##div[id^="beside-video"]
+xanimu.top##div[id^="related-boxes-footer"]
+xanimu.top##div[class*="col-6 col-md-3 col-lg-3 col-xl"]:has(> .video-block > ins[data-zoneid])
+xfemaledom.com,xanimu.top,xanimu.com##div[class*="col-6 col-md-3 col-lg-3 col-xl-2"]:has(> #special-block)
+xanimu.top,xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,punishworld.com##div[id^="before-list-boxes-mobile-singl"]
+xanimu.top,xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,punishworld.com##div[id^="inside-video-boxes-mobile"]
 highsnobiety.com##div[class^="unitContainer__"]
 highsnobiety.com##div[data-cy="unit-top-desktop"]
 highsnobiety.com##div[data-cy="unit-mpu-desktop"]
@@ -6766,7 +6771,6 @@ forex.soft3arbi.com,10short.co###lm-slideup
 propermanchester.com##.pm-header-advert-wrap
 propermanchester.com###mvp-home-widget-wrap
 propermanchester.com##div[id^="prope-"]
-xfemaledom.com,xanimu.com#?#div[class*="col-6 col-md-3 col-lg-3 col-xl-2"]:has(> #special-block)
 yiff-party.com##.ads-postpage
 navigator-lxa.mail.com##iframe[src^="//mailderef.mail.com/"] + a
 whois.com##.chiclet
