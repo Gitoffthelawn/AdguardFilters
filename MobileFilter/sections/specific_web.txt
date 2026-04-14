@@ -5784,7 +5784,7 @@ txxxporn.tube,txxx.*##.video-conten > div[class] > div[class]:has(> div[class] >
 peporn.com,teen21.com,pornuse.com,uanal.com##.video-wrapper > section
 desi-porn.tube##.content > div > div[class]:has(> div[class] > div.da-container)
 voyeurhit.com##a[class^="tag"][target="_blank"]
-hdzog.tube,hdzog.com##div[class="tag"] > [href][target="_blank"]
+hotmovs.tube,hotmovs.com,hdzog.tube,hdzog.com##div[class^="tag"] > a[href][target="_blank"]
 txxxporn.tube,txxx.*##div[class^="links"] > [href][target="_blank"]
 ! pornhub.com
 pornhub.com,pornhub.org##div[class]:has(> ins.adsbytrafficjunky)
