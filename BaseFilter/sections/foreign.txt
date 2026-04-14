@@ -8273,6 +8273,7 @@ portalochronysrodowiska.pl#?#.container-content > .nf-box[class*="layout"]:has(>
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159617
 forum.benchmark.pl##div[id][style*="min-height:"]:has(> img[src="https://std.wpcdn.pl/images/adv/placeholder_wp.svg"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141564
+||buybox.click^$domain=benchmark.pl
 benchmark.pl##.hidden-lg-up
 benchmark.pl##.hidden-tb-up
 benchmark.pl##.hidden-tb-down
