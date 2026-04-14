@@ -930,6 +930,8 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+multiup.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.open')
+multiup.io#%#//scriptlet('prevent-window-open', '!multiup')
 thefinancialexpress.com.bd##.popup-ads-container
 appagg.com##.si_list > li.si_li:has(> div[style*="height:"])
 tubeasiancams.com#%#//scriptlet('remove-node-text', 'script', 'adPopped')
