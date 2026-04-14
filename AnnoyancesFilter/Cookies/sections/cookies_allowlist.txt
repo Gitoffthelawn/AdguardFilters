@@ -12,6 +12,9 @@
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android, cli)
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228439
+@@||sdk.privacy-center.org/*/loader.js$domain=plus.rtl.de
+@@||sdk.privacy-center.org/sdk/$domain=plus.rtl.de
 ! https://github.com/uBlockOrigin/uAssets/issues/32541
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=bostad.stockholm.se
 @@||cdn.cookielaw.org/consent/$xmlhttprequest,domain=bostad.stockholm.se
