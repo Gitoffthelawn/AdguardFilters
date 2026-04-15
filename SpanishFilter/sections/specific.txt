@@ -2628,10 +2628,6 @@ meutimao.com.br##.adsense_colado
 meutimao.com.br##.publicidade_970x90
 file4go.net##body > #divbox[style^="position:"]
 file4go.net##body > #divmodal[style^="position:"]
-tv-onlinehd.com###capa1
-tv-onlinehd.com###closeX1
-||tv-onlinehd.com/publi/publi
-||tv-onlinehd.com/publi/cerrar
 dn.pt##.t-pubbox-ct-1
 ||videoszoofiliahd.com/embed/bit.js
 publico.es,noticiasautomotivas.com.br,segredosdomundo.r7.com,blogdoiphone.com###custom_html-6
