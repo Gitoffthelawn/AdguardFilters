@@ -930,6 +930,9 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+mtpro.xyz##figure > div:has(> a[href="https://px6.me/"])
+mtpro.xyz##figure > div:has(> a[href="tg://resolve?domain=durevpnbot"])
+mtpro.xyz##.wp-block-navigation__submenu-container > li:has(> a[href="https://mod.ovh/proxy"])
 ddownload.com##.dk-banner-row
 zdrive.to#%#//scriptlet('prevent-addEventListener', 'popstate', 'location[_0')
 ctcdwm.com##pt-redirect-layer
