@@ -40,8 +40,8 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228735
 @@||thirdparty.aliexpress.com^$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228673
-@@/file2/$xmlhttprequest,stealth=referrer,domain=vidora.stream
-@@/hls2/$xmlhttprequest,stealth=referrer,domain=vidora.stream
+@@/file2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
+@@/hls2/*$xmlhttprequest,stealth=referrer,domain=vidora.stream
 @@||netrocdn.site/hls2/$xmlhttprequest,stealth=referrer
 @@||netrocdn.site/file2/$xmlhttprequest,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228663
