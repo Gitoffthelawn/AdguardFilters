@@ -43,6 +43,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 ! NOTE: Specific rules
 !
+huaren.live,huavod.com,huavod.net##a[href="/go/baba/1"]
 *$script,xmlhttprequest,third-party,domain=m.niupizhi.net
 ||m.niupizhi.net/lokedpgdjs
 ||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/firstAdMaxFreeTimes:\d+/firstAdMaxFreeTimes:30000/,domain=m.yichengwlkj.com
