@@ -69,6 +69,8 @@
 !
 !
 !
+||aan8bq.ru^
+||bonuscake.ru^
 ||inventorycache.com^$xmlhttprequest,redirect=noopjson
 ||getter.fun^
 ||clik.by^$third-party
