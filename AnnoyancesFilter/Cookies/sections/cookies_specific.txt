@@ -15392,7 +15392,7 @@ smart.com###cp-overlay
 ankarahalkekmek.com.tr###cookie-field
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79840
 !+ NOT_OPTIMIZED
-j-kesselshop.de,leuchtmittelmarkt.com##.eightworks-cookie-consent-plus
+leuchtmittelmarkt.com##.eightworks-cookie-consent-plus
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80285
 !+ NOT_OPTIMIZED
 gskpro.com##.component-content > .rte-header-links.omega
