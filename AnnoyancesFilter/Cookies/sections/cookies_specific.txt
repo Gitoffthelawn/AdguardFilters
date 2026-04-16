@@ -356,6 +356,7 @@ bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarb
 !
 ! NOTE: Regular rules
 !
+commerzbank.com,commerzbank.de#%#//scriptlet('trusted-click-element', '#cookiebox_container_root li[id="denyAll-base"] > button', '', '600')
 chelinvest.ru##.main-user-consent-request-popup-cont
 forabank.ru###js-cnotice-window
 rsb.ru###cookie-fixed-popup
@@ -2919,8 +2920,6 @@ analizy.pl#$#body[style="overflow: hidden;"] { overflow: auto !important; }
 santanderconsumer.pl#$##cookiebarModal { display: none !important; }
 santanderconsumer.pl#$#.modal-backdrop { display: none !important; }
 santanderconsumer.pl#$#.modal-open { overflow: auto !important }
-commerzbank.de#$##cookiebox_container_root { display: none !important; }
-commerzbank.de#$#body[class*="drawer-scrolllock"] { overflow: auto !important }
 reebok.*#%#//scriptlet('trusted-set-local-storage-item', 'SHOW_COOKIE_BANNER', 'no')
 kyoceradocumentsolutions.*#$?#div[data-gdpr] { remove: true; }
 kyoceradocumentsolutions.*#%#//scriptlet('remove-attr', 'inert')
