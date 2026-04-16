@@ -356,6 +356,7 @@ bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarb
 !
 ! NOTE: Regular rules
 !
+rsb.ru###cookie-fixed-popup
 metallinvestbank.ru##.cookies-window
 kk.ru##.kkb-cb
 business.expobank.ru##.cookiePolice
