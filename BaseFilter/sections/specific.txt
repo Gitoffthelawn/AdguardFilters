@@ -930,6 +930,8 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+gardeningknowhow.com##.sponsored-post--placeholder
+gardeningknowhow.com##.article__sidebar
 2ip.ua,2ip.me##a[href^="//proxy-seller.com/"]
 fileserve.com#%#//scriptlet('prevent-window-open')
 fileserve.com###uphone-ban
