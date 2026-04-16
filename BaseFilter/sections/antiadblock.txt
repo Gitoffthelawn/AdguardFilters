@@ -6956,11 +6956,6 @@ youfiles.net#%#//scriptlet("set-constant", "gadb", "false")
 allarewin.space#%#//scriptlet("abort-current-inline-script", "document.getElementById", "AdBlock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117873
 aruble.net#@#.ad-placement
-! https://github.com/AdguardTeam/AdguardFilters/issues/117646
-||cdn.jsdelivr.net/gh/binhprodotcom/utilities@main/main.js
-redirect.dafontvn.com#$#body { overflow: auto !important; }
-redirect.dafontvn.com#$##levelmaxblock { display: none !important; }
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=redirect.dafontvn.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117112
 hackr.io#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb)
