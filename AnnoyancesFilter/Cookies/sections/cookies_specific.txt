@@ -3943,7 +3943,7 @@ abw.by#%#//scriptlet('remove-class', 'stop-scroll', 'body')
 musio.net.br##div[data-v-98c620b8]
 wesendit.com#%#//scriptlet('trusted-set-local-storage-item', 'cookieManagement', '{"googleAnalytics":false,"facebook":false}')
 wesendit.com#%#//scriptlet('set-local-storage-item', 'legalsAccepted', 'true')
-nieruchomosci-online.pl#$#html { overflow: auto !important; }
+nieruchomosci-online.pl#%#//scriptlet('remove-class', 'has--cookie-bar', 'body')
 nieruchomosci-online.pl#$##ci-wrapper { display: none !important; }
 gdzietankowac.pl#%#//scriptlet('set-cookie-reload', 'acv', '1')
 north.pl##.offcanvas-backdrop::before
