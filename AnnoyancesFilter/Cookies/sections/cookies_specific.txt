@@ -7190,7 +7190,7 @@ miloan.pl##.cookies-pan
 lefeld.de#$#div[data-feature*="PrivacyCategory"] { display: none !important; }
 lefeld.de#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 dailymotion.com#$#div[class^="CookiePopup_"] { position: absolute !important; left: -3000px !important; }
-fcportables.com,elchapuzasinformatico.com,profesionalreview.com###cl-consent
+multiplayer.it,fcportables.com,elchapuzasinformatico.com,profesionalreview.com###cl-consent
 pg.com.tr,gillette.com.tr,gillettevenus.com.tr###btnOneTrust
 oralb.com.tr##.Consent
 ||param.com.tr/*dist/js/gdpr-cookie.js
