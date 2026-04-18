@@ -935,6 +935,11 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+vpzserver.com##a[href="https://rvpaste.com"]
+fithelptipz.com,vpzserver.com#%#//scriptlet('remove-attr', 'onclick', '[onclick^="window.open("]', 'stay')
+fithelptipz.com##.banner
+fithelptipz.com##a[href^="https://tinyurl.com/popadsref"]
+fithelptipz.com##a[href^="https://crn77.com/"]
 athlonsports.com##div[style="display:flex;flex-direction:column;gap:16px"]
 athlonsports.com##.card-grid > div[style="margin-bottom:24px"]
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=open.video,important
