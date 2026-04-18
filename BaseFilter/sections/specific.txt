@@ -4448,7 +4448,6 @@ hindustantimes.com##.taboolaInine
 flickr.com##.moola-default-banner-view
 10.com.au,10play.com.au#%#//scriptlet('json-prune', 'ads breaks cuepoints times', 'ads')
 whoer.net###render-mini-banners
-whoer.net##.main-ip-info__anonimity
 ||vod.provider.plex.tv/ad/err?code
 ||vod.provider.plex.tv/ad?givn=
 rumble.com##div[class^="js-rac-"][data-zone-id]:has(> script[src^="//a.ads."])
