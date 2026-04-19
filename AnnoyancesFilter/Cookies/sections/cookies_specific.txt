@@ -406,7 +406,7 @@ mosregtoday.ru##dialog[aria-label="cookie-agreement"]
 some.porn###app-cookie
 evebattery.com##.t_main_privacy
 ||sdk.privacy-center.org/*/loader.js?target=www.index.hr
-ruplay.market#%#//scriptlet('set-local-storage-item', 'policyAccepted', 'false')
+ruplaymarket.ru,ruplay.market#%#//scriptlet('set-local-storage-item', 'policyAccepted', 'false')
 online.globus.ru#%#//scriptlet('trusted-set-local-storage-item', 'notifications-ls', '{"state":{"isCookieNotified":true},"version":0}')
 taketaketake.com#%#//scriptlet('set-local-storage-item', 'takex3.cookie-consent', 'accepted')
 aa.com.tr##.fixed.inset-0
