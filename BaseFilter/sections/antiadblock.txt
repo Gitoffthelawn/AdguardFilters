@@ -1900,14 +1900,12 @@ snopes.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight === 0')
 snopes.com#%#//scriptlet('prevent-setTimeout', '=>')
 snopes.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'setTimeout(()')
 snopes.com#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle|doubleclick|googletagservices|bigcrunch/')
-!#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_app_cli)
 snopes.com#$#.sidebar_ad { transform: rotateX(90deg) !important; height: 1px !important; }
 snopes.com#$#.outer_ad_container { transform: rotateX(90deg) !important; height: 1px !important; }
 snopes.com#$#.snopesad { transform: rotateX(90deg) !important; height: 1px !important; position: fixed !important; }
 snopes.com#$#.advertise_text { transform: rotateX(90deg) !important; height: 1px !important; }
 snopes.com#$#.ad-caption { transform: rotateX(90deg) !important; height: 1px !important; }
 snopes.com#$#.home_ad_bottom { transform: rotateX(90deg) !important; height: 1px !important; }
-!#endif
 snopes.com#@#.sidebar_ad
 snopes.com#@#.outer_ad_container
 snopes.com#@#.outer-ad-unit-wrapper
