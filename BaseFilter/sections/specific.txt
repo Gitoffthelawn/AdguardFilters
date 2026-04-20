@@ -2114,7 +2114,6 @@ usconcealedcarry.com##div[class^="simplePayloadBanner_container"]
 time.com###sponsorshiplogo1
 neoseeker.com###page_top_content
 neoseeker.com###column_right_top_content
-nytimes.com#%#//scriptlet('trusted-replace-fetch-response', '"show_ads":true', '"show_ads":false', 'statsig/initialize')
 ||azurefd.net/22betpartners/
 emojipedia.org#$#main > div[class^="Container_container-wrapper"] div.block.sticky:has(> div[class^="AdContainer"]) { display: none !important; }
 emojipedia.org#$#body > .h-screen > .pt-16 { padding-top: 0 !important; }
@@ -20713,6 +20712,8 @@ circleofcricket.com#$#.modal-backdrop { display: none !important; }
 circleofcricket.com#$##myModal { display: none !important; }
 circleofcricket.com##div.container-full.add:has(> a[href]:first-child)
 ||circleofcricket.com/assets/adv/
+!+ NOT_PLATFORM(ext_ublock)
+nytimes.com#%#//scriptlet('trusted-replace-fetch-response', '"show_ads":true', '"show_ads":false', 'statsig/initialize')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/222622
 !+ PLATFORM(windows, mac, android, cli)
 livehindustan.com#%#//scriptlet('googletagservices-gpt')
