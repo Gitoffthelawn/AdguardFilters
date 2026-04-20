@@ -356,6 +356,10 @@ bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,entwickler.de,lockbarb
 !
 ! NOTE: Regular rules
 !
+adultforce.com#%#//scriptlet('set-cookie', 'consentCookieActivityLog', 'true')
+adultforce.com#%#//scriptlet('set-cookie', 'allowFunctionalCookies', 'false')
+adultforce.com#%#//scriptlet('set-cookie', 'allowAnalyticsCookies', 'false')
+adultforce.com#%#//scriptlet('set-cookie', 'allowTargetingCookies', 'false')
 gay-blog.tomrockets.com###cc-cookie-overlay
 gay-blog.tomrockets.com###cc-cookie-message
 ||cdn.phenompeople.com/CareerConnectResources/canvas/common/widgets/scripts/*_phw-cookie-popup-default-default-v1.umd.js
