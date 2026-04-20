@@ -28,6 +28,7 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||hls-beacons-us.xumo.com^
 ||stats.zincdrive.com^
 ||nid.the-sun.com^
 ||log.api-maps.yandex.
