@@ -10643,11 +10643,9 @@ money.pl#@?#main > div:first-child:-abp-has(img[src^="https://v.wpimg.pl/"][load
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150824
 domodi.pl##.product-list__ad
 domodi.pl#?#article div[data-t][class]:has(> div[data-model*="wpId"])
-! https://github.com/AdguardTeam/AdguardFilters/issues/69501
-!+ PLATFORM(ext_safari, ios)
-@@||www.dobreprogramy.pl^$generichide,badfilter
-!+ PLATFORM(ext_safari, ios)
-@@||pilot.wp.pl^$generichide,badfilter
+! https://github.com/AdguardTeam/AdguardFilters/issues/147225
+!+ NOT_PLATFORM(ext_ublock)
+@@||kobieta.wp.pl^$elemhide,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148385
 ||dynacrems.wp.pl/ad/$replace=/.+//,important
 ||dynacrems.wp.pl/ad/
