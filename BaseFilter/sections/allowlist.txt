@@ -134,6 +134,8 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/229568
+@@||paula2.com/WS2/dnfiles/Banners/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229492
 ! Website is broken when blocked scripts are removed from the page,
 ! so as a workaround a "redirect-rule" is used.
