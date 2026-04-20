@@ -935,6 +935,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+file-me.top#%#//scriptlet('prevent-addEventListener', 'click', 'cc++;')
 moneywise.com##.wise-ad
 porn4days.pw##.col-12 > div.alert:has(> a.theme-link)
 zpaste.net#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
