@@ -4361,8 +4361,6 @@ theguardian.com#@#.ad_unit
 @@||googletagservices.com/tag/js/gpt.js$domain=techrepublic.com
 ! http://forum.adguard.com/showthread.php?8862
 @@||cdn.watch.aetnd.com^$domain=fyi.tv|cdn.watch.aetnd.com
-! https://github.com/AdguardTeam/ExperimentalFilter/issues/1343
-@@||config.playwire.com/*/zeus.json$domain=explosm.net
 ! http://forum.adguard.com/showthread.php?8813
 @@||freebitco.in^$generichide
 ! mega.nz - broken download
