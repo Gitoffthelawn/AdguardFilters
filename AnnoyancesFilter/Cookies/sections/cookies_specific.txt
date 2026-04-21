@@ -14737,9 +14737,10 @@ forum.gamer.com.tr#?#.p-body-inner > .notices > .notice:has(> .notice-content > 
 bethesda.net#?#visor-alert > div > div > div:last-child:has(> a[href$="/cookie-policy"])
 maximum.com.tr#?#.sticky_cookie_warning:has(> a[href^="/TR/gizlilik-politikamiz/Sayfalar/gizlilik-politikamiz.aspx"])
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/229631
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229633
 !+ PLATFORM(ext_ublock)
-touchmywife.com###root > div[class^="sc-"]:has(> p[class] > a[href="https://touchmywife.com/legal/privacy"])
+mypervyfamily.com,touchmywife.com###root > div[class^="sc-"]:has(> p[class] > a[href$="/legal/privacy"])
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228794
 !+ PLATFORM(ext_ublock)
