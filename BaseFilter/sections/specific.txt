@@ -935,6 +935,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+dailymail.com##.billboard-container
 bleepingcomputer.com##.article-callout
 mangadex.com##a[href*="amazon.com"] > img
 gobankingrates.com##.advert-top01
