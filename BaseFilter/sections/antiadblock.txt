@@ -11840,9 +11840,6 @@ paraphrasing-tool.com#@#.ezoic-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5904
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||cnprint.org^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/5901
-explosm.net#%#window.showads=true;
-@@||explosm.net/js/adsense.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5760
 @@||assets.gameallianz.com/api/js/ads/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5766
