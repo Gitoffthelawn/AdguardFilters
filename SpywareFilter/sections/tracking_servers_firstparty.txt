@@ -28,6 +28,9 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||android-beacons.xumo.com^
+||roku-beacons.xumo.com^
+||samsung-beacons.xumo.com^
 ||stats.zincdrive.com^
 ||nid.the-sun.com^
 ||log.api-maps.yandex.
