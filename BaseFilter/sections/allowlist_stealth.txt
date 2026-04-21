@@ -3161,8 +3161,6 @@
 ! Go to https://products.office.com/en-us/office-insider then click "install the office insider build now"
 @@||stores.office.com/authredir
 @@||stores.office.com/myaccount/advancedinstalls.aspx
-! http://forum.adguard.com/showthread.php?7463
-@@||kastatic.com^$stealth=referrer,domain=kickass.to
 ! http://forum.adguard.com/showthread.php?7539
 @@||mycdn.me^$stealth=referrer
 @@||odnoklassniki.ru/get$stealth=referrer

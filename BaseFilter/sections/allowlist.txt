@@ -4765,7 +4765,6 @@ implbits.com#@#.banner_container
 !
 @@||anti-virus4u.com/v/
 @@||imasdk.googleapis.com^$domain=cnet.com
-@@||kastatic.com^$domain=kickass.to
 @@||mediaplex.com$domain=cnet.com
 @@&ad_type=$domain=ultimate-guitar.com
 @@.instantservice.com$document
