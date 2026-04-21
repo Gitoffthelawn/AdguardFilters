@@ -1458,8 +1458,6 @@ canadapolicereport.ca##.adsbygoogle
 @@||cdn.shortpixel.ai/*.leakite.com/wp-content/plugins/ad-inserter/images/ads.png$domain=leakite.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56572
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myviptuto.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/56200
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=findandfound.ga
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55724
 @@||hqq.tv/js/adv/ads.js
 @@||hqq.tv/js/adv/fuckadblock.js
