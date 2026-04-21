@@ -4416,8 +4416,6 @@ newyorker.com#@#.ad-container
 @@||telize.com/geoip$document
 ! http://forum.adguard.com/showthread.php?7487
 @@||cnn.com^*/ad_policy.xml$domain=cnn.com
-! shasso.com - broken by Adguard injections
-@@||shasso.com/MyStoreOrders/$document
 ! offgamers.com - broken checkout
 @@||offgamers.com/checkout/buyNow/$document,xmlhttprequest
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/865
