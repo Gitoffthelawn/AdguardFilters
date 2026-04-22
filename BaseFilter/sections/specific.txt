@@ -951,7 +951,7 @@ gobankingrates.com##.native-cards-module[data-pub-placement-id]
 ||apimg.net/slider/propellerads
 affpaying.com##div.bg-white:has(a[href^="https://propellerads.com/"])
 file-me.top#%#//scriptlet('prevent-addEventListener', 'click', 'cc++;')
-moneywise.com##.wise-ad
+money.ca,moneywise.com##.wise-ad
 porn4days.pw##.col-12 > div.alert:has(> a.theme-link)
 zpaste.net#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 zpaste.net#%#//scriptlet('abort-current-inline-script', '$', 'window.open')

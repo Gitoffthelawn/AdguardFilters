@@ -95,7 +95,8 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 ||dce-frontoffice.imggaming.com/api/v2/event/
 ||hls-beacons-us.xumo.com/hlsstream/v*/beacon?
 ||ducttapeai.com/api/tracking/event
-||moneywise.com/scottie/api/cdp/v1/event|
+/scottie/api/cdp/v1/event|$domain=moneywise.com|money.ca
+/js/adobe-analytics.js$domain=moneywise.com|money.ca
 ||fileditchfiles.me/api/plausible
 /https:\/\/www\.fakt\.pl\/[a-zA-Z0-9_]{40,200}/$xmlhttprequest,~third-party,match-case,domain=fakt.pl
 play.xumo.com#%#//scriptlet('set-local-storage-item', 'com.kochava.tracker.EventQueue', '$remove$')
