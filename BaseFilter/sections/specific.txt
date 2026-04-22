@@ -21886,6 +21886,16 @@ adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com
 !
 !
 !+ NOT_OPTIMIZED
+fortune.com##.leaderboard-ad-wrapper-parent
+!+ NOT_OPTIMIZED
+fortune.com##.nativo-wrapper
+!+ NOT_OPTIMIZED
+fortune.com,lifehacker.com,mashable.com,pcmag.com###related-video
+!+ NOT_OPTIMIZED
+fortune.com##.min-h-\[404px\]
+!+ NOT_OPTIMIZED
+fortune.com###outbrain-container
+!+ NOT_OPTIMIZED
 gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,speakerdeck.com,spotify.com,techxplore.com##.ads-container
 !+ NOT_OPTIMIZED
 bleepingcomputer.com##.articleBody > div[style^="width:"]:not([class]):has(> a[target="_blank"])
