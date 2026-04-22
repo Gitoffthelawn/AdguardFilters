@@ -1436,8 +1436,8 @@ edoujin.net#%#//scriptlet('prevent-refresh')
 strtapewithadblock.*,strtapeadblocker.art,strtapeadblocker.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "o.contentWindow.document.createElement")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123687
 imgur.com#%#//scriptlet("adjust-setTimeout", "/function\(\)\{try\{|adBegan/", "5000", "0.02")
-! https://github.com/AdguardTeam/AdguardFilters/issues/123312
-gochyu.com#%#//scriptlet("prevent-window-open")
+! https://github.com/AdguardTeam/AdguardFilters/issues/229717
+gochyu.com#%#//scriptlet('abort-current-inline-script', '$', 'window.open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123094
 linkbin.me#%#//scriptlet("abort-on-property-read", "Object.prototype.loadImages")
 linkbin.me#%#//scriptlet("abort-on-property-read", "Object.prototype.loadCosplay")
