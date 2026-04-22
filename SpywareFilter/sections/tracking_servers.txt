@@ -69,6 +69,7 @@
 !
 !
 !
+||umamix.fadunews.in^
 ||acustomizedgift.com^$script,redirect=noopjs
 ||globalsiteanalytics.com^
 ||content-settings.com^

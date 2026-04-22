@@ -938,6 +938,8 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+mavink.com##.adgrid
+mavink.com##div.box:has(> ins.adsbygoogle)
 cars.com##cars-sticky-footer-ad
 simplywall.st##main > .place-items-center:has(> div[data-cy-id="article-header-ad"])
 simplywall.st##div[data-cy-id$="-ad"]
