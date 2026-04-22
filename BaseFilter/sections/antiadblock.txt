@@ -972,7 +972,6 @@ mmoovvfr.cloudfree.jp,skidrowreloaded.com###page-wrap + div[id][class*=" "]
 alexbacher.fr,bokugents.com,4horlover.com##body > div[id][class*=" "]:first-child
 torrinomedica.it##body > #site-wrapper + div[id][class*=" "]
 baithak.news,ikramlar.online##body > div#page ~ script + div[id][class*=" "]:not(.Ad-Container)
-modijiurl.com#$?#body > .site ~ div[id][class] { remove: true; }
 worthitorwoke.com##.btPageWrap + div[id][class*=" "]
 myicloud.info,boyfuck.me,casopismetropola.sk,javboys.tv,lacrima.jp,the-mystery.org,airportwebcams.net,animalwebcams.net,naruldonghua.com,chikianimation.com,infinitzanime.net,u-idol.com,varnascan.*,summertoon.*,donghuaworld.com###footer + div[id][class*=" "]
 realtormontreal.ca##.footer + div[id][class*=" "]
