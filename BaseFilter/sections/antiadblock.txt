@@ -5828,9 +5828,6 @@ chaturflix.cam#$#.adsbox.doubleclick.ad-placement { display: block !important; }
 @@||chaturflix.cam^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143171
 playok.com#%#//scriptlet('abort-on-property-read', 'abask')
-! https://github.com/AdguardTeam/AdguardFilters/issues/144086
-! https://github.com/AdguardTeam/AdguardFilters/issues/144071
-sbchill.com#%#//scriptlet('set-constant', 'isadb', 'false')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215358
 @@||bstlar.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157933
