@@ -2648,11 +2648,6 @@ modernjs.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 worldmak.com#%#//scriptlet('remove-node-text', 'script', 'detectAdBlock')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=worldmak.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/201483
-call-bomber.info#%#//scriptlet('trusted-set-constant', 'document.visibilityState', '{"value": "visible"}')
-call-bomber.info#%#//scriptlet('prevent-setTimeout', 'checkAds')
-call-bomber.info#%#//scriptlet('adjust-setTimeout', '', '*', '0.02')
-call-bomber.info#%#//scriptlet('adjust-setInterval', '', '*', '0.02')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201669
 dotacoach.gg#%#//scriptlet('prevent-element-src-loading', 'img', '&adslot=')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
