@@ -7829,7 +7829,7 @@ genshin.gg##.wrapper-mpu1
 genshin.gg##.wrapper-lb1
 sourceforge.net###nels
 senzuri.tube##.video-tube-friends-wrapper
-gay0day.com##.video-holder > a[target="_blank"]
+megatube.xxx,gay0day.com##.video-holder > a[target="_blank"]
 dnsstuff.com##img[width="594"][height="97"]
 mywishboard.com##.MwbPagesWish__banner
 mirchi9.com##body .ads-wrap-qqq
