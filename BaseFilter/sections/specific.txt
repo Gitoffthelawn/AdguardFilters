@@ -2868,7 +2868,6 @@ techxplore.com##.article-sidebar-banner
 hyhd.org#%#//scriptlet("prevent-window-open")
 hermitcraft.com###sidebaradcontainer
 apkcombo.com##.ad-pss
-goldengoalsfinance.com##div[class^="pro_ad_"]
 softonic.*##div[data-meta="placeholder-slot"]
 self.com##.promo-box
 onlineconverter.com##div[class^="d"] > div[class^="d"]:has(> ins.adsbygoogle)
