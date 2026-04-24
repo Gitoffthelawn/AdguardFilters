@@ -11,8 +11,8 @@
 ! or with clear description what to do next
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229403
-@@||cdn.ampproject.org^$domain=ai.ettoday.net
-@@||bidder.criteo.com/amp/rtc$domain=ai.ettoday.net
+@@||cdn.ampproject.org^$domain=ettoday.net
+@@||bidder.criteo.com/amp/rtc$domain=ettoday.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229352
 @@||patreonusercontent.com^$image,domain=patreon.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228617
@@ -142,6 +142,8 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/229798
+@@||pubads.g.doubleclick.net/ondemand/hls/content/$domain=play.aetv.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229568
 @@||paula2.com/WS2/dnfiles/Banners/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229492
@@ -158,7 +160,7 @@ $script,redirect-rule=noopjs,domain=api-dashboard.search.brave.com
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||p.liadm.com/click?$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228579
-||charlestoughrace.com^$badfilter
+||timmaybealready.com^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228647
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=drugs.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=drugs.com

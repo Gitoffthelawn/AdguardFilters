@@ -69,6 +69,7 @@
 !
 !
 !
+||kataweb.it^
 ||fubuki-umami.space^
 ||t.journify.io^
 ||static.journify.io^

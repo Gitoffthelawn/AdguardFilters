@@ -7,8 +7,8 @@
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229403
-ai.ettoday.net#@#amp-ad
-ai.ettoday.net#@#.amp-unresolved
+ettoday.net#@#amp-ad
+ettoday.net#@#.amp-unresolved
 ! https://github.com/AdguardTeam/AdguardFilters/issues/225641
 usnews.com#%#//scriptlet('set-constant', 'Object.prototype.vjsPlayer.ads', 'noopFunc')
 !+ PLATFORM(ios, ext_android_cb)
