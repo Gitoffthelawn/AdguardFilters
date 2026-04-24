@@ -204,6 +204,7 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+any.run##.post-footer-banner
 wildberries.ru##.j-big-billboards-block
 rte.ie##.weather-forecast-container
 bcs-bank.ru###fomo-banner
