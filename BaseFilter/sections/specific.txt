@@ -1393,9 +1393,7 @@ streamdesi.com#%#//scriptlet('prevent-window-open')
 meteoblue.com##.ad1-box
 edumail.su##.ads-five
 pornhd4k.net,javhd4k.me,pornhd8k.me,en.javfun.me###invideo_wrapper
-comicbook.com##.lngtd-dynamic-leaderboard
 comicbook.com##.lngtd-dynamic-inarticle
-comicbook.com##.lngtd-dynamic-rightrail
 geotastic.net##.publift-zone-container
 7mmtv.upns.live#%#//scriptlet("prevent-window-open")
 omoi.com##azuki-google-ad
@@ -2323,7 +2321,7 @@ androidcentral.com##.hawk-root
 polybuzz.ai##.infeed-ad
 interestingengineering.com##.connatix-iframe-wrap
 interestingengineering.com##div[class="t-text-center t-mb-2"][style^="font-family: Roboto, sans-serif; font-weight: 400;"]
-vice.com##.wp-block-savage-platform-primis-video
+comicbook.com,vice.com##.wp-block-savage-platform-primis-video
 gq-magazine.co.uk##div[class^="AdWrapper-"]
 wwd.com##.wwd-subscribe-now-banner-ad-container
 ||cdn.iseekgirls.com/ads/
@@ -21899,6 +21897,10 @@ adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com
 !
 !
 !
+!+ NOT_OPTIMIZED
+comicbook.com##.lngtd-dynamic-rightrail
+!+ NOT_OPTIMIZED
+comicbook.com##.lngtd-dynamic-leaderboard
 !+ NOT_OPTIMIZED
 fortune.com##.leaderboard-ad-wrapper-parent
 !+ NOT_OPTIMIZED
