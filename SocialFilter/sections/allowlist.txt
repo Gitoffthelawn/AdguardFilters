@@ -5,6 +5,8 @@
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/228453
+wildberries.ru#@#.share-btn
 ! https://ranking.sanrio.co.jp/mypage/#ad
 ranking.sanrio.co.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 ranking.sanrio.co.jp#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
