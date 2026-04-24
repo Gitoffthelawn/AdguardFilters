@@ -1253,7 +1253,7 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229890
-app.khaddavi.ne#%#//scriptlet('set-constant', 'HTMLScriptElement.prototype.onerror', 'undefined')
+app.khaddavi.net#%#//scriptlet('prevent-element-src-loading', 'script', 'https://safelinku.com/admanager.js')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||safelinku.com/admanager.js$script,domain=app.khaddavi.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229773
