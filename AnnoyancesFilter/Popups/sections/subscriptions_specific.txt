@@ -3655,7 +3655,7 @@ financefeeds.com##.ff-single-subscribe
 theblondcook.com,domainnamewire.com###simple-banner
 wisden.com##.footer-subscription-panel
 steelseries.com##.newsletter-signup__column
-hdmotori.it,mauiathletics.com###overlay
+grupocontablerj.com,hdmotori.it,mauiathletics.com###overlay
 mauiathletics.com##.snp-wrap
 kontur.ru#$?#script#popupSettings { remove: true; }
 theportugalnews.com#?#header > div.text-dark:has(> div.mx-auto > div.justify-content-center > div > div.row > div > a.btn-popup-subscriber)
