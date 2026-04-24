@@ -1208,6 +1208,7 @@ livemint.com##.desktopAdWrap
 cineby.sc#%#//scriptlet('prevent-addEventListener', '', 'unloaded_at')
 ||cineby.sc/scripts/ab.js
 ||cineby.sc/scripts/gk.js
+/^https:\/\/www\.cineby\.sc\/scripts\/[a-z][a-z]\.js$/$script,domain=cineby.sc
 ||go.inxxx.cam^$xmlhttprequest,domain=inxxx.com
 sunporno.com,inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
 inxxx.com##div.inxxx-desktop-spot
