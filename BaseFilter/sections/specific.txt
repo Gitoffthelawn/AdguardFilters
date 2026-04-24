@@ -941,6 +941,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+fxstreet.*#$#div[id*="-sponsorBroker-topBanner"] { display: none !important; }
 goldderby.com##div[data-component="ad-unit"]
 ||rule34gen.com/images/advertisements/
 nine.com.au##div[class^="sc-"]:not([id]):has(> div[id^="adspot-"] + small[style="--text-color: var(--color-text-secondary);"])
@@ -11607,7 +11608,6 @@ pluginsaddonsextensions.com##.advertise
 fantrax.com##side-ad > .placeholder--fluid
 linuxize.com##a[rel="noreferrer noopener"][target="_blank"]
 djmag.com,healthyplace.com##.block-ad-block
-fxstreet.*##.fxs_leaderboard
 strumyk.net,flashfootball.com,idahostatesman.com,vidsvidsvids.com##.zone
 ||vidsvidsvids.com/go/
 ||player.twitch.tv/js/embed/v1.js$domain=wago.io|uesp.net
@@ -21898,6 +21898,8 @@ adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com
 !
 !
 !
+!+ NOT_OPTIMIZED
+fxstreet.*##.fxs_leaderboard
 !+ NOT_OPTIMIZED
 comicbook.com##.lngtd-dynamic-rightrail
 !+ NOT_OPTIMIZED
