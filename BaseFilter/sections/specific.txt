@@ -945,6 +945,9 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+babez.live#%#//scriptlet('set-cookie', 'enter', 'true')
+||komm.saug.us/request|$domain=babez.live
+babez.live##aside[aria-label="Notification Ad"]
 aetv.com##div[data-sentry-component="Box"]:has(> span[data-sentry-component="Box"] + div[data-sentry-component="Box"] > iframe[id^="google_ads"])
 fxstreet.*#$#div[id*="-sponsorBroker-topBanner"] { display: none !important; }
 goldderby.com##div[data-component="ad-unit"]
