@@ -316,7 +316,7 @@ gamesurf.it#%#//scriptlet('trusted-click-element', '#iubenda-cs-banner .iubenda-
 ||cdn.privacy-mgmt.com^$important,domain=promipool.de|android-hilfe.de|wsj.com|planespotters.net
 !
 ! #%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11')
-thesun.co.uk,consent.esquire.de,berliner-zeitung.de,consent.geo.fr,spcmp.oeffnungszeitenbuch.de,a02342.eadt.co.uk,consent.noz.de,cmpv2.f1oversteer.com,sp-consent.bietigheimerzeitung.de,sp-consent.gaeubote.de,cmp-sp.remszeitung.de,cmpv2.faroutmagazine.co.uk,cnsnt.goal.com,cmp.tag24.de,glasgowtimes.co.uk,cmp-sp.ln-online.de,cmp-sp.solinger-tageblatt.de,cmp-sp.ostsee-zeitung.de,cmp-sp.siegener-zeitung.de,cmp-sp.saechsische.de,cmp.volksstimme.de,cmp-sp.dnn.de,cmp-sp.landeszeitung.de,sp-effilee-de.effilee.de,sourcepoint.wetter.de,freiepresse.de,cmp.blick.de,consent.1erforum.de,consent.up.welt.de,consent.oe24.at,consent.freundin.de,cmp-sp.torgauerzeitung.de,sp.mumsnet.com,cookies.esslinger-zeitung.de,dailyecho.co.uk,talksport.com,cmp.myhomebook.de,baseendpoint.eltern.de,thetimes.com,inmotion.dhl,cuisineactuelle.fr,consent.turbo.fr,spp.nextpit.com,spoint.spox.com,sunderlandecho.com,cmp-sp.handelsblatt.com,cmp.netmoms.de,consent.yourhorse.co.uk,consent.kino.de,cmp.heise.de,cmp.prisjakt.nu,privacy.intouch.wunderweib.de,sourcepoint.kotaku.com,baseendpoint.chefkoch.de,privacy.promobil.de,cmpsp.hobbyconsolas.com,cmp.wetteronline.de,tvspielfilm.de,cmpv2.netdoktor.de,cmp-sp.haz.de,rockpapershotgun.com,vg247.com,eurogamer.net,cookies.franken-gedenkt.de,cmpv2.foundryco.com,cmp-sp.sportbuzzer.de,sp-consent.stuttgarter-zeitung.de,cmp-sp.kn-online.de,consent-cdn.sueddeutsche.de,zeit.de,bloomberg.*,theguardian.com,bild.de,portsmouth.co.uk,newsletter.co.uk,northantstelegraph.co.uk,11freunde.de,rundschau-online.de,schwarzwaelder-bote.de,blocket.se,infoworld.com,fitforfun.de,programme-tv.net,capital.fr,voici.fr,femmeactuelle.fr,gala.fr,derstandard.de,derstandard.at,express.de,womenshealth.de,runnersworld.de,maennersache.de,ksta.de,maz-online.de,falkirkherald.co.uk,pcgames.de,scotsman.com,kurier.de,sport.de,frankenpost.de,motorsport-magazin.com,lecker.de,bunte.de,bike-x.de,tvtoday.de,giga.de,techbook.de,rtl.de,cmp-sp.reisereporter.de,independentespanol.com,berliner-kurier.de,networkworld.com,standard.co.uk,independent.co.uk,gentside.com,consent-manager.ft.com,cmpv2.pcworld.com,baseendpoint.brigitte.de,thepopverse.com,cmpv2.netdoktor.ch,cmp.videogameschronicle.com,cmp.svd.se,cmpsp.gamesindustry.biz,cmp.omni.se,lbc.co.uk,eurogamer.pl,cmpsp.computerhoy.com,cmp.dpgmedia.be,consent.yorkshirepost.co.uk,stuttgarter-nachrichten.de,consent.formula1.com,sp-spiegel-de.spiegel.de,sourcepoint.tvnow.de,privacy.menshealth.de,baseendpoint.urbia.de,cmp.utopia.de,baseendpoint.vip.de,cdn.privacy-mgmt.com,cmp-sp.lvz.de,cmp2.macwelt.de,cmp2.pcwelt.de,cmp.travelbook.de,cmp.petbook.de,consent.gamingbible.com#%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11')
+ostdeutscheallgemeine.com,thesun.co.uk,consent.esquire.de,berliner-zeitung.de,consent.geo.fr,spcmp.oeffnungszeitenbuch.de,a02342.eadt.co.uk,consent.noz.de,cmpv2.f1oversteer.com,sp-consent.bietigheimerzeitung.de,sp-consent.gaeubote.de,cmp-sp.remszeitung.de,cmpv2.faroutmagazine.co.uk,cnsnt.goal.com,cmp.tag24.de,glasgowtimes.co.uk,cmp-sp.ln-online.de,cmp-sp.solinger-tageblatt.de,cmp-sp.ostsee-zeitung.de,cmp-sp.siegener-zeitung.de,cmp-sp.saechsische.de,cmp.volksstimme.de,cmp-sp.dnn.de,cmp-sp.landeszeitung.de,sp-effilee-de.effilee.de,sourcepoint.wetter.de,freiepresse.de,cmp.blick.de,consent.1erforum.de,consent.up.welt.de,consent.oe24.at,consent.freundin.de,cmp-sp.torgauerzeitung.de,sp.mumsnet.com,cookies.esslinger-zeitung.de,dailyecho.co.uk,talksport.com,cmp.myhomebook.de,baseendpoint.eltern.de,thetimes.com,inmotion.dhl,cuisineactuelle.fr,consent.turbo.fr,spp.nextpit.com,spoint.spox.com,sunderlandecho.com,cmp-sp.handelsblatt.com,cmp.netmoms.de,consent.yourhorse.co.uk,consent.kino.de,cmp.heise.de,cmp.prisjakt.nu,privacy.intouch.wunderweib.de,sourcepoint.kotaku.com,baseendpoint.chefkoch.de,privacy.promobil.de,cmpsp.hobbyconsolas.com,cmp.wetteronline.de,tvspielfilm.de,cmpv2.netdoktor.de,cmp-sp.haz.de,rockpapershotgun.com,vg247.com,eurogamer.net,cookies.franken-gedenkt.de,cmpv2.foundryco.com,cmp-sp.sportbuzzer.de,sp-consent.stuttgarter-zeitung.de,cmp-sp.kn-online.de,consent-cdn.sueddeutsche.de,zeit.de,bloomberg.*,theguardian.com,bild.de,portsmouth.co.uk,newsletter.co.uk,northantstelegraph.co.uk,11freunde.de,rundschau-online.de,schwarzwaelder-bote.de,blocket.se,infoworld.com,fitforfun.de,programme-tv.net,capital.fr,voici.fr,femmeactuelle.fr,gala.fr,derstandard.de,derstandard.at,express.de,womenshealth.de,runnersworld.de,maennersache.de,ksta.de,maz-online.de,falkirkherald.co.uk,pcgames.de,scotsman.com,kurier.de,sport.de,frankenpost.de,motorsport-magazin.com,lecker.de,bunte.de,bike-x.de,tvtoday.de,giga.de,techbook.de,rtl.de,cmp-sp.reisereporter.de,independentespanol.com,berliner-kurier.de,networkworld.com,standard.co.uk,independent.co.uk,gentside.com,consent-manager.ft.com,cmpv2.pcworld.com,baseendpoint.brigitte.de,thepopverse.com,cmpv2.netdoktor.ch,cmp.videogameschronicle.com,cmp.svd.se,cmpsp.gamesindustry.biz,cmp.omni.se,lbc.co.uk,eurogamer.pl,cmpsp.computerhoy.com,cmp.dpgmedia.be,consent.yorkshirepost.co.uk,stuttgarter-nachrichten.de,consent.formula1.com,sp-spiegel-de.spiegel.de,sourcepoint.tvnow.de,privacy.menshealth.de,baseendpoint.urbia.de,cmp.utopia.de,baseendpoint.vip.de,cdn.privacy-mgmt.com,cmp-sp.lvz.de,cmp2.macwelt.de,cmp2.pcwelt.de,cmp.travelbook.de,cmp.petbook.de,consent.gamingbible.com#%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11')
 ! #%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11','','300')
 cmp.chip.de,consent.faz.net#%#//scriptlet('trusted-click-element', 'button.sp_choice_type_11','','300')
 ! #%#//scriptlet('trusted-click-element', '.sp_choice_type_ACCEPT_ALL','','1500')
@@ -359,6 +359,14 @@ beamten-infoportal.de,bayreuth-region.de,ra-hoernschemeyer.de,tuhlteim-pedia.de,
 ! NOTE: Regular rules
 !
 ! cookie
+animejara.com###aj-cookies-compact
+olx.ua##div[data-testid="cookies-overlay__container"]
+pronto-pizza-moisburg.de#%#//scriptlet('trusted-set-cookie', 'cookie-settings', '{"personalize":false}')
+cookie.bmgproductionmusic.com#%#//scriptlet('trusted-click-element', '.message-component button[aria-label="Reject"]')
+slipstreammusic.com##div[class^="CookieBannerStyles_container_"]
+erste.pl#%#//scriptlet('trusted-click-element', '.privacy-prompt-content button[class*="button-reject"]')
+urlsafetychecker.com##.min-h-screen .fixed.right-4.z-50
+makeup.com.ua##.CookieBanner__cookie
 rundfunkbeitrag.de##.-show.consentDialog
 igetnow.com##app-cookie-banner-wrapper-component
 ettoday.net#$#.i-amphtml-consent-ui-mask { display: none !important; }
@@ -480,7 +488,7 @@ accounts.snapchat.com#%#//scriptlet('set-cookie', 'Marketing', 'false')
 accounts.snapchat.com#%#//scriptlet('set-cookie', 'Performance', 'false')
 accounts.snapchat.com#%#//scriptlet('set-cookie', 'Preferences', 'false')
 grok.com#%#//scriptlet('set-local-storage-item', 'privacy-policy-notice-dismissed', 'true')
-/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js$domain=peopleinside.it|stromausfall.org
+/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js$domain=peopleinside.it|stromausfall.org|betlewski.com
 revolutionrace.de,revolutionrace.eu,revolutionrace.it,revolutionrace.co.uk,revolutionrace.cz,revolutionrace.dk,revolutionrace.fr,revolutionrace.nl,revolutionrace.no,revolutionrace.com#%#//scriptlet('trusted-set-cookie', 'CookieConsent_ConsentMode', '{"ad_storage":"denied","analytics_storage":"denied","functionality_storage":"denied","personalization_storage":"denied","security_storage":"granted"}')
 ||challenges.fr/consent/sdk/
 whiteflowerfarm.com##.simplemodal-container
@@ -1102,7 +1110,7 @@ podarujdobro.pl,tunemymusic.com##div[class^="CookieConsent-"]
 homary.com##.cookie-policy-modal
 audi.*#%#//scriptlet('trusted-click-element', '.ensButtons > button#ensSave', '', '2000')
 gronkh.tv#%#//scriptlet('set-local-storage-item', 'grnk-cookies-accepted', 'false')
-wildflecken.de,do.de,glasfaser-ruhr.de#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker="1"] div[class*="-ext-"] > a[href="#"]:not([id])', '!cookie:/real_cookie_banner-v/, containsText:Weiter ohne Einwilligung')
+hiswallet.de,wildflecken.de,do.de,glasfaser-ruhr.de#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker="1"] div[class*="-ext-"] > a[href="#"]:not([id])', '!cookie:/real_cookie_banner-v/, containsText:Weiter ohne Einwilligung')
 gousto.co.uk,eliveshop.de#%#//scriptlet('trusted-click-element', 'body, #cc--main button.c-bn.c_link', '!cookie:cc_cookie')
 marubun.co.jp#%#//scriptlet('set-cookie', 'accept', 'true')
 tarakanov.net###privacybottom
@@ -1425,7 +1433,7 @@ olio.pl,sportamg.pl,allepaznokcie.pl,dvbsklep.pl,mchosegear.pl,profitsnack.pl,gr
 mmamania.com#%#//scriptlet('trusted-set-cookie', 'OptanonConsent', 'groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0005%3A1%2CC0004%3A0', '', '/', 'mmamania.com')
 mmamania.com#%#//scriptlet('trusted-set-cookie', 'OptanonAlertBoxClosed', '$currentDate$')
 fellou.ai##.consent-cookie-box
-buckedup.ru,poleznoo.ru##.cookieagry
+tehnoyard.ru,buckedup.ru,poleznoo.ru##.cookieagry
 ||waterfordwhispersnews.com/wp-content/plugins/wwn-the-rex-plugin/js/_wwn_gdpr-consent-tool.js
 revisemsra.com##.app > div[class^="wrap svelte-"]:has(a[href="/privacy-policy"])
 aio.lv##.popup-message
@@ -2306,7 +2314,7 @@ verkstedutstyr.no##.fixed.w-full:has(> .consent-container)
 wearmedicine.com##body > div[class^="NewModal_"]:has(> div > div[class*="CookiesConsentPopUp_"])
 mega.lol#?##alertBackground:contains(cookies)
 mega.lol#%#//scriptlet('set-local-storage-item', 'cookies', 'consent')
-deno.com,console.anthropic.com##.fixed.bottom-2
+shotapp.ru,deno.com,console.anthropic.com##.fixed.bottom-2
 m.banggood.com##.gdpr-entry
 sberbank.com,sberbank.ru##.cookies-nova
 telegraf.news##.ancr-group
@@ -3174,7 +3182,7 @@ novinky.cz,volnamista.cz##szn-cwl
 kosik.cz#$#.cmp-modal { display: none !important; }
 kosik.cz#$#html.is-scroll-hidden { overflow: auto !important; }
 kosik.cz#$#body[style*="padding-right:"] { padding-right: 0 !important; }
-dragon.cz,unihobby.cz##.cookies-confirm
+global.cdek.ru,dragon.cz,unihobby.cz##.cookies-confirm
 edstellar.com,englishbrightesl.com,usaco.co.jp###consent_container
 ||rb.cz/attachments/applications/scripts/apps/cookie-wall.js
 dolnimorava.cz,palladiumpraha.cz#$#body { overflow: auto !important; }
@@ -10174,7 +10182,7 @@ biohotels.info##div[id^="cms-module-tracking-codes-"]
 zsw-bw.de,daa-kassel.de,daskrankenhaus.de#$#body { overflow: visible !important; }
 zsw-bw.de,daa-kassel.de,daskrankenhaus.de#$##cookienotice_box { display: none !important; }
 krankenhaus.de##.tx-mmos-cookie
-ku.de###dv-t3-consent-management-modal
+wagner-kfz-service.de,ku.de###dv-t3-consent-management-modal
 uni-goettingen.de##.legal_footer
 e-fellows.net###efnCookieConsent
 united-internet.de##body.dp--cookie-consent .page-overlay:not(#style_important)
@@ -10214,7 +10222,7 @@ kreiskrankenhaus-weisswasser.de,steuerberater-vos.de,mm-liebenswert.de,pflegestu
 retroplace.com#$#body { overflow: auto !important; position: static !important; padding-right: 0 !important; }
 retroplace.com#$##retroplaceCookies { display: none !important; }
 retroplace.com#$##retroplaceCookies ~ *:not(.ekko-lightbox):not(.modal-backdrop) + div.modal-backdrop { display: none !important; }
-single.infranken.de,rosenheimsingles.de,localflirt24.de,innsalzachsingles.de,ilove.de,isarsingles.de,rp-online-dating.de,mzflirt.de###ccp-overlay
+rtl.de,single.infranken.de,rosenheimsingles.de,localflirt24.de,innsalzachsingles.de,ilove.de,isarsingles.de,rp-online-dating.de,mzflirt.de###ccp-overlay
 smarturl.it###cookie-banner-cta
 ||buxtehude.de/static/static/jscript/cookiedough_min.js
 ||buchholz.de/static/static/jscript/cookiedough_min.js
@@ -10672,7 +10680,7 @@ mondi.com.tr,bellona.com.tr,istikbal.com.tr###kvkk_overlay
 detmir.ru##footer + div[class="R S"]
 gartengestaltung-andre-keller.de,uthmann-gartenbau.de,gartenbau-foerster.de,gartenbauschlachter.de,stephan-gartenbau.de,rechtsanwalt-baumann.de,radiologie-saale-klinik.de###infobar
 acordacidade.com.br,canalrural.com.br###box-cookies
-domainnameapi.com,atakdomain.com###site-cookie
+atakdomain.com,domainnameapi.com,atakdomain.com###site-cookie
 tarnnetwork.org,otonomi.com##.footer-kvkk
 carlrippon.com#?#header > div:has(> a[href="/privacy"])
 autohaus24.de#$#.cookie-banner { display: none !important; }
