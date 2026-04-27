@@ -2916,8 +2916,6 @@ salix.pages.dev,willow.arlen.icu##.relative:has(> a[href="/partners/submit"])
 /partners/*$domain=willow.arlen.icu|salix.pages.dev
 ||1shows.ru/venus.js
 ||rgshows.ru/js/mercury.js
-justwatch.com##.sponsored-recommendation
-justwatch.com##.title-list-grid > *:has([class^="sponsored-recommendation"])
 comick.io#?#.py-16:contains(ADVERTISEMENT)
 cinemadeck.com##.columns-1:has(> a[href="https://babymaker.sellpass.io/"])
 watch.spencerdevs.xyz##a[href="https://zaccounts.io"]
