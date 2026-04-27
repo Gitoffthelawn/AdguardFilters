@@ -85,6 +85,11 @@ cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,sma
 !
 ! NOTE: Specific rules
 !
+check.lenta.com##.chek_wrapper > div.hidden-print:has(> div[style] > div[style] > div.soc_item)
+seatemperature.info##form:has(> input[alt="Twitter"])
+apd.cat##.m-social-share
+ofuse.me##.flex > button[type="button"]:has(> svg > path[d^="M11.4697 1.71967C1"][d$="9.75H6.375Z"])
+suzuri.jp##button[class$="-share"]
 frankmedia.ru##.social-link
 fxstreet.*###fxs_socialmedia_bar_header
 fxstreet.cz##.homepage-social-wrap
@@ -4124,7 +4129,7 @@ elpais.com.uy##.Page-actions-wrapper
 itatiaia.com.br,biospace.com,wbez.org,chicago.suntimes.com##.Page-actions
 amomama.fr##div[data-testid^="share-button-on-post-"]
 meczyki.pl##.rounded-button > a.router-link-active.fb
-managingmadrid.com##.coral-comment-shareButton
+bavarianfootballworks.com,managingmadrid.com##.coral-comment-shareButton
 hrmos.co###jsi-social-buttons
 utaten.com##.newShareLink
 nana-music.com##.share-btn__list
@@ -7978,7 +7983,7 @@ estadao.com.br##.top-social-sharing
 ofigenno.com##.ads
 corvetteforum.com##button[onclick^="window.open('https://www.reddit.com/"]
 corvetteforum.com##button[onclick^="window.open('https://www.facebook.com/"]
-krasnodarmedia.su,wishtv.com,locotoku.jp,afpbb.com##.fa-share
+zoneofgames.ru,krasnodarmedia.su,wishtv.com,locotoku.jp,afpbb.com##.fa-share
 reminder.media##div[class^="_social_list_"]
 proprofs.com##.share-inner-wrp > .share-click
 proprofs.com##.share-inner-wrp > .share-click1
@@ -8478,7 +8483,7 @@ app-how-to-use-it.com,rahim-soft.com##.social_icon > span[data-service]
 m.guancha.cn##.shareMain
 wday.ru,maximonline.ru,ellegirl.ru,kudago.com##.quiz-share
 lounge.fm##.share > .twitter
-rusplt.ru##.actions-wrapper
+bianet.org,rusplt.ru##.actions-wrapper
 nationalpost.com###breakingnews-social
 bauermedia.co.uk##.c-wrapper > main > article[class*="twitter"][class*="container"]
 wysokieobcasy.pl,wyborcza.pl,wyborcza.biz##.socialBar > ul > .fbShare

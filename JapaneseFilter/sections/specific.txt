@@ -60,9 +60,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+auctions.yahoo.co.jp###buyee
+auctions.yahoo.co.jp###lineAccountBanner
 mona-news.com##div[class^="infeed-article-"]
 toyokeizai.net##.--g-a-pickup
-toyokeizai.net##.--vertical-stack
+toyokeizai.net##.--vertical-stack:has(> div.ad-container)
 toyokeizai.net##.--trend
 toyokeizai.net##div[class^="c-g-a"]
 navitime.co.jp##.st-hotel-list-title
@@ -234,7 +236,7 @@ news.denfaminicogamer.jp##.drc
 news.denfaminicogamer.jp##.azl
 news.denfaminicogamer.jp##.steam
 news.denfaminicogamer.jp##.articleList > li:has(> aside.steam)
-news.denfaminicogamer.jp##.fade[id][style="display: flex;"]
+news.denfaminicogamer.jp##body > div[id][style="display: flex;"]
 u-rennai.jp##.summary_list_box > .items:has(> a[onclick^="ga('send', 'event',"])
 i2chmeijin.com##div[align="center"]:has(> span[style="color: #333333;"] > font[size="2"])
 tokyo-np.co.jp##.cmp-hdg005:has(+ .cmp-lst001 > div > ul > li > div[id^="div-gpt-ad-"])
@@ -6714,6 +6716,7 @@ traicy.com##.sp-header-ad
 hochi.news##.article-list__head:has(+ .job-list-wrap)
 hochi.news##.sub__head:has(+ .right_job-list-wrap)
 entapark.jp,hochi.news##div[class$="job-list-wrap"]
+hochi.news#?#main > div.sub__head:has(> h3.sub-head__title:contains(報知求人情報))
 hochi.news##.ad[style^="min-width: 300px"]
 hochi.news##.ad[style^="width:300px; height:250px"]
 hochi.news##.ad[style^="width:310px; height:250px"]

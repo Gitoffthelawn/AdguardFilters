@@ -18,6 +18,8 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+trhaber.com#%#//scriptlet('set-session-storage-item', 'trhaber_app_banner_dismissed', 'true')
+jkanime.net##.appGlobalMsj
 stremio.com##section[id^="stremio-on-tv"]
 mail.rambler.ru##div[class^="Promo-root-"]
 metallinvestbank.ru##.index-apps
@@ -302,7 +304,7 @@ m.olx.ua##div[class^="css-"]:has(> button[data-testid="app-install-banner-open"]
 chirashiplus.jp##.contents > a[href="https://app.chirashiplus.jp/"]
 poshmark.com##.btn--open-in-app
 hotokami.jp##a[onclick*="app"]
-zarahome.com,flipp.com##.download-app-banner
+suzuri.jp,zarahome.com,flipp.com##.download-app-banner
 coemee.com#%#//scriptlet('trusted-set-local-storage-item', 'pwa-install-prompt-dismissed', '2764250584116')
 vkusnoitochka.ru##a[href="https://trk.mail.ru/c/jpair2"]
 noz.de#$#.appB_page_box { display: none !important; }
@@ -4088,6 +4090,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+distill.io###appPrompt
 vodafone.com.tr##div[data-region-id^="header--smart-link"]
 navitime.co.jp##.js-appli-japan-travel
 pelando.com.br###download-app-banner
