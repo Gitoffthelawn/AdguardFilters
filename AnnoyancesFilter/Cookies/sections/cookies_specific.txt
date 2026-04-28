@@ -359,6 +359,7 @@ authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernscheme
 ! NOTE: Regular rules
 !
 ! cookie
+tntdrama.com#%#//scriptlet('trusted-click-element', '#wbd-ltp-overlay div[style^="display: flex; flex-direction: row; align-items: flex-start; gap:"] > a[style^="display: flex; height: 40px; padding: 14px 16px"]')
 videohelper.com,boostmusic.com#%#//scriptlet('trusted-set-cookie', 'starter-cookie-data', 'hasAckowledged')
 animejara.com###aj-cookies-compact
 olx.ua##div[data-testid="cookies-overlay__container"]
