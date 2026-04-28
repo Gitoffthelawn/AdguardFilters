@@ -950,6 +950,8 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 thedailycatch.org##.a-337
 thedailycatch.org##.a-222
 pcgamesn.com##a[title="Fanatical bundle ad"]
+voyeurhit.tube##a[href^="https://ctwmsg.com/"]
+voyeurhit.tube##a[href^="https://rtr2perf5.com/"]
 ||fapnow.xxx/ads/
 fapnow.xxx##a[href^="https://go.gsrv.dev/"]
 fapnado.xxx##.fluid_start_container
@@ -3217,7 +3219,7 @@ koreatimes.co.kr##div[id^="koreatimes_MinterplayPB_"]
 shemalez.*##iframe[src^="https://go.mnaspm.com/"]
 shemalez.*##.header__nav > div.left > div.dropdown ~ a[href][target="_blank"]
 shemalez.*##.video-page__content > .left  + div[class]
-shemalez.*##.video-tube-friends + div[class]
+voyeurhit.*,shemalez.*##.video-tube-friends + div[class]
 shemalez.*##.content > div > .wrapper + div[class]
 tranny.one##.fapc
 tranny.one##.flirt-solo
@@ -4860,7 +4862,7 @@ sunderlandecho.com##.taboola-bottomfeed
 sunderlandecho.com##div[id^="leaderboard"]
 sunderlandecho.com###header a[href="http://www.shotstv.com"]
 sunderlandecho.com##section[data-testid^="section-ViafouraTrendingComments"]
-voyeurhit.com##.video-tube-friends
+voyeurhit.*##.video-tube-friends
 /xupload.js$domain=noxx.to
 jrelibrary.com,tempmaili.com,nairametrics.com##div[align="center"] > a[target="_blank"] > img
 gamerxyt.com##.main ~ a[target="_blank"][rel="noopener noreferrer nofollow"]
@@ -20922,7 +20924,7 @@ ourgay.tube,pornclassic.tube,pornl.tube,upornia.*,hclips.com,privatehomeclips.co
 ! ##div[class$="review"] > a[href*="?ref="]
 ourgay.tube,pornclassic.tube,pornl.tube,txxx.*,hotmovs.*,upornia.*,hclips.com,privatehomeclips.com,ooxxx.com,manysex.*,pornl.com,xshemale.tube,ourgay.com,shemalez.*,voyeurhit.com,tubepornclassic.com##div[class$="review"] > a[href*="?ref="]
 ! ##.nopop
-uanal.com,peporn.com,abbdsm.com,abgay.tube,abjav.com,abxxx.com,abmilf.com,ourgay.tube,pornuse.com,desi-porn.xyz,onlyporn.tube,in-porn.com,pornclassic.tube,transtxxx.com,gaytxxx.com,xshemale.tube,ourgay.com,fuxxx.com,txxxporn.tube,mrgay.com,xjav.tube,lesbigo.com,porn-latina.com,bdsmx.tube,blackporn.tube,inporn.com,porntop.com,vxxx.com,aniporn.com,txxx.*,vjav.com,voyeurhit.com,pornl.com,ooxxx.com,txxx.com,01tube.com,tubepornclassic.com,keporn.vip,transtxxx.com,abtranny.com,shemalez.*,upornia.*,privatehomeclips.com,gettranny.com,desi-porn.tube,thegay.com,xmilf.com,hotmovs.com,hclips.com,manysex.*,hdzog.com,hdzog.tube##.nopop
+voyeurhit.*,uanal.com,peporn.com,abbdsm.com,abgay.tube,abjav.com,abxxx.com,abmilf.com,ourgay.tube,pornuse.com,desi-porn.xyz,onlyporn.tube,in-porn.com,pornclassic.tube,transtxxx.com,gaytxxx.com,xshemale.tube,ourgay.com,fuxxx.com,txxxporn.tube,mrgay.com,xjav.tube,lesbigo.com,porn-latina.com,bdsmx.tube,blackporn.tube,inporn.com,porntop.com,vxxx.com,aniporn.com,txxx.*,vjav.com,voyeurhit.com,pornl.com,ooxxx.com,txxx.com,01tube.com,tubepornclassic.com,keporn.vip,transtxxx.com,abtranny.com,shemalez.*,upornia.*,privatehomeclips.com,gettranny.com,desi-porn.tube,thegay.com,xmilf.com,hotmovs.com,hclips.com,manysex.*,hdzog.com,hdzog.tube##.nopop
 ! ##div[class^="partners"]
 peporn.com,teen21.com,ourgay.tube,pornuse.com,desi-porn.xyz,uanal.com,pornl.tube,pornl.com,pornclassic.tube,tubepornclassic.com,desi-porn.tube,hdzog.*,hotmovs.com,xshemale.tube,ourgay.com,lesbigo.com,porn-latina.com,keporn.vip,fuxxx.com,vjav.*,privatehomeclips.com##div[class^="partners"]
 ! ##div[class^="partners"] + div[class]
