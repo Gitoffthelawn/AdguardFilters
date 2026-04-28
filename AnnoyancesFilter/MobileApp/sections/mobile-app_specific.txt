@@ -18,6 +18,7 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+quicksigorta.com##body > header > div.MuiBox-root:has(> div > div > img[src^="https://quicksigorta.com/img/logos"])
 korusigorta.com.tr#$#.mobile-popup { display: none !important; }
 korusigorta.com.tr#$#.Header { top: 0 !important; }
 raysigorta.com.tr##.mobileapp-rayconnect
