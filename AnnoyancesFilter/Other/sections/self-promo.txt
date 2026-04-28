@@ -205,6 +205,7 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 ! SECTION: Self-promo - Regular rules
 !
 chessbase.com###cbadsmaindiv
+play.chessbase.com##div[class^="banner-"]
 schach.de,learn.chessbase.com##div[id^="banner-"]
 scientificamerican.com##section[class^="subscriptionPleaContainer-"]
 scientificamerican.com##div[class^="footerSubscribe-"]
