@@ -359,6 +359,7 @@ authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernscheme
 ! NOTE: Regular rules
 !
 ! cookie
+apotekfordeg.no##section[x-init*="showConsentModal"]
 ||api.netze-bw.de/appscatalog/v*/apps/CookieBanner/
 anadolusigorta.com.tr#$#body.no__scroll { overflow: auto !important; position: static !important; }
 anadolusigorta.com.tr#$#.nxmCerezWrapper { display: none !important; }
