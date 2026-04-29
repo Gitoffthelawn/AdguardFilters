@@ -360,6 +360,7 @@ authentisch-maennlich.de,beamten-infoportal.de,bayreuth-region.de,ra-hoernscheme
 !
 ! NOTE: Regular rules
 !
+||l8.nu/cookie/load.js
 unileoben.ac.at##.tx-cookieoptin
 discoveryplus.com#%#//scriptlet('trusted-click-element', '#modal-test-id-consent-modal button.btn--privacy-primary')
 theletter.jp#$##subscription-gate-modal { display: none !important; }
