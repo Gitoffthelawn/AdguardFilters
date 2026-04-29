@@ -7,9 +7,9 @@
 !
 !
 ! ridibooks.com - book detail page reference tracker
-ridibooks.com$removeparam=_rdt_sid
-ridibooks.com$removeparam=_rdt_idx
-ridibooks.com$removeparam=_rdt_arg
+||ridibooks.com^$removeparam=_rdt_sid
+||ridibooks.com^$removeparam=_rdt_idx
+||ridibooks.com^$removeparam=_rdt_arg
 ! 777.ua
 ||777casino.top^$removeparam
 ||uatracer.link^$removeparam
