@@ -1252,6 +1252,12 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/230253
+healthy4pepole.com#%#//scriptlet('remove-node-text', 'script', 'div-gpt-ad-')
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+healthy4pepole.com#@#div[id^="div-gpt-"]
+healthy4pepole.com#@#[id^="div-gpt-ad"]
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230046
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230044
 sexeey.com,xswiper.com#%#//scriptlet('prevent-xhr', 'adpresenter.de')
@@ -5790,13 +5796,6 @@ androidecuatoriano.xyz#%#//scriptlet('set-constant', 'adblockDetector', 'emptyOb
 androidecuatoriano.xyz#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=androidecuatoriano.xyz
-! https://github.com/AdguardTeam/AdguardFilters/issues/145793
-! https://github.com/AdguardTeam/AdguardFilters/issues/144471
-healthy4pepole.com#%#//scriptlet('set-constant', 'SanadLoadAds', 'true')
-healthy4pepole.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-@@/wp-content/themes/publisher/*/ads/static/adv/sailthru.js$domain=healthy4pepole.com
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=healthy4pepole.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144806
 @@||forum.admiregirls.com/js/*/ad160.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144751
