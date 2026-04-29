@@ -6,6 +6,10 @@
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! 777.ua
+||777casino.top^$removeparam
+||uatracer.link^$removeparam
+||blogostoks.com$removeparam
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230239
 ||change.org^$removeparam=recruited_by_id
 ||change.org^$removeparam=share_id
