@@ -137,7 +137,6 @@ play.xumo.com#%#//scriptlet('set-local-storage-item', '_xumo_xumoDeviceId', '$re
 play.xumo.com#%#//scriptlet('set-local-storage-item', '_xumo_ifaId', '$remove$')
 ||civitai.*/api/page-view
 ||civitai.*/api/trpc/track.addView
-||jobs.hanes.com/*/phenomtrack.min.js
 ||matome.xvps.jp/beacon
 ||s-cdn.anthropic.com/s.js
 ||claude.ai/api/event_logging/
@@ -257,7 +256,6 @@ tourister.ru#%#//scriptlet('href-sanitizer', 'a[href*="/go?"]', '?url')
 ||cad.de/images/1pixel.gif
 ||infpol.ru/statistics.js
 ||api-gateway-global.viu.com/api/audienceTargeting/
-||careers.lilly.com/*/phenomtrack.min.js
 ||courses.monoprix.fr/events
 ||tiles.wo-cloud.com/analytics
 cleverfit.fitness-konzepte.de#%#//scriptlet('set-local-storage-item', 'one_stats_metadata', '$remove$')
