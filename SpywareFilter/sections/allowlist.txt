@@ -4218,8 +4218,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 @@||pixel.facebook.com/ajax/notifications/mark_read.php?*&alert_ids%$image
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230286
-@@||*.fbcdn.net^$media,domain=meta.com
-@@||*.fbcdn.net^$xmlhttprequest,domain=meta.com
+@@||embed.fbsbx.com/embed_vidyard.php$subdocument,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131581
 @@||googletagmanager.com/gtm.js$domain=juffing.at
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20945
