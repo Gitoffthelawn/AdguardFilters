@@ -57,6 +57,10 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+sheba.com###block-marsalertbannerblock-3
+muyinteresante.okdiario.com##.suscrip-sticky-bottom-suscripciones-zinet
+||davidc1092.sg-host.com/tests/suscripciones_2026/suscripciones_modal.js$domain=muyinteresante.okdiario.com
+tasteatlas.com#%#//scriptlet('set-local-storage-item', 'newsletterShown', 'true')
 cybersecuritynews.com##.tdm-ii-wrap
 rijnmond.nl##.layout-components-group > div.layout-component:has(> div.promobox a[href="/nieuwsbrieven"])
 rijnmond.nl##.layout-view > section:has(> div.single-column-outer > div.container div.layout-component > div[type="newsletter-subscription"])
@@ -494,7 +498,7 @@ sankei.com###piano_mailmag_ArticlePC
 cozycravings.com#%#//scriptlet('trusted-set-cookie', 'mailerlite:webform:shown:5852655', '$now$')
 europapress.es###btnSeguirGoogle
 thepancakeprincess.com##.home-signup
-dancearoundthekitchen.com##.pmd-save-article
+dessertnowdinnerlater.com,dancearoundthekitchen.com##.pmd-save-article
 newslab.ru##.js-mediator-article > p:has(> b > a[href="https://t.me/newslablive"])
 ru.themoscowtimes.com#$#.contribute-modal__wrapper { display: none !important; }
 ru.themoscowtimes.com#$#.contribute-modal { display: none !important; }

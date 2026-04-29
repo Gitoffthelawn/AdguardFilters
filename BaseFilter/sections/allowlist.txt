@@ -10,6 +10,8 @@
 ! ATTENTION: The rules in this section must be accompanied by a link of an issue, where the problem will be fixed
 ! or with clear description what to do next
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/230278
+$popup,domain=cloudnestra.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229403
 @@||cdn.ampproject.org^$domain=ettoday.net
 @@||bidder.criteo.com/amp/rtc$domain=ettoday.net
