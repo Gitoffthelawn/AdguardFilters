@@ -12,6 +12,7 @@
 ||blogostoks.com$removeparam
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230239
 ||change.org^$removeparam=recruited_by_id
+||change.org^$removeparam=recruiter
 ||change.org^$removeparam=share_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228812
 ||kuper.ru^$removeparam=ads_identity_ads_promo_identity_site_uid
