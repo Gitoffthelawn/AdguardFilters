@@ -1535,6 +1535,10 @@ horoskopy.cz##div[style*="width:"][style*="max-width: 100%;"]
 horoskopy.cz##div[style*="width:"][style*="height:100%;"]
 horoskopy.cz##.ssp-handled
 horoskopy.cz##div[data-ssp-scaled]
+! https://github.com/AdguardTeam/AdguardFilters/issues/230250
+autickar.cz##div[id^="addbockers"]
+autickar.cz##div[id^="adblockers"]
+autickar.cz#%#//scriptlet('abort-current-inline-script', 'document.createElement', '.offsetHeight === 0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/221931
 ! For some reason Extended CSS rule causes problem, so use native ':has()'
 ! https://github.com/AdguardTeam/ExtendedCss/issues/190
