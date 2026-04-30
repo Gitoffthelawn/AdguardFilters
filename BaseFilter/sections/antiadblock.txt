@@ -2102,7 +2102,7 @@ idlixku.com#$##dooplay_player_overlay { display: none !important; }
 idlixku.com#$##adblock-modal-wrapper { display: none !important; }
 idlixku.com#$##dt_contenedor { filter: none !important; pointer-events: auto !important; }
 idlixku.com#$##adblock-modal { display: none !important; }
-idlixku.com#$#html, body { overflow: auto !important; }
+idlixku.com#$#html, body { overflow: visible !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/214159
 arahcloud.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
