@@ -4533,6 +4533,12 @@ semprot.com##.f_floating_div
 176.119.30.88###tv-play
 176.119.30.88##.footer1
 duniaku.idntimes.com##amp-script[script="parallax-script"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/230014
+||idlixku.com/idlix.xml
+||idlixku.com/api/watch/vast
+idlixku.com#%#//scriptlet('prevent-window-open')
+idlixku.com#%#//scriptlet('json-prune', 'ads preroll surfaceAds')
+idlixku.com#%#(()=>{const r={apply:(r,t,a)=>{try{a[0].ads&&(a[0].ads.preroll=!1,a[0].ads.vastUrl="/")}catch(r){}return Reflect.apply(r,t,a)}};window.JSON.stringify=new Proxy(window.JSON.stringify,r)})();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/217995
 [$domain=/^kiryuu0\d+\.com/]##div[class*=" ads-"] > a > img
 [$domain=/^kiryuu0\d+\.com/]#%#//scriptlet('prevent-window-open')

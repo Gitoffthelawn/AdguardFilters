@@ -471,8 +471,9 @@
 @@||mynameiscanavar.site/embed/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211916
 @@||ppzj-youtube.cfd/play/$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/211846
-@@||srv.*/*/*.png$stealth=referrer,domain=vctplay.site
+! https://github.com/AdguardTeam/AdguardFilters/issues/230069
+@@||srv.*/*/*.png$xmlhttprequest,stealth=referrer
+@@||s*/cdn/down/*.jpg$xmlhttprequest,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211752
 @@||passport.baidu.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211225
@@ -696,11 +697,13 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199975
 @@||mgsearcher.com/api/$stealth=referrer
 @@||*mh.online/*.webp$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/230290
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208490
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199918
 @@||imgs-2.virus2hub.com^$image,stealth=referrer
-@@||imgs-2.2xstorage.com$image,stealth=referrer
+@@||imgs-2.2xstorage.com^$image,stealth=referrer
 @@||img-r1.2xstorage.com^$image,stealth=referrer
+@@||img-r2.2xstorage.com^$image,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199781
 @@||polaris.yammer.com/suite_nav.json$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199602
