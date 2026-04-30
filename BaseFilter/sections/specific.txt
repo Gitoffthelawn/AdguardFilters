@@ -948,7 +948,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
-woodstocksentinelreview.com##.widget--local-business
+theprovince.com,woodstocksentinelreview.com,edmontonjournal.com##.widget--local-business
 willyweather.com.au##figure[data-ad-type]
 /wp-content/themes/*/assets/js/fun.js$domain=javdock.com|bestjavporn.com|javhdporn.com|javhdporn.net
 lewdzone.com##.notice-text
@@ -4590,7 +4590,6 @@ newindianexpress.com##.home-page > div > div > div[style="min-height: 50px;"]:ha
 wordmark.it##.PrimisPlayer
 quins.us###mgStickyBanner
 metro.co.uk##.post-grid__posts > div.post-grid__item:has(span.metro-signpost-ad-feature)
-edmontonjournal.com##.widget--local-business
 neomagazine.com##div[id^="maxmag_ad"]
 neomagazine.com###footer-top-wrapper
 entrackr.com##div.banner_slot_image_div
