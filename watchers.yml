@@ -11,6 +11,7 @@ sites:
   iNat TV (inattv*.xyz):
     initial_domain: inattvgiris.one
     last_known_mirror: inattv1298.xyz
+    force_search_ahead: true
     probe_text:
       - mainVideoContainer
     last_seen: 2026-04-29
