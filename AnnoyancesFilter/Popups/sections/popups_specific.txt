@@ -480,7 +480,7 @@ desport.ru##div[class^="PopupProductComponent_"]
 faceit.com#?##__next__modal_root__ > div[class^="style__Holder-"]:has(> div:contains(Sign in for the full experience))
 stuff.tv#%#//scriptlet('set-cookie', 'hustle-hide-module-1', '1')
 nps.gov###touchpoints-survey
-heyrooted.com##div[id^="alia-root-"]:has(> [id^="alia-popup"])
+furyou.com,heyrooted.com##div[id^="alia-root-"]:has(> [id^="alia-popup"])
 at-jinji.jp###footerBannerWrap
 fxstreet.com###tracking-gtm-global-alert
 realting.com###popupOffer
