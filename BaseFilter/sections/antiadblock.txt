@@ -1632,7 +1632,7 @@ hitslink.xyz###adblock-overlay
 bigshare.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/224412
 ! filemoon antiadb reproducible on frequent refresh
-f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
+398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/224416
 @@||manhuarmtl.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/224091
