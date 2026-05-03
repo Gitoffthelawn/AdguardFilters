@@ -1434,6 +1434,7 @@ mob.hr##.side_banner
 !
 ! NOTE: Czech and Slovakian
 !
+playarcady.com###content-placeholder > div[style^="position: absolute; z-index: 9999; top: 0px; left: 0px;"]
 fxstreet.cz##.partners-wrap
 fxstreet.cz##.ad-top-wrap
 fxstreet.cz##.adsplaceholder
