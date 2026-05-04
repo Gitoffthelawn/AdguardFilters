@@ -4632,10 +4632,9 @@ aeg.de#@#.CookieConsent
 @@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=gamespot.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54384
 gamespot.com#@##onetrust-consent-sdk
+! https://github.com/AdguardTeam/AdguardFilters/issues/230153
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54225
-@@||sdk.privacy-center.org/loader.js$domain=nieuwsblad.be
-@@||sdk.privacy-center.org/sdk.*.js$domain=nieuwsblad.be
-@@||sdk.privacy-center.org/ui-gdpr-nl.*.js$domain=nieuwsblad.be
+@@||sdk.privacy-center.org/*.js$domain=nieuwsblad.be
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54076
 freeyou.ag#@##cookie-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53992
