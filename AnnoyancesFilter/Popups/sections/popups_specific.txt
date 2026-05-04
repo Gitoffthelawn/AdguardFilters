@@ -43,6 +43,7 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+tokyo-calendar.jp###overlayBanner
 mexc.com#%#//scriptlet('trusted-click-element', '.ant-modal-v2-content > button.ant-modal-v2-close')
 mexc.com##div[class^="bouns-banner_container__"]
 mexc.com###remote-advertisement-bar
