@@ -1252,6 +1252,9 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/230011
+avnsgames.com#%#//scriptlet('prevent-setTimeout', 'adblockDetected')
+avnsgames.com#%#//scriptlet('abort-on-property-read', 'fuckAdBlock')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230448
 metabot.gg#%#//scriptlet('set-constant', 'nitroAds.abp', 'true')
 metabot.gg#%#//scriptlet('prevent-addEventListener', 'np.detect', 'detail.blocking')
