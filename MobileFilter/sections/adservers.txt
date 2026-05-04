@@ -468,6 +468,7 @@
 ||mobondhrd.appspot.com^
 ||api.ads.newsdigest.jp^
 ||mobi.yanosik.pl^
+||mobileadvertiser.yanosik.pl^
 ||videoads-cloud.rovio.com^
 ||vmap.v.ad-generation.jp^
 ||iyes.youku.com^
