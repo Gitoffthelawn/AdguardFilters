@@ -3404,8 +3404,8 @@ urbanize.city#$#body { overflow: auto !important; padding-right: 0 !important; }
 urbanize.city#$#.newsletter-signup-modal { display: none !important; }
 urbanize.city#$#.modal-backdrop { display: none !important; }
 psm7.com##.psm-telegram-container
-nolaadore.com#$?#.fancybox-overlay { display: none !important; }
-nolaadore.com#$?#body { overflow: auto !important; }
+gardendesign.com,nolaadore.com#$?#.fancybox-overlay { display: none !important; }
+gardendesign.com,nolaadore.com#$?#body { overflow: auto !important; }
 nolaadore.com#$?#html { overflow: auto !important; }
 vosveteit.zoznam.sk##.entry-content > section.post-banner
 aufeminin.com##.news-letter-form
