@@ -4280,8 +4280,8 @@ net-s.pl##.cookie_info_n
 domneo.pl##div[class^="GDPRPopup"]
 ups.com.tr##.cookie-pol
 app.spendee.com#%#//scriptlet('set-cookie', 'cbpolicy', 'true')
-schroeder-bauzentrum.de#$##usercentrics-root { display: none !important; }
-schroeder-bauzentrum.de#%#//scriptlet('remove-class', 'overflowHidden', 'body')
+stadt.muenchen.de,schroeder-bauzentrum.de#$##usercentrics-root { display: none !important; }
+stadt.muenchen.de,schroeder-bauzentrum.de#%#//scriptlet('remove-class', 'overflowHidden', 'body')
 mvideo.ru#$#mvid-global-container > mvid-modals-container:has(mvid-modal div.modal-layout span.mobile-notification__text-cookie) { display: none !important; }
 mvideo.ru#$#body.disable-body-scrolling { position: static !important; overflow: auto !important; }
 pekao.com.pl###cookies-popup-container
