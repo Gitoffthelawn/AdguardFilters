@@ -1528,6 +1528,12 @@ extra.cz##[data-advert-container]
 rychlost.cz##.t-ban
 olympijskytym.cz##div.bg-texture:has(> div[class^="ad-"])
 akcniceny.cz,autojournal.cz,idos.cz,impuls.cz,lidovky.cz,idnes.cz,expres.cz,antiyoutuber.cz##body .r-main
+! https://github.com/AdguardTeam/AdguardFilters/issues/230488
+ewrc.cz#%#//scriptlet('prevent-navigation', '/adblock-detected')
+ewrc.cz#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
+ewrc.cz#%#(()=>{const e={apply:(e,t,c)=>{try{const e=c[1],t=c[2];"redirectToAdblockDetected"===e&&"function"==typeof t?.value&&(c[2].value=()=>{})}catch(e){}return Reflect.apply(e,t,c)}};window.Object.defineProperty=new Proxy(window.Object.defineProperty,e)})();
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ewrc.cz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/224190
 horoskopy.cz#%#//scriptlet('abort-on-property-write', 'shaman')
 horoskopy.cz#%#//scriptlet('json-prune', '*', '*.*.zoneId')
