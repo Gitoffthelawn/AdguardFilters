@@ -85,6 +85,10 @@ cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,sma
 !
 ! NOTE: Specific rules
 !
+foodnavigator.com##.share-bar-buttons
+igroray.ru##.product-controls__button--shared
+youtube.com##.icon-share_arrow
+arcticwolf.com##.elementor-widget-heading[data-widget_type="heading.default"]:has(+ .elementor-widget-share-buttons)
 espncricinfo.com##.ds-flex > div.ds-flex:has(> div.ds-popper-wrapper > div.ds-flex > i.icon-share-outlined)
 gamingonlinux.com##.article_list_social_media
 suzuri.jp##.share-area
@@ -5370,7 +5374,7 @@ cojicaji.jp##.article-footer__sns
 xiaomitime.com,xiaomiui.net##.share_float_container
 cepa.org##.home-news2
 jalan.net##.jln-btn-share
-anglers.jp,sketch.pixiv.net,scientificrussia.ru,htmlgames.com,carscoops.com,meteoblue.com,regnum.ru,vashotel.ru,axolot.mave.digital,stopcor.org,life4me.plus,obrazovaka.ru,myabandonware.com,winporn.net,earthsight.org.uk,1news.az,mahjong.com,zabkagroup.com,buy.line.me,hromadske.radio,intellinews.com,zaochnik.ru##.socials
+ishiguro-gr.com,anglers.jp,sketch.pixiv.net,scientificrussia.ru,htmlgames.com,carscoops.com,meteoblue.com,regnum.ru,vashotel.ru,axolot.mave.digital,stopcor.org,life4me.plus,obrazovaka.ru,myabandonware.com,winporn.net,earthsight.org.uk,1news.az,mahjong.com,zabkagroup.com,buy.line.me,hromadske.radio,intellinews.com,zaochnik.ru##.socials
 corp.rakuten.co.jp##.snsSharing
 books.rakuten.co.jp##.itemSocialBtn
 sport-express.ru##div[class^="se-shareblock"]
@@ -8250,7 +8254,7 @@ mp3.pm##.onesongblock-end > div.ctr-minibtn
 freedert.online,rtde.life,de.rt.com,actualidad.rt.com##.ShareBlock-isReact
 administrator.de###content-share-menu
 legav.ru##.qw-shareall
-canalrural.com.br##.eapps-social-share-buttons
+henricocitizen.com,canalrural.com.br##.eapps-social-share-buttons
 tasteandtellblog.com##.basic-social-share-buttons
 utro.ru,hola.com,vz.ru##.news__social
 news.mtv.it##.socicon-container
