@@ -1252,6 +1252,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/230655
+||toolxox.com/js/sweet_alert.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230593
 ||play.gamepix.com/player/assets/js/prebid.js$script,redirect=noopjs,domain=play.gamepix.com
 ||api.adinplay.com/libs/aiptag/*/tag.min.js$script,redirect=noopjs,domain=play.gamepix.com
@@ -7038,10 +7040,6 @@ nagarlyricshub.blogspot.com#%#//scriptlet("abort-current-inline-script", "EventT
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114814
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imagetotext.info
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=imagetotext.info
-! https://github.com/AdguardTeam/AdguardFilters/issues/113418
-toolxox.com#%#//scriptlet("abort-current-inline-script", "document.createElement", "adblock")
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_*.js$domain=toolxox.com
 ! https://github.com/bogachenko/fuckfuckadblock/issues/296
 adinserter.pro#@##banner-advert-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116173
