@@ -24,6 +24,8 @@ kltutors.com,eloutput.com,mundobytes.com,techondicas.com,jornalrepercussao.com.b
 !
 ! NOTE: Specific rules
 !
+hqerotico.com##.lista li:has(> div.thumb-conteudo > a[itemprop="URL"][target="_blank"])
+||hqerotico.com/open.js
 paste4free.site##.post__header > a[target="_blank"]
 muycomputerpro.com,muycomputer.com##.theiaStickySidebar > .mvp-side-widget:has(a > img)
 folhadelondrina.com.br##.ad-intext
@@ -421,7 +423,7 @@ mega.cl###container-itt
 mega.cl###stickyunit_dsk
 andro4all.com,alfabetajuega.com,urbantecno.com,mundodeportivo.com,lavanguardia.com,2trendies.com,ipadizate.com##.ad-div
 /ssm.js$domain=andro4all.com|alfabetajuega.com|urbantecno.com
-pelisxporno.net##.tracking-btn
+freehentai.com.es,pelisxporno.net##.tracking-btn
 videoskaseros.com##.bntop
 videos.mrvideospornogratis.xxx##.shaka-player-toolbar
 videos.mrvideospornogratis.xxx#%#//scriptlet('prevent-window-open')
