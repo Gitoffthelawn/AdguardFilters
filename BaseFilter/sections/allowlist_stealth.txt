@@ -25,12 +25,20 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/230704
+@@||walmart.com^$stealth=flash
+! https://github.com/AdguardTeam/AdguardFilters/issues/230705
+@@||iherb.com^$stealth=useragent
+! https://github.com/AdguardTeam/AdguardFilters/issues/230716
+@@||cartaocontinente.pt^$stealth=flash
+! https://github.com/AdguardTeam/AdguardFilters/issues/230670
+@@||codeberg.org^$stealth=ip|useragent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230628
 @@||shop.getthefuturist.com^$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230334
 @@||forms.tildaapi.com/payment/promocode/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230565
-@@||eslite.com^$stealth=flash
+@@||eslite.com^$stealth=flash|java
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230272
 @@||gw.cds.amcn.com/auth-orchestration-id/api/$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230279
@@ -3216,6 +3224,8 @@
 ! https://github.com/AdguardTeam/CoreLibs/issues/1645
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 !
+@@||goldenergy.pt^$stealth=dpi
+@@||nsl.pincrux.com^$stealth=dpi
 @@||tvp.pl^$stealth=dpi
 @@||tvpworld.com^$stealth=dpi
 @@||ticket.yes24.com^$stealth=dpi
