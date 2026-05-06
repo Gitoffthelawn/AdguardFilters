@@ -950,6 +950,7 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+thewhig.com##.epaper-widget
 javbee.vip,javbee.co,javbee.*#%#//scriptlet('prevent-window-open')
 javbee.vip,javbee.co,javbee.*#%#//scriptlet('prevent-addEventListener', 'click', 'popup')
 euronews.com##div[class*="u-show-for"]
@@ -1065,7 +1066,7 @@ athlonsports.com##div[style="display:flex;flex-direction:column;gap:16px"]
 athlonsports.com##.card-grid > div[style="margin-bottom:24px"]
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=open.video,important
 jpopsingles.eu##[src="/ddl/dl-link.png"]
-pinchercreekecho.com,prrecordgazette.com,leducrep.com,thebeaumontnews.ca,fortmcmurraytoday.com,edmontonsun.com,edmontonexaminer.com,devondispatch.ca,dailyheraldtribune.com,calgarysun.com,calgaryherald.com,airdrieecho.com,thecragandcanyon.ca,thebeaumontnews.ca,cochranetimes.com,leaderpost.com,thestarphoenix.com,ottawasun.com,draytonvalleywesternreview.com,highrivertimes.com,stonyplainreporter.com,vulcanadvocate.com,theprovince.com,woodstocksentinelreview.com,edmontonjournal.com##.widget--local-business
+thewhig.com,pinchercreekecho.com,prrecordgazette.com,leducrep.com,thebeaumontnews.ca,fortmcmurraytoday.com,edmontonsun.com,edmontonexaminer.com,devondispatch.ca,dailyheraldtribune.com,calgarysun.com,calgaryherald.com,airdrieecho.com,thecragandcanyon.ca,thebeaumontnews.ca,cochranetimes.com,leaderpost.com,thestarphoenix.com,ottawasun.com,draytonvalleywesternreview.com,highrivertimes.com,stonyplainreporter.com,vulcanadvocate.com,theprovince.com,woodstocksentinelreview.com,edmontonjournal.com##.widget--local-business
 leaderpost.com,thestarphoenix.com,draytonvalleywesternreview.com,highrivertimes.com,stonyplainreporter.com,vulcanadvocate.com,ottawasun.com,ottawacitizen.com,calgarysun.com,ontariofarmer.com,tj.news,thestarphoenix.com,leaderpost.com,edmontonsun.com,driving.ca,calgaryherald.com,theprovince.com,canoe.com,financialpost.com##section[aria-describedby^="advertisment"]
 cybersecuritynews.com##.td-post-content > p.has-background:has(a[href^="https://any.run/"])
 ||guessthe.game/ads/
