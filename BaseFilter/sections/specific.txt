@@ -949,6 +949,8 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+javbee.vip,javbee.co,javbee.*#%#//scriptlet('prevent-window-open')
+javbee.vip,javbee.co,javbee.*#%#//scriptlet('prevent-addEventListener', 'click', 'popup')
 euronews.com##div[class*="u-show-for"]
 euronews.com##aside > div[class*="o-article-newsy__aside__content-"]:has(> div[class*="u-show-for"])
 euronews.com##.b-sponsored-content
