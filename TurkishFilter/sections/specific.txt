@@ -1939,7 +1939,7 @@ haberler.com##iframe[width="970"][height="250"]
 ||korku.tv^$third-party,script
 kamudanhaber.net##a[title="plugins.advert::advert.widget_advertising"]
 okultanitimi.net##[id^="reklamokul"]:not(#reklamokul2)
-zamaninvarken.com###custom_html-6
+aydinhavadisleri.com,zamaninvarken.com###custom_html-6
 defenceturk.net###custom_html-4
 milliyet.com.tr##p > a[href*="&utm_medium="][href*="&utm_campaign="][target="_blank"] > img
 ||i2.milimaj.com/i/milliyet/75/770x0/61efcb5686b24a11e046229a.jpg$domain=milliyet.com.tr
@@ -2226,7 +2226,7 @@ ajansspor.com##.news__bottom
 ajansspor.com##.btcturk__banner
 ajansspor.com##.big-point__status-rk
 siirtolayhaber.com,bursayadairhersey.com,surajans.com,kriptoparahaber.com##.kanews_widget_ads
-gazetecorlu.com,kriptokoin.com,veryansintv.com,surajans.com,kriptoparahaber.com,coinotag.com##.kanews-banner
+aydinhavadisleri.com,gazetecorlu.com,kriptokoin.com,veryansintv.com,surajans.com,kriptoparahaber.com,coinotag.com##.kanews-banner
 ||static.haber8.pro/reklam8.js
 solidshare.net###babaslik
 diziboxx.com##.dbx-head-full
@@ -4864,8 +4864,8 @@ turkifsaclub.org#?#main > h3:contains(Sponsor Bannerlar)
 [$domain=/turkifsaclub\d+\.sbs/]##.ads-grid
 [$domain=/turkifsaclub\d+\.sbs/]#?#main > h3:contains(Sponsor Bannerlar)
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-turkifsaclub116.sbs##.ads-grid
-turkifsaclub116.sbs#?#main > h3:contains(Sponsor Bannerlar)
+turkifsaclub117.sbs##.ads-grid
+turkifsaclub117.sbs#?#main > h3:contains(Sponsor Bannerlar)
 !#endif
 !
 ! Frequently changed domains: yavasgir*.com
@@ -5287,9 +5287,9 @@ hdselcuksports368.top#%#//scriptlet('prevent-window-open')
 [$domain=/belestepe\d+\.sbs/]##div[data-isbd-main-container] > section > div.hidden-xs.text-center
 [$domain=/belestepe\d+\.sbs/]#%#//scriptlet('set-constant', 'config.advertisement.enabled', 'false')
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-belestepe534.sbs##div[data-isbd-main-container] > section > div.hidden-xs.text-center
-belestepe534.sbs#%#//scriptlet('set-constant', 'config.advertisement.enabled', 'false')
-||video.twimg.com/amplify_video/*/vid/*.mp4$domain=belestepe534.sbs
+belestepe554.sbs##div[data-isbd-main-container] > section > div.hidden-xs.text-center
+belestepe554.sbs#%#//scriptlet('set-constant', 'config.advertisement.enabled', 'false')
+||video.twimg.com/amplify_video/*/vid/*.mp4$domain=belestepe554.sbs
 !#endif
 !
 ! Frequently changed domains: izlemac*.sbs
@@ -5822,11 +5822,11 @@ hdfilmcehennemi27.org#$#body { background-image: none !important; cursor: auto !
 [$domain=/inattv\d+\.xyz/]##div[style="position:fixed; bottom:0px; left:0; width:100%; text-align:center; z-index:999999;"]
 [$domain=/inattv\d+\.xyz/]#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', '/prerollEnabled:\s*true/', 'prerollEnabled:false')
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-inattv1302.xyz##.pageskin-wrapper > a[target="_blank"]
-||blogger.googleusercontent.com/img/$domain=inattv1302.xyz
-inattv1302.xyz##.ads-container
-inattv1302.xyz##div[style="position:fixed; bottom:0px; left:0; width:100%; text-align:center; z-index:999999;"]
-inattv1302.xyz#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', '/prerollEnabled:\s*true/', 'prerollEnabled:false')
+inattv1305.xyz##.pageskin-wrapper > a[target="_blank"]
+||blogger.googleusercontent.com/img/$domain=inattv1305.xyz
+inattv1305.xyz##.ads-container
+inattv1305.xyz##div[style="position:fixed; bottom:0px; left:0; width:100%; text-align:center; z-index:999999;"]
+inattv1305.xyz#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', '/prerollEnabled:\s*true/', 'prerollEnabled:false')
 !#endif
 ! aglint-disable no-invalid-modifiers
 !+ NOT_VALIDATE
