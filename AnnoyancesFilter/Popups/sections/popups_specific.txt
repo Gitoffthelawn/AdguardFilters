@@ -43,6 +43,8 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+nuovavenezia.it##div[data-sentry-component="AdvVideoVipSticky"]
+leawo.org###proPop
 pc.game.iqiyi.com##.home > .tips
 pc.game.iqiyi.com##.home > .bottom-right-corner
 youku.com#%#//scriptlet('set-cookie', '47002-ee936742-index', '1')
@@ -110,7 +112,7 @@ coinstats.app##.ask-ai-popup
 crosswalk.com,whiteflowerfarm.com#$#.preloaded_lightbox { display: none !important; }
 crosswalk.com,whiteflowerfarm.com#$#.fb_lightbox-overlay { display: none !important; }
 crosswalk.com,whiteflowerfarm.com#$#.box_active_disable_scrolling { overflow: auto !important; overscroll-behavior: auto !important; touch-action: auto !important; }
-sentinelcolorado.com##.newspack-popup-container
+gazettenet.com,sentinelcolorado.com##.newspack-popup-container
 ichip.ru##.subscriber
 ichip.ru##.tg-widget
 vesti.ru##.floating-controls
