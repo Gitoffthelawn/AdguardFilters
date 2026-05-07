@@ -60,8 +60,11 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
-tokyo-np.co.jp##div.l-container:has(> div.cmp-bnr001)
+limo.media#$?#.m-articles__item:has(> div.m-articles__img > a.toplink[data-event]) { remove: true; }
+limo.media##.m-articles__item:has(> div.m-articles__img > a.toplink[data-event])
+limo.media##a[data-event^="cospa_article_low_bnr_"]
 tokyo-np.co.jp##.cn_infeed
+purelovers.com##.k_purelovers-left > a.k_imageWrap--backHover:has(> span.k_badge-rightTop > span.k_text--small)
 purelovers.com##.k_banner--feature
 ||fishingjapan.jp/*/adv/
 nicola.jp##section[id^="banner-"]
