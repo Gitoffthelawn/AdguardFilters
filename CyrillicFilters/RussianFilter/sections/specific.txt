@@ -610,7 +610,7 @@ vuzopedia.ru###vsplyvokno
 vuzopedia.ru###nulol
 vuzopedia.ru##.mainReclame
 ||repack.me/uploads/posts/2025-02/1503.webp
-repack.me##.col-xs-12 > div.panel:has(> div.panel-body > p > a[href^="https://repack.me/waicore"])
+repack.me##.col-xs-12 > div.panel:has(> div.panel-body > a[href^="https://repack.me/waicore"])
 repack.me##.col-xs-12 > div.panel:has(> div.panel-body > p > a[href^="/neo"])
 repack.me#$#main > .container1 { padding-top: 0px !important; margin-top: 0px !important; }
 daily.afisha.ru##div[class^="PartnersNewsBlock_Block__"]
@@ -9927,7 +9927,7 @@ webware.ru/*/clients/
 ||youhack.ru/stz/
 ||youpk.ru/wp-content/uploads/2015/01/wm.jpg
 ||yourlifestyle.ru/ads*.js
-||youtube.com/embed/$domain=trashbox.mobi|simpsonsua.tv|androeed.ru|168.ru
+||youtube.com/embed/$domain=trashbox.mobi|simpsonsua.tv|168.ru
 ||youtube.com/embed/ygJTKDZPhCo$domain=7days-ua.com
 ||youtube.com/embed/d6rVjyAegA8?rel=$domain=sadikionline.ru
 ||youtube.com^$domain=kinotochka.club|topserial.online|kinorezka.com
