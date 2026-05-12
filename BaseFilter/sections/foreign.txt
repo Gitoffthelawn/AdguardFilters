@@ -716,6 +716,7 @@ auto.am##.azd-top
 ##.ainsyndication
 az##.makerekframe
 !
+||fed.az/upload/banners/$image
 mast.az##.xendev-top-banners
 caliber.az##.left_banner
 caliber.az##.top_banner
@@ -4138,6 +4139,7 @@ bb.is$$div[class="banner"]
 !
 ! NOTE: Indian
 !
+greatandhra.com##.entry-content > p > span[style] > strong a[href^="https://urthindia.com/"]
 hindustantimes.com##.inArticleAdCarouselWrapper
 ||affliate-api.hindustantimes.com^$xmlhttprequest
 indiaglitz.com##.mrb-banners-wrapper
@@ -4485,7 +4487,11 @@ indiatimes.com##.last8brdiv > div.sponsor_block
 ainzscans01.com##.ads-placement-shell
 ||sya.mbuh.my.id/siap/*-ainzscan.js
 ainzscans01.com##div[data-ads-placement-slot]
+||dicrotin.sbs/adgo.mp4$media,redirect=noopmp3-0.1s
+indopanas.cyou###overlay-wrap
+indopanas.cyou#%#//scriptlet('set-constant', 'prerollPlayed', 'true')
 indopanas.cyou#%#//scriptlet('set-constant', 'prerollActive', 'false')
+indopanas.cyou#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollPlayed', '/let (prerollPlayed|prerollActive)/g', 'var $1')
 moenime.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'ad_limit')
 moenime.com#$?#body > div[class]:not([id]) > dialog[class][open] { remove: true; }
 ngefilm.site##.idmuvi-afterplayer
