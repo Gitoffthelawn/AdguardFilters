@@ -57,6 +57,14 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+youtubetotranscript.com##.promo-modal-slot
+youtubetotranscript.com###bookmark-us-dialog
+hokkaido-np.co.jp##.hn-google-link
+hokkaido-np.co.jp###bnr_nl_b
+bsbfashion.com##.top-bar
+aakash.ac.in##.mkt-form-scroll
+pureinfotech.com##.inpost-newsletter
+france24.com##div[data-article-content] > div.t-content__body:has(> p > a[href="https://whatsapp.com/channel/0029VaoOiJc0gcfEHFjq5V2e"])
 birminghammail.co.uk##div[data-testid^="non-commercial-"]
 birminghammail.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk##a[data-testid="premium-button"][href="/subscribe"]
 birminghammail.co.uk,mirror.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk##section[class^="GooglePreferredSource_wrapper__"]
@@ -557,7 +565,7 @@ theproteinchef.co##.fl-module-pp-subscribe-form
 theproteinchef.co##header > div.fl-row:has(> div.fl-row-content-wrap div.fl-module-pp-subscribe-form)
 fragdenstaat.de##div[data-banner="bottomBanner"]
 fragdenstaat.de###main > section:has(> div.container h2#newsletter)
-chocolatewithgrace.com##div[data-ff-name="popupCardImage"]
+blesserhouse.com,chocolatewithgrace.com##div[data-ff-name="popupCardImage"]
 iheartnaptime.net##.mainsection:has(> .contentbox > .subscribeform)
 iheartnaptime.net###footer1:has(.subscribeform)
 sankei.com###piano_mailmag_ArticleSP
@@ -833,8 +841,9 @@ wearesolomon.com##.site-extras > p
 blog.swc.rs#%#//scriptlet('trusted-set-local-storage-item', 'seen-sign-up-modal', '{"value":"true"}')
 blog.swc.rs##.my-10:has(> div.flex > input[aria-label="Enter your email address"])
 teenvogue.com##div[class^="ContentFooterNewsletterContentWrapper-"]
+nytimes.com#$#body { overflow: auto !important; }
 nytimes.com#$#div[data-testid="onsite-messaging-unit-gateway"] { display: none !important; }
-nytimes.com#$#.vi-gateway-container { overflow: auto !important; }
+nytimes.com#$#.vi-gateway-container { overflow: auto !important; position: static !important; }
 yama.minato-yamaguchi.co.jp##div[style].connection_flex > .nl_box
 nara-np.co.jp##.newsletter-box
 bild.de##article:has(> a:only-child > figure > img[alt*="Newsletter"])
@@ -951,7 +960,7 @@ newsweek.com##section[class^="InlineNewsletterSignup_"]
 newsweek.com##div[class^="HpRightNewsletters_"]
 asahi.com##main.article > .magazine_entry
 f1oversteer.com###prop-audience-exit
-hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
 troyhunt.com###floating_subscribe
 troyhunt.com##.footer_subscription_block
 bitwarden.com###featured-highlight ~ div.flex:has(> div.mb-4 > div.contents > div.hubspot-form > div.hubspot-form-container > form[action^="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/"])
@@ -2931,7 +2940,7 @@ sinirotesigazetesi.org,jihadwatch.org,vridar.org,kevinstratvert.com#$#body { ove
 sinirotesigazetesi.org,jihadwatch.org,vridar.org,kevinstratvert.com#$#.jetpack-subscribe-modal { display: none !important; }
 m-strana.ru##.telegramSlide-block
 elle.com.hk##.block-default:has(> div.content-wrapper div.email-bar)
-groweatandrepeat.com,terrabrasilnoticias.com###block-18
+blesserhouse.com,groweatandrepeat.com,terrabrasilnoticias.com###block-18
 reform.news##.wpremark:has(> div.wpremark-body > div.wpremark-content > p > a[href="https://t.me/cult_front"])
 minimalistbaker.com##.vertical-subscribe
 minimalistbaker.com##img[alt="Get Our Fan Favorites eBook Here!"]
