@@ -148,6 +148,7 @@ it-administrator.de,formel1.de,krautundrueben.de,motorsport-total.com,traktorpoo
 !
 ! NOTE: Specific rules
 !
+haendlerbund.de###mainAdsBannerSection
 medikamente-per-klick.de###customBannerSlider
 werstreamt.es##.groupedResults > .no-bullet > .text-center:has(> .advLabel)
 justwatch.com##.offers.buybox-selector
@@ -651,6 +652,7 @@ movieblog.to##.code-block:not(.code-block-1)
 movieblog.to#%#//scriptlet('abort-on-property-write', 'stagedPopFrequency')
 babycenter.de##.rightRailAdWrapper
 babycenter.de###leaderboardContainer
+dslr-forum.de##.message--post[data-author="Anzeige"]
 dslr-forum.de##div[class^="zentriert"]:has(> div[id^="div-gpt-"])
 dslr-forum.de##.message-body > div[style^="float:"][style*="left"][style*="min-height:"]
 justetf.com###shadow-etfsearch-ad
