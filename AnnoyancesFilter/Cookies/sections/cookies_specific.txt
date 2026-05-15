@@ -374,6 +374,8 @@ cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][dat
 !
 ! NOTE: Regular rules
 !
+arena.ai#%#//scriptlet('trusted-click-element', 'div[data-state="open"] > div > button', 'containsText:Accept Cookies')
+stepik.org#%#//scriptlet('set-local-storage-item', 'stepik.org:use-cookies-confirmed', 'true')
 detect.expert###accept-cookies
 service.justiz.de##section[data-testid="cookie-banner"]
 btsearch.pl###root > div[role="dialog"]:is([aria-label="Używamy plików cookie"], [aria-label="We use cookies"])
@@ -703,7 +705,7 @@ au.ru##div[id^="cookie-question_"]
 history.com#%#//scriptlet('trusted-click-element', 'body > div[data-sentry-source-file="box.tsx"] div[data-sentry-source-file="box.tsx"]:has(a[href="http://www.aegm.com/consumer-terms-of-use"]) ~ button', '!cookie:AETN-TOU')
 ||pwr.edu.pl/assets/js/privacy.js
 mirpizzy.com##.v-cookie-notification
-59.ru##.notify-messages-popups
+msk1.ru,59.ru##.notify-messages-popups
 tabelaofert.pl##div[class*="cookiesBanerWrapper"]
 umk.pl##.info-o-ciasteczkach
 my.club#%#//scriptlet('trusted-set-cookie', 'cookiesReminder', '$currentISODate$')
@@ -797,7 +799,6 @@ abetterrouteplanner.com,eyou.social,getedumail.com,digiparser.com,gemini.com##di
 ||assetlab.io/consent^$domain=theweeknd.co
 kolobrzeg.info.pl#$#html.disable--interaction.show--consent { overflow: auto !important; }
 wishmaster.me###js_policy-cookie
-perplexity.ai#%#//scriptlet('set-cookie', 'pplx.trackingAllowed', 'false')
 ullstein.de#%#//scriptlet('trusted-click-element', 'div[aria-label="Cookies akzeptieren oder anpassen"] button', 'containsText:Alle Cookies ablehnen', '1000')
 matterport.com##div[class^="CookieModal_CookieModal"]
 we-conect.com#%#//scriptlet('trusted-set-cookie', 'gdpr', '%7B%22essential%22%3Atrue%2C%22marketing%22%3A%7B%22googleAnalytics%22%3Afalse%2C%22mailTracking%22%3Afalse%7D%2C%22externalMedia%22%3A%7B%22youtube%22%3Atrue%2C%22vimeo%22%3Atrue%7D%7D')
@@ -1067,7 +1068,7 @@ narita-airport.jp#%#//scriptlet('set-cookie', 'company_gdpr_accept', '1')
 teamdeutschland.de###ikanos-privacy-cookielayer
 anton-paar.com###cookie-policy-shadow
 jgc.com###cookie_contents
-store.apujan.com,bodyvine.store,buy.artso.com.tw,buy.gugugoo.com,candybox.com.tw,petshop.tw.virbac.com,shop.coffeebox.tw,shop.goodyoung.info,shop.kky.com.tw,shop.klight.com.tw,shop.singen.com.tw,shop.sstandc.com,shopping.hands.com.tw,store.barftaiwan.com,1966go.com.tw,aigle-taiwan.com.tw,aingyea.com.tw,ajiangshi.com,alasha.com.tw,aroma-housewares.tw,asics.com.tw,aura-cosmetics.com.tw,blueway-jeans.com,byhue-official.com,celesteterry.com.tw,chensmochi.com.tw,columbiasportswear.com.tw,dk-shoes.com.tw,drmay.com.tw,eat120.com.tw,eatbliss.com.tw,eelee.com.tw,eglaf.com.my,ehobby.com.tw,ewear.com.tw,fansfassiii.com,fbshop.com.tw,fevrier.com.tw,footer.com.tw,ftvmall.com.tw,ganso.com.tw,ginkgolin.com,guwang.com.tw,hjfood.com.tw,iqueen.com.tw,jacklinghair.com.tw,jasonfood.com.tw,kipling.com.tw,kurumira.com.tw,kyosho.tw,ladies.tw,lichuan.tw,lottosport.com.tw,manfair-se.com,myselect.com.tw,mysimply.tw,opitaiwan.com,poyabuy.com.tw,premierfood.com.hk,profi46.com,puzzleplanet.com.my,sasa.com.hk,shingfangpastry.com,shop0315.com.tw,sky-blue.com.tw,so-nice.com.tw,soloneshop.com.tw,spp.com.tw,starbeauty.com.tw,takoda-active.com,tcsb.com.tw,tgtg.com.tw,thenorthface.com.tw,timberland.com.tw,tokuyo.com,tomor.com,touched.com.tw,well-come.com.tw,woawoa.com.tw,wyteshop.com,xexymix.com.tw,easycard.suhul.com.tw,hunter.brandedlifestyle.com,mall.e-muse.com.tw,shop.5soap.com,shop.atunas.com.tw,shop.seamild.com.tw,shop.skechers-twn.com,shop.wacoal.com.tw,store.2ndstreet.com.tw,store.eurocafe.com.tw,abyssebeauty.com.tw,arnoldpalmer-apparel.com,ausupreme.com,cipu.com.tw,ctbcflyingoyster.com,deya.tw,discovery-expedition.com.hk,doga.com.tw,dot-st.tw,e-hilltop.com,efuji.com.tw,elleactive.com.tw,esnie.com.tw,fet.com.tw,hoihome.tw,hwccoffee-shop.com,ispo.com.tw,joyce-mall.com,kaldi.tw,kedstaiwan.com,kokko.com.tw,kuaiche.com.tw,larrieconceptstore.com,lbd.com.tw,levis.com.tw,mlb-korea.com.tw,nushoptw.com,obdesign.com.tw,peachjohn.com.hk,ps-company.com.tw,ricians.tw,roots.com.tw,stand-collection.com,stripe-club.com.tw,tiaratiara.com.tw,tkfood.com.tw,truu.tw,trygogo.com,my.melvita.com,cafein.com.tw,app.arwin.com.tw,tw.puma.com,adidas.com.tw,beldora.com.tw,boardriders.com.tw,combi.com.tw,hh-taiwan.com.tw,itsuworldhk.com,jsstore.com.tw,m2.com.tw,medfirst.com.tw,onitsukatiger.com.tw,saime.com.tw,underarmour.tw,whose-books.com,myacgmall.com.tw,solhelmets.com,willmusic.com.tw,shop.showba.com.tw,mart.family.com.tw#%#//scriptlet('set-cookie', 'allowGetPrivacyInfo', 'true')
+vans.com.tw,thebodyshop.com.hk,solhelmets.com,snowpeak.com.tw,peachjohn.com.tw,momentum.com.tw,magy.com.tw,looder.com.tw,leejeans.com.tw,hme.tw,dot-st.tw,cocochicosme.com.tw,cinquain.com.tw,bioderma-naos.com.tw,bcqueen.com,barbourtaiwan.com,74oz.com.tw,teascovery.com,muji.tw,hengstyle.com,cwbook.com.tw,cosmed.com.tw,sunmaigroup.com,hk.puma.com,jv3c.com,store.apujan.com,bodyvine.store,buy.artso.com.tw,buy.gugugoo.com,candybox.com.tw,petshop.tw.virbac.com,shop.coffeebox.tw,shop.goodyoung.info,shop.kky.com.tw,shop.klight.com.tw,shop.singen.com.tw,shop.sstandc.com,shopping.hands.com.tw,store.barftaiwan.com,1966go.com.tw,aigle-taiwan.com.tw,aingyea.com.tw,ajiangshi.com,alasha.com.tw,aroma-housewares.tw,asics.com.tw,aura-cosmetics.com.tw,blueway-jeans.com,byhue-official.com,celesteterry.com.tw,chensmochi.com.tw,columbiasportswear.com.tw,dk-shoes.com.tw,drmay.com.tw,eat120.com.tw,eatbliss.com.tw,eelee.com.tw,eglaf.com.my,ehobby.com.tw,ewear.com.tw,fansfassiii.com,fbshop.com.tw,fevrier.com.tw,footer.com.tw,ftvmall.com.tw,ganso.com.tw,ginkgolin.com,guwang.com.tw,hjfood.com.tw,iqueen.com.tw,jacklinghair.com.tw,jasonfood.com.tw,kipling.com.tw,kurumira.com.tw,kyosho.tw,ladies.tw,lichuan.tw,lottosport.com.tw,manfair-se.com,myselect.com.tw,mysimply.tw,opitaiwan.com,poyabuy.com.tw,premierfood.com.hk,profi46.com,puzzleplanet.com.my,sasa.com.hk,shingfangpastry.com,shop0315.com.tw,sky-blue.com.tw,so-nice.com.tw,soloneshop.com.tw,spp.com.tw,starbeauty.com.tw,takoda-active.com,tcsb.com.tw,tgtg.com.tw,thenorthface.com.tw,timberland.com.tw,tokuyo.com,tomor.com,touched.com.tw,well-come.com.tw,woawoa.com.tw,wyteshop.com,xexymix.com.tw,easycard.suhul.com.tw,hunter.brandedlifestyle.com,mall.e-muse.com.tw,shop.5soap.com,shop.atunas.com.tw,shop.seamild.com.tw,shop.skechers-twn.com,shop.wacoal.com.tw,store.2ndstreet.com.tw,store.eurocafe.com.tw,abyssebeauty.com.tw,arnoldpalmer-apparel.com,ausupreme.com,cipu.com.tw,ctbcflyingoyster.com,deya.tw,discovery-expedition.com.hk,doga.com.tw,dot-st.tw,e-hilltop.com,efuji.com.tw,elleactive.com.tw,esnie.com.tw,fet.com.tw,hoihome.tw,hwccoffee-shop.com,ispo.com.tw,joyce-mall.com,kaldi.tw,kedstaiwan.com,kokko.com.tw,kuaiche.com.tw,larrieconceptstore.com,lbd.com.tw,levis.com.tw,mlb-korea.com.tw,nushoptw.com,obdesign.com.tw,peachjohn.com.hk,ps-company.com.tw,ricians.tw,roots.com.tw,stand-collection.com,stripe-club.com.tw,tiaratiara.com.tw,tkfood.com.tw,truu.tw,trygogo.com,my.melvita.com,cafein.com.tw,app.arwin.com.tw,tw.puma.com,adidas.com.tw,beldora.com.tw,boardriders.com.tw,combi.com.tw,hh-taiwan.com.tw,itsuworldhk.com,jsstore.com.tw,m2.com.tw,medfirst.com.tw,onitsukatiger.com.tw,saime.com.tw,underarmour.tw,whose-books.com,myacgmall.com.tw,solhelmets.com,willmusic.com.tw,shop.showba.com.tw,mart.family.com.tw#%#//scriptlet('set-cookie', 'allowGetPrivacyInfo', 'true')
 properstar.co.uk#%#//scriptlet('trusted-click-element', '.consent .btn-outline-secondary, .consent-settings-modal-content .consent-buttons .btn-primary', '', '1500')
 gzt.com#%#//scriptlet('set-cookie', 'kvkk-accepted', 'true')
 letgo.com##.consent-banner-wrapper
@@ -11517,7 +11518,7 @@ orbisana.de#$#.reveal-overlay { display: none!important; }
 orbisana.de#$#html { position: static!important; }
 blog.remarkable.com,medium.com,blog.sikayetvar.com##.butterBar--CCPA
 juliazoid.com,writingcooperative.com,pub.towardsai.net,blog.sikayetvar.com,blog.musixmatch.com##body > div#root ~ div:not([class]):not([id]) > div[class*=" "]
-sekersigorta.com.tr,newtoncompton.com,openuserjs.org,oses.com.tr,turklab.com.tr,sanalmagaza.droetker.com.tr,discounto.de,damelibros.com##.alert-dismissible
+sekerleasing.com.tr,sekeryatirim.com.tr,sekersigorta.com.tr,newtoncompton.com,openuserjs.org,oses.com.tr,turklab.com.tr,sanalmagaza.droetker.com.tr,discounto.de,damelibros.com##.alert-dismissible
 generali.com.tr##.kvk-footer
 sonnenapotheke-hauenstein.de,apoase.de,apotheke-marienbrunn.de###cookie-message ~ .design
 inbox.com.tr,alsatkitap.com##.cerez-politikasi
