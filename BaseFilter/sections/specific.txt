@@ -957,6 +957,9 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+||topfaps.com/tantaly4.gif.mp4
+topfaps.com##.koukoku_1
+xvideos.es,xvideos.com,xnxx.*,xv-ru.com,xnxx-ru.com##.e-banner-game
 road.cc##.offroad-ad-top
 road.cc##.bs-articles-topleader
 /tag/exp/recirc/tag.js$domain=golf365.com|football365.com
@@ -1935,7 +1938,7 @@ bscscan.com##.search-panel-ads
 solscan.io#?#div.items-stretch.shrink-0 > .box-border:has(> div.dark\:shadow-mDark > div.flex:contains(Sponsored))
 solscan.io#?##top-tx-overview > div.gap-y-0.items-stretch:has(> div > div.flex-wrap.justify-start:contains(Sponsored))
 etherscan.io,basescan.org#?#div.dropdown > div.dropdown-menu:contains(Sponsored)
-viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
+krx18.com,sht-link.com,viduro.top,vindaz.shop,xca.cymru,uiil.ink,pornwex.tv,manhuarmtl.com,vidara.to,vidara.so,krakenfiles.com,streamix.so,livecamrips.*#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 rxbabu.com##.flotiads
 link.snipcash.com$$script:contains(urlPC)
 link.snipcash.com#%#//scriptlet('remove-node-text', 'script', 'urlPC')
@@ -4516,6 +4519,7 @@ shrib.com#%#//scriptlet('prevent-element-src-loading', 'script', 'cdn.taboola.co
 ||shrib.com/zuex/img/trusty.gif
 leo.org###topBranding
 omegleapp.me##.promotions
+nextdoor.com#%#//scriptlet('json-prune', 'data.me.personalizedFeed.feedItems.[-].promo.creative.clickThroughUrl.adsTrackingMetadata.metadata.adRequestId')
 nextdoor.com#?#div[data-v3-view-type="V3Wrapper"]:has(> span[data-testid="feed-item-visibility-tracker"] > div[id^="feedItem_"] span[class*="Item"]:contains(Sponsored))
 ||s2.coinmarketcap.com/static/img/cdp_ad_banner/
 coinmarketcap.com##a[class*="_ad-banner_"]
@@ -20919,8 +20923,8 @@ esladvice.com##center:has(div[class^="container"] > div[class^="ad"])
 [$domain=/^(vibe|noble|stellar|halo|echo)\.[^.]+\.[a-z]/]##div[class^="horizontal-wrapper"]:has(> div[class^="ad-container"])
 !
 ! gplinks.co
-powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,mfulecollegewarud.org,parivahansewa.live,tezjobs.in$$script:contains(pop_done)
-powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,mfulecollegewarud.org,parivahansewa.live,tezjobs.in#%#//scriptlet('remove-node-text', 'script', 'pop_done')
+ignoupur.com,powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,mfulecollegewarud.org,parivahansewa.live,tezjobs.in$$script:contains(pop_done)
+ignoupur.com,powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,mfulecollegewarud.org,parivahansewa.live,tezjobs.in#%#//scriptlet('remove-node-text', 'script', 'pop_done')
 *$script,third-party,denyallow=cloudflare.com|gplinks.com|jquery.com,domain=powergam.online
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149598
@@ -21077,7 +21081,7 @@ cuttlinks.com,exe-links.com,cuttty.com,cutynow.com,exnion.com,cutyion.com,jixo.o
 !   winaero.com##.winrec
 !   winaero.com##.ebpa-close
 winaero.com##.windiv:has(> a.winrec)
-winaero.com##.gad-gads
+winaero.com##body > div[class] > #page .entry-content > .gad-gads:has(> .gad-gads-title)
 ! winaero.com###custom_html-11
 !
 ! Hearst Television Inc
@@ -22018,7 +22022,7 @@ pahe.ink#%#//scriptlet('abort-current-inline-script', 'localStorage.getItem', 'a
 /^https?:\/\/([0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?\.)?[0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-]+\.com\/\/?([0-9a-z][0-9a-z]\/)([0-9a-z][0-9a-z]\/)([0-9a-z][0-9a-z]\/)?[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\.js/$script,xmlhttprequest,third-party
 ! Don't use wildcard
 !+ PLATFORM(ext_chromium_mv3)
-/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|daftporn.com|85po.com|85po.net|85xo.com|9tsu.tv|blogspot.com|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.com|123av.ws|1av.to|akuma.moe|fetchfile.me|gogoanime.by|gogoanime.onl|haho.moe|hianime.to|hianime.do|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com|hentai4.me|javhdporn.net|javseen.tv|njav.com|javhd.today|javhdz.today|av01.media|gaystream.pro|pornhoarder.net|vidboys.com|surrit.store|aflix.click|popcornmovies.org|torrentgalaxy.hair|plugincrack.com|clicknupload.click|tunemovie.fun|apkadmin.com|hdpornflix.com|thefantazy.com|cdn9mc.com|dlhd.dad|cuevana.biz|cuevana.is|cuevana.mobi|cuevana.pro|cuevana.to|lyretain.online|newsix.sbs|filmnudes.com|joporn.me|joporn.xyz|kisshentaiz.com|2embed.cc|sxyprn.net|sxyprn.com|watchfreejavonline.co|wecima.ac|cdxaws.net|mens1069.com|av01.tv|wlext.is|strikeout.im|animeinweb.com|aguea.net|japaneseholes.com|jmanga.rest|3dzip.info|loiflix.shop|movies7to.net|manhwa68.com|hitslink.xyz|witanime.life|monoschino2.com|animepelix.net|creditlose.com|pregnancycalculator.site|sledujserialy.io|pornxp.ph|nowhdtime.to|2embed.cc|webdramaturkey2.com|flacdownloader.com|raw1001.md|viduyy.com|desicinemas.to|groundbanks.net|official.coomer.com.co|hentaihand.com|pelimeli.com|pelis182.net|youperv.com|onepiece-manga-online.net|bflixs.us|xpass.top|cap3.sbs|uploadrar.com
+/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|daftporn.com|85po.com|85po.net|85xo.com|9tsu.tv|blogspot.com|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.com|123av.ws|1av.to|akuma.moe|fetchfile.me|gogoanime.by|gogoanime.onl|haho.moe|hianime.to|hianime.do|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com|hentai4.me|javhdporn.net|javseen.tv|njav.com|javhd.today|javhdz.today|av01.media|gaystream.pro|pornhoarder.net|vidboys.com|surrit.store|aflix.click|popcornmovies.org|torrentgalaxy.hair|plugincrack.com|clicknupload.click|tunemovie.fun|apkadmin.com|hdpornflix.com|thefantazy.com|cdn9mc.com|dlhd.dad|cuevana.biz|cuevana.is|cuevana.mobi|cuevana.pro|cuevana.to|lyretain.online|newsix.sbs|filmnudes.com|joporn.me|joporn.xyz|kisshentaiz.com|2embed.cc|sxyprn.net|sxyprn.com|watchfreejavonline.co|wecima.ac|cdxaws.net|mens1069.com|av01.tv|wlext.is|strikeout.im|animeinweb.com|aguea.net|japaneseholes.com|jmanga.rest|3dzip.info|loiflix.shop|movies7to.net|manhwa68.com|hitslink.xyz|witanime.life|monoschino2.com|animepelix.net|creditlose.com|pregnancycalculator.site|sledujserialy.io|pornxp.ph|nowhdtime.to|2embed.cc|webdramaturkey2.com|flacdownloader.com|raw1001.md|viduyy.com|desicinemas.to|groundbanks.net|official.coomer.com.co|hentaihand.com|pelimeli.com|pelis182.net|youperv.com|onepiece-manga-online.net|bflixs.us|xpass.top|cap3.sbs|uploadrar.com|imgo.info|zeroupload.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54684
 ! New popads script - blocking popads script casues requests to "undefined" and in some cases website doesn't load correctly
 |https://undefined/|$script,redirect=noopjs
