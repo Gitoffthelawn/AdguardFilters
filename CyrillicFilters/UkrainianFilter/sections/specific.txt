@@ -10,6 +10,20 @@ citrus.ua,xsport.ua,zi.dn.ua,zi.ua##img[src^="/upload/rk/"]
 !
 !
 !
+ukrfootball.ua##.widgetBestBookmakersNews
+ukrfootball.ua##aside > section:has(> div.top_bookmaker_w)
+ukrfootball.ua##.saduf
+komersant.ua##a[href^="https://mrktng.mmr.ua/"]
+komersant.ua##a[href="https://week.proagroukraine.com/"]
+komersant.ua##a[href="https://forrestresort.com/"]
+glavcom.ua##.banner_grid
+rivne1.tv##.container > .info
+trueua.info##.tui_banner
+trueua.info##.tui_section:has(> .news-ads)
+||trueua.info/*/sites/default/files/banners/
+glavnoe.in.ua##.ad-container
+blik.ua##.sadse
+||blik.ua/img/sadse/
 ||versii.if.ua/wp-content/themes/bricks-child/inc/ads-rotation.js
 versii.if.ua##.promo-item
 versii.if.ua##.fb-s-blog-two-main__center > div[class*="-block"]:has(> div.indication-bor-rad)
