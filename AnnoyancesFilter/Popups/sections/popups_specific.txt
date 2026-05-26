@@ -43,6 +43,13 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+mind.ua##.catfish
+promo.habr.com#$#.jquery-modal { display: none !important; }
+promo.habr.com#$#body { overflow: auto !important; }
+maltadaily.mt#%#//scriptlet('set-session-storage-item', 'md_popup_shown', '1')
+maltadaily.mt#%#//scriptlet('set-session-storage-item', 'md_popup_clicks', 'null')
+opentix.life##.c-popUp
+vpsmetrics.com##div[data-bookmark-toast].bottom-0.right-0
 google.com##g-bottom-sheet[aria-describedby="promo_desc_id"]
 enternity.gr###enternity_social_dialog
 enternity.gr###enternity_newsletter_dialog
