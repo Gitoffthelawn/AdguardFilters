@@ -7,8 +7,8 @@ sites:
     last_known_mirror: turkifsaclub130.sbs
     success_since: 2026-05-25
   Jmanga (jmanga.*):
-    last_known_mirror: jmanga.cafe
-    success_since: 2026-05-25
+    last_known_mirror: jmanga.baby
+    success_since: 2026-05-27 15:38
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1308.xyz
     success_since: 2026-05-25
@@ -36,8 +36,8 @@ sites:
     accept_antibot: true
     geoblock: TR
     force_search_ahead: true
-    last_known_mirror: papazsports1019.pro
-    success_since: 2026-05-26 00:58
+    last_known_mirror: papazsports1020.pro
+    success_since: 2026-05-27 15:38
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     success_since: 2026-05-25
