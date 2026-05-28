@@ -18,6 +18,8 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+bitrefill.com##div[class^="_wrapper_"] > section[class]:has(> div[class^="_inner_11mgk"] a[href="https://apps.apple.com/in/app/bitrefill/id1378102623"])
+uatv.ua##.first-rotation-banner
 kolaygelsin.com##div[class^="AndroidAppBanner_root_"]
 asics.com.hk##.layout-header > div[class^="sc-"]:has(> div > div > [alt^="ASICS HK banner"])
 en.as.com##.a_c > p:has(> a[href="https://en.as.com/app-as/"])
@@ -4144,11 +4146,12 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+chat.deepseek.com##.the-header > div.ds-icon-button ~ div[class]:has(> button.ds-atom-button > div.ds-atom-button__icon > svg[width="14"][height="14"])
 app.koofr.net##div[role="dialog"]:has(> .l-mobile-offer)
 vesty.co.il##a[href="https://onelink.to/w75zed"]
 tbf.org.tr##.mobile-app-modal__overlay
 giphy.com##a[href^="https://giphy.page.link?apn=com.giphy.messenger"]
-tntsports.co.uk##div[data-testid="smart-banner"]
+eurosport.com.tr,tntsports.co.uk##div[data-testid="smart-banner"]
 db.sp.netkeiba.com##.nk_info_bunner
 infoyatirim.com###dwnld-app
 buzzfeed.com###mobile-app-promo
@@ -4441,7 +4444,7 @@ tiktok.com##div[class^="css-"][class*="-DivModalContainer"]:has(div[class*="DivG
 x.com##div[class^="css-"]:has(> div[class^="css-"][style] > a[href^="https://apps.apple.com/app/apple-store/id333903271?"])
 fril.jp##.mainVisual__wrap--only_sp
 verizon.com#%#//scriptlet('set-cookie', 'SMARTBANNER_EXITED', 'TRUE')
-borsaningundemi.com###promoPopup
+finansingundemi.com,borsaningundemi.com###promoPopup
 gaana.com##.appAdBottomBox
 gaana.com##.appAdTopBox
 x.com##main > div[class] > div[class] > div[style^="background-color:"]:has(> a[href^="https://apps.apple.com/app/"])
@@ -4918,7 +4921,7 @@ smocca.jp##.c-box-app_banner
 dexscreener.com##header.chakra-stack + div[class^="custom-"] a[target="_blank"][href="https://docs.dexscreener.com/mobile-app"]
 producthunt.com#?##__next > div:is([class^="styles_banner__"], [class^="styles_header__"]):has(> div.align-center > a[class*="styles_useAppButton"])
 baidu.com###page-copyright > div[style^="position: fixed;"][ref]
-viki.com##div[data-testid="app-download-banner"]
+eurosport.com.tr,viki.com##div[data-testid="app-download-banner"]
 asos.com##.XfCB1W4
 mydramalist.com#%#//scriptlet('remove-class', 'smartbanner-active', 'body')
 mydramalist.com#$#.smartbanner { display: none !important; }
