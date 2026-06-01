@@ -1,7 +1,7 @@
 sites:
   Belestepe (belestepe*.sbs):
-    last_known_mirror: belestepe866.sbs
-    success_since: 2026-05-31 08:06
+    last_known_mirror: belestepe896.sbs
+    success_since: 2026-06-01 18:38
   Turkifsaclub (turkifsaclub*.sbs):
     force_search_ahead: true
     last_known_mirror: turkifsaclub130.sbs
@@ -36,8 +36,8 @@ sites:
     accept_antibot: true
     geoblock: TR
     force_search_ahead: true
-    last_known_mirror: papazsports1012.pro
-    success_since: 2026-05-31 13:35
+    last_known_mirror: papazsports1013.pro
+    success_since: 2026-06-01 18:38
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     success_since: 2026-05-25
@@ -49,4 +49,6 @@ sites:
     force_search_ahead: true
     initial_domain: turkifsa25.art
     last_known_mirror: turkifsa25.art
-    success_since: 2026-05-30 08:47
+    failed_since: 2026-06-01 18:38
+    failed_days: 0
+    potentially_dead: true
