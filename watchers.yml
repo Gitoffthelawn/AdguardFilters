@@ -29,15 +29,15 @@ sites:
       - Redirecting...
     probe_text:
       - /jwplayer.js
-    last_known_mirror: rebeccacostthousand.com
-    success_since: 2026-05-31 08:06
+    last_known_mirror: lindalastattack.com
+    success_since: 2026-06-03 21:49
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
     geoblock: TR
     force_search_ahead: true
-    last_known_mirror: papazsports1013.pro
-    success_since: 2026-06-01 15:09
+    last_known_mirror: papazsports1014.pro
+    success_since: 2026-06-03 21:49
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     success_since: 2026-05-25
@@ -59,6 +59,4 @@ sites:
   OnionPlay (onionplay.*):
     accept_antibot: true
     last_known_mirror: onionplay.st
-    failed_since: 2026-06-02 14:29
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-06-03 21:49
