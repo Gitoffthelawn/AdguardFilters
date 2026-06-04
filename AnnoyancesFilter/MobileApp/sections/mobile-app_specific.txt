@@ -18,6 +18,8 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+321movies.xyz##main > div[class] > section.relative:has(> div[class] > div[class] > a[href="https://apkpure.com/p/com.mova321"])
+apteka-april.ru,girlschannel.net##.footer-banner
 metatft.com##.AppAdContainer
 online.gdu.com.tr#$#html { overflow: auto !important; }
 online.gdu.com.tr#$#.mfp-close-btn-in { display: none !important; }
@@ -154,7 +156,7 @@ grok.com##.group\/sidebar-wrapper .fixed.top-0:has(> button > div> svg > path#ma
 eda.yandex.ru##div[style^="z-index:"]:has(> div > div:contains(Открыть в приложении))
 eda.yandex.ru#%#//scriptlet('trusted-set-session-storage-item', 'SMART_BANNER_COMMUNICATION_SHOW_TIME', '{"modal":9773925851419}')
 movieboxapp.in,moviebox.pk##.justify-center.flex.inset-0.fixed
-moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
+themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
 123movienow.cc##.pc-download-banner
 movieboxapp.in,moviebox.pk##.flx-ce-ce.pc-get-img
 world.kbs.co.kr##.comp_right_application
@@ -4117,8 +4119,6 @@ oceans-nadia.com##div[id^="app-banner"]
 !+ NOT_OPTIMIZED
 akindo-sushiro.co.jp,oceans-nadia.com##.l-footer__app
 !+ NOT_OPTIMIZED
-girlschannel.net##.footer-banner
-!+ NOT_OPTIMIZED
 navitime.co.jp,kurashiru.com##.header-app-banner
 !+ NOT_OPTIMIZED
 cosme.com##.header-app
@@ -4163,6 +4163,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+m.webtoons.com##.ly_app_floating
 tacter.com#%#//scriptlet('set-session-storage-item', 'mobile_app_download_overlay_dismissed', '1')
 tacter.com#%#//scriptlet('set-session-storage-item', 'app-promo-banner-closed', 'true')
 sportsdunia.com##body > div[class^="__className_"]:has(> div[class] > a[href^="https://smart.link/"])
@@ -4623,7 +4624,7 @@ temu.com###main > .loadable-container > div[role="main"] > div > div:not([class]
 reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] { display: none !important; }
 reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] + header > div[style="top:90px"] { top: 0 !important; }
 my-best.com###__next > div.css-1pcjl0n > a[href="https://mybest.go.link/924F7"]
-tsurihack.com,teremok.ru,prioritypass.com,domainanalysis.io,finance.yahoo.com##.app-banner
+esarj.com,tsurihack.com,teremok.ru,prioritypass.com,domainanalysis.io,finance.yahoo.com##.app-banner
 theinformation.com##a[data-testid="download-app"]
 quora.com#?#a[href="https://www.quora.com/"][target="_top"] + div[class] > button:has(> div > div > div:contains(App))
 fantasi.one#?##app > div.background:has(> div:only-child > .close + .content > p:contains(App))
