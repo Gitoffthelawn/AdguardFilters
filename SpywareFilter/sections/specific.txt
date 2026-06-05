@@ -87,6 +87,16 @@ mexc.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
 !
 ! NOTE: Specific rules
 !
+||m365.cloud.microsoft/client_health_ping
+||m365.cloud.microsoft/events
+||substrate.office.com/search/api/v1/events
+||realmadryt.pl/api/v1/client-log|$important
+||track.psatcrm.com/tracker.js
+dn.pt#%#//scriptlet('set-local-storage-item', 'aries__uuid', '$remove$')
+dn.pt#%#//scriptlet('set-local-storage-item', 'altair', '$remove$')
+||dn.pt/scooby/api/v*/log/
+||sapo.pt/metrics
+||sapo.pt/assets/sapix.gif
 motortrend.com#%#//scriptlet('set-local-storage-item', 'mtid', '$remove$')
 digitalspy.com##.inline-content-module:has(.cx-flex-module)
 ||chibanippo.co.jp/api/page-tracker
@@ -517,7 +527,6 @@ olympics.com##section[data-cy="story-parts-wrapper"] > div:not([data-cy]):has(re
 ||marketplace.anyclip.com/v*/lre-events
 /log/client/messages$domain=momondo.com|kayak.com
 /s/vestigo/measure$domain=momondo.com|kayak.com
-||ir.ebaystatic.com/*/s_1x2.gif
 gamespot.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
 ||openway.deepseeksvc.com/v*/write/rum
 ||l.search.naver.com/n/responsive/*&no_qc=*&p=
