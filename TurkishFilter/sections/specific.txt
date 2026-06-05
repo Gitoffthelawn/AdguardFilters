@@ -71,6 +71,9 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+||mymani.net/ajax/widget-data/$third-party
+hisse.net##.mycredit-widget-container
+haberler.com##.HBL_VIDEO
 aksam.com.tr##div.shell > div:has(> div#masthead-wrapper)
 aksam.com.tr##.recommendedVideo
 aspor.com.tr##.frame-box
@@ -78,6 +81,9 @@ aspor.com.tr##div[class="page-wrapper"] div.row > div.col-12:has(> div.frame-box
 aspor.com.tr##div[class^="pageSkin"]
 trmotosports.com##.dt-top-ads
 trmotosports.com##div[style^="height: "]:has(> ins.adsbygoogle)
+teknoblog.com##.tb-ad-placement
+teknoblog.com##.article-content > div.tkb-plist:has(> div.tkb-disclosure)
+teknoblog.com##.tps-inline-card:has(> a[href^="https://www.google.com/preferences/source?q="])
 tiendeo.com.tr##section:has(> div[style] > div[id^="div-gpt-ad"])
 konhaber.com#$#header > div.top-bar + div.w-full { height: auto !important; }
 arabalar.com.tr#$#body { padding-top: 0 !important; }
@@ -2220,7 +2226,6 @@ indirin.co##a[href^="https://www.linkonclick.com/jump/next.php"]
 ||income-front-data.s3.fr-par.scw.cloud/rotorfon/hdfilmcehennemi
 technoprogram.com##.sidebar-content > #custom_html-8
 filmindir.be##center > button.btn2
-teknoblog.com##.wpb_wrapper > div.banneralani1.td-pb-border-top
 ||hellcdn.xyz/uploads/*.mp4
 ||banerstorage.s3.eu-west-2.amazonaws.com/aff/
 milliyet.com.tr##.adRenderer
@@ -2682,7 +2687,6 @@ dogushaber.com##.splash_box
 dogushaber.com##.splash-box
 ||dogushaber.com/img/splash/
 fotospor.com##.ara-reklam-wrapper
-teknoblog.com##div[class^="tekno-banner"]
 duzcetv.com##a[href="https://www.asyasu.com.tr/"]
 ||duzcetv.com/resim/upload/29700.jpg
 hizliresim.com##.advert-o-desktop
@@ -4880,8 +4884,8 @@ turkifsaclub.org#?#main > h3:contains(Sponsor Bannerlar)
 [$domain=/turkifsaclub\d+\.sbs/]##.ads-grid
 [$domain=/turkifsaclub\d+\.sbs/]#?#main > h3:contains(Sponsor Bannerlar)
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-turkifsaclub130.sbs,turkifsaclub131.sbs,turkifsaclub132.sbs,turkifsaclub133.sbs,turkifsaclub134.sbs,turkifsaclub135.sbs##.ads-grid
-turkifsaclub130.sbs,turkifsaclub131.sbs,turkifsaclub132.sbs,turkifsaclub133.sbs,turkifsaclub134.sbs,turkifsaclub135.sbs#?#main > h3:contains(Sponsor Bannerlar)
+turkifsaclub130.sbs,turkifsaclub131.sbs,turkifsaclub132.sbs,turkifsaclub133.sbs,turkifsaclub134.sbs,turkifsaclub135.sbs,turkifsaclub136.sbs##.ads-grid
+turkifsaclub130.sbs,turkifsaclub131.sbs,turkifsaclub132.sbs,turkifsaclub133.sbs,turkifsaclub134.sbs,turkifsaclub135.sbs,turkifsaclub136.sbs#?#main > h3:contains(Sponsor Bannerlar)
 !#endif
 !
 ! Frequently changed domains: yavasgir*.com
