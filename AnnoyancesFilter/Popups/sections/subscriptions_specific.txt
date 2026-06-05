@@ -52,13 +52,22 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,nordbayern.de,thelocal.ch,morgenpost.de,waz.de,nrz.de,braunschweiger-zeitung.de,abendblatt.de,wolfsburger-nachrichten.de,wolfenbuetteler-zeitung.de,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
 ! ##a[href^="https://www.google.com/preferences/source?q="]
-polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,computerbase.de,gzt.com,crash.net,foxsports.com.mx,theguardian.com,star.com.tr,halktv.com.tr,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,turkiyegazetesi.com.tr,aksam.com.tr,trhaber.com.tr,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+clutchpoints.com,newstime.joyn.de,hisse.net,gazetegercek.com.tr,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,computerbase.de,gzt.com,crash.net,foxsports.com.mx,theguardian.com,star.com.tr,halktv.com.tr,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,turkiyegazetesi.com.tr,aksam.com.tr,trhaber.com.tr,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,hurriyet.com.tr,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
 !
 ! NOTE: Popular rules ⬆️
 ! !SECTION: Subscriptions - Popular rules
 !
 ! SECTION: Subscriptions - Regular rules
 !
+eurogamer.net##.preferred-source
+psm7.com##.psm-home-bottom-google-news
+psm7.com##.psm-home-subscribe-form-container
+gbnews.com##div[id^="newsletter-signup-"]
+pravdatutnews.com##.banner-googlenews
+spigen.pl###ec-v-from-popup-cover
+meta.ua##.telegram-ad
+gordonua.com##.socialSubscribeBanner
+dn.pt##div[class^="follow-us"]
 obozrevatel.com##.subscribeBanner
 nikvesti.com##.google-source-btn
 polygon.com##.w-promotion-offer
@@ -229,7 +238,7 @@ tastesbetterfromscratch.com###emailrecipe
 bhg.com.au##.newsletter-subscription-block
 bhg.com.au##.magazine-subscription-block__inline
 barefootcontessa.com##.recipe-sidebar__sticky > div:has(> img[alt="Newsletter Signup"])
-aydinlik.com.tr,halktv.com.tr,yenicaggazetesi.com##.google-news-follow
+noktagazetesi.com.tr,aydinlik.com.tr,halktv.com.tr,yenicaggazetesi.com##.google-news-follow
 wenthere8this.com#%#//scriptlet('set-cookie', 'cp_style_75187', 'true')
 joyousapron.com##.entry-content > .fluentform_wrapper_3.ffs_custom_wrap
 joyousapron.com#%#//scriptlet('trusted-set-local-storage-item', 'ck/forms/modal/d6018ef4e1/hideUntil', '$now$')
@@ -952,7 +961,6 @@ gam3s.gg##.container > div.justify-center:has(> div.relative > form input[type="
 latimes.com##modality-custom-element[name="metering-bottompanel"]
 latimes.com##div[data-element^="newsletter-module-layout"]
 efsyn.gr##body > div[id^="popup-"]:has(iframe[src^="https://link.argoncrm.com/widget/form/"])
-123telugu.com##.elementor-widget-shortcode:has(> .elementor-shortcode > .mc-follow-wrap)
 prmira.ru##.tg-banner_mobile
 prmira.ru##.matter-after > .typo-class
 prmira.ru##.matter-after > div:not([class]):not([role]):has(> div[class^="Subscribe_subscribe"])
@@ -2257,7 +2265,7 @@ hypebae.com,hypebeast.com###newsletter-popup-fullscreen
 atlasformen.pl##div[data-cb-zone] > div[data-cb-group]:has(> div[data-cb-layout] > div[data-cb-layout-grid] > div[data-cb-section] > section > a[href="/myaccount/newslettersloggedout.aspx"])
 snopes.com#%#//scriptlet('set-cookie-reload', 'newsletter_signup_promo', 'true')
 spectator.co.uk#%#//scriptlet('set-cookie-reload', 'ZEPHR_NEWSLETTER_ALLOCATION', 'true')
-reduno.com.bo,libertatea.ro,fotospor.com##a[href^="https://whatsapp.com/channel/"]
+espncricinfo.com,reduno.com.bo,libertatea.ro,fotospor.com##a[href^="https://whatsapp.com/channel/"]
 twitchmetrics.net##.col-md-3 > div.card:has(> div.card-body > div.hbspt-form)
 altrarunning.eu#%#//scriptlet('trusted-click-element', 'div[role="presentation"] .MuiDialog-container button.iconClose', '!cookie:bh_newsletter_dialog')
 ||buy-ap.piano.io/checkout/template/cacheableShow$domain=numero.jp
@@ -3738,7 +3746,7 @@ ibelieve.com##.my-2
 ibelieve.com##.w-full > div.flex > div.mx-auto.min-h-\[250px\]
 ibelieve.com#?#.bg-white:has(> div.mx-auto iframe[title*="iBelieve Daily Prayers"])
 upi.com###arc_email_subsc
-theixsports.com,musically.com,arktimes.com,almanacnews.com,boulderreportinglab.org,nashvillebanner.com,minnpost.com,indyweek.com,longreads.com,calmatters.org,berkeleyside.org##.newspack-popup-container
+technical.ly,theixsports.com,musically.com,arktimes.com,almanacnews.com,boulderreportinglab.org,nashvillebanner.com,minnpost.com,indyweek.com,longreads.com,calmatters.org,berkeleyside.org##.newspack-popup-container
 readyforboarding.pl##div[class^="lepopup-"]
 biblegateway.com#$##sailthru-overlay-container { display: none !important; }
 biblegateway.com#$#body.sailthru-overlay-no-scroll { overflow: auto !important; }
@@ -4677,7 +4685,7 @@ investfuture.ru#$#body.modal-open { overflow: auto !important; }
 superwatchman.com#?#.elementor-widget-wrap > [data-element_type="widget"].elementor-element:contains(Subscribe to our Newsletter)
 superwatchman.com##.elementor-widget-wrap > .elementor-widget-wp-widget-mc4wp_form_widget
 superwatchman.com##.subscribe-header
-odatv.com,superwatchman.com##.follow-google
+superhaber.com,odatv.com,superwatchman.com##.follow-google
 finanztip.de#$#body { overflow: auto !important; }
 finanztip.de#$##modal-popup-newsletter-overlay { display: none !important; }
 finanztip.de##div[data-track="ftcustomcontentelements_newsletterregisterform"]
@@ -5770,7 +5778,7 @@ hoy.es#?#body > div > div[id="engagement-top"]:upward(1)
 hoy.es##div[data-animated-modal-bottom]
 crypto.ru#$##modal { display: none !important; }
 crypto.ru#$#html.with--no_scroll { overflow: auto !important; }
-almaty.tv,malaymail.com,realting.com,nv.ua,crypto.ru##.telegram-subscribe
+overclockers.ua,almaty.tv,malaymail.com,realting.com,nv.ua,crypto.ru##.telegram-subscribe
 vinbazar.com#?#.news_photos > p:has(> a.mesengers)
 nubiapage.com#?#.g1-collection-items > li:has(> aside.g1-newsletter)
 reform.news##blockquote.info:has(a:is([href^="https://t.me/rfrm_io"],[href^="https://t.me/cult_front"]))
@@ -9667,6 +9675,8 @@ flightradar24.com##[data-id="a5b8151"][data-element_type="widget"]
 flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
 !
+!+ NOT_OPTIMIZED
+123telugu.com##.elementor-widget-shortcode:has(> .elementor-shortcode > .mc-follow-wrap)
 !+ NOT_OPTIMIZED
 sostav.ru##.tgzen
 !+ NOT_OPTIMIZED
