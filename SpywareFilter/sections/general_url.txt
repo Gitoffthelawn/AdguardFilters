@@ -24,6 +24,8 @@
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
+.js?tg=$~third-party
+/advanced-ads-tracking/assets/dist/ga-tracking.js
 /hit-track.php
 /wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/*
 /phenomtrack.min.js$script
@@ -97,7 +99,6 @@
 &cx=c&gtm=
 &ep.analytics_storage=
 /*JmVu.js?sp=
-/*JmVu.js?tg=
 /plugins/tagging/*
 /tag/proxy?id=G-
 /user-data-minified.$script
