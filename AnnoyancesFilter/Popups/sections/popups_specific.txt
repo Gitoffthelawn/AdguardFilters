@@ -43,6 +43,8 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+shkolkovo.online##div[class*="ModalVideoStyles_showWithCookies"]
+movilzona.es##.np-card--with-banner[data-mrf-recirculation^="news-promotion-card-"]
 theeburgerdude.com##.fd-is-open
 webtan.impress.co.jp##.ajs-dialog
 music.youtube.com#%#//scriptlet('json-prune', 'playerResponse.messages.[].youThereRenderer messages.[].youThereRenderer')
@@ -63,8 +65,6 @@ hotcars.com#%#//scriptlet('set-cookie-reload', 'articleLimitCooldown', 'true')
 peacocktv.com##div[role="dialog"][data-testid="notification-Privacy"]
 ||foxdeportes.com/_astro/StickyVideo.*.js
 pstream.net##body > div > .popout-wrapper.fixed
-aether.bar#$#html[data-no-scroll], html[data-no-scroll] body { overflow: auto !important; }
-aether.bar#$#.popout-wrapper { display: none !important; }
 edmunds.com##a[data-tracking-id="open_chat_canvas"]
 irbank.net##div[aria-label="IRBANK クラウドファンディング 最終日"]
 irbank.net###ib-floating
@@ -5288,9 +5288,6 @@ innovationorigins.com#$#html { overflow: auto !important; }
 life-trip.ru#$#.m365-popup { display: none !important; }
 life-trip.ru#$#body { overflow: visible !important; }
 life-trip.ru#$#html { overflow: visible !important; }
-netdoktor.at#$##exit-intent-popup-container { display: none!important; }
-netdoktor.at#$#.bio_ep_bg { display: none!important; }
-netdoktor.at#$#body { overflow: visible!important; }
 adindex.ru##div[class^="PUBnr"]
 shop.rangers.co.uk#$#body > div[style^="position: fixed;"][style*="z-index: 99999;"] { display: none !important; }
 shop.rangers.co.uk#$#body { overflow: visible!important; }
