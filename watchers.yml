@@ -15,7 +15,7 @@ sites:
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
-    success_since: 2026-05-25
+    success_since: 2026-06-10 19:50
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac93.cfd
     success_since: 2026-06-09 19:44
@@ -40,7 +40,9 @@ sites:
     success_since: 2026-06-08 10:12
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
-    success_since: 2026-05-25
+    failed_since: 2026-06-10 19:50
+    failed_days: 0
+    potentially_dead: true
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
     success_since: 2026-05-28 08:22
@@ -55,7 +57,7 @@ sites:
   TurkIfsa (turkifsalar*.site):
     force_search_ahead: true
     last_known_mirror: turkifsalar2.site
-    success_since: 2026-06-01 17:38
+    success_since: 2026-06-10 14:10
   OnionPlay (onionplay.*):
     accept_antibot: true
     last_known_mirror: onionplay.st
