@@ -76,6 +76,8 @@ nizimoenews.livedoor.blog,butumori.com,netizen-voice.blog.jp,ityouchannel.livedo
 !
 ! NOTE: Blogroll specific rules
 !
+monhan-soku.com##.gs-single-before-article
+monhan-soku.com##.yrss-list
 blog.domesoccer.jp###side > section:has(> div#rss_3site_frame)
 ||chaos-giga.com/wp-content/uploads/js/above-content-links_random.js
 ||chaos-giga.com/wp-content/uploads/js/link_random.js
@@ -2513,9 +2515,10 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !   NOTE: Donation widgets
 !   Really annoying only
 !
+medyascope.tv##.elementor-widget-wrap > div[data-element_type="widget"]:has(> div.elementor-widget-container > div.elementor-template > div[data-elementor-post-type="elementor_library"] > div[data-element_type="container"] > div.e-con-inner > div[data-element_type="container"] > div[data-element_type="widget"] > div.elementor-widget-container > div.elementor-button-wrapper > a[href="https://abonelik.medyascope.tv/"])
 serbestiyet.com###floating-donate-button
-medicalxpress.com###donateMsgPopup
-medicalxpress.com###js-popup-donate
+techxplore.com,phys.org,medicalxpress.com###donateMsgPopup
+techxplore.com,medicalxpress.com###js-popup-donate
 nikvesti.com##.main-post-content-text > div:has(> noindex > div.donation-box)
 nikvesti.com##.comments-intro-show-box:has(> a[href="/donate"])
 footystats.org##.appCta
@@ -2677,7 +2680,7 @@ apnews.com###desktop-entitlements
 istories.media##div[class^="BeltsGrid-module-"] > div[class^="BeltOfThree-module-"]:has(> div[class^="BeltOfThree-module-"] > div[class^="DonationCard-module"])
 tvrain.tv##.article_paid__info:has(> a.article_paid__btn--donate)
 euromaidanpress.com###pa_banner_code
-roskomsvoboda.org##.donate
+stopcor.org,roskomsvoboda.org##.donate
 roskomsvoboda.org###donate
 vox.com##aside:has(> div > a[href^="https://vox.memberful.com/checkout"])
 freetp.org##noindex:has(> a[href="/donat.html"])
