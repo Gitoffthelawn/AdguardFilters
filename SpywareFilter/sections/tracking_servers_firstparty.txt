@@ -28,6 +28,10 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||transporter.makemytrip.global^
+||cchome-stage.adobe.io^
+||cchome.adobe.io^
+||analytics.trbna.com^
 ||udderstack.allstar.gg^
 ||plausible.root-nation.net^
 ||cdnw.onlinelearning.hms.harvard.edu^
