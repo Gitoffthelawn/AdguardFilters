@@ -43,6 +43,9 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+matchtv.ru##div[id^="webcaster_player"] > a[href^="https://matchtv.ru/subscriptions?"]
+threads.com#%#//scriptlet('set-session-storage-item', 'barcelona_mobile_upsell_state', '1')
+radio.yandex.ru#%#//scriptlet('trusted-click-element', 'div[class^="LoginPromptContent_"] > button')
 shkolkovo.online##div[class*="ModalVideoStyles_showWithCookies"]
 movilzona.es##.np-card--with-banner[data-mrf-recirculation^="news-promotion-card-"]
 theeburgerdude.com##.fd-is-open
@@ -1590,8 +1593,9 @@ insales.ru##.register-bg
 insales.ru##.register-modal
 calltouch.ru###calltouch-podcast
 calltouch.ru##.anons-container
-dzen.ru##div[class*="__pageContainer-"] > div[id$="-teaser"] + div[id$="-splashscreen"]
-dzen.ru##div[class*="__pageContainer-"] > div[id$="-popup"] > div > div[style="visibility: visible;"]
+dzen.ru#$#body { overflow: auto !important; }
+dzen.ru#$#div[id$="-teaser"] + div[id$="-splashscreen"] { display: none !important; }
+dzen.ru##div[id$="-teaser"][class^="dzen-desktop--distribution__"]
 pluska.sk#%#//scriptlet('remove-class', 'floating', '.hero-video')
 allgaeuer-zeitung.de###piano-sticky-bottom
 keepstreams.com#$##activityNavBox { display: none !important; }
