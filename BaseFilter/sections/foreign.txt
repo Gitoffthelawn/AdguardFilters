@@ -4185,7 +4185,6 @@ abplive.com##.sp-taboola
 ||sheets.googleapis.com^$domain=telugucinema.com
 teluguone.com##.topheaderad
 teluguone.com##.zeeker-video-container
-filmyfocus.com##.cust-adCont
 telugu360.com##.box-container
 telugu360.com##.gogleAds_left
 tupaki.com##div[id^="ad_"]:not(#style_important)
