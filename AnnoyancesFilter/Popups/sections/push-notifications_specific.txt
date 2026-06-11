@@ -25,6 +25,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+promiflash.de##body > .background > .shadow-lg:has(> .flex.gap-base > button.rounded-xl + button.rounded-xl)
 ||tycsports.com/cwvitals/v-1.7.0/js/webPushChunk
 tycsports.com###vanPushPermissionPromptRoot
 comments.ua###push_info
@@ -652,7 +653,7 @@ youla.ru##.web_push_confirmation
 izlesene.com,doviz.com,sinemalar.com###x-comet-dialog
 stalkermods.ru,ucoz.net##.pshsndr
 ilbianconero.com,calciomercato.com###dialog-push-notification
-sbt.com.br,sports.ru,tribuna.com##.webpush
+sports.ru,sbt.com.br##.webpush
 eleman.net##.pushRegistrationDiv
 steambalance.cc,paris2024.org,estadao.com.br##.push
 ||static.shopback.net/tags/plugins/shoppush.js
