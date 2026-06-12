@@ -85,6 +85,8 @@ cogconnected.com,echofm.online,antirez.com,comicbook.com,alexp.pl,2ality.com,sma
 !
 ! NOTE: Specific rules
 !
+varta1.com.ua##.ova-engine-share-buttons
+vidhuk.ua##a[onclick="Common.share(this)"]
 ua.news##.tg-banner-link
 ua.news##.read-us-text
 ok.co.uk##div[class^="Article_inner-wrapper"] > section[class^="SocialFollowBar_wrapper"]
@@ -94,7 +96,7 @@ ukranews.com##.b-aside-socials
 ||ukranews.com/dist/js/adsense-
 ukrlib.com.ua##.social-box-item1
 tvoemisto.tv##.flex > button:has(> svg > path[d^="M11.334"])
-tvoemisto.tv##.flex > div.flex-col:has(> div.items-center > div.flex > a[href="https://youtube.com/user/tvoyemistoTV"])
+tvoemisto.tv##.flex > div.flex-col:has(> div.items-center:only-child > div.flex.gap-4 > a[href="https://youtube.com/user/tvoyemistoTV"])
 forklog.com.ua##.share_blk
 tribuna.com##div[class^="_shared-socia-buttons"]
 supertaste.tvbs.com.tw##header > div.flex > div[class]:has(> div.flex > button[name="share-button"])
