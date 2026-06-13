@@ -1,7 +1,7 @@
 sites:
   Belestepe (belestepe*.sbs):
     last_known_mirror: belestepe896.sbs
-    success_since: 2026-06-01 17:38
+    success_since: 2026-06-13 13:37
   Turkifsaclub (turkifsaclub*.sbs):
     force_search_ahead: true
     last_known_mirror: turkifsaclub130.sbs
@@ -29,8 +29,8 @@ sites:
       - Redirecting...
     probe_text:
       - /jwplayer.js
-    last_known_mirror: jeanprofessorcentral.com
-    success_since: 2026-06-09 10:31
+    last_known_mirror: juliewomanwish.com
+    success_since: 2026-06-13 08:10
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
