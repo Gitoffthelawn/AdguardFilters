@@ -87,6 +87,13 @@ mexc.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
 !
 ! NOTE: Specific rules
 !
+||senvio.ai/api/*/events/
+||health.ems.onet.pl/*/metric/collector
+||rent.com/api/analytics|
+||session-api.cloud.pji.nu/sessions/*/events
+||prisjakt.no/_next/monitoring
+||prisjakt.no/rbr9/
+||hdrezka.ax/api/logs/event
 ||assets.poool.fr/engage.min.js
 ||usine-digitale.fr/pf/resources/newrelic.js
 ||advertising.amazon.dev/v1/ad-events/
