@@ -5267,6 +5267,9 @@ smellyfisher.com##.providers
 bestmovie.it,treccani.it##.gmp
 forum.fibra.click##.FibraClickAds-fake-poststream-item
 open.online##a[rel="sponsored"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/233528
+juventusonair.com###adblockNotice
+juventusonair.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', '.offsetHeight === 0')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/232795
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ispazio.net
@@ -6912,6 +6915,8 @@ annapurnapost.com##.sticky-footer
 !
 ! NOTE: Norwegian
 !
+prisjakt.no##.pjra\:hidden
+prisjakt.no##.max-w-page-content-incl-ads > div[data-sentry-component="Section"]:empty
 proff.no##.MuiBox-root[style="text-align:center;min-height:320px;margin-top:16px"]
 finn.no##advt-component
 viivilla.no##gen-ad
@@ -7088,6 +7093,10 @@ roweroweporady.pl#@#.ad_container
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 !
 !
+goral24.pl##.adv
+goral24.pl##.grid__ad
+goral24.pl##.grid__col > div.card:has(> div.custom-html-box)
+||podawacz.cmcmedia.pl^
 forex-nawigator.biz##div[role="main"] > div[class][style*="height: 250px;"]:has(> center > div[id^="div-gpt-"])
 meteo.pl###wtg_sg_bill_top
 silesia.info.pl,mojbytom.pl,mojchorzow.pl,mojegliwice.pl,mojekatowice.pl,laziska.com.pl,mojmikolow.pl,m-ce.pl,orzesze.com.pl,piekaryslaskie.com.pl,pyskowice.com.pl,rudaslaska.com.pl,rybnicki.com,siemianowice.net.pl,sosnowiecki.pl,swiony.pl,wodzislaw.com.pl,zabrze.com.pl,zory.com.pl##div[class*="-revive-ads-"]
@@ -7114,9 +7123,6 @@ gry-online.pl###wykop-feed
 poranny.pl##.componentsListingLargeRow__content > div.atomsListingArticleTileWithSeparatedLink ~ div.componentsListingLargeRow__slotItem
 animewatch.pl##.video-content > div[id][style^="position:absolute;z-index:"]
 animewatch.pl###sidebar > .widget_text > .textwidget:has(> div[class^="myBanner"])
-||streamvault.top/z-*$domain=strumyk.icu
-!+ NOT_OPTIMIZED
-juvepoland.com###jedynka
 ||moja-ostroleka.pl/a-many
 ||moja-ostroleka.pl/a-single
 moja-ostroleka.pl#?#section[class]:has(> div:contains(/^Reklama$/))
@@ -7363,6 +7369,9 @@ bieganie.pl#?#.biega-nb-paris > DIV[style^="text-align:"]:contains(Reklama)
 gospodarkamorska.pl##.Home_categories_box > div.polecamy-slider > div[class*="poster-dnone-"]
 onet.pl##a[href^="https://milionymonet.onet.pl/"]
 pograne.eu###custom_html-8
+! https://github.com/AdguardTeam/AdguardFilters/issues/223442
+!+ NOT_OPTIMIZED
+juvepoland.com###jedynka
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233308
 ewybory.eu#%#//scriptlet('prevent-setTimeout', 'blocked')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -10782,6 +10791,7 @@ dobreprogramy.pl#$#html > body > * { opacity: 1 !important; }
 www.dobreprogramy.pl##style + div
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155927
 poczta.wp.pl#@#[class^="css-"]
+poczta.wp.pl,poczta.o2.pl##div[data-placeholder-div="div"]
 poczta.o2.pl,poczta.wp.pl##.flex-d_column[role="listbox"] div[data-index]:has(div[class*="image_adContent_close"])
 poczta.o2.pl,poczta.wp.pl##.flex-d_column > div > div[class^="mobile:pos_relative"]:has(div[class*="image_adContent_close"])
 poczta.o2.pl,poczta.wp.pl##.flex-d_column[role="listbox"] div[data-index]:has(> div[class^="css-"] > div[class^="trs_all_"][class*=" "])
