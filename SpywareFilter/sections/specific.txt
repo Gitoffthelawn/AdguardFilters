@@ -87,6 +87,8 @@ mexc.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
 !
 ! NOTE: Specific rules
 !
+||work.ua/api/v1/view-page/
+||compo-de.frontnow.app/api/event|
 ||economx.hu/ident-fingerprint/
 ||dex.hu/x.php
 ||senvio.ai/api/*/events/
@@ -3075,7 +3077,6 @@ ciudad.com.ar###cxense-wrapper
 ||yastatic.net/*/rsya-tag-users/
 ||lifenewsjr.com/xstat/
 ||api.solvvy.com/v1/pixels/track
-androplus.org##a[href^="https://px.a8.net/"]
 ||statistics.aldi-international.com/ppms.js
 ||iolam.it/service/trk
 ||inzynieria.com/addStats
