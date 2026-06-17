@@ -3041,6 +3041,7 @@ autopapa.ge##.top-rek
 !
 ! NOTE: Greek
 !
+techblog.gr##.row:has(> div.col-12 > div.billboardad)
 spitogatos.gr##.property__deals__listing
 news247.gr##.phaistos_placeholder
 carandmotor.gr##.front-page-banner
@@ -10560,6 +10561,8 @@ audycje.tokfm.pl##.yieldbird-container
 ||ssl.images.audycje.tokfm.pl/prodstatic360/img/autopromocja/*.mp3$domain=audycje.tokfm.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46291
 se.pl##div[class^="zpr_inside_"][class*="placement__lazy"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/233731
+ceneo.pl#@#.ado-top-billboard
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179405
 ceneo.pl##.js_sidebar > a[data-ad-unit]
 ceneo.pl##.js_sidebar > aside[data-event-category="adbox"]
@@ -12831,6 +12834,10 @@ slow-manga.com##.header-ads-section
 !+ NOT_OPTIMIZED
 goldtraders.or.th#?#header + div.flex > .px-4:contains(ADVERTISEMENT)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/233726
+||warphub69.com^$image,domain=thlivehub.com
+||image.cdend.com^$image,domain=thlivehub.com
+thlivehub.com#@#.video-ad-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/223443
 ||series-days.com/wp-content/uploads/*.gif$image
 series-days.com##.adhl
