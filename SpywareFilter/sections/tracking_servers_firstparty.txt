@@ -28,6 +28,8 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||mcs-normal-*.capcutapi.com^
+||performance-events.guardianapis.com^
 ||tracker-proxy.getmimo.com^
 ||a.cineflix.st^
 ||adtech.abs-cbn.com^
@@ -1578,7 +1580,6 @@ prd.api.bleacherreport.com^
 ||collector.reelevant.com^
 ||scripts-repo.reelevant.com^
 ||analytics.lunaweb.cloud^
-||analytics.onedio.com^
 ||log-lb.skyperfectv.co.jp^
 ||ana.gomtv.com^
 ||log.gomlab.com^
