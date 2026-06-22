@@ -25,6 +25,11 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/234127
+@@||access.worldpay.com^$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/234122
+@@||ksdpictures.site^$subdocument,stealth=referrer
+@@||pictures.spordunyasi.site^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233911
 @@||cartaocontinente.pt^$stealth=flash|java
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233881
@@ -122,6 +127,8 @@
 @@||cizgipass100.online/embed$subdocument,stealth=referrer,domain=yeniwatch.net.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229871
 @@||stacksocial.com^$stealth=flash
+! https://github.com/AdguardTeam/AdguardFilters/issues/234120
+@@||vidnest-*.workers.dev/mp4-proxy$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229852
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=vidfast.pro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229726
