@@ -301,6 +301,13 @@ techlearning.com,shortlist.com,realhomes.com,nexttv.com,musicradar.com,gardening
 !#endif
 !#endif
 !
+! Advergame Technologies Pvt. Ltd
+!#if (!ext_ublock)
+||html-load.com^$script,xmlhttprequest,domain=astrozop.com|criczop.com|feedzop.com|gamezop.io|gamezop.com|quizzop.com|umogames.com
+umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'HTMLScriptElement.prototype.setAttribute', '1', '', '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode/')
+umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'HTMLScriptElement.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
+!#endif
+!
 ! iOS/Safari compatible rules
 !#if (!adguard_ext_android_cb && !ext_ublock)
 ! Common leftovers on forums
@@ -1066,6 +1073,19 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+justwatch.com##div[class*="sr-campaign"]
+justwatch.com##.offers.buybox-selector
+justwatch.com##.sponsored-recommendation
+justwatch.com##.buybox-selector > div[class="offer-container"]
+thesun.co.uk##.article-boxout
+androidexperto.com##div[class^="ym-p"][class*="-server-"]
+speedof.me##.mezgopv-zone
+cinehd.app##section[aria-label^="Sponsored"]
+techrepublic.com##div[data-ad-slot]
+techrepublic.com##sticky-footer-ad
+techrepublic.com##.ad-container
+techrepublic.com##.prose > div.has-data-empty\:hidden
+foodrepublic.com##.raptive-video-player
 newscentermaine.com##.grid > div.grid__section_theme_below-article:has(> div.grid__content div.grid__module-sizer_name_ad)
 newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_ad)
 ||cdn77.ashemaletube.com/ast/www/js-v*.min.js?url=
@@ -6123,7 +6143,7 @@ pornpics.com##li[class*="r"][class$="-frame"]
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 teamoney.site,lookmovie2.to,lilymanga.net##html > iframe[id][style*="position:"][style*="display:"]
 lilymanga.net##.reading-content > .chapter-warning:has(> p > span > strong > a[target="_blank"])
-islands.com##.article > .under-art:has(> .zergnet-widget)
+foodrepublic.com,islands.com##.article > .under-art:has(> .zergnet-widget)
 teamoney.site,lookmovie2.to,hdtodayz.to#$?#html > iframe[style*="position:"] { remove: true; }
 hdtodayz.to##html > div[style*="position:"][style*="pointer-events:"][style*="z-index:"]
 myflixerz.to,hdtodayz.to,moviesjoy.is##div:is([id$="top"], [id$="middle"]) > a[target="_blank"] > img
@@ -13284,7 +13304,7 @@ news18.com##.pani-wid
 ||camcam.cc/wp-content/plugins/dh-anti-adblocker/
 videosdemadurasx.com,an1.com,getsetclean.in,sexgames.cc##a[rel^="sponsored"]
 ||mycartoonsexgames.com/thumbs/*/$image
-technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
+telcomagazine.com,technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
 dfiles.eu##iframe[width="240px"][height="800px"]
 getnada.com###__layout > div > div > .pb-4.justify-center.w-full
 washingtonpost.com###fusion-app > div:not([class]):not([id]) > div.bb[style^="padding-left:"][style*="min-height:"]
@@ -15027,7 +15047,9 @@ eroticmv.com,xfantazy.com,analdin.com,xtits.com,sexu.com,javrave.club,mangamelon
 iframeplayer.tubepornstreaming.com##.video-container > .inner-wrap[style="display: flex;"]
 bitetheass.com,nitroflare-porn.com##center > noindex
 nitroflare-porn.com##center > a[href^="https://www.nitroflare.com/view/"]
-||rainmaker.production-public.tubi.io/rev/WEB?app_id=tubitv*&pub_id=*&*vpaid_enabled=true
+tubitv.com#%#//scriptlet('trusted-json-set', 'Promise.resolve', '$.items[?(@.ad_id)]', '$remove$', '', 'arg:0')
+||tubi.io/api/v*/ad_override?
+||rainmaker.production-public.tubi.io/*/WEB?app_id=tubitv*&pub_id=*&*vpaid_enabled=
 ||ark.tubi.video/*.mp4$redirect=noopmp4-1s
 ||paella.adrise.tv/*.mp4$redirect=noopmp4-1s
 ||isohunt2.net/nordvpn/
@@ -22549,7 +22571,7 @@ tickle.porn##.fp-ui-block
 !+ NOT_OPTIMIZED
 tickle.porn##.fp-player > div[style^="inset"]:not([class])
 !+ NOT_OPTIMIZED
-pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
+rscripts.net,pcgamesn.com,ign.com,theatlantic.com##.ad-wrapper
 !+ NOT_OPTIMIZED
 troypoint.com##.entry-content > div[style*="background-color:"][style*="border:"]:has(> span > a[target="_blank"])
 !+ NOT_OPTIMIZED
