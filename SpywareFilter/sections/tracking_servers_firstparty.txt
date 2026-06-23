@@ -28,6 +28,12 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||event-collector.analytics.onedio.com^
+||obs.forseasky.com^
+||t.ofsys.com^
+||collector.umogames.com^
+||collector.quizzop.com^
+||collector.feedzop.com^
 ||blink.willowmovies.com^
 ||stats.mappl.tv^
 ||mcs-normal-*.capcutapi.com^
