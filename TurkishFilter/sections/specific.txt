@@ -4645,11 +4645,23 @@ turktube1.online,turktube2.online,turktube3.online,turktube4.online,turktube5.on
 turktube1.ink,turktube2.ink,turktube3.ink,turktube4.ink,turktube5.ink,turktube6.ink,turktube7.ink,turktube8.ink,turktube9.ink,turktube10.ink,turktube11.ink,turktube12.ink,turktube13.ink,turktube14.ink,turktube15.ink,turktube16.ink,turktube17.ink,turktube18.ink,turktube19.ink,turktube20.ink,turktube21.ink,turktube22.ink,turktube23.ink,turktube24.ink,turktube25.ink,turktube26.ink,turktube27.ink,turktube28.ink,turktube29.ink,turktube30.ink##a[href^="https://tinyurl.com/"]
 !#endif
 !
-! Frequently changed domains: hdturkifsa*.com
-! Source: hdturkifsa7.com
-[$domain=/hdturkifsa\d+\.com$/]##a[href="https://t.me/alperkurt1"]
+! Frequently changed domains: hdturkifsa*.lol
+! Source: hdturkifsa45.icu
+! aglint-disable no-invalid-modifiers
+!+ NOT_VALIDATE
+.gif|$domain=/hdturkifsa\d+\.icu$/
+[$domain=/hdturkifsa\d+\.icu$/]###tg-cta-container
+[$domain=/hdturkifsa\d+\.icu$/]##.banner-grid-wrap
+[$domain=/hdturkifsa\d+\.icu$/]##article[data-ad-pos]
+[$domain=/hdturkifsa\d+\.icu$/]##div[style]:has(> a[href^="https://bit.ly/"])
+[$domain=/hdturkifsa\d+\.icu$/]#%#//scriptlet('remove-node-text', 'script', 'pickEngine')
+[$domain=/hdturkifsa\d+\.icu$/]$$script:contains(pickEngine)
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-hdturkifsa7.com,hdturkifsa8.com,hdturkifsa9.com,hdturkifsa10.com,hdturkifsa11.com,hdturkifsa12.com,hdturkifsa13.com,hdturkifsa14.com,hdturkifsa15.com,hdturkifsa16.com,hdturkifsa17.com,hdturkifsa18.com,hdturkifsa19.com,hdturkifsa20.com,hdturkifsa21.com,hdturkifsa22.com,hdturkifsa23.com,hdturkifsa24.com,hdturkifsa25.com,hdturkifsa26.com,hdturkifsa27.com,hdturkifsa28.com,hdturkifsa29.com,hdturkifsa30.com,hdturkifsa31.com,hdturkifsa32.com,hdturkifsa33.com,hdturkifsa34.com,hdturkifsa35.com,hdturkifsa36.com##a[href="https://t.me/alperkurt1"]
+hdturkifsa45.icu,hdturkifsa46.icu,hdturkifsa47.icu,hdturkifsa48.icu,hdturkifsa49.icu,hdturkifsa50.icu,hdturkifsa51.icu,hdturkifsa52.icu,hdturkifsa53.icu,hdturkifsa54.icu,hdturkifsa55.icu,hdturkifsa56.icu,hdturkifsa57.icu,hdturkifsa58.icu,hdturkifsa59.icu,hdturkifsa60.icu,hdturkifsa61.icu,hdturkifsa62.icu,hdturkifsa63.icu,hdturkifsa64.icu,hdturkifsa65.icu,hdturkifsa66.icu,hdturkifsa67.icu,hdturkifsa68.icu,hdturkifsa69.icu,hdturkifsa70.icu,hdturkifsa71.icu,hdturkifsa72.icu,hdturkifsa73.icu,hdturkifsa74.icu###tg-cta-container
+hdturkifsa45.icu,hdturkifsa46.icu,hdturkifsa47.icu,hdturkifsa48.icu,hdturkifsa49.icu,hdturkifsa50.icu,hdturkifsa51.icu,hdturkifsa52.icu,hdturkifsa53.icu,hdturkifsa54.icu,hdturkifsa55.icu,hdturkifsa56.icu,hdturkifsa57.icu,hdturkifsa58.icu,hdturkifsa59.icu,hdturkifsa60.icu,hdturkifsa61.icu,hdturkifsa62.icu,hdturkifsa63.icu,hdturkifsa64.icu,hdturkifsa65.icu,hdturkifsa66.icu,hdturkifsa67.icu,hdturkifsa68.icu,hdturkifsa69.icu,hdturkifsa70.icu,hdturkifsa71.icu,hdturkifsa72.icu,hdturkifsa73.icu,hdturkifsa74.icu##.banner-grid-wrap
+hdturkifsa45.icu,hdturkifsa46.icu,hdturkifsa47.icu,hdturkifsa48.icu,hdturkifsa49.icu,hdturkifsa50.icu,hdturkifsa51.icu,hdturkifsa52.icu,hdturkifsa53.icu,hdturkifsa54.icu,hdturkifsa55.icu,hdturkifsa56.icu,hdturkifsa57.icu,hdturkifsa58.icu,hdturkifsa59.icu,hdturkifsa60.icu,hdturkifsa61.icu,hdturkifsa62.icu,hdturkifsa63.icu,hdturkifsa64.icu,hdturkifsa65.icu,hdturkifsa66.icu,hdturkifsa67.icu,hdturkifsa68.icu,hdturkifsa69.icu,hdturkifsa70.icu,hdturkifsa71.icu,hdturkifsa72.icu,hdturkifsa73.icu,hdturkifsa74.icu##article[data-ad-pos]
+hdturkifsa45.icu,hdturkifsa46.icu,hdturkifsa47.icu,hdturkifsa48.icu,hdturkifsa49.icu,hdturkifsa50.icu,hdturkifsa51.icu,hdturkifsa52.icu,hdturkifsa53.icu,hdturkifsa54.icu,hdturkifsa55.icu,hdturkifsa56.icu,hdturkifsa57.icu,hdturkifsa58.icu,hdturkifsa59.icu,hdturkifsa60.icu,hdturkifsa61.icu,hdturkifsa62.icu,hdturkifsa63.icu,hdturkifsa64.icu,hdturkifsa65.icu,hdturkifsa66.icu,hdturkifsa67.icu,hdturkifsa68.icu,hdturkifsa69.icu,hdturkifsa70.icu,hdturkifsa71.icu,hdturkifsa72.icu,hdturkifsa73.icu,hdturkifsa74.icu##div[style]:has(> a[href^="https://bit.ly/"])
+hdturkifsa45.icu,hdturkifsa46.icu,hdturkifsa47.icu,hdturkifsa48.icu,hdturkifsa49.icu,hdturkifsa50.icu,hdturkifsa51.icu,hdturkifsa52.icu,hdturkifsa53.icu,hdturkifsa54.icu,hdturkifsa55.icu,hdturkifsa56.icu,hdturkifsa57.icu,hdturkifsa58.icu,hdturkifsa59.icu,hdturkifsa60.icu,hdturkifsa61.icu,hdturkifsa62.icu,hdturkifsa63.icu,hdturkifsa64.icu,hdturkifsa65.icu,hdturkifsa66.icu,hdturkifsa67.icu,hdturkifsa68.icu,hdturkifsa69.icu,hdturkifsa70.icu,hdturkifsa71.icu,hdturkifsa72.icu,hdturkifsa73.icu,hdturkifsa74.icu#%#//scriptlet('remove-node-text', 'script', 'pickEngine')
 !#endif
 !
 ! Frequently changed domains: softtv*.com
