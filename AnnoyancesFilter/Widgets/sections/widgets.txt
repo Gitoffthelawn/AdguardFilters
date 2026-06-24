@@ -1397,6 +1397,7 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 !   SECTION: Widgets - Marketing (third-party services)
 !
+||widget.yourgood.app^
 ||quizgo-widget.ru^$third-party
 ||cdn.helvia.io^$third-party
 ||lemrock.com^$third-party
@@ -2199,6 +2200,8 @@ zebratechnologies.force.com##.zbrbot-container
 !
 !   SECTION: Uncategorized
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/233934
+||gist.ai^$domain=upi.com
 ! nperf speedtest widget
 ||ws.nperf.com^$third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/232077
