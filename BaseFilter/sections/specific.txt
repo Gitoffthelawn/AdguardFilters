@@ -1074,6 +1074,19 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+||manganato.gg/js/ads/
+||manganato.gg/images/bns/common/shirley.png
+manganato.gg##.container-chapter-reader > div[class] > a[href^="https://flax.to/"]
+androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com###secondary div[id^="sidebar-"]
+||ashemaletube.com/api/tiles
+stuff.co.nz###cw-brand-banner
+stuff.co.nz###fisher-funds-banner
+stuff.co.nz###suzuki-sport-section-banner
+stuff.co.nz###stuff-to-solve-no-sponsor
+stuff.co.nz##div[data-testid="sponsor"]
+||assets.stuff.co.nz/static/stuff-adtech-sdk/ads-sdk/
+gvhot.net,gvhot.com###clickCounterText
+gvhot.net,gvhot.com#%#//scriptlet('prevent-window-open')
 ||anysex.com/*oio/|$script
 veporn.com##.ad-zone
 ||veporn.com/api/vast-proxy
@@ -2032,7 +2045,7 @@ file.supjavhd.to###poster
 iqsaved.com##.main__block > div.page__inner:has(> div.context > div.context__caption)
 sflix.film,netnaija.film##div[class^="fixed inset-0 z-[22] w-full h-full bg-black/60 flex items-center justify-center px-4 md:px-0"]
 thestreet.com##div[class^="styles_headerAdSlot__"]
-primesrc.me#%#//scriptlet('remove-attr', 'href', 'a.splash')
+primesrc.me#%#//scriptlet('remove-attr', 'href', 'div.embed-player > a[class^="spla"]')
 primevid.click##a[href^="https://fairscrew.com/"]
 2short.club##.mdlAd
 oddsportal.com##.bonus_offer_mobile
@@ -2282,7 +2295,7 @@ viralxxxporn.com##.sidebar-adv
 comix.to##.text-center > a[href*="?utm_source"]
 comix.to#%#//scriptlet('prevent-window-open')
 ||raw.githubusercontent.com^$media,redirect=noopmp3-0.1s,domain=vidify.top
-vidify.top#%#//scriptlet('set-constant', 'Object.prototype.adUrl', '')
+myflixerfree.org,vidify.top#%#//scriptlet('set-constant', 'vastAdData', 'undefined')
 porndd.com##.winter-topbar
 ||sea.onlyfuns.win/logo.svg$domain=mydiv.net.ua
 ||mydiv.net.ua/main.js
