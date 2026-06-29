@@ -847,9 +847,10 @@ scribegeser.weebly.com#%#//scriptlet('abort-current-inline-script', 'document.wr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161900
 r18.best#%#//scriptlet("abort-on-property-read", "_cpp")
 r18.best#%#//scriptlet('set-cookie', '_popprepop', '1')
+! https://github.com/AdguardTeam/AdguardFilters/issues/234509
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161818
-vidmoly.me,vidmoly.net,vidmoly.to#%#//scriptlet('prevent-window-open')
-vidmoly.me,vidmoly.net,vidmoly.to#%#(()=>{const e={apply:(e,t,l)=>{if(!t.matches('a[href][target="_blank"]'))return Reflect.apply(e,t,l)}};window.HTMLElement.prototype.click=new Proxy(window.HTMLElement.prototype.click,e)})();
+embedsun.cc,vidmoly.me,vidmoly.net,vidmoly.to#%#//scriptlet('prevent-window-open')
+embedsun.cc,vidmoly.me,vidmoly.net,vidmoly.to#%#(()=>{const e={apply:(e,t,l)=>{if(!t.matches('a[href][target="_blank"]'))return Reflect.apply(e,t,l)}};window.HTMLElement.prototype.click=new Proxy(window.HTMLElement.prototype.click,e)})();
 !+ PLATFORM(ios, ext_safari)
 vidmoly.me,vidmoly.net,vidmoly.to#?#div[class^="custom-overlay"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161760
@@ -939,8 +940,9 @@ javggvideo.xyz#%#//scriptlet('prevent-window-open')
 javmoon.me#%#//scriptlet('prevent-setTimeout', '/debugger|UserCustomPop/')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157369
 faroutmagazine.co.uk#%#//scriptlet('hide-in-shadow-dom', '.GRVMpuWrapper')
+! https://github.com/AdguardTeam/AdguardFilters/issues/234472
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157349
-watchporn.to#%#//scriptlet('trusted-set-local-storage-item', 'kvsplayer_popunder_open', '2000000000000')
+bleachmyeyes.com,watchporn.to#%#//scriptlet('trusted-set-local-storage-item', 'kvsplayer_popunder_open', '2000000000000')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157346
 theporndude.com#%#//scriptlet('trusted-set-cookie', 'wallpaper', 'click')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157156
