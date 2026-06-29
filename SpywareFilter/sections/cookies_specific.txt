@@ -6,6 +6,10 @@
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/234433
+||ridibooks.com^$cookie=fingerprint
+||ridibooks.com^$cookie=attribution_tool_params
+||ridibooks.com^$cookie=pvid
 ! dugun.com
 ||dugun.com^$cookie=uniqueId
 ! matchtv.ru
@@ -55,8 +59,6 @@
 ||theculturetrip.com^$cookie=tct-real-user
 ! webmd.com
 ||webmd.com^$cookie=VisitorId
-! goodrx.com
-||goodrx.com^$cookie=grx_unique_id
 ! zvuk.com
 ||zvuk.com^$cookie=device_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/224419
