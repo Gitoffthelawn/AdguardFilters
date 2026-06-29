@@ -800,7 +800,7 @@ myip.ru##div:has(> p#ad-info)
 postal.ninja##.pnj-ax-header
 pornomira.net##.thumbs > div.thumb:has(script[src^="https://a.magsrv.com/"])
 otoba.ru##.content-others
-comandir.com###dle-content > noindex:has(> div.hblock > div[id*="ScriptRoot"])
+comandir.com###dle-content > noindex
 gq.ru##.noAdsSpacer
 gubdaily.ru##div[class^="ai-viewport-"]
 gubdaily.ru##div[class^="gub-ad"]
@@ -1078,7 +1078,7 @@ happycoin.club##a[href][target="_blank"][rel="noopener"] > img[width][height]
 happycoin.club#?#.theiaStickySidebar > div.widget_text:has(> div.widget-title-cover > h5:contains(Реклама))
 ||myfanstv.net/uploads/*/baner/
 fanserials.vip##div[data-dlebclicks]
-sport-express.ru,drive2.ru,zaycev.net,dni.ru,life.ru,asna.ru,fb.ru,cian.ru,vseinstrumenti.ru,onliner.by,iz.ru,fantworld.org,myfin.by,animeonline.cc##div[id^="adfox_"]
+lifehacker.ru,sport-express.ru,drive2.ru,zaycev.net,dni.ru,life.ru,asna.ru,fb.ru,cian.ru,vseinstrumenti.ru,onliner.by,iz.ru,fantworld.org,myfin.by,animeonline.cc##div[id^="adfox_"]
 animeonline.cc###rkl-left
 myslo.ru##div[class^="myslo-banner-"]
 kinoafisha.info##.okko2024Btn
@@ -1163,7 +1163,6 @@ slimboxtv.ru###block-20
 kinoafisha.info##.okko2023Btn
 hibiny.ru##div[class^="pek"]:not([id^="item"])
 hibiny.ru##aside > a[href="/pek/"]
-comandir.com#?##dle-content > noindex:has(> div.hblock > div[id*="ScriptRoot"])
 muz-tv.ru##.x-popup-ad-short
 marieclaire.ru##.article__block_type-productSet
 pc.ru##div[class^="advert_"]
