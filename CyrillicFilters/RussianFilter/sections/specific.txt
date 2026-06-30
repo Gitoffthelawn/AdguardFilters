@@ -14,6 +14,10 @@ sport-express.ru,gorod24.online,vedomosti.ru,kommersant.ru,rg.ru,glavbukh.ru,che
 !
 ! NOTE: Specific rules
 !
+||cdn.iz.ru/profiles/portal/themes/purple/js/ads-tools.js
+sports.ru,sovsport.ru##a[href*="winline.ru"]
+gazeta.press##div[id^="gazeta-adv-counter"]
+dreamisland.ru##div[class^="AdsBlock_wrapper"]
 ||r.mradx.net/img/CF/D4E54B.js
 video.sports.ru##.MuiBox-root > div.MuiBox-root:has(> button > div > img[src^="https://st.spads.me/image/"])
 matchtv.ru##.w-catalog-bonuses
@@ -3446,7 +3450,7 @@ limbook.net##.book-meta__ad
 ua-football.com##.header-bonus
 kanalukraina.tv##.article__footer_adv
 kurer-sreda.ru##.tax
-kommersant.ru##.adv_nest
+myweekend.ru,kommersant.ru##.adv_nest
 starhit.ru###div-vb-1-wrap
 starhit.ru##.relap-wrap-wrap
 ||safeview.ukr.net/frame/top-banner.html
