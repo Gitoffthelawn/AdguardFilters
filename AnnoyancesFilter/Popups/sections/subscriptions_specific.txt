@@ -59,6 +59,15 @@ donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gig
 !
 ! SECTION: Subscriptions - Regular rules
 !
+wbal.com##.elementor-element > .elementor-widget-container:has(> p > a[href^="https://7e98357a-f946-40a2-b1af-43f1ce85e524.us01.ldpgs.com/"])
+gdebenz.ru###upd-banner
+remanga.org#%#//scriptlet('trusted-set-local-storage-item', 'mc:event-ad:hidden-until', '9999999999999')
+aleagues.com.au##.entry-footer--subscribe
+breitbart.com###bn-premium-header-subscribe-bar
+breitbart.com###bbd_incontent
+slate.com##.article-cta
+groupon.de#%#//scriptlet('trusted-set-cookie', 'exit_modal_opened_timestamp', '$currentISODate$', '', '/', 'groupon.de')
+soraraw.net#%#//scriptlet('trusted-set-local-storage-item', 'notify', '{"id":"2","show":false,"message":"","key":"gomuraw"}')
 crist.com.pl##.sec-newsletter
 day.az##.article-body > p:has(> a[href="http://t.me/dayaz"])
 unieuro.it##.cms-store-newsletter-container:has(> div[class] > div.additional-link-container > a[href^="/online/iscrizione-newsletter"])
@@ -1141,7 +1150,7 @@ pagellapolitica.it##.bg-blue:has(a[class^="hover:text-blue"])
 pagellapolitica.it##section.bg-black:has(> .container > .grid)
 powercompare.co.nz##floating-subscription-element
 tomsguide.com###bannerHeader
-upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
+breitbart.com,upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
 reebok.jp##.footer_box
 economipedia.com##.econo-code-block
 dig.watch##.newsletter-subscribe-v2
@@ -8294,7 +8303,7 @@ businessinsider.com##a[href*="&itm_campaign=chart-of-the-day-newsletter"]
 cooking.nytimes.com###inline-recipe-newsletter-signup
 seattletimes.com###amp-usermessaging
 radiokp.ru##.fx-ai-center
-straganzdrowia.pl###box_newsletter
+rowerowelove.shop,straganzdrowia.pl###box_newsletter
 swarajyamag.com##div[class^="email-subscribe-"]
 revolt.tv##div[id="toaster"][data-cdata*="Subscribe"]
 flos.com###link-newsletter
