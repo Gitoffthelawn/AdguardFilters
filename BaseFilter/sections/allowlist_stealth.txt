@@ -25,8 +25,15 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/234880
+@@||ninstream.com/*.jpg|$xmlhttprequest,stealth=referrer,domain=senshi.live
+! https://github.com/AdguardTeam/AdguardFilters/issues/234878
+@@||swiftstream.top/proxy/$xmlhttprequest,image,stealth=referrer,domain=animetsu.*
+! https://github.com/AdguardTeam/AdguardFilters/issues/234872
+@@||wp.youtube-anime.com^$image,stealth=referrer,domain=allmanga.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234807
-@@||sman1asjap.my.id/tsn.m3u8$stealth=referrer,domain=roxiestreams.su
+@@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
+@@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234673
 @@||account.deezer.com/$stealth=flash
