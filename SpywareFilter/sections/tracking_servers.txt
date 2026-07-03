@@ -69,6 +69,8 @@
 !
 !
 !
+||lkqivtsnfvriw.website^
+||fireanalytics.firestream.to^
 ||reportmyads.com^$third-party
 ||pcx-events.revbox.co^
 ||telemetry.adsninja.ca^
