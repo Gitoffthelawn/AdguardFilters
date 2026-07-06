@@ -1263,6 +1263,28 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/235080
+donghua-ar.me#%#//scriptlet('prevent-setTimeout', 'offsetHeight===0')
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+donghua-ar.me#@#.ad-unit:not(.textads)
+donghua-ar.me#@#.ad_wrapper
+donghua-ar.me#@#.ad-slot
+donghua-ar.me#@#.advertisment
+!#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/235031
+gsmfile2025.blogspot.com#%#//scriptlet('prevent-setTimeout', 'getComputedStyle', '250')
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||gsmfile2025.blogspot.com^$generichide
+gsmfile2025.blogspot.com##.ad-top-banner
+gsmfile2025.blogspot.com##.ad-left-wrapper
+gsmfile2025.blogspot.com##.ad-right-wrapper
+!#endif
+! https://github.com/AdguardTeam/AdguardFilters/issues/234947
+@@||xdownloaderz.com^$generichide
+xdownloaderz.com#%#//scriptlet('prevent-constructor', 'Promise', 'pagead2.googlesyndication.com')
+xdownloaderz.com#%#//scriptlet('trusted-replace-argument', 'Array.prototype.some', '0', 'falseFunc', '/\.offsetHeight\s*\|\|\s*0\s*===/')
+! https://github.com/AdguardTeam/AdguardFilters/issues/235064
+||4up.pics/assets/js/anti-adblock.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234845
 firestream.to#%#//scriptlet('prevent-element-src-loading', 'script', 'googleapis.com/js/sdkloader/ima3.js')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -1670,6 +1692,7 @@ torupload.com#%#//scriptlet('prevent-element-src-loading', 'img', 'googlesyndica
 nzn3.org,bysevepoin.com,arbitrarydecisions.com#%#//scriptlet('json-prune', 'adblock_detection force_disable_adblock')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228712
 cloudfam.io#%#(()=>{const e={apply:(e,t,n)=>{const o=Reflect.apply(e,t,n);try{o instanceof HTMLIFrameElement&&""===o.src&&o.contentWindow&&(o.contentWindow.fetch=window.fetch,o.contentWindow.getComputedStyle=window.getComputedStyle)}catch(e){}return o}};Node.prototype.appendChild=new Proxy(Node.prototype.appendChild,e)})();
+cloudfam.io#%#//scriptlet('trusted-replace-argument', 'Blob', '0', 'emptyArr', '/fetch\(.+\.data\.url/')
 cloudfam.io#%#//scriptlet('abort-on-stack-trace', 'document.createElement', '/openAdWithFallback|getNativeApis/')
 cloudfam.io#%#//scriptlet('prevent-fetch', 'method:HEAD')
 cloudfam.io#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle|doubleclick/')
@@ -1679,8 +1702,13 @@ cloudfam.io#%#//scriptlet('prevent-fetch', '/pagead|adserve|adsbygoogle/')
 @@||cloudfam.io/assets/ads/gpt-publisher.js
 @@||cloudfam.io/assets/ads/adnetwork-sync.js
 @@||cloudfam.io/assets/ads/prebid.js
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
+!#safari_cb_affinity(privacy)
+@@||cloudfam.io/*/pixel.gif
+!#safari_cb_affinity
+!#if (adguard_app_ios || adguard_ext_android_cb || ext_safari)
+@@||jsc.adskeeper.com/site/1091589.js$domain=cloudfam.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cloudfam.io
+!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228716
 hentaitoon.tv#%#//scriptlet('prevent-setTimeout', 'container.remove')
 !+ PLATFORM(ios, ext_android_cb)
@@ -5436,8 +5464,8 @@ linuxcapable.com#%#//scriptlet('set-constant', 'nitroAds.abp', 'true')
 hqq.to#%#//scriptlet('abort-on-stack-trace', 'olplayer.error', 'Be.o.dispatcher.o.dispatcher')
 hqq.to#%#//scriptlet('set-constant', 'adblockcheck', 'false')
 ! Clickadu reinjection
-brazz.org,playmogo.com,thotchicks.com,gelbooru.com,lewdzone.com,r-34.xyz,simply-hentai.com,turbo.cr,upload18.com,luluvids.top,paipancon.com,verhentai.top,muchohentai.com,mangago.me,turbovid.*,javx357.com,animebr.org,celebritydeeplink.com,japaneseholes.com,javlab.net,javmeta.com,vipserije.com,javideo.net,advertape.net,cyberdrop.*,popjav.in,vevocloud.com,x-fetish.tube,myvidplay.com,arigl.com,saint2.*,imgbox.com,mens1069.com,simpcity.*,javfan.one,jmanga.casa,javfc2.xyz,nukibooks.com,jpg6.su,luluvid.com,jav.si,javtiful.com,pornslash.com,hentai2w.com,javpas.com,nsfwr34.com,luluvdoo.com,tojav.net,ekasiwap.com,xxgasm.com,javmenu.com,porntin.com,asianporn.li,javfor.tv,shinshi-manga.net,asmr18.fans,b-hentai.com,jav-fun.cc,rawkuma.net,spoilerplus.tv,daftporn.com,thefappeningblog.com,javboys.com,empressleak.biz,ddd-smart.net,rule34.*,archivebate.*,apkhosto.com,jpg5.su,nsfwyoutube.com,thefappening.pro,javhd.*,javhdz.today,fapeza.com,xmalay1.net,animeworld.*,natomanga.com,play.playkrx18.site,missavtv.com,poapan.xyz,nudogram.com,watchadsontape.com,streamtape.com,18comic.vip,18comic-gquu.vip,mitaku.net,hitomi.la,klmanga.app,mangarawjp.tv,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,xanimeporn.com#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
-motherless.com#%#//scriptlet('prevent-setTimeout', 'WebAssembly')
+camsrip.com,brazz.org,playmogo.com,thotchicks.com,gelbooru.com,lewdzone.com,r-34.xyz,simply-hentai.com,turbo.cr,upload18.com,luluvids.top,paipancon.com,verhentai.top,muchohentai.com,mangago.me,turbovid.*,javx357.com,animebr.org,celebritydeeplink.com,japaneseholes.com,javlab.net,javmeta.com,vipserije.com,javideo.net,advertape.net,cyberdrop.*,popjav.in,vevocloud.com,x-fetish.tube,myvidplay.com,arigl.com,saint2.*,imgbox.com,mens1069.com,simpcity.*,javfan.one,jmanga.casa,javfc2.xyz,nukibooks.com,jpg6.su,luluvid.com,jav.si,javtiful.com,pornslash.com,hentai2w.com,javpas.com,nsfwr34.com,luluvdoo.com,tojav.net,ekasiwap.com,xxgasm.com,javmenu.com,porntin.com,asianporn.li,javfor.tv,shinshi-manga.net,asmr18.fans,b-hentai.com,jav-fun.cc,rawkuma.net,spoilerplus.tv,daftporn.com,thefappeningblog.com,javboys.com,empressleak.biz,ddd-smart.net,rule34.*,archivebate.*,apkhosto.com,jpg5.su,nsfwyoutube.com,thefappening.pro,javhd.*,javhdz.today,fapeza.com,xmalay1.net,animeworld.*,natomanga.com,play.playkrx18.site,missavtv.com,poapan.xyz,nudogram.com,watchadsontape.com,streamtape.com,18comic.vip,18comic-gquu.vip,mitaku.net,hitomi.la,klmanga.app,mangarawjp.tv,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,xanimeporn.com#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
+motherless.xxx#%#//scriptlet('prevent-setTimeout', 'WebAssembly')
 natomanga.com#%#//scriptlet('prevent-setTimeout', 'this.ast')
 /^https:\/\/www\.natomanga\.com\/js\/[a-f0-9]{32}\.js$/$script,domain=natomanga.com
 /^https:\/\/www\.gayxnow\.com\/[a-z][a-z][a-z][a-z][a-z][a-z]?\.js$/$script
