@@ -25,6 +25,10 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/235181
+@@||cdn.asdasdhg.com^$image,stealth=referrer,domain=silentquill.net
+! https://github.com/AdguardTeam/AdguardFilters/issues/235158
+@@||cdn.readdetectiveconan.com^$image,stealth=referrer,domain=mangapill.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235019
 @@||fak.xxx^$stealth=ip
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235020
@@ -35,11 +39,13 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234878
 @@||swiftstream.top/proxy/$xmlhttprequest,image,stealth=referrer,domain=animetsu.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234872
-@@||wp.youtube-anime.com^$image,stealth=referrer,domain=allmanga.to
+@@||wp.youtube-anime.com^$image,stealth=referrer,domain=allmanga.to|mkissa.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234807
 @@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
+! https://github.com/AdguardTeam/AdguardFilters/issues/234791
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|vegamovies.navy|rogmovies.cv|xprimehub.bond
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234673
 @@||account.deezer.com/$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234641
@@ -1393,8 +1399,8 @@
 @@||sn.dplayer*.site/iframe.php$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228269
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169404
-@@||hls0*.*.*.mp4?ip=$stealth=referrer,media,domain=kisskh.co
-@@||hls*.*.*/hls*/*.PNG$stealth=referrer,xmlhttprequest,domain=kisskh.*
+@@||hls0*.*.*.mp4?ip=$stealth=referrer,media,domain=kisskh.*
+@@||hls*.*.*/hls*/*.PNG$stealth=referrer,third-party,xmlhttprequest,domain=kisskh.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168999
 @@||plex.tv/api/$stealth=ip
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168619
