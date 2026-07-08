@@ -2,6 +2,9 @@ sites:
   Vegamovies:
     initial_domain: https://vegamovies.hot/?re=vg
     last_known_mirror: vegamovies.navy
+    failed_since: 2026-07-07 19:35
+    failed_days: 1
+    potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
     success_since: 2026-07-07 06:44
@@ -13,11 +16,11 @@ sites:
     last_known_mirror: turkifsaclub130.sbs
     success_since: 2026-07-04 19:31
   Jmanga (jmanga.*):
-    last_known_mirror: jmanga.casa
-    success_since: 2026-06-26 13:44
+    last_known_mirror: jmanga.beer
+    success_since: 2026-07-08 09:47
   iNat TV (inattv*.xyz):
-    last_known_mirror: inattv1316.xyz
-    success_since: 2026-06-26 08:15
+    last_known_mirror: inattv1317.xyz
+    success_since: 2026-07-07 19:35
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
@@ -26,7 +29,9 @@ sites:
     potentially_dead: true
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac96.cfd
-    success_since: 2026-07-06 01:39
+    failed_since: 2026-07-07 19:35
+    failed_days: 1
+    potentially_dead: true
   Piabet TV (piabettv*.live):
     force_search_ahead: true
     last_known_mirror: piabettv18.live
@@ -84,14 +89,14 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Sadeceifsa (sadeceifsa*.lol):
-    last_known_mirror: sadeceifsa16.icu
-    success_since: 2026-07-07 06:44
+    last_known_mirror: sadeceifsa15.icu
+    success_since: 2026-07-08 19:33
   Hdturkifsa (hdturkifsa*.icu):
-    last_known_mirror: hdturkifsa54.cfd
-    success_since: 2026-07-07 06:44
+    last_known_mirror: hdturkifsa50.cfd
+    success_since: 2026-07-08 19:33
   Cimcime:
-    last_known_mirror: cimcime133.live
-    success_since: 2026-07-06 19:36
+    last_known_mirror: cimcime134.live
+    success_since: 2026-07-08 19:33
   MaçtanMaça:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
