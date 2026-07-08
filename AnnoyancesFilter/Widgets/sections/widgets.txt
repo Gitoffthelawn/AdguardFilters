@@ -76,6 +76,8 @@ nizimoenews.livedoor.blog,butumori.com,netizen-voice.blog.jp,ityouchannel.livedo
 !
 ! NOTE: Blogroll specific rules
 !
+odessa.ua##div.maincont > div[style^="margin: "]:has(> a[href="https://t.me/slovo_odessa"])
+girlsvip-matome.com###kanren_box2
 monhan-soku.com##.gs-single-before-article
 monhan-soku.com##.yrss-list
 blog.domesoccer.jp###side > section:has(> div#rss_3site_frame)
@@ -2524,6 +2526,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !   NOTE: Donation widgets
 !   Really annoying only
 !
+pureinfotech.com##.kofi-box
 fourfourtwo.com##[id^="play-our-free-match-predictor-and-win-"]
 fourfourtwo.com##[id^="play-our-free-match-predictor-and-win-"] + div[style^="min-height:"][id*="-"]:has(> .kwizly-quiz)
 fourfourtwo.com###article-body > *:not([id*="-"]) + div[style^="min-height:"]:has(> .kwizly-quiz)
