@@ -3,7 +3,7 @@ sites:
     initial_domain: https://vegamovies.hot/?re=vg
     last_known_mirror: vegamovies.navy
     failed_since: 2026-07-07 19:35
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
@@ -28,7 +28,7 @@ sites:
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac96.cfd
     failed_since: 2026-07-07 19:35
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Piabet TV (piabettv*.live):
     force_search_ahead: true
@@ -68,6 +68,11 @@ sites:
     force_search_ahead: true
     last_known_mirror: turkifsalar4.site
     success_since: 2026-07-06 19:36
+  TurkIfsa (turk-ifsa*.com):
+    force_search_ahead: true
+    accept_antibot: true
+    last_known_mirror: turk-ifsa11.com
+    success_since: 2026-07-09 13:57
   OnionPlay (onionplay.*):
     accept_antibot: true
     last_known_mirror: onionplay.st
@@ -98,3 +103,16 @@ sites:
   MaçtanMaça:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
+  Patronlig:
+    last_known_mirror: patronlig16.cfd
+    success_since: 2026-07-08 19:55
+  Inattvizle:
+    initial_domain: inatgiris.com
+    last_known_mirror: inattvizle480.top
+    accept_antibot: true
+    force_search_ahead: true
+  Selcuksportshd:
+    last_known_mirror: selcuksportshd899ff9a3e6.xyz
+    accept_antibot: true
+    force_search_ahead: true
+
