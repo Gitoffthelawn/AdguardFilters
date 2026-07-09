@@ -52,6 +52,7 @@
 ! ||api.instabug.com^
 ! ||launchdarkly.com^
 ! ||cdn.trackjs.com^
+! ||sentry.anytype.io^
 !
 !
 ! ||ensighten.com^$third-party - not a tracker
@@ -69,6 +70,8 @@
 !
 !
 !
+||logws*.ati-host.net^
+||rum.catchmetrics.io^
 ||mradx.net^
 ||api.tblcontent.com^
 ||getjan.io^
