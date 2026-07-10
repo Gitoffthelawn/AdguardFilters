@@ -6,6 +6,8 @@
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/235441
+mcp.directory#%#//scriptlet('remove-cookie', 'dotcom_user')
 ! greatandhra.com
 ||greatandhra.com^$cookie=uid-s
 ||greatandhra.com^$cookie=vsid
@@ -762,7 +764,7 @@ $cookie=ahoy_visitor,domain=instacart.ca|instacart.com
 ||championat.com^$cookie=adtech_uid
 ||championat.com^$cookie=top100_id
 ||championat.com^$cookie=rchainid
-$cookie=ruid,domain=afisha.ru|eda.ru|rambler.ru
+$cookie=ruid,domain=afisha.ru|eda.ru
 ||afisha.ru^$cookie=adtech_uid
 ||afisha.ru^$cookie=_afuid
 ||afisha.ru^$cookie=_eggDeviceUUID
