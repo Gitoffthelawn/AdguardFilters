@@ -1,10 +1,9 @@
 sites:
   Vegamovies:
     initial_domain: https://vegamovies.hot/?re=vg
+    accept_antibot: true
     last_known_mirror: vegamovies.navy
-    failed_since: 2026-07-07 19:35
-    failed_days: 2
-    potentially_dead: true
+    success_since: 2026-07-10 15:30
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
     success_since: 2026-07-07 06:44
@@ -28,10 +27,9 @@ sites:
     failed_days: 0
     potentially_dead: true
   Patronmac (patronmac*.cfd):
-    last_known_mirror: patronmac96.cfd
-    failed_since: 2026-07-07 19:35
-    failed_days: 2
-    potentially_dead: true
+    last_known_mirror: patronmac98.cfd
+    accept_antibot: true
+    success_since: 2026-07-10 15:30
   Piabet TV (piabettv*.live):
     force_search_ahead: true
     last_known_mirror: piabettv18.live
@@ -98,23 +96,29 @@ sites:
     success_since: 2026-07-08 19:33
   Hdturkifsa (hdturkifsa*.icu):
     last_known_mirror: hdturkifsa50.cfd
-    success_since: 2026-07-08 19:33
+    failed_since: 2026-07-10 13:41
+    failed_days: 1
+    potentially_dead: true
   Cimcime:
-    last_known_mirror: cimcime134.live
-    success_since: 2026-07-08 19:33
+    last_known_mirror: cimcime135.live
+    success_since: 2026-07-10 13:41
   MaçtanMaça:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
-  Patronlig:
-    last_known_mirror: patronlig16.cfd
-    success_since: 2026-07-08 19:55
+  PatronLive / Patronspor (patronlive*.cfd):
+    last_known_mirror: patronlive40.cfd
+    success_since: 2026-07-10 15:30
   Inattvizle:
     initial_domain: inatgiris.com
-    last_known_mirror: inattvizle480.top
+    last_known_mirror: www.inattvizle480.top
     accept_antibot: true
     force_search_ahead: true
+    success_since: 2026-07-10 01:38
   Selcuksportshd:
     last_known_mirror: selcuksportshd899ff9a3e6.xyz
     accept_antibot: true
     force_search_ahead: true
-
+    success_since: 2026-07-10 01:38
+  Royaltv:
+    last_known_mirror: royaltv31.com
+    success_since: 2026-07-10 15:30
