@@ -7277,6 +7277,7 @@ mgsm.pl##a[rel="sponsored"]
 moja-ostroleka.pl###otwarty_artykul > div[style]:has(> div#taboola-below-article-thumbnails)
 moja-ostroleka.pl#?##prawa_kolumna > h1:contains(Reklama)
 moja-ostroleka.pl#?#h1:contains(/^Popularne$/)
+sharevideo.pl#%#//scriptlet('set-constant', 'ShareVideoAds', 'noopFunc')
 sharevideo.pl##iframe[src^="//hwithyouryrety.org/"]
 radio-dtr.live#$#.gr-ad-adContainer { display: none !important; }
 radio-dtr.live#$##player-container { display: block !important; }
@@ -9232,7 +9233,9 @@ moja-ostroleka.pl#?##prawa_kolumna > h1.header_kategorie:contains(/^Reklama$/)
 moja-ostroleka.pl#?##prawa_kolumna > h1.header_kategorie:contains(/^Reklama$/) ~ br
 ||moja-ostroleka.pl/uploads/banery/
 ||moja-ostroleka.pl//uploads/banery/
+! https://github.com/AdguardTeam/AdguardFilters/issues/235403
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109929
+wpoznaniu.pl##div[class^="inner-ads-header"]
 wpoznaniu.pl##.g-dyn > a:not([href*="wpoznaniu.pl"]) > img
 wpoznaniu.pl##.g-single > a:not([href*="wpoznaniu.pl"]) > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110274
