@@ -2909,6 +2909,7 @@ kava.ee##.kava_ad_chilli
 !+ NOT_OPTIMIZED
 kaaoszine.fi##.adnm-html-topscroll-frame-wrapper
 !
+tori.fi##.retail-media-ad-wrapper
 huutokaupat.com##div[data-test="entry-list-container"] > article:not([data-test]):has(a[data-external="true"][variant="primary"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199220
 akaanseutu.fi##.kaupungin-tiedotteetsidebar
@@ -6717,11 +6718,6 @@ play.tv3.lt#%#//scriptlet('set-constant', 'Object.prototype.isNoAds', 'trueFunc'
 lrytas.lt##.LGalleryLightbox__ads
 lrytas.lt##.LGalleryMain__popup
 lrytas.lt##.LGalleryLightbox__popup
-! https://github.com/AdguardTeam/AdguardFilters/issues/149212
-play.tv3.lt#@##AdHeader
-play.tv3.lt#@##AD_Top
-play.tv3.lt#@##homead
-play.tv3.lt#@##ad-lead
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136100
 ||lrvalstybe.lt/storage^*200x200$image
 ||lrvalstybe.lt/storage^*790x100$image
@@ -7128,6 +7124,10 @@ roweroweporady.pl#@#.ad_container
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 !
 !
+biznesenter.pl##.post-ad-content
+pcformat.pl##.pcf-ad-slot-wrap
+pcformat.pl##.pcf-sidebar-ad-top
+computerworld.pl##div[class*="-ads-placement"]
 ||docchi.pl/api/addon/
 docchi.pl##.adcash-banner-wrapper
 fashionbiznes.pl##div[class^="optad"]
@@ -7160,6 +7160,7 @@ forexclub.pl###header_widget-6
 forexclub.pl###header_widget-18
 forexclub.pl##aside > div.widget:has(> div > a[href^="/?ad="])
 morizon.pl##.banner-placeholder
+android.com.pl##.post__content > .wp-block-image:has(> a[target="_blank"] > img)
 android.com.pl##a[href^="https://and.co.pl/"][rel*="sponsored"]
 android.com.pl##.products-feed__tag
 android.com.pl##.products-feed
@@ -11292,6 +11293,8 @@ anime-odcinki.pl##a[href="https://e-neko.pl/"] > img
 ||cdn.shortpixel.ai/client/q_lossy,ret_img/https://anime-odcinki.pl/wp-content/uploads/*/ga_banner1.jpg
 !+ PLATFORM(ios, ext_android_cb)
 @@||anime-odcinki.pl^$generichide
+! https://github.com/AdguardTeam/AdguardFilters/issues/235568
+bezprawnik.pl#$#.single-post-top-ad { height: 52px !important; min-height: 52px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/223279
 bezprawnik.pl###adSlotXL2
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213127
@@ -12097,6 +12100,8 @@ homebook.pl,abczdrowie.pl,autokult.pl,dobreprogramy.pl,echirurgia.pl,fotoblogia.
 @@||tvn.adocean.pl/ad.xml$domain=miniminiplus.pl
 @@||tvn.adocean.pl^*/ad.xml$domain=miniminiplus.pl
 @@||miniminiplus.pl$generichide
+! https://github.com/AdguardTeam/AdguardFilters/issues/235567
+spidersweb.pl##div[class^="Header_container"] > a[target="_blank"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235330
 spidersweb.pl##div[data-prebid-slot]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/122136
@@ -12344,10 +12349,6 @@ regielive.ro#@#.homead
 regielive.ro#@#.ad-lead
 regielive.ro#@#.AdHeader
 regielive.ro#@#.AdContainer
-regielive.ro#@##homead
-regielive.ro#@##ad-lead
-regielive.ro#@##AdHeader
-regielive.ro#@##AD_Top
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165416
 !+ NOT_OPTIMIZED
 autoblog.md##div[class^="PREFIX"][data-prefix-close-buttontrackid]
