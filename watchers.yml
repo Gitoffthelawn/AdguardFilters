@@ -19,15 +19,17 @@ sites:
     last_known_mirror: turkifsaclub130.sbs
     success_since: 2026-07-04 19:31
   Jmanga (jmanga.*):
-    last_known_mirror: jmanga.beer
-    success_since: 2026-07-08 09:47
+    last_known_mirror: jmanga.bike
+    success_since: 2026-07-17 04:06
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1318.xyz
     success_since: 2026-07-15 01:36
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
-    success_since: 2026-06-21 01:54
+    failed_since: 2026-07-17 04:06
+    failed_days: 0
+    potentially_dead: true
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac100.cfd
     accept_antibot: true
@@ -106,10 +108,10 @@ sites:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
   PatronLive / Patronspor (patronlive*.cfd):
-    last_known_mirror: patronlive42.cfd
+    last_known_mirror: patronlive46.cfd
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-07-15 11:59
+    success_since: 2026-07-17 04:06
   Inattvizle:
     initial_domain: inatgiris.com
     last_known_mirror: www.inattvizle480.top
