@@ -7380,7 +7380,7 @@ wgospodarce.pl##.adunit-player-constant-height
 motopass.pl###zox-lead-top-wrap
 ||poscigi.pl/wp-content/uploads/*/Baner_
 tvrepublika.pl##.block--type-advertisement
-morizon.pl,prawo.pl,polski-tenis.pl,bizpolis.pl,wyniki.pl,telepolis.pl##.banner
+nettg.pl,morizon.pl,prawo.pl,polski-tenis.pl,bizpolis.pl,wyniki.pl,telepolis.pl##.banner
 interia.pl##div[data-component^="ad-"]
 lca.pl##.baner
 lca.pl##body.toplayer-visible .new-toplayer
@@ -12503,6 +12503,7 @@ a1.ro##.ima-ad-container
 !
 ! NOTE: Serbian
 !
+halooglasi.com##.banner-list-item
 tanjug.rs##.banner
 ||tanjug.pages.dev/ads.js
 filmoviplex.com##a[target="_blank"] > img[style="max-width: 100%;"]
