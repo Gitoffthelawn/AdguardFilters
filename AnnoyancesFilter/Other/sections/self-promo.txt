@@ -209,6 +209,9 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+legalbet.by,legalbet.*##.promo-articles
+wikiloc.com###view__adpremium
+wedevs.com##.campaign
 wishmaster.me##.blog-detail-delivery
 nintenduo.com##.nintenduo-html-block
 faphouse.com###one-click-premium-modal-root
@@ -3578,7 +3581,7 @@ latimes.com##style + div[class="overlay"]
 101.ru##.flying-banner-wrapper
 crunchyroll.com##.game-banner-wrapper
 club-cs.ru#?#.p-body-content > div.p-body-pageContent > div.block:has( div.mySlides > a[href^="/members/"] > img[src^="/slider/"])
-faphouse.com,7eminar.ua,work.beauty.hotpepper.jp,support.zoom.us,texterra.ru,lbb.in##.header-banner
+mangazenkan.com,faphouse.com,7eminar.ua,work.beauty.hotpepper.jp,support.zoom.us,texterra.ru,lbb.in##.header-banner
 proshop.dk##.site-background-banner
 proshop.dk##a[data-action="campaignClick"][data-position="bottom-left"]
 proshop.dk##.site-top-banner
