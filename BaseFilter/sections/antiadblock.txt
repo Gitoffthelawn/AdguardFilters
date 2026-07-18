@@ -1267,6 +1267,7 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 ! NOTE: Regular rules
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236032
+cinefreak.nl#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 cinefreak.nl#%#//scriptlet('abort-current-inline-script', 'onload', 'adsbygoogle')
 cinecloud.site#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', 'adsbygoogle')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
@@ -1288,6 +1289,7 @@ flyfile.app#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235845
 aruble.net#%#//scriptlet('prevent-fetch', 'cdn.bmcdn6.com')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235721
+net77.cc#%#//scriptlet('prevent-setTimeout', '/\.removeClass/', '5000')
 net77.cc#%#//scriptlet('prevent-addEventListener', 'load', 'showAdblockMessage')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 net77.cc#@#.ad-unit:not(.textads)
@@ -1457,8 +1459,9 @@ sonyliv.com#%#//scriptlet('prevent-fetch', 'pubads.g.doubleclick.net')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||pubads.g.doubleclick.net/gampad/$domain=sonyliv.com
 !#endif
-!https://github.com/AdguardTeam/AdguardFilters/issues/234531
+! https://github.com/AdguardTeam/AdguardFilters/issues/234531
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233687
+thesun.co.uk#%#//scriptlet('abort-current-inline-script', 'atob', 'insertBefore(s')
 thesun.co.uk#%#//scriptlet('prevent-fetch', 'adsbygoogle')
 thesun.co.uk#%#//scriptlet('prevent-element-src-loading', 'script', 'gpt.js')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)

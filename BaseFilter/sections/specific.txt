@@ -1153,7 +1153,7 @@ celebtattler.com##div[style="width:300px;min-height:250px;"]
 redflix.club,redflix.co##.watch-sidebar > div.overflow-hidden:has(> div[class^="adsContainer"])
 cinehub.one##.watch-sidebar > div.overflow-hidden:has(> div.shrink-0.flex)
 pepper.com##div[data-t="bannerAd"]
-amateur8.com,bigtitslust.com,freeporn8.com#%#//scriptlet('abort-on-property-write', '__spotSettings')
+amateur8.com,bigtitslust.com,dafreeporn.com,ebony8.com,freeporn8.com,lesbian8.com,maturetubehere.com,shemalesin.com,sortporn.com#%#//scriptlet('abort-on-property-write', '__spotSettings')
 ||ar.prd.content.itv.com/media/$domain=itv.com
 biblestudytools.com##a[target="_blank"] > img
 biblestudytools.com##div:has(> a[target="_blank"]:only-child > img:only-child)
@@ -4849,8 +4849,6 @@ ososedki.com##.grid-more > div.thumbs-more:has(> center > noindex > div[style^="
 yt1s.com.co#%#//scriptlet('prevent-window-open')
 classace.io##div[class^="GoogleInArticleAdsenseContainer"]
 nyaa.land#%#//scriptlet('prevent-window-open')
-pixiv.net##div[data-gtm-recommend-zone] > ul > li:has(> div > div[id^="adsdk-"])
-pixiv.net##div[style="margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;"]
 ||tumblrgallery.xyz/model-live.js
 flufi.me##div[class^="AdsBanner"]
 letsporn.com##.sp-holder
@@ -5982,8 +5980,6 @@ theportugalnews.com#%#//scriptlet('prevent-setTimeout', 'has-sliding-banner')
 theportugalnews.com#%#//scriptlet('remove-class', 'has-sliding-banner', 'body.has-sliding-banner')
 saiganak.com##.entry-adsense
 vikingfile.com##a[href^="/fast-download/"]
-pixiv.net##div[style="position: static; z-index: auto;"] + div[style^="margin-left"]:empty
-pixiv.net##div[data-overlay-container="true"] > div:not([class]) > div[class^="sc-"]:has(> div[id^="adsdk"])
 wccftech.com##button[rel="nofollow sponsored"]
 camhub.cc,public-porno.com##.grid-temp > li.spot:has(> div.thumb-box)
 ||video.cdnako.com^$script
@@ -9446,7 +9442,7 @@ citynews.ca##body div.inter-module-ad
 privacysavvy.com###ps-popup
 ||xxxshake.com/*pop/|$script,~third-party
 xxxshake.com##.fluid-b > div.fluid-b-title
-/sum.js$domain=freeporn8.com|sortporn.com|lesbian8.com|amateur8.com|bigtitslust.com|maturetubehere.com|shemalesin.com|3movs.com
+/sum.js$domain=3movs.com
 autoscout24.com##.detailpage-content-banner
 ||home-made-videos.com/nameless-cake
 home-made-videos.com###toptrade1
@@ -12054,16 +12050,9 @@ nationalheraldindia.com##div[class^="styles-m__dfp_"]
 nationalheraldindia.com##div[class^="header-m__ad-top_"]
 gotravelblogger.com##.theiaStickySidebar > div[id^="stream-item-widget"]
 /fakethebitch\.com\/\d?\.php/$domain=fakethebitch.com
-/nb/*$script,domain=bigtitslust.com|pornhex.com|159i.com|pornyfap.com|imgtorrnt.in|shameless.com|imgdone.com|webcamshows.org|ipicture.su|porndr.com|noodlemagazine.com|picmoza.com|cumlouder.com|maturetubehere.com|amateur8.com|freeporn8.com|hot-sex-photos.com
+/nb/*$script,domain=pornhex.com|159i.com|pornyfap.com|imgtorrnt.in|shameless.com|imgdone.com|webcamshows.org|ipicture.su|porndr.com|noodlemagazine.com|picmoza.com|cumlouder.com|hot-sex-photos.com
 dafreeporn.com,ebony8.com,sortporn.com,freeporn8.com,maturetubehere.com##.is-av
-ebony8.com,sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.item.pignr
-shemalesin.com,ebony8.com,sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.invideo.pignr
-shemalesin.com,ebony8.com,sortporn.com,freeporn8.com,amateur8.com,maturetubehere.com##.top2.pignr
 dafreeporn.com,freeporn8.com##.toble
-amateur8.com,ebony8.com,freeporn8.com##li.pignr
-shemalesin.com,bigtitslust.com,freeporn8.com###player_add
-amateur8.com,bigtitslust.com,freeporn8.com###lotal
-||freeporn8.com/frd5/local_p.js
 ||filmdaily.co/wp-content/uploads/*/bovegas-banner-5500.jpg
 ||filmdaily.co/wp-content/uploads/*/Casino_Model_Theme_300x250px-gif.gif
 koimoi.com###taboolaid
@@ -13549,8 +13538,6 @@ india.com###cbanner
 lookmovie.io##.bottom-message-container
 lookmovie.io##div[class$="-page-ads-wrapper"]
 lookmovie.io##.notifyjs-corner
-pixiv.net##._illust-upload + div[style*="968px;"][style*="170px;"]
-pixiv.net##a[target="premium_noads"]
 lowendtalk.com###Foot > a[href] > img
 ||lowendbox.com/wp-content/uploads/*/dedipath-optimized.gif
 iceporn.com##.spot-300x100
@@ -14761,7 +14748,6 @@ anyporn.com##.primary > .nopop > a[target="_blank"]
 ||pornwatchers.com/sw.js
 pornrabbit.com,pornwatchers.com##.fluid_nonLinear_bottom
 ||pornwatchers.com/boom/*.html
-amateur8.com,lesbian8.com##.kt-api-btn-start
 pornburst.xxx##.promo-gauleporno
 pornburst.xxx###footer-iframe
 podu.me##.adv-contanier
@@ -16151,7 +16137,7 @@ rankedboost.com##.ArticleTopInsert
 rankedboost.com##div[class^="ArticleInsert"]
 ||playbuzz.com^$domain=javarevisited.blogspot.com|nsfwyoutube.com|sportsplays.com|dailyhive.com|straightdope.com
 ||speedporn.net/wp-content/themes/retrotube/nex1.js
-severeporn.com,porntn.com,shareanynudes.com,camstreams.tv,teenager365.to,amateur8.com,nudespree.com##.top-links
+severeporn.com,porntn.com,shareanynudes.com,camstreams.tv,teenager365.to,nudespree.com##.top-links
 nudespree.com##.main-menu > li > a[rel="nofollow"]
 ||animehub.ac/api/pop.php
 forebears.io##.banner-h
@@ -20482,14 +20468,6 @@ nulleb.com#?#.g1-collection-items > .g1-injected-unit:has(> .g1-advertisement-in
 roleplayer.me#?#div[align="center"] > font[color="grey"]:contains(/^Advertisement$/)
 roleplayer.me#?#div[id^="ClearVista_Roleplayerme_300x"] + table:has(> tbody > tr > td > center > font > a[href="premium/paid_membership.php"])
 thequint.com#?#.content div[style=""] > div[class*=" "]:has(> div[class] > div > .adunitContainer)
-pixiv.net#?#iframe[name="dashboard_home"]:upward(div[class^="sc-"][span="1"])
-pixiv.net#?#iframe[name="footer"][width="728"][height="90"]:upward(1)
-pixiv.net#?#iframe[name="rectangle"][width="300"][height="250"]:upward(1)
-pixiv.net#?#iframe[name][width="184"][height="232"]:upward(1)
-pixiv.net#?#iframe[name][width="500"][height="520"]:upward(1)
-pixiv.net#?#.gtm-toppage-thumbnail-illustration-recommend-works-zone ul[class] > li:has(> div[class] > iframe[name="topbranding_rectangle"])
-pixiv.net#?#div[style^="position: static;"] + div[class] > iframe[name="header"][width]:upward(1)
-pixiv.net#?#div[class^="sc-"] > div[style^="margin:"][style*="font-size:"]:only-child > iframe[name="footer"][width]:only-child:upward(2)
 torrentfreak.com#?#.page__sidebar > .widget_text > .o-widget__title:contains(/^Sponsors$/):upward(1)
 cinereporters.com#?##btm-widget > h1:contains(/^From around the web$/)
 cinereporters.com#?#.colombiaonesuccess > div[class]:has(> div[id] > div > a[onclick] > div > .brand_ctn)
@@ -22722,7 +22700,7 @@ pahe.ink#%#//scriptlet('abort-current-inline-script', 'localStorage.getItem', 'a
 /^https?:\/\/([0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?\.)?[0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-]+\.com\/\/?([0-9a-z][0-9a-z]\/)([0-9a-z][0-9a-z]\/)([0-9a-z][0-9a-z]\/)?[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\.js/$script,xmlhttprequest,third-party
 ! Don't use wildcard
 !+ PLATFORM(ext_chromium_mv3)
-/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|daftporn.com|85po.com|85po.net|85xo.com|9tsu.tv|blogspot.com|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.com|123av.ws|1av.to|akuma.moe|fetchfile.me|gogoanime.by|gogoanime.onl|haho.moe|hianime.to|hianime.do|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com|hentai4.me|javhdporn.net|javseen.tv|njav.com|javhd.today|javhdz.today|av01.media|gaystream.pro|pornhoarder.net|vidboys.com|surrit.store|aflix.click|popcornmovies.org|torrentgalaxy.hair|plugincrack.com|clicknupload.click|tunemovie.fun|apkadmin.com|hdpornflix.com|thefantazy.com|cdn9mc.com|dlhd.dad|cuevana.biz|cuevana.is|cuevana.mobi|cuevana.pro|cuevana.to|lyretain.online|newsix.sbs|filmnudes.com|joporn.me|joporn.xyz|kisshentaiz.com|2embed.cc|sxyprn.net|sxyprn.com|watchfreejavonline.co|wecima.ac|cdxaws.net|mens1069.com|av01.tv|wlext.is|strikeout.im|animeinweb.com|aguea.net|japaneseholes.com|jmanga.bike|3dzip.info|loiflix.shop|movies7to.net|manhwa68.com|witanime.life|monoschino2.com|animepelix.net|creditlose.com|pregnancycalculator.site|sledujserialy.io|pornxp.ph|nowhdtime.to|webdramaturkey2.com|flacdownloader.com|raw1001.md|viduyy.com|desicinemas.to|groundbanks.net|official.coomer.com.co|hentaihand.com|pelimeli.com|pelis182.net|youperv.com|onepiece-manga-online.net|bflixs.us|xpass.top|cap3.sbs|uploadrar.com|imgo.info|zeroupload.com|mangaworldadult.net|peachify.top|kinox.camp|xxembed.com|animotvslash.net|vidavaca.net|severeporn.com|bad.news|myflixerfree.org|zxcstream.xyz|netxtv.id|sportsbite.org|asiaflix.in|osteusfilmestuga.online
+/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|daftporn.com|85po.com|85po.net|85xo.com|9tsu.tv|blogspot.com|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.com|123av.ws|1av.to|akuma.moe|fetchfile.me|gogoanime.by|gogoanime.onl|haho.moe|hianime.to|hianime.do|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com|hentai4.me|javhdporn.net|javseen.tv|njav.com|javhd.today|javhdz.today|av01.media|gaystream.pro|pornhoarder.net|vidboys.com|surrit.store|aflix.click|popcornmovies.org|torrentgalaxy.hair|plugincrack.com|clicknupload.click|tunemovie.fun|apkadmin.com|hdpornflix.com|thefantazy.com|cdn9mc.com|dlhd.dad|cuevana.biz|cuevana.is|cuevana.mobi|cuevana.pro|cuevana.to|lyretain.online|newsix.sbs|filmnudes.com|joporn.me|joporn.xyz|kisshentaiz.com|2embed.cc|sxyprn.net|sxyprn.com|watchfreejavonline.co|wecima.ac|cdxaws.net|mens1069.com|av01.tv|wlext.is|strikeout.im|animeinweb.com|aguea.net|japaneseholes.com|jmanga.bike|3dzip.info|loiflix.shop|movies7to.net|manhwa68.com|witanime.life|monoschino2.com|animepelix.net|creditlose.com|pregnancycalculator.site|sledujserialy.io|pornxp.ph|nowhdtime.to|webdramaturkey2.com|flacdownloader.com|raw1001.md|viduyy.com|desicinemas.to|groundbanks.net|official.coomer.com.co|hentaihand.com|pelimeli.com|pelis182.net|youperv.com|onepiece-manga-online.net|bflixs.us|xpass.top|cap3.sbs|uploadrar.com|imgo.info|zeroupload.com|mangaworldadult.net|peachify.top|kinox.camp|xxembed.com|animotvslash.net|vidavaca.net|severeporn.com|bad.news|myflixerfree.org|zxcstream.xyz|netxtv.id|sportsbite.org|asiaflix.in|osteusfilmestuga.online|meuplayeronlinehd.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54684
 ! New popads script - blocking popads script casues requests to "undefined" and in some cases website doesn't load correctly
 |https://undefined/|$script,redirect=noopjs
