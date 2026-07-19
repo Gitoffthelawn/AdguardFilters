@@ -1113,6 +1113,11 @@ $third-party,script,domain=klto9.com|f2movies.to|hacamchicac.com|yourporngod.com
 !
 ! NOTE: Specific rules
 !
+twitch.tv##.stream-display-ad__wrapper + div > div[style^="position:"] > div[class^="Layout-sc-"]:has(video[src^="https://m.media-amazon.com"])
+twitch.tv##.chat-shell > div[class^="Layout-sc-"]  > div[style^="transition:"]:has(video[src^="https://m.media-amazon.com"])
+crazyshit.com##a[href^="https://trustberrie.com/zn/"]
+crazyshit.com##div[id^="aad-footer"]
+thescottishsun.co.uk,thesun.ie##.module--1-billboard
 greatandhra.com##.shp-layer
 uindex.org##body > [id][class*=" "]:has(> a[target="_blank"])
 moviebite.cc##.site-ad-banner
@@ -9330,7 +9335,6 @@ techraptor.net##div[id][data-embed-button="embed_block"]
 revolve.com##.site-footer__promo-container
 limetorrents.lol##.torrentinfo > div > div[style^="float:"]
 9gag.com###jsid-ad-container-billboard
-ios-repo-updates.com##.adsbygoogleblock
 snopes.com##.outer-ad-unit-wrapper
 vikatan.com##div[stylename^="mgid-ad-container"]
 ||speedy.literotica.com/ntk
@@ -22735,6 +22739,8 @@ adultlingeriepics.com,adultlingeriepics.com,adultspankingtgp.com,allfeetporn.com
 !#endif
 !
 !
+!+ NOT_OPTIMIZED
+ios-repo-updates.com##.adsbygoogleblock
 !+ NOT_OPTIMIZED
 domainnamewire.com##.after-header
 domainnamewire.com##.g-single
