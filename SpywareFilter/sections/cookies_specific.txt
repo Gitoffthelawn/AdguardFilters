@@ -6,6 +6,8 @@
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! gamsgo.com
+||gamsgo.com^$cookie=_gv_visit_tracking
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235441
 mcp.directory#%#//scriptlet('remove-cookie', 'dotcom_user')
 ! greatandhra.com
@@ -80,8 +82,6 @@ mcp.directory#%#//scriptlet('remove-cookie', 'dotcom_user')
 ||nicegram.app^$cookie=X-identify
 ! usnews.com
 ||usnews.com^$cookie=usn_visitor_id
-! kayak.com
-||kayak.com^$cookie=kmkid
 ! momondo.com
 ||momondo.com^$cookie=kmkid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/220298
