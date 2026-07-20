@@ -57,6 +57,7 @@ mmo13.ru,altapress.ru,gastronom.ru,eg.ru,newsmaker.md,delo-vcusa.ru,tolknews.ru,
 !
 ! NOTE: Specific rules
 !
+epravda.com.ua##div[style="height:290px; clear: both; margin-top: 10px; margin-bottom: 20px; display: flex; justify-content: center; align-items: center;"]
 streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.ru,streamsports99.*##.musiqly-ad
 legalbet.by,legalbet.*##.top-three-block > div
 legalbet.by,legalbet.*##.bookmakers-in-footer
@@ -83,7 +84,6 @@ tribuna.com##div[class$="__main_layout__empty_block"]
 rbc.ua##div[style="min-height:350px;"]
 ||enovosty.com/wp-content/uploads/*/klo_video_banner.mp4
 enovosty.com##.auto-banner
-stopcor.org##.idealmedia
 psm7.com###akurateco
 nikvesti.com##.desc-read-more-adv
 inforesist.org#%#//scriptlet('remove-node-text', 'script', 'attachShadow')
@@ -234,7 +234,7 @@ sib.fm#?#div[style^="min-height:"]:has(.banner)
 sib.fm##.partners-footer
 orda.kz##body .ad2
 orda.kz#?#body > div.layer0:has(> div.wrapper > div.ad1)
-food.obozrevatel.com##.idealmedia
+food.obozrevatel.com,stopcor.org##.idealmedia
 food.obozrevatel.com##.googleBanner
 doradvokat.com.ua###sidebar-right > div#media_image-40 ~ div.mg-widget
 web.telegram.org#$?#.message-date-group > div.Message:has(.text-content:contains(/#реклама/)) { remove: true; }
