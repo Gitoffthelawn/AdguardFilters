@@ -60,6 +60,7 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+x-shadowban-checker.fia-s.com##div[style="font-size: 13px;"]
 ||socialxup.com/api/sale-accounts
 finance.biggo.jp##div[class^="AdSlot_"]
 ||open.open2ch.net/test/ad.cgi/
@@ -269,6 +270,7 @@ bengoshihoken-mikata.jp#$?#section.fix:has(> div.fix__wrap) { remove: true; }
 hotpowers.jp##.p-recommendation
 hotpowers.jp##div[id^="hotpo-"]
 chunichi.co.jp#?#.cmp-hdg005:has(> h2.hdg:contains(【PR】企画特集))
+||static.chunichi.co.jp/chunichi/js/spo-recruit-box.js
 news.mynavi.jp##div[id^="advads-"]
 okinawatimes.co.jp##body > .l-wrapper > div[class^="l-"]:has(> .OUTBRAIN)
 femimatsu.com##div[id^="ad"][id$="-div-id"]
@@ -5985,6 +5987,9 @@ stereosound.co.jp##.is-nativead-pagingad
 final-fantasy.cc,toragame.com,blog.earthyworld.com,dragon-quest.jp##.sponser
 kyokugen.info,kryk55.com,xn--10-yg4a1a3kyh.jp##.ad_desc
 bikebros.co.jp##.ad-_badge
+bcnretail.com##.c-affiliateAdList
+bcnretail.com##.rectangleBanner
+bcnretail.com##.detail_nextPrev + hr:has(+ .rectangleBanner)
 bcnretail.com##.p-article01-ad
 bcnretail.com##.recommend-list
 bcnretail.com##.uz-ny
