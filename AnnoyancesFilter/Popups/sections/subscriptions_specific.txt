@@ -59,6 +59,18 @@ onejailbreak.com,progameguides.com,aydinlik.com.tr,euronews.com,rtl.be,dogruhabe
 !
 ! SECTION: Subscriptions - Regular rules
 !
+citynews.ca##.add-trusted-source
+cnbc.com##div[data-module="GooglePreferredSource"]
+seenews.com##.columnsArticle > div.flex-column > div.d-flex:has(> div[class^="styles_newsletters_"])
+thegamer.com##.article-add-google
+t24.com.tr##.t24-subscription-callout
+sporx.com##.shareLabel
+blog.germanos.gr###block-newsletterblock
+softwareengineeringdaily.com##.module--banner
+24tv.ua##.telegram-subscribe-widget
+transfermarkt.com.tr##.news-google-preferences-hint
+gazzettadalba.it##.widget_text:has(> .textwidget > .fb-page)
+neva.today##.dzen-bunner
 kocaeligundem.com#%#//scriptlet('abort-on-property-read', 'DK_PREFSRC_READY')
 der-postillon.com###HTML30
 der-postillon.com#?#.entry-content-wrap > div[style]:has(> b:contains(Immer auf dem Laufenden bleiben:))
