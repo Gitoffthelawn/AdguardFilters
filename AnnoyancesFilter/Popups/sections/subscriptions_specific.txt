@@ -59,6 +59,15 @@ fotomac.com.tr,dengarden.com,mako.co.il,ajansspor.com,gazetadopovo.com.br,onejai
 !
 ! SECTION: Subscriptions - Regular rules
 !
+t-online.de##div[data-testid="NewsletterWidget.tagesanbruch"]
+tichyseinblick.de##.oembed-cached
+tichyseinblick.de###header-widgets-0
+nius.de##.overflow-hidden:has(> form input[type="email"])
+glassdoor.de#$##unified-user-auth { display: none !important; }
+glassdoor.de#$#body { overflow: auto !important; position: unset !important; }
+bestfilm.pl#?#div.MuiGrid2-container > div.MuiGrid2-direction-xs-row:has(> h3:contains(Zapisz się do newslettera))
+spensen.com#%#//scriptlet('set-cookie', 'popupNews', '1')
+wydawnictwootwarte.pl#%#//scriptlet('trusted-set-cookie', 'meerkat', 'dontshow')
 goal.com##.component-team-newsletter
 goal.com##.fco-google-trusted-source
 apostrophe.ua##.sign-up-telegram
@@ -73,7 +82,7 @@ rogelli.com.pl#%#//scriptlet('set-cookie', 'popup_form_dismissed_1', '1')
 citynews.ca##.add-trusted-source
 cnbc.com##div[data-module="GooglePreferredSource"]
 seenews.com##.columnsArticle > div.flex-column > div.d-flex:has(> div[class^="styles_newsletters_"])
-thegamer.com##.article-add-google
+xda-developers.com,thegamer.com##.article-add-google
 t24.com.tr##.t24-subscription-callout
 sporx.com##.shareLabel
 blog.germanos.gr###block-newsletterblock
@@ -301,7 +310,6 @@ mapple.bid,mapple.cc,mapple.club,mapple.rip,mapplee.com#%#//scriptlet('set-cooki
 britannica.com##.KUSTOM-MARKETING-HOMEPAGE_BOTTOM_SUBSCRIBE2
 gazeteoksijen.com##.google-news-follow-wrapper
 androidworld.nl##.wp-block-html:has(> div.aw-cta-block)
-m9.news##.google-label-center
 republicworld.com##.header-sponsor-banner
 thecityreporter.nyc,mississippifreepress.org##.entry-content > aside:not([class]):has(> .newspack-popup)
 theguardian.com##a[href^="https://www.theguardian.com/email-newsletters?"]
@@ -8421,7 +8429,7 @@ businessinsider.com##a[href*="&itm_campaign=chart-of-the-day-newsletter"]
 cooking.nytimes.com###inline-recipe-newsletter-signup
 seattletimes.com###amp-usermessaging
 radiokp.ru##.fx-ai-center
-lpbros.pl,rowerowelove.shop,straganzdrowia.pl###box_newsletter
+przeciwpozarowy.com,lpbros.pl,rowerowelove.shop,straganzdrowia.pl###box_newsletter
 swarajyamag.com##div[class^="email-subscribe-"]
 revolt.tv##div[id="toaster"][data-cdata*="Subscribe"]
 flos.com###link-newsletter
@@ -10029,6 +10037,8 @@ flightradar24.com##[data-id="a5b8151"][data-element_type="widget"]
 flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
 !
+!+ NOT_OPTIMIZED
+m9.news##.google-label-center
 !+ NOT_OPTIMIZED
 theblondcook.com,domainnamewire.com###simple-banner
 !+ NOT_OPTIMIZED
