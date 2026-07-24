@@ -18,6 +18,9 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+nius.de##div[class]:has(> div[class] > img[alt="NIUS App"])
+nius.de##div[class] > a[href*="apps"]
+app.watchduty.org##div[data-testid="download-app-banner"]
 quince.com##div[class^="app-push-banner"]
 pizzahut.ru###__next > div > div > div[class]:has(a[href^="https://pizzan-ru.toppen.dev/app/"])
 suwen.com.tr###suwen-download-bar
@@ -3962,6 +3965,11 @@ bookmate.ru##.app-banner
 !
 !
 !
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault()')
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.rpl-scroll-lock:not(#style_important) { overflow: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.scroll-is-blocked:not(#style_important) { overflow: auto !important; touch-action: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$##app-upsell-blocking-bottom-sheet-direct { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##[id^="xpromo-"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#shreddit-async-loader[paint-group="xpromo"][bundlename="app_selector"] { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('hide-in-shadow-dom', 'faceplate-tracker[source="xpromo"] #get-app')
@@ -4261,6 +4269,11 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+reclameaqui.com.br#%#//scriptlet('set-session-storage-item', 'appHandoffSheet:dismissed', '1')
+reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] { display: none !important; }
+reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] + header > div[style^="top:"] { top: 0 !important; }
+bananamovies.org##.tr-install-banner
+m.vk.ru##.PageBottomBanner--unauth
 newsbreak.com##a[aria-label="Download App"]
 tchibo.com.tr###app-install-banner
 speedtest.net#$#body[style^="overflow:"] { overflow: auto !important; }
@@ -4760,8 +4773,6 @@ temu.com#%#//scriptlet('trusted-click-element', 'div[js-selector^="mobile-downlo
 temu.com#%#//scriptlet('trusted-click-element', 'div[js-selector^="mobile-download-ui"] > div > button[aria-label^="close"]', '', '1500')
 temu.com###main > .loadable-container > div[role="main"] > div > div:not([class])> div[style^="height"]:empty + div[style^="position:"]:has(> div:not([class]) > div[style^="position:"] > div[style^="height"] > div[style^="height"] > div[js-selector="mobile-download-ui"])
 temu.com###main > .loadable-container > div[role="main"] > div > div:not([class])> div[style^="height"]:empty:has(+ div[style^="position:"] > div:not([class]) > div[style^="position:"] > div[style^="height"] > div[style^="height"] > div[js-selector="mobile-download-ui"])
-reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] { display: none !important; }
-reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] + header > div[style="top:90px"] { top: 0 !important; }
 my-best.com###__next > div.css-1pcjl0n > a[href="https://mybest.go.link/924F7"]
 esarj.com,tsurihack.com,teremok.ru,prioritypass.com,domainanalysis.io,finance.yahoo.com##.app-banner
 theinformation.com##a[data-testid="download-app"]
