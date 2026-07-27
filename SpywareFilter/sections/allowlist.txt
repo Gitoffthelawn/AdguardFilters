@@ -62,6 +62,7 @@
 @@||googletagmanager.com/gtm.js$domain=gocomics.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234202
 @@||cdn.clerk.io/clerk.js$domain=jaktdepotet.no
+@@||api.clerk.io/v*/log/$domain=jaktdepotet.no
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234127
 ! Creating an account problem
 @@||tesco.com/akam/13/$domain=tesco.com
@@ -877,6 +878,7 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFun
 @@||api.sprig.com/sdk/$domain=paypal.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187876
 @@||cdn.clerk.io/clerk.js$domain=industrivarer.no
+@@||api.clerk.io/v*/log/$domain=industrivarer.no
 ! Rule $referrerpolicy is required for apps, because source of "cdn.clerk.io/clerk.js" is not detected
 !+ PLATFORM(windows, mac, android, cli)
 ||industrivarer.no^$referrerpolicy=origin
@@ -1598,7 +1600,6 @@ tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 @@||cdn.permutive.app/*-web.js$domain=theglobeandmail.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150486
-!+ PLATFORM(ios, ext_safari, ext_android_cb)
 @@||xzeepb2clookuppsta001.blob.core.windows.net/comed/src/js/google-analytics.js$domain=secure1.comed.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149590
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151984
@@ -1632,6 +1633,7 @@ tieba.baidu.com#%#//scriptlet('set-constant', 'passFingerPrint', 'noopFunc')
 @@||ab.blogs.es/abtest.png?editorialRecommendations$domain=applesfera.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148203
 @@||cdn.clerk.io/clerk.js$domain=apotera.no
+@@||api.clerk.io/v*/log/$domain=apotera.no
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148089
 @@||miclaro.com.gt/assets/analytics$domain=miclaro.com.gt
 @@||tags.bkrtx.com/js/bk-coretag.js^$domain=miclaro.com.gt
@@ -3336,10 +3338,11 @@ demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|da
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52233
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/236788
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51958
 ! amcplus.com - broken video player
-@@||identity.mparticle.com/v*/identify$domain=nbc.com|amcplus.com
-@@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=nbc.com|amcplus.com
+@@||identity.mparticle.com/v*/identify$domain=nbc.com|amcplus.com|ifc.com
+@@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=nbc.com|amcplus.com|ifc.com
 ! square-enix-games.com - fixing issue with purchasing a product
 @@||googletagmanager.com/gtm.js$domain=square-enix-games.com
 @@||google-analytics.com/analytics.js$domain=square-enix-games.com
