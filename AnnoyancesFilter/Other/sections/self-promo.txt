@@ -209,6 +209,10 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+saily.com###header > div.w-full:not([data-section]):has(.WithBreakpointItem)
+wphive.com###extension-slideover
+awwwards.com##.marquee-top
+pickaboo.com##.discount-text-image-container
 nzz.ch##.overscroll-contain
 tichyseinblick.de##.widget-3
 tichyseinblick.de##.widget-4
@@ -695,7 +699,7 @@ style.potepan.com##.ArticleContents a.ArticleBody__link-button
 style.potepan.com##.GuidanceToCamp
 style.potepan.com##.ArticleBanner
 style.potepan.com##.Banner
-||smart-bdash.com^
+||smart-bdash.com^$domain=type.jp
 observer.co.uk,jutarnji.hr###piano_inline > .tp-container-inner
 wear.jp##.bg-white > div[class="xl:hidden"]:has(> div > button[style="background-color:#39B8B2"] img[width="32"])
 wear.jp##.bg-white > div[class*="xl:"]:has(> ul button > img[alt^="ZOZOTOWN"])
@@ -2275,7 +2279,7 @@ flowwow.com###adv-top-banner
 rule34.xxx##.dp.leftside
 rule34.xxx##.dp.rightside
 ipinfo.io##.general-announcement-banner
-buytelegrammember.net###tpbr_topbar
+wphive.com,buytelegrammember.net###tpbr_topbar
 mypikpak.com###app div.el-scrollbar__view div.operation-container:has( div.el-carousel__container)
 eobuv.sk##.marketing-bar
 ||rule34.xxx/images/futa.jpg
