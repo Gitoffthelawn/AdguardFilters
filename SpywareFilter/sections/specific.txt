@@ -87,6 +87,12 @@ mexc.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
 !
 ! NOTE: Specific rules
 !
+||wpastra.com/wp-content/plugins/cross-domain-tracker-for-affiliatewp/
+||autoline.link/weblog
+||karte.io/event
+||api.housefeel.com.tw/api/collect
+||cdp.nrs.ai/api/ingest
+||mercari.com/gtm/
 ||vsonic.click/api/views/track
 ||xcafe.com/track/impression?
 ||archive.org/includes/athena.js
@@ -2049,7 +2055,6 @@ geinoukame.com##.ninja-recommend-block + hr
 ||anilibria.top/api/v1/ads/
 ||baitoru.com/*/adobe_send_tracking.js
 ||charmmy-api.line.me/api/*/bars/tracking
-||receptions.smart-bdash.com/receptions/action/click
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||korewaeroi.com/fukugan_$subdocument
 ||shopch.jp/com/js/analytics.js
