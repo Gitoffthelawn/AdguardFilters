@@ -18,6 +18,7 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+shopping.naver.com##div[class^="_appStarterBanner_app_starter_banner_"]
 t-j.ru##div[class^="_commonNavItems_"] > a[href^="https://journal.onelink.me/"]
 sutochno.ru##.bookin-app
 cricinfo.com##.ds-flex > div.ds-cursor-pointer:has(> span:contains(Get the App))
@@ -4272,6 +4273,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+townwork.net##div[class^="styles_bannerWrapper"]:has(> a[href^="https://townwork.go.link?adj"])
 arubaito-ex.jp##.app-flow-banner
 travelist.jp###app > div.sticky:has(> div.bg-white > div.flex > a[href^="https://travelist.onelink.me/"])
 sutochno.ru##.get-cashback__right
@@ -4314,7 +4316,7 @@ economx.hu##.economx-top-promotion
 gemini.google.com##chat-app-banners
 x.com##.one-col\:hidden > div.gap-2 > a[href^="https://m.x.com/"][href*="?launch_app_store=true"]
 x.com##div[class^="one-col:pb-"] > div.fixed.inset-0:has(> button[aria-label] + div[role="dialog"] > a[download])
-x.com#%#document.addEventListener('DOMContentLoaded',function(){const o=new MutationObserver(function(){const e=document.querySelector('.fixed.inset-0 > div.bg-modal > a[href^="https://m.x.com/"][href*="?launch_app_store=true"] + button[aria-label], .fixed.inset-x-0 > button[aria-label]');e&&e.click()});o.observe(document,{childList:!0,subtree:!0});setTimeout(function(){o.disconnect()},30000)})
+x.com#%#document.addEventListener('DOMContentLoaded',function(){const o=new MutationObserver(function(){const e=document.querySelector('.fixed.inset-0 > div.bg-modal > a[href^="https://m.x.com/"][href*="?launch_app_store=true"] + button[aria-label], .fixed.inset-x-0 > button[aria-label], div[data-interaction="app-store-obstruction"] > button[data-slot="xds-button"]');e&&e.click()});o.observe(document,{childList:!0,subtree:!0});setTimeout(function(){o.disconnect()},30000)})
 dodopizza.ru##div[class^="sc-"]:has(> a[href^="https://dodopizza.onelink.me/"])
 timesofindia.indiatimes.com##a[href^="https://timesofindia.sng.link/"]
 isinolsun.com###__next > div.d-lg-none
@@ -5422,6 +5424,7 @@ linkedin.com##div[data-tracking-id="get_app_omni_bottom"]
 deliveroo.hk##[class^="AppBanner-"]
 ! x.com
 !#if (adguard_app_ios)
+x.com#%#//scriptlet('trusted-click-element', 'div[data-interaction="app-store-obstruction"] > button[data-slot="xds-button"]', '', '2500')
 x.com#%#//scriptlet('trusted-click-element', '.fixed.inset-x-0 > button[aria-label]', '', '2500')
 x.com#%#//scriptlet('trusted-click-element', '.fixed.inset-0 > div.bg-modal > a[href^="https://m.x.com/"][href*="?launch_app_store=true"] + button[aria-label]', '', '2500')
 !#endif
