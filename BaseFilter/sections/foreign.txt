@@ -7123,6 +7123,7 @@ roweroweporady.pl#@#.ad_container
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 !
 !
+memy.pl##div.overflow-hidden:has(> div[style^="min-height:"] > .adsbygoogle)
 lubiehrubie.pl##.baner
 lubiehrubie.pl##.row > div.box-margin:has(> div.baner)
 lubiehrubie.pl##.pancernik__wrapper
@@ -7313,6 +7314,7 @@ forexclub.pl###a_flex
 ||pagead2.googlesyndication.com^$domain=listatv.pl,important
 ||portal.librus.pl/ad|
 obserwatorlogistyczny.pl##.obser-target
+trans.info##.pt-4 > aside:has(> .hidden > a[rel*="sponsored"])
 trans.info##a[href*="_banner_ad"][target="_blank"] > img
 trans.info##.font-normal:has(+ .hidden > a[href*="_banner_ad"][target="_blank"] > img)
 ||naszemiasto.pl/ads/_uuid/?id=pubcid
