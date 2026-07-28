@@ -1425,7 +1425,6 @@ ya.ru,yandex.*##.serp-list > div.incut
 ya.ru,yandex.*##.DirectInline
 !
 ! Yandex.Maps
-[$path=/maps]yandex.*##div[class^="business-card-direct-"]
 [$path=/maps]yandex.*##div[class^="masstransit-"][class*="-panel-view_"] ~ div[style^="padding: 16px 0px;"][style*="position: relative;"]
 yandex.*##.map-controls__additional-button > a[style*="--promo-button-"]
 [$path=/maps]yandex.*##.search-business-snippet-view__content > div.search-business-snippet-view__badge:has(span[data-nosnippet="true"] > span[class$="_advert-text"])
@@ -1456,7 +1455,7 @@ yandex.*#?#.business-card-title-view__actions > div.business-card-title-view__ad
 [$path=/maps]yandex.ru#%#//scriptlet('json-prune', 'config.errorBooster.sendMetrics')
 !
 ! Yandex.Eda
-eda.yandex.ru##main > div[style^="margin-bottom:"]:has(> div > div > button + div div[role="button"] > button[aria-label="Акция"] > div > img[src*="get-market-adv"])
+eda.yandex.ru##main > div[style^="margin-bottom:"]:has(> div > div > button + div div[role="button"] > button[aria-label] > div > img[src*="get-market-adv"])
 !
 ! Yandex.Pogoda
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
