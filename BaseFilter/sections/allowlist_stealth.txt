@@ -25,7 +25,12 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/236903
+@@||app.zoom.us^$stealth=useragent
+! https://github.com/AdguardTeam/AdguardFilters/issues/236856
+@@||happy1de.space/embed/$subdocument,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236787
+@@||playerx.info^$subdocument,stealth=referrer,domain=jetfilmizle.*
 @@||videopark.top^$subdocument,stealth=referrer,domain=jetfilmizle.*
 @@||d2rs.com^$subdocument,stealth=referrer,domain=jetfilmizle.*
 ! https://github.com/AdguardTeam/AdguardFilters/pull/235401
@@ -121,7 +126,8 @@
 @@||places.googleapis.com^$stealth=referrer
 @@||addressvalidation.googleapis.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233859
-@@.mp4?headers$media,stealth=referrer,domain=vidlink.pro
+@@/sacdn/dash/*?host=$xmlhttprequest,stealth=referrer,domain=vidlink.pro
+@@.mp4?$media,stealth=referrer,domain=vidlink.pro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233830
 @@||ksdpictures.site/embed/$subdocument,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233843
@@ -133,8 +139,6 @@
 @@?m3u8=$xmlhttprequest,stealth=referrer,domain=cinesrc.st
 @@^stream^$xmlhttprequest,media,stealth=referrer,domain=cinesrc.st
 @@/hls/*$xmlhttprequest,stealth=referrer,domain=cinesrc.st
-! https://github.com/AdguardTeam/AdguardFilters/issues/233653
-@@^q=$xmlhttprequest,stealth=referrer,domain=vidcore.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233626
 @@||login.olx.$stealth=flash|java
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233616
@@ -213,9 +217,6 @@
 @@||stacksocial.com^$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234120
 @@||vidnest-*.workers.dev/mp4-proxy$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/229852
-@@/r2/cdn2/*$xmlhttprequest,third-party,stealth=referrer,domain=vidfast.vc
-@@||workers.dev^$xmlhttprequest,stealth=referrer,domain=vidfast.vc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229726
 @@||community.fandom.com^$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229580
@@ -256,16 +257,11 @@
 @@||iframe.coomeet.me^$stealth=webrtc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228309
 @@||shutterstock.com^$stealth=useragent
-! https://github.com/AdguardTeam/AdguardFilters/issues/234734
-! https://github.com/AdguardTeam/AdguardFilters/issues/234642
-! https://github.com/AdguardTeam/AdguardFilters/issues/234633
-! https://github.com/AdguardTeam/AdguardFilters/issues/233846
-! https://github.com/AdguardTeam/AdguardFilters/issues/233190
-! https://github.com/AdguardTeam/AdguardFilters/issues/232310
-! https://github.com/AdguardTeam/AdguardFilters/issues/228157
+! VIDEASY & related players that use the same content sources.
+@@/r2/cdn2/*$xmlhttprequest,third-party,stealth=referrer,domain=vidfast.vc|vidup.to
 @@/vd/*/seg-*.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|www.fmovies.gd|vidking.net|vidfast.vc
 @@||api.*/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
-@@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|vidup.to|vidfast.vc|www.fmovies.gd|vidking.net|111movies.net
+@@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|vidup.to|vidfast.vc|www.fmovies.gd|vidking.net|111movies.net|vidcore.net
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer
 @@/*/*=|$third-party,xmlhttprequest,media,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|www.fmovies.gd|vidking.net
 @@.m3u8$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|cineby.*|cineplay.to|fmovies.*|vidfast.vc|www.fmovies.gd|vidking.net
