@@ -71,10 +71,14 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+||zevklifilm.com/ma5.js
+||hizlierotikizle.com/ma5.js
+||hdflimizle.com/wp-content/uploads/2026/03/2.mp4
 dizibol.com##app-banner-zone
 ||superfilmizle.net/wp-content/plugins/popup-manager/
 superfilmizle.*#%#//scriptlet('prevent-window-open')
-r10.net##.rPanel
+r10.net##.thread[id^="sponsor"]
+r10.net##.rPanel:has(> div.content > a[href^="https://www.ideasoft.com.tr/"])
 r10.net##.featuredAjaxContent > div.list > ul[data-id="sonAcilan"] > li[class*="thread"][data-ri]
 r10.net##.footerSponsors
 r10.net##.ozelKategori > a[href][rel*="sponsored"][target="_blank"]
@@ -387,7 +391,7 @@ bewins.tv##.sidebar-section:has(> h2 > i.fa-ad)
 3taraftarium24i.digital###fixedFooterAd
 booksfer.net##.bn-container
 booksfer.net##body > div[style]:not([class]):not([id]):has(> button[aria-label="PDF İndir"])
-turbofilmizle.net,dizipala.*#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'openHiddenPopup')
+unutulmazfilmizle.com,turbofilmizle.net,dizipala.*#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'openHiddenPopup')
 enuygun.com##div[class^="styled__AdsContainer"]
 ustayemektarifleri.com##div[style="min-height:250px;"]
 ustayemektarifleri.com##div[style="min-height:280px;"]
@@ -1907,7 +1911,7 @@ canlitv.center###sidebar_reklam
 /wp-content/uploads/*.gif$domain=cdn.diziyou.co|geyvemedya.com
 /sex*.png$domain=filmoneriler.com
 /suv.js$domain=sinemafilmizle.net|filmmoduu.com
-/popup.js$domain=bayfilmizle1.com
+/popup.js$domain=bayfilmizle1.com|unutulmazfilmizle.com
 /ads/*$domain=mp3indirdur.mobi|forum.donanimhaber.com
 ||hdmixfilim.com/vast2.js
 kredibankalar.com##div[style^="background:#eeeeee; border:2px"]
@@ -2576,7 +2580,7 @@ cosmoturk.com##.midiBanners
 ||erosfilmizle.*/mostbet.mp4
 ||erosfilmizle.*/gif.gif
 livefullfilmizle.org,fullhdfilmizlesene.*,diziyoutv.com,erosfilmizle.*,dizipal.org,dizimom.*,asyadiziizle.com,dizicaps.*,hdfilmizle.in,yabancidizilertv.*##.videoalt
-dizirella.com,filmcusx.com,fullhdfilmizlesem.com,fullhdfilmizlesene.*,diziyoutv.com,erosfilmizle.*,dizipal.org,dizimom.*,asyadiziizle.com,dizicaps.*,hdfilmizle.in,yabancidizilertv.*##.videoust
+hdflimizle.com,dizirella.com,filmcusx.com,fullhdfilmizlesem.com,fullhdfilmizlesene.*,diziyoutv.com,erosfilmizle.*,dizipal.org,dizimom.*,asyadiziizle.com,dizicaps.*,hdfilmizle.in,yabancidizilertv.*##.videoust
 mengen.gen.tr##.slider3Widget
 memleketimbolu.com##.mansetyani
 ademyurt.com###alt > div.at
@@ -4427,8 +4431,8 @@ onlinedizi.sbs#$##pre_video { display: none !important; }
 onlinedizi.sbs#$##vast { display: block !important; }
 livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*#$#.custom-html-widget { display: none !important; }
 livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*#$#.pageskin-link { display: none !important; }
-livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.vip,moonfilmizle.com#$##filmoncereklam { display: none !important; }
-livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.vip,moonfilmizle.com#$#div[id="episode"][style] { height: unset !important; width: unset !important; overflow: unset !important; position: unset !important; }
+hdflimizle.com,livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.vip,moonfilmizle.com#$##filmoncereklam { display: none !important; }
+hdflimizle.com,livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.vip,moonfilmizle.com#$#div[id="episode"][style] { height: unset !important; width: unset !important; overflow: unset !important; position: unset !important; }
 webdramaturkey2.com,webdramaturkey.org#$##vast > div[id].jwplayer { display: none !important; }
 webdramaturkey2.com,webdramaturkey.org#$##vast > div[id].jwplayer + iframe.embed-responsive-item { display: block !important; }
 fullhdfilmcehennemi.vip,filmtib.com,filmizlemobil.com,filmizlego.com,yenifilmizle.org,erotizmcenneti.org,dizirella.com,burcufilm.com,filmizlersin.com#$##rk-content { display: none !important; }
@@ -4928,8 +4932,8 @@ turkkizlar31.com,turkkizlar32.com,turkkizlar33.com,turkkizlar34.com,turkkizlar35
 [$domain=/dahahizli\d+\.(com\|live)$/]###ads-inside-main
 [$domain=/dahahizli\d+\.(com\|live)$/]###video-player-ads
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-dahahizli135.live###ads-inside-main
-dahahizli135.live###video-player-ads
+dahahizli136.live###ads-inside-main
+dahahizli136.live###video-player-ads
 !#endif
 !
 ! Frequently changed domains: hepbetspor*.cfd
@@ -5828,19 +5832,6 @@ dizipal12.plus,dizipal13.plus,dizipal14.plus,dizipal15.plus,dizipal16.plus,dizip
 dizipal1022.com,dizipal1021.com,dizipal1017.com,dizipal1.com,dizipal2.com,dizipal3.com,dizipal4.com,dizipal5.com,dizipal6.com,dizipal7.com,dizipal8.com,dizipal9.com,dizipal10.com,dizipal11.com,dizipal12.com,dizipal13.com,dizipal14.com,dizipal15.com##.videoalt
 dizipal1022.com,dizipal1021.com,dizipal1017.com,dizipal1.com,dizipal2.com,dizipal3.com,dizipal4.com,dizipal5.com,dizipal6.com,dizipal7.com,dizipal8.com,dizipal9.com,dizipal10.com,dizipal11.com,dizipal12.com,dizipal13.com,dizipal14.com,dizipal15.com##.videoust
 dizipal1022.com,dizipal1021.com,dizipal1017.com,dizipal1.com,dizipal2.com,dizipal3.com,dizipal4.com,dizipal5.com,dizipal6.com,dizipal7.com,dizipal8.com,dizipal9.com,dizipal10.com,dizipal11.com,dizipal12.com,dizipal13.com,dizipal14.com,dizipal15.com##.body-clickable
-! dizi-pal*.com
-||blogger.googleusercontent.com/img/b/*/s500/maxwin728x90.gif
-||blogger.googleusercontent.com/img/b/*/s320/prada-dizi-banner72890.gif
-[$domain=/^dizi-pal\d+\.com/]#%#//scriptlet('set-constant', 'psWorker', 'noopFunc')
-[$domain=/^dizi-pal\d+\.com/]##a[href^="https://shrto.net/"]
-[$domain=/^dizi-pal\d+\.com/]##a[target="_blank"] > .alert
-[$domain=/^dizi-pal\d+\.com/]##div[id^="header"] a[target="_blank"]:has(> img)
-!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-dizi-pal16.com#%#//scriptlet('set-constant', 'psWorker', 'noopFunc')
-dizi-pal16.com##a[href^="https://shrto.net/"]
-dizi-pal16.com##a[target="_blank"] > .alert
-dizi-pal16.com##div[id^="header"] a[target="_blank"]:has(> img)
-!#endif
 !
 ! Frequently changed domains: diziwatch*.net
 ||diziwatch*.net/wp-content/uploads/*.gif
