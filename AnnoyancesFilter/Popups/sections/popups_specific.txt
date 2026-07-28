@@ -44,6 +44,7 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+muzofond.fm###banner_auth
 ||eowf.alc.co.jp/content/js/popup_control.js
 mail.ru#%#//scriptlet('set-cookie', 'search_tooltip', '1')
 sberbank.ru##.header-widget-personal-account__modal-window_onboarding
@@ -359,7 +360,6 @@ tozlu.com##.kas-modal-ov
 delfi.lv##.floating-video__placeholder
 yeniavaz.com#%#//scriptlet('prevent-setTimeout', '#divModalPageLike')
 gmgn.ai#%#//scriptlet('set-local-storage-item', 'login_dialog_clicked', 'true')
-7tv081.com#%#//scriptlet('trusted-click-element', '#mvspan_2_s_k_i_p_bottom')
 kroger.com#$#.kds-Modal-overlay { display: none !important; }
 kroger.com#$#html.overflow-hidden { overflow: auto !important; }
 nihaojewelry.com#%#//scriptlet('set-local-storage-item', 'homePopupID', '8')
@@ -7882,6 +7882,7 @@ kurashiru.com#$#html.dly-modal-active { overflow: auto !important; }
 ! SECTION: Popups - Mobile sites only
 !#if (adguard_app_android || adguard_app_ios || adguard_ext_android_cb || ext_ublock)
 !
+cinevaro.app##.fixed.inset-x-0.bottom-4
 m.vk.ru##.PageBottomBanner--unauth
 www.kinopoisk.ru#%#//scriptlet('set-session-storage-item', 'hasShowTouchLoginWall', 'true')
 www.kinopoisk.ru#%#//scriptlet('trusted-set-local-storage-item', 'touchLoginWallPages', '{"timestamp":9999999999999,"pages":["series-page"]}')
