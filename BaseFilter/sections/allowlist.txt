@@ -147,6 +147,10 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/pull/237015
+@@||app.slickstream.com^$domain=bakerita.com|letthemeatgfcake.com
+@@||c.slickstream.com/app/*/boot-loader.js$domain=bakerita.com|letthemeatgfcake.com
+@@||c.slickstream.com/app/*/app.js$domain=bakerita.com|letthemeatgfcake.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235828
 lichess.org#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235878
