@@ -60,6 +60,9 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+famitsu.com##div[class^="ArticleDetail_articleMainFooter"] > div[class^="CommonParts_"]
+arekore.app##div[class^="ads"]
+automaton-media.com##div[class^="ai-viewport-"]
 9-gld.net##.catpost-cards > .c_linkto:has(> .adsbygoogle)
 9-gld.net##.normal-sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
 tuma.jp##.pr-section
@@ -9181,6 +9184,7 @@ medicalnote.jp#?#.c-glo-section > aside.l-post-aside > div[id^="logly-"]:upward(
 wws-channel.com##.main_banner_container
 wws-channel.com##.side_banner:has(> #_popIn_recommend_image_right)
 wws-channel.com#?#.single_container > div[class=""]:contains(【あなたにオススメ記事】)
+wws-channel.com##.sidebar-kyujin-box
 toremaga.com#?##ar_w300px > div.cont > ul.tab:upward(1)
 marumie.name###side > div.td2:has(+ div > a[href^="https://click.duga.jp"])
 marumie.name###side > div[style^="width:"]:has(> a[href^="https://click.duga.jp"])
