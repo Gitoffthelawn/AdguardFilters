@@ -444,7 +444,7 @@ openrec.tv##header ~ div[class] div[style^="transform:translate3d"] > div[class*
 myheritage.com.tr##.promotional_banner_wrapper
 nikkeibp.co.jp##pwa-install-prompt
 eigaland.com###download_banner
-qms.ru###pwa-prompt
+speedtest.ru,qms.ru###pwa-prompt
 reddit.com##span[data-part="get-app-btn"]
 bmwc.marv.jp###footer_badge-fixed
 agoda.com##div[class]:has(> div[data-element-test="prominent-app-download-popover"])
@@ -4275,6 +4275,10 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+mainichi.jp#$#.tp-modal:has(iframe[id^="offer_"][scrolling="no"][allowfullscreen="true"][style="overflow: hidden; background-color: transparent; border: 0px; width: 500px; height: 525px;"]) { display: none !important; }
+mainichi.jp#$#.tp-modal:has(iframe[id^="offer_"][scrolling="no"][allowfullscreen="true"][style="overflow: hidden; background-color: transparent; border: 0px; width: 500px; height: 525px;"]) ~ .tp-backdrop { display: none !important; }
+mainichi.jp#$#.tp-scroll-prevented { overflow: auto !important; height: unset !important; touch-action: auto !important; }
+mainichi.jp#$#html > body.tp-modal-open { overflow: auto !important; height: unset !important; touch-action: auto !important; }
 travelist.jp##.footerApp
 banki.ru#%#//scriptlet('trusted-set-cookie-reload', 'download_mobile_app_banner', 'never')
 hindustantimes.com###echosdk_click_overlay
