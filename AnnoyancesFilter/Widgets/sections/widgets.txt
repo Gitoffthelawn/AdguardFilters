@@ -76,6 +76,7 @@ nizimoenews.livedoor.blog,butumori.com,netizen-voice.blog.jp,ityouchannel.livedo
 !
 ! NOTE: Blogroll specific rules
 !
+kankokunews.net##[src^="https://blogroll.livedoor.net/"]
 aurorascreen.org##.discord-popup
 24tv.ua##.whatsapp-subscribe-widget
 odessa.ua##div.maincont > div[style^="margin: "]:has(> a[href="https://t.me/slovo_odessa"])
@@ -2029,6 +2030,9 @@ daddyhd.com##.sidebar__inner
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 litres.ru###call_support
 !
+pacjent.gov.pl###sprintbot-chat
+careers.dhl.com##.phenom-chatbot-wrapper
+superpower.com###lorikeet-widget-shadow-host
 ab-in-den-urlaub.de###__next > button[class*="css-"]:has(> span > img[alt="Chat-Logo"])
 namesilo.com##.ai-chat-widget-container
 spolshy.com.ua##.phone-modal
