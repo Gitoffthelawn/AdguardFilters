@@ -18,7 +18,19 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+m.megabox.co.kr#$##mainAppInsPop { display: none !important }
+m.megabox.co.kr#$#.induceBanner { display: none !important; }
+m.megabox.co.kr#$#.modal-open { overflow: auto !important; }
+kvue.com##.grid__cell[data-columns] > div[data-analytics-name="Story-2"]:has(a[href^="https://www.kvue.com/"] > img)
+cbs8.com##.grid__cell[data-columns] > div[data-analytics-name="Story-2"]:has(a[href="https://tv.cbs8.com/"] > img)
+kcentv.com##.grid__section:has(> div.grid__content > div.grid__main > div.grid__cell > div.grid__module > div.grid__module-sizer_name_linked-image > div.linked-image > a[href="http://tv.kcentv.com/"])
+kcentv.com##.grid__cell > div.grid__module:has(> div.grid__module-sizer_name_story > div[data-module="story"] > div.story__inner > div.story__meta > a[href^="https://www.kcentv.com/article/about-us/how-to-watch-kcen-6-app-streaming-device/"])
+kiiitv.com##.grid__cell[data-columns] > div[data-analytics-name]:has(a[href="https://tv.kiiitv.com/"] > img)
+weareiowa.com##li[aria-label="App promo"]
+wqad.com##.grid__cell[data-columns] > div[data-analytics-name]:has([aria-label*="News 8+ streaming app"] > img)
+myfoxzone.com##.grid__cell[data-columns] > div[data-analytics-name]:has(a[aria-label*="Texas+ app"] > img)
 streamo.pro##a[aria-label="Download Android app"]
+firefox.com##.fl-qr-code-floating-snippet
 haberturk.com##.ht-app-popup
 shopping.naver.com##div[class^="_appStarterBanner_app_starter_banner_"]
 t-j.ru##div[class^="_commonNavItems_"] > a[href^="https://journal.onelink.me/"]
@@ -289,8 +301,8 @@ pw.live##div[class^="deepLinks_getAppWrapper"]
 books.yandex.ru##div[class^="AppPromoDesktopBanner_"]
 papara.com###smart:has(> div.flex > [class^="styles_button"])
 mrowl.com###shwdwnldap
-tahtakalespot.com#$##anasayfaPopup { display: none !important; }
-tahtakalespot.com#$#body { overflow: auto !important; }
+igs.net.tr,tahtakalespot.com#$##anasayfaPopup { display: none !important; }
+igs.net.tr,tahtakalespot.com#$#body { overflow: auto !important; }
 nashemisto.dp.ua##.custom_html-80
 coinstats.app##div[class^="MobileSwitchPopup_mobileSwitchWrapper"]
 boyner.com.tr##.app_pop_container
@@ -4275,10 +4287,13 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+cgv.co.kr#%#//scriptlet('set-cookie', 'appOpen', 'true')
 mainichi.jp#$#.tp-modal:has(iframe[id^="offer_"][scrolling="no"][allowfullscreen="true"][style="overflow: hidden; background-color: transparent; border: 0px; width: 500px; height: 525px;"]) { display: none !important; }
 mainichi.jp#$#.tp-modal:has(iframe[id^="offer_"][scrolling="no"][allowfullscreen="true"][style="overflow: hidden; background-color: transparent; border: 0px; width: 500px; height: 525px;"]) ~ .tp-backdrop { display: none !important; }
 mainichi.jp#$#.tp-scroll-prevented { overflow: auto !important; height: unset !important; touch-action: auto !important; }
 mainichi.jp#$#html > body.tp-modal-open { overflow: auto !important; height: unset !important; touch-action: auto !important; }
+m.11st.co.kr##.c-webtoapp
+m.11st.co.kr#%#//scriptlet('set-cookie', 'web2AppPopupDisable', 'Y')
 travelist.jp##.footerApp
 banki.ru#%#//scriptlet('trusted-set-cookie-reload', 'download_mobile_app_banner', 'never')
 hindustantimes.com###echosdk_click_overlay
@@ -4822,7 +4837,6 @@ suno.com##div[aria-label="Mobile App Banner"]
 travel.navitime.com##.app-dl
 travel.navitime.com##.guide-app-appeal-content
 travel.navitime.com##.travel-app-smart-app-banner
-11st.co.kr#%#//scriptlet('set-cookie', 'web2AppPopupDisable', 'Y')
 foxford.ru#%#//scriptlet('set-cookie', 'wiki_app_banner_viewed', 'true')
 furunavi.jp###global-app-ad
 ifunny.co###App > div:has(> div[class] > div[class] > div[class] > section[class] > button[color="yellowBlack"])
