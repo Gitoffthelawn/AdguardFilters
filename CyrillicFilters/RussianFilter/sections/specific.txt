@@ -14,6 +14,9 @@ sport-express.ru,gorod24.online,vedomosti.ru,kommersant.ru,rg.ru,glavbukh.ru,che
 !
 ! NOTE: Specific rules
 !
+filmix.gg,filmix.*#$#.page-wrapper { margin-top: 0 !important; }
+/^https:\/\/happy-year\.narod\.ru\/\?[a-zA-Z0-9%]{100,150}$/$match-case,first-party,subdocument,domain=happy-year.narod.ru
+happy-year.narod.ru##.ads-top-banner
 stolicaonego.ru###hideadvs
 stolicaonego.ru##.content_news_date[style^="margin-top:-20px; background-color:#fff;"]
 retail.ru#$#.header--default { margin-top: 0 !important; }
@@ -10639,6 +10642,8 @@ muzmo.org##.mm-listview > li > a.menu_item[href*="vpopke.org"]
 muzmo.org##.mm-listview > li > a.menu_item[href*="new.eromo.org"]
 !#endif
 !
+!+ NOT_OPTIMIZED
+||netmonet.co/last-page-banner-modal.
 !+ NOT_PLATFORM(ios, android, ext_android_cb)
 overclockers.ru##.grid > div.container-block:has(> div[class="sixteen wide center aligned column"])
 !+ NOT_PLATFORM(ios, android, ext_android_cb)
