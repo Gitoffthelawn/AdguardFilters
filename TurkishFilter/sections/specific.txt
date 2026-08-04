@@ -71,6 +71,7 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+cnnturk.com##.adv-container
 ||blogger.googleusercontent.com/img/$image,domain=pasizle857.com|pasizle858.com|pasizle859.com|pasizle860.com|pasizle861.com|pasizle862.com|pasizle863.com|pasizle864.com|pasizle865.com|pasizle866.com|pasizle867.com|pasizle868.com|pasizle869.com|pasizle870.com
 ||zerotik.space/maczer*.js
 ||resimyukle.app/i/$domain=filmzevkim.com|sinefilmizlesem.com
@@ -4438,12 +4439,12 @@ onlinedizi.sbs#$##pre_video { display: none !important; }
 onlinedizi.sbs#$##vast { display: block !important; }
 livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*#$#.custom-html-widget { display: none !important; }
 livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*#$#.pageskin-link { display: none !important; }
-hdflimizle.com,livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.vip,moonfilmizle.com#$##filmoncereklam { display: none !important; }
-hdflimizle.com,livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.vip,moonfilmizle.com#$#div[id="episode"][style] { height: unset !important; width: unset !important; overflow: unset !important; position: unset !important; }
+hdflimizle.com,livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.cc,fullhdfilmcehennemi.vip,moonfilmizle.com#$##filmoncereklam { display: none !important; }
+hdflimizle.com,livefullfilmizle.cam,livefullfilmizle.org,livefullfilmizle.*,vipfilmsitesi.com,fullhdfilmcehennemi.cc,fullhdfilmcehennemi.vip,moonfilmizle.com#$#div[id="episode"][style] { height: unset !important; width: unset !important; overflow: unset !important; position: unset !important; }
 webdramaturkey2.com,webdramaturkey.org#$##vast > div[id].jwplayer { display: none !important; }
 webdramaturkey2.com,webdramaturkey.org#$##vast > div[id].jwplayer + iframe.embed-responsive-item { display: block !important; }
-fullhdfilmcehennemi.vip,filmtib.com,filmizlemobil.com,filmizlego.com,yenifilmizle.org,erotizmcenneti.org,dizirella.com,burcufilm.com,filmizlersin.com#$##rk-content { display: none !important; }
-fullhdfilmcehennemi.vip,filmtib.com,filmizlemobil.com,filmizlego.com,yenifilmizle.org,erotizmcenneti.org,dizirella.com,burcufilm.com,filmizlersin.com#$##cn-content { display: block !important; }
+fullhdfilmcehennemi.cc,fullhdfilmcehennemi.vip,filmtib.com,filmizlemobil.com,filmizlego.com,yenifilmizle.org,erotizmcenneti.org,dizirella.com,burcufilm.com,filmizlersin.com#$##rk-content { display: none !important; }
+fullhdfilmcehennemi.cc,fullhdfilmcehennemi.vip,filmtib.com,filmizlemobil.com,filmizlego.com,yenifilmizle.org,erotizmcenneti.org,dizirella.com,burcufilm.com,filmizlersin.com#$##cn-content { display: block !important; }
 gecefilmizle.com,filmizlemobil.net,filmizleson.com,sinekolik.com#$#.once-reklam { display: none !important; }
 gecefilmizle.com,filmizlemobil.net,filmizleson.com,sinekolik.com#$##videos { display: block !important; }
 sinefilmgo.org#$#.tab-reklam { display: none !important; }
