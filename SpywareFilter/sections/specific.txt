@@ -92,8 +92,12 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||deltaforcetools.gg/js/trackless-0.0.3.umd.min.js
+||ac.cnstrc.com/v2/behavioral_action/
+||openart.ai/4vu8/
 ||stolicaonego.ru/ajax/stat/
 ||motoin.de/Scripts/emstrack.js
+||aichaoxing.com/res/cx_stat.js
 ||umommy.*/api/
 ||e.meloming.com/static/web-vitals.js
 ||e.meloming.com/i/v0/e
@@ -1706,7 +1710,6 @@ threads.net#%#//scriptlet('href-sanitizer', 'a[href*="?xmt="]', '[href]', 'remov
 ||m-chromadrone.prod.suno.com/metrics/
 ||cdn.surfside.io/sdk/*/wave.js
 ||edge.surfside.io/id/uid?
-://cnstrc.com/js/
 ||freyr.futurecdn.net/freyr.js
 ||meta.com/*/fl?*comet_req=*&__user=
 ||app.cybba.solutions/event/*/pageview?
