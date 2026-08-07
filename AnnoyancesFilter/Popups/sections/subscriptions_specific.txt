@@ -59,7 +59,11 @@ omgubuntu.co.uk,winfuture.de,movilforum.com,sponichi.co.jp,gamingbible.com,ladbi
 !
 ! SECTION: Subscriptions - Regular rules
 !
-mahsunsports50.xyz##.floating-telegram
+benuveny.hu##[class*="footer__newsletter"]
+ren.tv#%#//scriptlet('set-cookie', 'ren-max-messenger', '1')
+proshop.dk##.site-footer-newsletterContainer
+news.hada.io##.referrer-subscribe-banner
+mahsunsports50.xyz,mahsunsports80.xyz##.floating-telegram
 discovery.com##.followus
 petersenshunting.com##.lity
 petersenshunting.com##.is-newsletter
@@ -75,6 +79,7 @@ heavyequipmentguide.ca#$#main > div[style="opacity: 1;"] { display: none !import
 fortune.com#?##rightRail > div.margin-safe-area.flex-col:has(> button:contains(Add us on Google))
 velikiy-novgorod.beeline.ru##div[data-t-id="components-SubscriptionForms"]
 wefry.ru##.socials__subscribe
+sammobile.com##.google-preferred-news-source-cta
 sud.ua##.subscribe_tg
 superpower.com##.footer2_newsletter
 store.google.com##dialog[data-dialog-name="crm_crm_popup_center"]
@@ -2612,7 +2617,8 @@ crypto-insiders.nl##.exp-newsletter
 context.reverso.net###support-banner-wrapper
 context.reverso.net#$#body > div#wrapper { min-height: auto !important; }
 vtcnews.vn##.newsletters-container
-dorsetecho.co.uk,glasgowtimes.co.uk,dailyecho.co.uk###po-inline-article-above
+theargus.co.uk###po-overlay-banner-bottom-fullwidth
+theargus.co.uk,dorsetecho.co.uk,glasgowtimes.co.uk,dailyecho.co.uk###po-inline-article-above
 deltiasgaming.com###block-7
 wheresyoured.at##main + section:has(> div.section-cta__content)
 lifehacker.jp##div[class^="article_pArticle_mailMagazine"]
@@ -7900,7 +7906,7 @@ computer.org##.landingHeaderActions > a[href*="/subscribe-digital"]
 computer.org##.generalContent p[style^="text-align: center; color:"] > a[href^="https://www.computer.org/resources/newsletters/"]
 computer.org#?#.landingHeaderActions > a[href*="/subscribe-digital"]:only-child:upward(1)
 devops.com##.sidebar > .gform_widget
-cicnews.com##.subscribe_box
+riki.team,cicnews.com##.subscribe_box
 cicnews.com##.article_box button[class^="popmake-"][style^="border"][style*="background:"]
 prospects.ac.uk##.content-call-to-action
 savethestudent.org##.widget.-newsletter
