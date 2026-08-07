@@ -128,6 +128,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234878
 @@||swiftstream.top/proxy/$xmlhttprequest,image,stealth=referrer,domain=animetsu.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234872
+@@/videos/*$media,stealth=referrer,domain=allanime.day
 @@||wp.youtube-anime.com^$image,stealth=referrer,domain=allmanga.to|mkissa.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234807
 @@.m3u8$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
@@ -284,6 +285,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234564
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234341
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228663
+@@||cloudorchestranova.com/embed/$subdocument,stealth=referrer
 @@||streamdata.vaplayer.ru/api.php?$xmlhttprequest,third-party,stealth=referrer
 @@/content/*/page-*.html$xmlhttprequest,third-party,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/229847
