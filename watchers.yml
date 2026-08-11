@@ -19,7 +19,7 @@ sites:
     initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
     failed_since: 2026-07-28 13:36
-    failed_days: 14
+    failed_days: 15
     potentially_dead: true
   Vegamovies:
     initial_domain: https://vglist.top/?re=vegamovies
@@ -179,7 +179,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 8
+    failed_days: 9
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -207,7 +207,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -215,13 +215,11 @@ sites:
       - 87betine.live
     pattern_changed: true
     non_pattern_mirror: www.google.com
-    failed_since: 2026-08-10 07:35
-    failed_days: 1
-    potentially_dead: true
+    success_since: 2026-08-11 14:20
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -269,10 +267,8 @@ sites:
     last_known_mirror: www.xsportv-de596bbe2f.xyz
     success_since: 2026-08-07 13:30
   Pasizle (pasizle*.com):
-    last_known_mirror: pasizle858.com
-    failed_since: 2026-08-10 19:24
-    failed_days: 0
-    potentially_dead: true
+    last_known_mirror: pasizle859.com
+    success_since: 2026-08-11 14:20
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
