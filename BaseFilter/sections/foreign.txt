@@ -740,6 +740,7 @@ auto.am##.azd-top
 ##.ainsyndication
 az##.makerekframe
 !
+ucuztap.az##a[rel="noopener nofollow sponsored"]
 trend.az#$?##masthead-strip { remove: true; }
 trend.az##.banner-on-visible
 ||qafqazinfo.az/public/site/js/reklam.js
@@ -3078,6 +3079,13 @@ autopapa.ge##.top-rek
 !
 ! NOTE: Greek
 !
+toedolio5.gr##.tdi_86
+toedolio5.gr##.tdi_195
+toedolio5.gr###tdi_110
+toedolio5.gr###tdi_122
+toedolio5.gr##a.tdm-inline-image-wrap:not([href*="youtube.com"],[href*="https://toedolio"])
+evros-news.gr##.adv
+evros-news.gr##.content-area > div[id^="text-"]
 techblog.gr##.row:has(> div.col-12 > div.billboardad)
 spitogatos.gr##.property__deals__listing
 news247.gr##.phaistos_placeholder
