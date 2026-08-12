@@ -1177,6 +1177,8 @@ olke.az#$#.wrapper { top: 0!important; }
 !
 ! NOTE: Belgian
 !
+dir.bg##.lenta-btn
+dir.bg##.banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39799
 @@||videoplayer.persgroep.be/v*/player/ad_smartads_.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27989
@@ -7146,6 +7148,9 @@ roweroweporady.pl#@#.ad_container
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 !
 !
+||nbi.com.pl/*/v*/ads
+nbi.com.pl##div[data-ads]
+quizowa.pl##div[class^="main-box"]:has(> .adsbygoogle)
 globenergia.pl##div[id^="globe-"]
 popkulturowcy.pl###custom-main-ad
 klubzwierzaki.pl##.art .lazyload-wrapper:has(.close + div[class] > a[href="/twoja-prywatnosc"])
@@ -8736,8 +8741,11 @@ files4you.org###posts div[id^="post_message_"] div[align="center"] > div[style^=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133914
 monitorfirm.pb.pl##.sas
 pb.pl##.n2pb-ad-container
+!+ NOT_OPTIMIZED
 pb.pl##.trinity-fab-overlay
+!+ NOT_OPTIMIZED
 pb.pl##body .n2pb-gad-container:not(#style_important)
+!+ NOT_OPTIMIZED
 pb.pl##div[class^="npb-"][class$="-adv"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133846
 24kurier.pl#$#.box_reklama_txt { visibility: hidden !important; }
