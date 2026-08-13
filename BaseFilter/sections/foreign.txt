@@ -442,6 +442,7 @@ teamxnovel.com##.body-wrap > div[style^=" padding:50px "]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171857
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99417
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199845
+||cimanow.cc^$replace=/<textarea.*\ndocument\.write\('<script.*\n<\/textarea>//,document
 freex2line.online,cimanow.cc,cimanow.*##body > a[target="_blank"]
 freex2line.online,cimanow.cc,cimanow.*#%#//scriptlet("set-constant", "zJSYdQ", "true")
 freex2line.online$$script:contains(/throw new Error\(\)/)
@@ -9855,6 +9856,8 @@ meczyki.pl##.container > .row > .col-md-4 > .widget-wrapper:has(> .widget-wrappe
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101259
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94538
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93480
+||onnetwork.tv^$domain=meczyki.pl
+meczyki.pl##.video-banner
 meczyki.pl##.banner-wrapper
 meczyki.pl#$#:not(.onnetwork-banner) > .placeholder:not(.onnetwork-banner) { height: 0 !important; min-height: 0 !important; visibility: hidden !important; }
 meczyki.pl##.d-none > .sticky.margin > .box.margin[data-area-id]
