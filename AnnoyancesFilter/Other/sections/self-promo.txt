@@ -103,6 +103,7 @@ ya.ru,yandex.*##.AliceFabPromo
 ! Yandex.Afisha
 !
 ! Yandex.Disk
+disk.yandex.*##div[class^="icloud-transfer-promo"]
 disk.yandex.*##.root__wrapper > div[class^="RightSideSheet_"]
 disk.yandex.*##div[data-promo-name]
 disk.yandex.*##.top-banner_stretch
@@ -212,6 +213,7 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+columbian.com###promoModal
 umingle.com##.premium-upgrade-btn
 entireweb.com###chromeExtCard
 isdown.app##.relative > div.relative:has(> div.block > a[href^="/users/sign_up?cta="])
