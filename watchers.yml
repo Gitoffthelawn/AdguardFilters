@@ -15,11 +15,11 @@ sites:
     last_known_mirror: nomorflix.cc
     success_since: 2026-08-13 14:21
   Vegamovies:
-    initial_domain: https://vglist.top/?re=vegamovies
-    # initial_domain: https://1vegamovies.tw/?re=vg
-    last_known_mirror: 1vegamovies.cc
+    # initial_domain: https://vglist.top/?re=vegamovies can be used to obtain the current initial domain.
+    initial_domain: https://1vegamovies.tw/?re=vg
+    last_known_mirror: new1.vegamovies.futbol
     accept_antibot: true
-    success_since: 2026-08-12 01:35
+    success_since: 2026-08-14 13:31
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
     success_since: 2026-07-21 01:37
@@ -116,12 +116,12 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Hdturkifsa (hdturkifsa*.icu):
-    last_known_mirror: hdturkifsa60.com
-    success_since: 2026-08-13 01:36
+    last_known_mirror: hdturkifsa62.com
+    success_since: 2026-08-14 01:36
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime150.live
+    last_known_mirror: cimcime151.live
     accept_antibot: true
-    success_since: 2026-08-13 01:36
+    success_since: 2026-08-14 01:36
   MaçtanMaça:
     last_known_mirror: mactanmaca655.sbs
     success_since: 2026-08-08 19:14
@@ -151,9 +151,7 @@ sites:
     success_since: 2026-07-21 19:33
   SportsBite (sportsbite.*):
     last_known_mirror: sportsbite.org
-    failed_since: 2026-08-13 14:21
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-08-14 01:36
   Dizipal (dizipal*.com):
     # Original. Fake used old domain names behind by ~400 domains
     last_known_mirror: dizipal2089.com
@@ -176,7 +174,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -184,8 +182,8 @@ sites:
     force_search_ahead: true
     success_since: 2026-07-25 13:33
   Dahahizli (dahahizli*.live):
-    last_known_mirror: dahahizli140.live
-    success_since: 2026-08-13 01:36
+    last_known_mirror: dahahizli141.live
+    success_since: 2026-08-14 01:36
   Hdifsaizle (hdifsaizle*.com):
     initial_domain: hdifsaizle.com
     last_known_mirror: hdifsaizle18.com
@@ -204,7 +202,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 14
+    failed_days: 15
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -212,13 +210,11 @@ sites:
       - 87betine.live
     pattern_changed: true
     non_pattern_mirror: www.google.com
-    failed_since: 2026-08-10 07:35
-    failed_days: 4
-    potentially_dead: true
+    success_since: 2026-08-14 01:36
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 14
+    failed_days: 15
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -241,13 +237,11 @@ sites:
     last_known_mirror: macvardi281.com
     success_since: 2026-08-07 01:49
   Sporlig TV (sporligtv*.live):
-    last_known_mirror: sporligtv627.live
-    failed_since: 2026-08-13 14:21
-    failed_days: 0
-    potentially_dead: true
+    last_known_mirror: sporligtv628.live
+    success_since: 2026-08-14 01:36
   Galyatv (galyatv*.com):
-    last_known_mirror: www.galyatv4.com
-    success_since: 2026-08-13 14:21
+    last_known_mirror: www.galyatv6.com
+    success_since: 2026-08-14 01:36
   Mahsunsports (mahsunsports*.xyz):
     last_known_mirror: mahsunsports50.xyz
     force_search_ahead: true
@@ -255,7 +249,7 @@ sites:
   Fixbettv (fixbettv*.com):
     last_known_mirror: fixbettv83.com
     failed_since: 2026-08-13 01:36
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   taraftarium (taraftarium.co):
     last_known_mirror: taraftarium.co
@@ -277,16 +271,16 @@ sites:
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
     failed_since: 2026-08-10 19:24
-    failed_days: 3
+    failed_days: 4
     potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 6
+    failed_days: 7
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
-    last_known_mirror: turkifsalife44.blog
-    success_since: 2026-08-10 19:24
+    last_known_mirror: turkifsalife46.blog
+    success_since: 2026-08-14 01:36
   Porno shop (porno*.shop):
     last_known_mirror: porno28.shop
     success_since: 2026-08-10 19:24
@@ -306,3 +300,11 @@ sites:
   Taraftarium24 BJK (taraftarium24bjk*.com):
     last_known_mirror: taraftarium24bjk10.com
     success_since: 2026-08-13 14:21
+  Bahisligatv (bahisligatv*.com):
+    last_known_mirror: bahisligatv2.com
+    success_since: 2026-08-14 13:31
+  Kacakspor (kacakspor*.com):
+    last_known_mirror: www.kacakspor4.com
+    success_since: 2026-08-14 13:31
+  Lionline HD (lionlinehd*.com):
+    last_known_mirror: lionlinehd165.com
