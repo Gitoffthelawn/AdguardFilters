@@ -9,11 +9,6 @@
 !
 !############### TEMPORARY ###############
 !
-! https://github.com/AdguardTeam/AdguardFilters/issues/236823
-! Probably a bug - related only for AdGuard for Windows v8, in v7 all good
-! BUG: https://github.com/AdguardTeam/CoreLibs/issues/2092
-!+ PLATFORM(windows)
-@@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
 ! BUG: https://github.com/AdguardTeam/CoreLibs/issues/1970 (any/no option)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/200850
 @@||beinconnect.com.tr^$stealth
@@ -30,6 +25,15 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/238341
+@@||fakitonye.shop/player/$stealth=referrer,domain=hdabla.net
+@@$media,stealth=referrer,domain=fakitonye.shop
+! https://github.com/AdguardTeam/AdguardFilters/issues/236823
+@@||fritz.com/*/apps/knowledge-base/$xmlhttprequest,elemhide,jsinject,extension
+! https://github.com/AdguardTeam/AdguardFilters/issues/238294
+@@||workers.dev/media-proxy?$xmlhttprequest,stealth=referrer,domain=cinemove.cc
+! https://github.com/AdguardTeam/AdguardFilters/issues/238292
+@@||download.liteapks.dev/*^token=$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237967
 @@||callistanise.com^$stealth=referrer
 @@||listeamed.net^$stealth=referrer
@@ -160,7 +164,7 @@
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234791
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|1vegamovies.cc|rogmovies.cv|xprimehub.bond
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|new1.vegamovies.futbol|rogmovies.cv|xprimehub.bond
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234673
 @@||account.deezer.com/$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234641
