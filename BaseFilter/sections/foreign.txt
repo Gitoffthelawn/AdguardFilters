@@ -7475,6 +7475,10 @@ bieganie.pl#?#.biega-nb-paris > DIV[style^="text-align:"]:contains(Reklama)
 gospodarkamorska.pl##.Home_categories_box > div.polecamy-slider > div[class*="poster-dnone-"]
 onet.pl##a[href^="https://milionymonet.onet.pl/"]
 pograne.eu###custom_html-8
+! https://github.com/AdguardTeam/AdguardFilters/issues/238476
+gazetki.pl#@#[class$="-ads"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/238386
+eprzasnysz.pl#@#[class*="box-advert"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237942
 warzywa.pl,jagodowe.pl,wrp.pl,sad24.pl#@#[class$="-ads"]
 warzywa.pl,jagodowe.pl,wrp.pl,sad24.pl##.item__side > a > img
@@ -10543,6 +10547,8 @@ pisupisu.pl#%#//scriptlet('prevent-setTimeout', 'adblock')
 pisupisu.pl#%#//scriptlet('prevent-setInterval', '.offsetParent === null')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pisupisu.pl^$generichide
+! https://github.com/AdguardTeam/AdguardFilters/issues/238440
+purepc.pl##.content > p > a[href^="https://www.mediaexpert.pl/"] > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54021
 purepc.pl##.artbox .content > p > a[href^="https://lp."][href*="&utm_campaign="] > img
@@ -13738,6 +13744,8 @@ animevietsub.*##.video-ad-layer
 animevietsub.*##center > a[target="_blank"] > img
 animevietsub.*#%#//scriptlet('set-cookie', 'popupOpened', 'true')
 !
+://xnhau.*/static/media/*.mp4|$media,~third-party
+xnhau.pics,xnhau.*##.spot
 holitv.org##div[class^="catfish-"]
 holitv.org###top-banner
 ||motphimr.io/rikvip-
