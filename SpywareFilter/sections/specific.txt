@@ -92,6 +92,8 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||theroot.com/wp-content/plugins/advanced-ads-tracking/
+||api.redgifs.com/v*/events/
 ||api.heikeji.me/api/logs/check
 ||statics.cedscdn.it/utils/src/js/shopalytics.js
 ||d26yk4zpyhjeeq.cloudfront.net/*/tracking/
@@ -1713,7 +1715,7 @@ colliers.com#%#//scriptlet('set-local-storage-item', 'visitorId', '$remove$')
 ||plutotv.net/measurements/
 ||cbsivideo.com/cb-measurements/
 ||scv.band.us/jackpotlog/*/logs|$xmlhttprequest
-||epicgames.com/id/api/analytics
+||epicgames.com/id/api/analytics$redirect=nooptext
 ||terabox.app/sse/events?
 ||widget2.vreview.tv/js/amplitude.js
 ||savefrom.net/build/js/basicMetricsTracking.js
