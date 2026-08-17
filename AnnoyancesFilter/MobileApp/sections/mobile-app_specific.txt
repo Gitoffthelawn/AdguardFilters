@@ -18,6 +18,15 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+finance.eastmoney.com##div[id^="ad_context"]:has(> a[href^="javascript:"], > div[class^="ad"] > img)
+manhuaren.com##.info-top-banner-card
+manhuaren.com###tc-cover-wrap
+manhuaren.com##div.guide >img[src][onclick^="$('.guide')"]
+7fon.org###cbox > div#tmbox:has(> div > iframe[src^="https://7fon.org/goapp.php"])
+7fon.org###rgform
+turkiyegazetesi.com.tr#$#.abone-banner { display: none !important; }
+turkiyegazetesi.com.tr#$#.header { top: 0 !important; }
+turkiyegazetesi.com.tr#$#body { padding-top: 70px !important; }
 sports.yahoo.co.jp##main > section.sn-modList:has(> ul.sn-articleList img[src*="/promotion/follow/"])
 9xbuddy.in,9xbuddy.*#%#//scriptlet('set-session-storage-item', 'promo_popup_dismissed', '1')
 scamadviser.com##main > section.section-with-card:has(> div.container-lg > div.link-container > a[href="https://app-download.scamadviser.com/"])
@@ -1013,7 +1022,7 @@ trip.com##.h5-install-banner
 mail.proton.me##.content-container > div[aria-label="Notification"]:has(> a[href*="webapp-mail-topbanner"])
 s.shufoo.net##a[id][rel^="app_appeal_btn"]
 ljsilvers.com##.site-popup
-nytimes.com##.promo
+wallpaperscraft.ru,nytimes.com##.promo
 coingecko.com##div[data-controller="navbar"] a[href^="https://coingecko.app.link/"]
 coingecko.com##div[data-controller="app-flyer"]
 pochta.ru##div[class*="BannerForPhonesstyles"]
@@ -3160,7 +3169,7 @@ m.auto.ru#$#.PromoHeaderChose { display: none!important; }
 m.auto.ru#$#.page_mobile { position: static!important; overflow: visible !important; }
 myfin.by##.app-top
 myanimelist.net##div[data-text="Get the App"]
-bb-chat.tv,ldoceonline.com,ebookjapan.yahoo.co.jp,shonenjumpplus.com,1101.com,josei-bigaku.jp,androeed.net,magazine.hitosara.com,kyoko-np.net,myanimelist.net##.app
+wallpaperscraft.ru,bb-chat.tv,ldoceonline.com,ebookjapan.yahoo.co.jp,shonenjumpplus.com,1101.com,josei-bigaku.jp,androeed.net,magazine.hitosara.com,kyoko-np.net,myanimelist.net##.app
 hitosara.com##.app_area
 dailymail.co.uk##a[href^="http://itunes.apple.com/app/"]
 bing.com###bnp_rich_div
@@ -4010,6 +4019,7 @@ bookmate.ru##.app-banner
 !
 !
 !
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.configured-xpromo
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault()')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.rpl-scroll-lock:not(#style_important) { overflow: auto !important; }
@@ -4316,6 +4326,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+centralwesterndaily.com.au##div[class="block md:hidden bg-gray-600"]
 premierzal.ru#%#//scriptlet('set-cookie', 'banner', 'true')
 travel.yandex.ru##body > div[data-state="show"]:has(> div[style^="background-color:"] img[src^="https://avatars.mds.yandex.net/get-vertis-marketing/"])
 m.bunjang.co.kr##footer > a[href="https://go.bgzt.link/app"]
