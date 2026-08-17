@@ -59,6 +59,13 @@ urfanatik.com,stadt-bremerhaven.de,ekonomim.com,omgubuntu.co.uk,winfuture.de,mov
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ren.tv##div[class^="MaxBanner_"]
+qz.com##div[data-element-name="newsletter_signup_block"]
+qz.com#%#//scriptlet('set-cookie', 'exitIntentShown', 'true')
+theroot.com###tnp-subscription-posts
+theroot.com##.wp-block-column:has(> div.newslettersignup)
+viatrolebus.com.br##div[itemprop="articleBody"] > p[style="text-align: center;"]
+unisender.com###footer ~ div.btn-floating[data-hash]
 ernax.pro##body > #root ~ div.fixed.inset-0
 primeshows.org##a[href^="https://discord.gg"]
 primeshows.org##a[href^="https://discord.gg"] + button
