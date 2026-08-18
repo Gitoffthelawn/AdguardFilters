@@ -28,6 +28,9 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||analytics.netronline.dev^
+||analytics.7reels.cc^
+||analytics.streamvaultsrc.click^
 ||cat.pexels.com^
 ||affiliate.unisender.com^
 ||ling.willowmovies.com^
