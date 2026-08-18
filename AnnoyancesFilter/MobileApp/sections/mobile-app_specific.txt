@@ -18,6 +18,8 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+carsales.com.au##div[data-updatable-partial-id="smart-banner"]
+zstream.mov#%#//scriptlet('set-local-storage-item', 'zstream::apps-notice-dismissed', '1')
 finance.eastmoney.com##div[id^="ad_context"]:has(> a[href^="javascript:"], > div[class^="ad"] > img)
 manhuaren.com##.info-top-banner-card
 manhuaren.com###tc-cover-wrap
@@ -39,6 +41,7 @@ temp-mail.africa#$#.modal-backdrop { display: none !important; }
 temp-mail.africa#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
 openinbox.io##div.min-h-screen > div.bg-gradient-to-r:has(> button[aria-label="Dismiss"])
 ||assets.retty.me/v-*/images/macaron/web-to-app-fv-mobile.png
+x.com##body > button.fixed:has(> img[src^="https://abs.twimg.com/x-web/x-web/assets/scan-to-get-app-qr-"])
 retty.me##.web-to-app-fv
 sarah30.com##.sp-map-banner-bottom
 sarah30.com##.sp-app-install-banner-wrapper
@@ -104,7 +107,7 @@ wlwt.com##div.two-cols > div[class^="css-"]:has(> a[href="/apps"])
 wlwt.com,wisn.com,wjcl.com##div[aria-label=" App Promo"] > div[class^="css-"] > div[class^="css-"]:has(a[href="/apps"])
 meduza.io##.GeneralMaterial-module-article > p:has(> a[href^="https://onelink.to/appication"])
 trf1.net##.kan-banner
-xprimehub.bond,rogmovies.cv,new1.vegamovies.futbol,xprimehub.*,rogmovies.*,vegamovies.*##a[class="btn-pill"]
+xprimehub.bond,rogmovies.cv,new2.vegamovies.futbol,xprimehub.*,rogmovies.*,vegamovies.*##a[class="btn-pill"]
 pluang.com##div[class^="BottomDownloadWidget_toast-chip"]
 eurosport.tvn24.pl##div[data-testid="app-download-banner"]
 anidb.app##div[x-init*="anilab_promo"]
@@ -4019,6 +4022,7 @@ bookmate.ru##.app-banner
 !
 !
 !
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$##configured-xpromo-mweb3x_mid_funnel_blocking_v1_30s { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.configured-xpromo
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault()')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
@@ -4387,8 +4391,6 @@ canva.com#%#//scriptlet('trusted-set-local-storage-item', 'mobile_link_choice_la
 economx.hu##div[x-ref="hoverPromotion"]
 economx.hu##.economx-top-promotion
 gemini.google.com##chat-app-banners
-x.com##.one-col\:hidden > div.gap-2 > a[href^="https://m.x.com/"][href*="?launch_app_store=true"]
-x.com##div[class^="one-col:pb-"] > div.fixed.inset-0:has(> button[aria-label] + div[role="dialog"] > a[download])
 dodopizza.ru##div[class^="sc-"]:has(> a[href^="https://dodopizza.onelink.me/"])
 timesofindia.indiatimes.com##a[href^="https://timesofindia.sng.link/"]
 isinolsun.com###__next > div.d-lg-none
@@ -4653,7 +4655,6 @@ web.nhk##body > div[class^="_"] > div[class*=" "][role="region"][aria-labelledby
 townwork.net#%#//scriptlet('set-cookie', 'isAppBannerTopClosed', 'true')
 delishkitchen.tv##.app-launch-wrapper
 delishkitchen.tv##.floating-item-link
-x.com#%#//scriptlet('trusted-click-element', 'div[aria-labelledby="modal-header"] .css-175oi2r ~ .css-175oi2r > button[role="button"][class^="css-175oi2r"][style*="border-color: rgb"]', '', '1500')
 web.nhk#%#//scriptlet('trusted-set-cookie', '__bx_newsAppBanner', 'closed')
 web.nhk#%#//scriptlet('trusted-set-cookie', '__bx_plusAppBanner', 'closed')
 openweathermap.org###banner_android
@@ -5491,7 +5492,8 @@ newzit.com#$#div[class*="hasSmartBanner_"] { padding-top: 0 !important; }
 linkedin.com##div[data-tracking-id="get_app_omni_bottom"]
 deliveroo.hk##[class^="AppBanner-"]
 ! x.com
-! mobile app banner with a close button
+x.com##.one-col\:hidden > .flex > a[href^="https://m.x.com/"][href*="?launch_app_store=true"]
+! Mobile app banner with a close button (JS rule with MutationObserver, trusted-click-element rule for iOS)
 x.com#%#document.addEventListener('DOMContentLoaded',function(){const o=new MutationObserver(function(){const e=document.querySelector('div[data-interaction="app-store-obstruction"] > button[data-slot="xds-button"]');e&&e.click()});o.observe(document,{childList:!0,subtree:!0});setTimeout(function(){o.disconnect()},30000)})
 !#if (adguard_app_ios)
 x.com#%#//scriptlet('trusted-click-element', 'div[data-interaction="app-store-obstruction"] > button[data-slot="xds-button"]', '', '2500')
