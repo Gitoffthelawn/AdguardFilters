@@ -25,6 +25,8 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/238571
+@@||farfarout.org/farfarout-api/$xmlhttprequest,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238341
 @@||fakitonye.shop/player/$stealth=referrer,domain=hdabla.net
 @@$media,stealth=referrer,domain=fakitonye.shop
@@ -164,7 +166,7 @@
 @@.js$xmlhttprequest,stealth=referrer,domain=roxiestreams.*
 @@||ataide0.pingbash.com/$stealth=referrer,domain=roxiestreams.su
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234791
-@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|new1.vegamovies.futbol|rogmovies.cv|xprimehub.bond
+@@/^https:\/\/imgbb.zip\/ib\/[a-z0-9]{15}_[0-9]{10}\.jpg$/$image,third-party,stealth=referrer,domain=rogmovies.*|xprimehub.*|vegamovies.*|new2.vegamovies.futbol|rogmovies.cv|xprimehub.bond
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234673
 @@||account.deezer.com/$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234641
@@ -219,8 +221,8 @@
 @@||caffenero-webassets-production.*.amazonaws.com/images/$stealth=referrer,domain=caffenero.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/232658
 @@||letsgocdn*.shop/*.png$xmlhttprequest,stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/232400
-@@/bt/*.mp4?sign=$media,stealth=referrer,domain=themoviebox.org|movieboxonline.net|123moviesfree.club|netnaija.film
+! MovieBox
+@@.mp4?sign=$media,stealth=referrer,domain=themoviebox.org|movieboxonline.net|123moviesfree.club|netnaija.film|m2box.org|netfilm.world
 ! https://github.com/AdguardTeam/AdguardFilters/issues/232533
 @@||hls*.burntburst*.store/*/master.m3u8$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/232183
@@ -388,8 +390,9 @@
 @@||fc2stream.tv/e/$stealth=referrer
 ! Auth by id.gov.ua
 @@||id.gov.ua/?response_type=$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/238616
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227220
-@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.*
+@@||vox-xov-cdn-*.$xmlhttprequest,stealth=referrer,domain=nepu.*|4k.beer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/227123
 @@||jav.sb^$stealth=flash
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226983
@@ -417,7 +420,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226671
 @@||img-cdn.stackpathcdn.app^$image,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226661
-@@$image,stealth=referrer,domain=comix.to
+@@||wowpic*.store^$image,stealth=referrer,domain=comix.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226462
 @@||nc-cdn.oss-us-west-1.aliyuncs.com/videotranscriber/upload/$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/226492
@@ -915,7 +918,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202681
 @@||api.evsports.opentv.com^$stealth=3p-auth,domain=eurovisionsport.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202477
-@@||static*.mfcdn*.xyz^$image,stealth=referrer,domain=mangafire.to
+@@||mfcdn*.xyz^$image,stealth=referrer,domain=mangafire.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202282
 @@||microsoft.com/store/purchase/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/201954
