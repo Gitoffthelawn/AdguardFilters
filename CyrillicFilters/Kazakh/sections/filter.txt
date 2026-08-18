@@ -12,6 +12,11 @@
 !
 ! NOTE: Specific
 !
+ulysmedia.kz##.adv-top-sec
+kapital.kz###ad-container
+kazpravda.kz##.container:has(> .top-banner)
+kazpravda.kz##.kp-sb
+||kazpravda.kz/media/banners/
 massaget.kz##div[class^="banners-"]
 massaget.kz#$#header { height: auto !important; }
 inbusiness.kz##div[class^="ad"]
