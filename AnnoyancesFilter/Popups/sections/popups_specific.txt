@@ -44,6 +44,13 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+7reels.cc#%#//scriptlet('trusted-click-element', '.inset-0.fixed > button > span.sr-only')
+spar-mit.com###callBackBanner
+cine.su##.pwaCtaWrap
+muko.kr#%#//scriptlet('set-cookie', 'muko_gs_modal_dismissed', '1')
+polskiekoldry.pl,vegehome.pl#%#//scriptlet('set-cookie', 'apc_popup_session', '1')
+fireflix.pages.dev##div[aria-labelledby="discord-popup-title"]
+||duplichecker.com/a6c2/tkkk.js
 youshows.org#%#//scriptlet('set-local-storage-item', 'youshows_ads_notice_seen', 'true')
 bingr.one#%#//scriptlet('set-local-storage-item', 'announcement:dismissed:a3c781dd-76d6-40b4-b455-12769a2b7d26', 'true')
 xullys.xyz##div.fixed:has(> div[style*="animation"] div.px-5 > button.w-full + p.text-center)
