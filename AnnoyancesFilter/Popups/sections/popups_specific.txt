@@ -44,6 +44,9 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+socradar.io###hello_bar
+de.milwaukeetool.eu##div[class^="PopupSignUpstyles__Wrapper"]
+de.milwaukeetool.eu##div[class^="GenericPopupstyles__Container-sc"]
 7reels.cc#%#//scriptlet('trusted-click-element', '.inset-0.fixed > button > span.sr-only')
 spar-mit.com###callBackBanner
 cine.su##.pwaCtaWrap
@@ -63,6 +66,8 @@ lenta.ru##.twz-banner
 muko.kr##.muko-aa-join
 bsky.app#%#//scriptlet('trusted-set-local-storage-item', 'welcomeModalShown', 'true')
 moviebite.cc###root > div[role="status"]
+shiopa.com##body > div[class^="fixed inset-0 z-[100]"]:has(> div.w-full > div.overflow-hidden > img[alt="Poprink Discord"])
+shiopa.com#%#//scriptlet('set-local-storage-item', 'poprink_discord_invite_seen', 'true')
 asviva.de##.asv-trust-badges
 arrowtv.net##body > div[style^="position: fixed;"]:has(> div > span > a[href^="https://discord.gg/"])
 cinezo.org##main > div[class] > div.fixed:has(> div.p-5 > div.items-start > div.flex-1 > a[href="https://arrowtv.net/"])
@@ -262,9 +267,6 @@ youtubetotranscript.com###api-floating-card
 hardlinenutrition.com#$##videoModalCenter { display: none !important; }
 hardlinenutrition.com#$#.modal-backdrop { display: none !important; }
 hardlinenutrition.com#$#body { overflow: auto !important; }
-fast-growing-trees.com##.transition-transform.bottom-0.fixed
-fast-growing-trees.com#$#.inset-0.fixed { display: none !important; }
-fast-growing-trees.com#$#body[data-scroll-locked] { overflow: auto !important; overscroll-behavior: auto !important; pointer-events: auto !important; }
 ||cookcraftandcreate.com/wp-content/plugins/wordpress-popup/assets/hustle-ui/
 cookcraftandcreate.com##.hustle-popup
 nuovavenezia.it##div[data-sentry-component="AdvVideoVipSticky"]
@@ -384,7 +386,6 @@ mallofistanbul.com.tr#%#//scriptlet('set-session-storage-item', 'cmsPopupShown',
 ghxi.com#$#.gh-container { display: none !important; }
 ghxi.com#$#body { overflow: auto !important; }
 uslugi.mosreg.ru#%#//scriptlet('set-cookie', 'dobrobot_window', 'true')
-oricon.co.jp##.modalArea-small
 blog.sarar.com##.modal-dialog
 trivago.com.tr##div[data-interaction="login-banner"]
 ostrovok.ru##div[data-floating-ui-portal] > div[class^="ApartmentsFilter-module__tooltip"]
@@ -1350,9 +1351,9 @@ lesbelleslettres.com###popin-wrapper
 my.telkomsel.com##div[class^="DialogInstall"]
 myrtlebeach.com#%#//scriptlet('set-cookie', 'Bring-on-Spring', 'true')
 futura-sciences.com##.viously > div.viously-sticked
-luxpoint.com.pl,photopoint.ee#$#.fancybox-overlay { display: none !important; }
-luxpoint.com.pl,photopoint.ee#$#.fancybox-wrap { display: none !important; }
-luxpoint.com.pl,photopoint.ee#$#html { overflow: auto !important; margin-right: 0 !important; }
+rowerycube.pl,luxpoint.com.pl,photopoint.ee#$#.fancybox-overlay { display: none !important; }
+rowerycube.pl,luxpoint.com.pl,photopoint.ee#$#.fancybox-wrap { display: none !important; }
+rowerycube.pl,luxpoint.com.pl,photopoint.ee#$#html { overflow: auto !important; margin-right: 0 !important; }
 m.lenta.ru##.promo-block
 autodesk.de##.QSIWebResponsive
 nisanyansozluk.com##.toast
@@ -7852,6 +7853,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Blocking it also causes that videos are not playing automatically
 ! twitter.com##div[data-testid="BottomBar"]
 !
+!+ NOT_OPTIMIZED
+oricon.co.jp##.modalArea-small
 !+ NOT_OPTIMIZED
 webronza.asahi.com###modalArchive
 !+ NOT_OPTIMIZED
