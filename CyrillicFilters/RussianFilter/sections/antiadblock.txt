@@ -23,14 +23,15 @@ mintmanga.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogl
 @@||pagead2.googlesyndication.com/pagead/js/$domain=mintmanga.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234715
 ||sochi.camera/adblock-detector.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/238710
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233664
+@@||yandex.ru/ads/system/context.js$domain=rr4farmtrof.com
 rr4farmtrof.com#%#//scriptlet('remove-node-text', 'script', 'adwall')
 rr4farmtrof.com$$script:contains(adwall)
 !#if (adguard_app_ios || adguard_ext_android_cb || ext_safari)
 @@||rr4farmtrof.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/$domain=rr4farmtrof.com
 @@||securepubads.g.doubleclick.net/tag/js/$domain=rr4farmtrof.com
-@@||yandex.ru/ads/system/context.js$domain=rr4farmtrof.com
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233134
 evilmod.ru#@##reklama
@@ -1541,6 +1542,7 @@ docviewer.yandex.*##div[class^="pages_"] > div[class][id]:has(> div[class] + div
 ! Yandex.Mail
 ||mail.yandex.$replace=/"(RIGHT_COLUMN_SCROLLER|DIRECT_LINE_CLASS|SYSTEM_CONTEXT_LINK|YANDEX_CONTEXT_ASYNC_CALLBACKS|JS_MAIN_RTB|BANNERS_CONTAINER_CLASS|JS_MESSAGES_DIRECT)":"((?:[^"\\]|\\.)*)"\,//
 ||mail.yandex.*/*/*/*/*$replace=/.*"adIds":.*"imptrackers":.*//,xmlhttprequest,domain=mail.yandex.*
+mail.yandex.*##div[data-testid="page-layout_body_container"] > div[class][style*="adaptive-width:"]:has(> div > a[href^="https://360.yandex.ru/"])
 mail.yandex.*##div[data-testid="content-header_container"] > div[class]:has(> div:only-child:empty)
 mail.yandex.*###js-layout-inner ~ div[class^="Loading-m__root--"]
 mail.yandex.*##.ComposeDoneScreen-Ads
