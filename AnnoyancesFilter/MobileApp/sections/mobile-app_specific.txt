@@ -18,6 +18,8 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+poro.gg##div.container > div.overflow-hidden:has(> div[class] > div.bg-color-ow-banner)
+gidadedektifi.com##div[class^="XAppDownload_type_footer"]
 minfin.com.ua##.aside-mobile-app
 minfin.com.ua##.footer__apps
 carsales.com.au##div[data-updatable-partial-id="smart-banner"]
@@ -3991,7 +3993,8 @@ dostavka.yandex.ru##.RumObservableRoot div[class]:has(> a[href^="https://8jxm.ad
 yandex.*##.yamb-chat-not-selected__download-app-section > a.yamb-desktop-app-link ~ *
 !
 ! Yandex.Games
-[$path=/games]yandex.*##.prowo-container
+! Breaks the games
+! [$path=/games]yandex.*##.prowo-container
 !
 ! Yandex.Market
 market.yandex.*##div[data-apiary-widget-name="@marketfront/DistributionLoader"]
