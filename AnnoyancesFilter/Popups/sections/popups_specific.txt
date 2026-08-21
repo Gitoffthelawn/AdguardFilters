@@ -44,6 +44,7 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+animextv.tech###root > div.fixed.slide-in-from-bottom-8
 socradar.io###hello_bar
 de.milwaukeetool.eu##div[class^="PopupSignUpstyles__Wrapper"]
 de.milwaukeetool.eu##div[class^="GenericPopupstyles__Container-sc"]
@@ -106,7 +107,8 @@ muzofond.fm###banner_auth
 mail.ru#%#//scriptlet('set-cookie', 'search_tooltip', '1')
 sberbank.ru##.header-widget-personal-account__modal-window_onboarding
 multishows.top#%#//scriptlet('trusted-set-local-storage-item', 'ad_free_expiry', '9999999999999')
-streamsports99.*##.aspect-video > div.absolute
+streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.ru,streamsports99.*###main-content iframe[title] + div.absolute.inset-0.backdrop-blur-sm
+streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.ru,streamsports99.*##.aspect-video > div.absolute
 wfdif.pl###js-modal-page-show-modal
 wfdif.pl##.modal-backdrop
 ltube.us###mini-ad-bar
