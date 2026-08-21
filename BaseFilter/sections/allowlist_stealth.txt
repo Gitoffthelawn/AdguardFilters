@@ -25,8 +25,14 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/238863
+@@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
+! https://github.com/AdguardTeam/AdguardFilters/issues/238858
+@@||workers.dev^$xmlhttprequest,stealth=referrer,domain=embed.st
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238108
 @@||api.authsignal.com^$stealth=3p-auth
+! https://github.com/AdguardTeam/AdguardFilters/issues/238791
+@@&ssid=$third-party,xmlhttprequest,stealth=referrer,domain=ninguno.cc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238665
 @@||login.sydneywater.com.au^$stealth=referrer,domain=sydneywater.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238571
