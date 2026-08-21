@@ -9,7 +9,9 @@ sites:
   Cineby (cineby.*):
     initial_domain: www.cineby.app
     last_known_mirror: www.cineby.at
-    success_since: 2026-07-31 01:38
+    failed_since: 2026-08-21 07:42
+    failed_days: 0
+    potentially_dead: true
   NomorFlix (nomorflix.*):
     # initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
@@ -22,7 +24,9 @@ sites:
     success_since: 2026-08-18 01:32
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
-    success_since: 2026-07-21 01:37
+    failed_since: 2026-08-21 07:42
+    failed_days: 0
+    potentially_dead: true
   Belestepe (belestepe*.sbs):
     last_known_mirror: belestepe645.sbs
     success_since: 2026-08-20 07:20
@@ -57,7 +61,9 @@ sites:
     probe_text:
       - /jwplayer.js
     last_known_mirror: johnbeyondnation.com
-    success_since: 2026-08-19 19:11
+    failed_since: 2026-08-21 07:42
+    failed_days: 0
+    potentially_dead: true
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
@@ -70,7 +76,9 @@ sites:
     success_since: 2026-08-08 19:14
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
-    success_since: 2026-05-28 08:22
+    failed_since: 2026-08-21 07:42
+    failed_days: 0
+    potentially_dead: true
   TurkIfsa (turkifsa*.art):
     force_search_ahead: true
     accept_antibot: true
@@ -200,7 +208,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -212,7 +220,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -270,12 +278,12 @@ sites:
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
     failed_since: 2026-08-10 19:24
-    failed_days: 10
+    failed_days: 11
     potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 13
+    failed_days: 14
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife46.blog
