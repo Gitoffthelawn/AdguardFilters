@@ -35,7 +35,9 @@ sites:
     success_since: 2026-08-18 13:20
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1321.xyz
-    success_since: 2026-08-01 19:28
+    failed_since: 2026-08-02 14:29
+    failed_days: 0
+    potentially_dead: true
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
@@ -48,7 +50,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 2
+    failed_days: 3
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -70,7 +72,9 @@ sites:
     success_since: 2026-08-08 19:14
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
-    success_since: 2026-05-28 08:22
+    failed_since: 2026-08-21 07:20
+    failed_days: 1
+    potentially_dead: true
   TurkIfsa (turkifsa*.art):
     force_search_ahead: true
     accept_antibot: true
@@ -109,7 +113,7 @@ sites:
     success_since: 2026-06-17 08:47
   Mapple-1 (mapple.*):
     last_known_mirror: mapple.rip
-    success_since: 2026-06-22 14:57
+    success_since: 2026-08-21 07:20
   Mapple-2 (mapplee.com):
     # probably with another domain name scheme
     last_known_mirror: mapplee.com
@@ -176,7 +180,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 18
+    failed_days: 19
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -200,7 +204,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -212,7 +216,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -270,12 +274,12 @@ sites:
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
     failed_since: 2026-08-10 19:24
-    failed_days: 10
+    failed_days: 11
     potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 13
+    failed_days: 14
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife46.blog
@@ -324,3 +328,21 @@ sites:
   Soccer Box (soccerbox.*):
     last_known_mirror: soccerbox.me
     success_since: 2026-08-20 13:22
+  NBABox Streams (nbabox.*):
+    last_known_mirror: nbabox.co
+    success_since: 2026-08-21 13:21
+  OlympicStreams (olympicweb.*):
+    last_known_mirror: olympicweb.me
+    success_since: 2026-08-21 13:21
+  Pelitcanlitv (pelitcanlitv*.com):
+    last_known_mirror: pelitcanlitv.com
+    success_since: 2026-08-21 13:21
+  MMA Box (mmabox.*):
+    last_known_mirror: mmabox.me
+    success_since: 2026-08-21 13:21
+  VIPRow Sports (viprow.*):
+    last_known_mirror: www.viprow.is
+    success_since: 2026-08-21 13:21
+  MLBBox Streams (mlbbox.*):
+    last_known_mirror: mlbbox.me
+    success_since: 2026-08-21 13:21
