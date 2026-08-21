@@ -71,6 +71,12 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+ddizi.im##.df-ovrly-lnk-p1
+gezelim.com##.cs-custom-content-header-after
+hibya.com##div[class^="card"]:has(> a[href^="https://www.vakifkatilim.com.tr/"])
+hibya.com##.col-md-3:has(> div.card > div.card-body > a[href][target="_blank"])
+hibya.com##main > div.container:has(> div.content > div.card > div.card-body > ins.adsbygoogle)
+haberturk.com##.widget-video:has(> div.block > div[class] > div[data-adv])
 okatalog.com##div.w-full:has(> div.empower-ad)
 okatalog.com#$#body > header.mt-\[100px\] { margin-top: 0 !important; }
 sanayigazetesi.com.tr##.entry-header-ad-wrapper
@@ -683,7 +689,7 @@ fivemturk.net##.swal2-container
 fivemturk.net##.p-body-inner > div[style^="width: 100%;"][style*="flex;"]
 servers-mc.net###server-ad-right
 servers-mc.net###server-ad-left
-altinpalmiye.com,servers-mc.net##.ads
+patronlardunyasi.com,altinpalmiye.com,servers-mc.net##.ads
 servers-mc.net##.ad
 servers-mc.net###popup
 mnfilmizle.com,mnfilmizle1.com#$##rk-content { display: none !important; }
@@ -3009,7 +3015,7 @@ haber61.net##a[href^="https://www.haber61.net/banner.php"]
 haberler.com##div[id="300x600_"]
 antalyam.com##.zozo_ads_widget
 antalyam.com##.newser-artical-bottom-ads
-forum.gamer.com.tr,istanbul.com###banner
+gezelim.com,forum.gamer.com.tr,istanbul.com###banner
 belge.com.tr##.haberdetayReklam
 insaattrendy.com###header-inner .container > .navbar-header + a[href][target="_blank"] > img
 insaattrendy.com##.block-content-inner > .row > #body_div_diger > a[href][target="_blank"] > img
@@ -4537,6 +4543,19 @@ lovefilmizle.net,elzemfilm.org,dizicaps.*,erotikfilmtube.com,sexfilmleriizle.com
 !          or add a last known domain
 ! Don't mix frequently changed domains with other rules, to make it easier to maintain,
 ! except some sites that use non-template domain names of mirror sites
+!
+! Frequently changed domains: pelitcanlitv*.com
+! Source: pelitcanlitv.com
+||pelitcanlitv.com/admin/uploads/*.gif
+||pelitcanlitv.com/admin/uploads/TV-PAGESKIN.png
+[$domain=/pelitcanlitv\d*\.com$/]###promoPopup
+[$domain=/pelitcanlitv\d*\.com$/]##.bg-link
+[$domain=/pelitcanlitv\d*\.com$/]##div[class^="ad-"]
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
+pelitcanlitv.com###promoPopup
+pelitcanlitv.com##.bg-link
+pelitcanlitv.com##div[class^="ad-"]
+!#endif
 !
 ! Frequently changed domains: gizlidepo*.com
 ! Source: gizlidepo.com
