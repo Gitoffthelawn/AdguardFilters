@@ -200,7 +200,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 24
+    failed_days: 25
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -212,7 +212,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 24
+    failed_days: 25
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -273,7 +273,7 @@ sites:
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 16
+    failed_days: 17
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife46.blog
@@ -281,7 +281,7 @@ sites:
   Porno shop (porno*.shop):
     last_known_mirror: porno28.shop
     failed_since: 2026-08-22 19:09
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Rtally link (rtally.link):
     initial_domain: rtally.xyz
@@ -342,3 +342,9 @@ sites:
   MLBBox Streams (mlbbox.*):
     last_known_mirror: mlbbox.me
     success_since: 2026-08-21 13:21
+  F1Box Streams (f1box.*):
+    last_known_mirror: f1box.cc
+  NFLBox Streams (nflbox.*):
+    last_known_mirror: nflbox.sx
+  Rugby Streams (rugbybox.*):
+    last_known_mirror: rugbybox.me
