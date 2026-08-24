@@ -214,6 +214,12 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+secretflying.com##a[id$="-aside-vad"][href^="/plans"]
+secretflying.com##.dsktp-only:has(> a[href^="/plans"] > img)
+diesachsen.de,diethueringer.de##section > .container > .row > div:has(> .blog-style1 > .blog-img > a[href^="/sponsored-content/"])
+xcandid.vip,xcandid.top###njt-notibar-slot
+leakgallery.com#$#html { --lg-creator-banner-h: 0 !important; }
+leakgallery.com#$#app-creator-banner { display: none !important; }
 retroflix.org#%#//scriptlet('set-session-storage-item', 'rf_seen_interstitial', '1')
 meetingpoint-jl.de##.jobs-widget
 pciconcursos.com.br###preparacao
@@ -1327,6 +1333,7 @@ tripadvisor.*##a[href^="https://www.tripadvisor"][target="_blank"]:has(> section
 play.esea.net##a[href="https://fce.gg/S53ESEAtakeover"]
 ||play.esea.net/images/takeover.png
 avrebo.com##body > div.MuiModal-root
+cyber.sports.ru##.post-layout__teaser
 ||senoval.cdn.sports.ru/star/*-teaser.*.js$domain=cyber.sports.ru
 cyber.sports.ru##.page-teaser
 lootbar.gg##.recommend
