@@ -344,3 +344,9 @@ sites:
   MLBBox Streams (mlbbox.*):
     last_known_mirror: mlbbox.me
     success_since: 2026-08-21 13:21
+  F1Box Streams (f1box.*):
+    last_known_mirror: f1box.cc
+  NFLBox Streams (nflbox.*):
+    last_known_mirror: nflbox.sx
+  Rugby Streams (rugbybox.*):
+    last_known_mirror: rugbybox.me
