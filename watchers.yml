@@ -22,7 +22,9 @@ sites:
     success_since: 2026-08-18 01:32
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
-    success_since: 2026-07-21 01:37
+    failed_since: 2026-08-24 07:58
+    failed_days: 0
+    potentially_dead: true
   Belestepe (belestepe*.sbs):
     last_known_mirror: belestepe645.sbs
     success_since: 2026-08-20 07:20
