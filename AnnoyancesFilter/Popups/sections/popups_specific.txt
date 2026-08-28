@@ -44,6 +44,8 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+twitterwebviewer.com###results > aside:has(> div.border > div.items-start > button[aria-label="Close reminder"])
+gamespark.jp##.trending-popup
 tv.mail.ru#$#html { overflow: auto !important; }
 tv.mail.ru#$#body > div[class^="ovr_"][id^="overlay_"][style="display: block;"] { display: none !important; }
 bintv.cc###bookmarkModalOverlay
@@ -87,6 +89,7 @@ cinezo.org##main > div[class] > div.fixed:has(> div.p-5 > div.items-start > div.
 cinezo.org#%#//scriptlet('set-local-storage-item', 'cinezo_popup_dismissed', '1')
 finance.yahoo.com#%#//scriptlet('set-cookie', 'fes-ds-spotlight', '1')
 premierzal.ru##.modals > div#messageModal:has(a[href^="https://premierzal.ru/schedule/cmo1024of9ggn0829tu7fql0l"])
+animex.one#$#.modal-overlay--lines { display: none !important; }
 animex.one#$#div[aria-label="Changelog"] { display: none !important; }
 animex.one#$##bits-c14 { display: none !important; }
 animex.one#%#//scriptlet('remove-attr', 'style', 'body[style*="overflow:"]')
