@@ -25,6 +25,18 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239286
+@@||githubusercontent.com^$stealth=referrer,domain=github.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/239494
+@@||topics.smt.docomo.ne.jp^$stealth=useragent
+! https://github.com/AdguardTeam/AdguardFilters/issues/239483
+! https://github.com/AdguardTeam/AdguardFilters/issues/239471
+! https://github.com/AdguardTeam/AdguardFilters/issues/239458
+@@&autoPlay=$subdocument,stealth=referrer,domain=aniwaves.ru|hianimes.ru|guts.to
+! https://github.com/AdguardTeam/AdguardFilters/issues/239437
+@@/embed/*.jpg$subdocument,stealth=referrer,domain=hollymoviehd.cc
+! https://github.com/AdguardTeam/AdguardFilters/issues/234808
+@@/embed/*$third-party,subdocument,stealth=referrer,domain=sportsbite.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239405
 @@||iplayer.is^$subdocument,stealth=referrer,domain=strims24.pl
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239377
@@ -48,8 +60,9 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238983
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238980
 @@||ipaudio*.*/wp-content/uploads/*.mp3$media,stealth=referrer
+! XStream
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238863
-@@||dynaccent.net^$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*
+@@/e/*$subdocument,stealth=referrer,domain=sportsonlinee.*|sportsonline.*|wikisport.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238858
 @@||workers.dev^$xmlhttprequest,stealth=referrer,domain=embed.st
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238108
@@ -75,6 +88,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237700
 @@||content-push.googleapis.com/upload/$xmlhttprequest,stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237911
+@@/seg/*.m4s|$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@?id=$xmlhttprequest,stealth=referrer,domain=cinezo.live
 @@?url=$xmlhttprequest,media,stealth=referrer,domain=cinezo.live
 @@/subtitles/*$xmlhttprequest,stealth=referrer,domain=cinezo.live
@@ -98,7 +112,7 @@
 @@||api.viduki.net/embed_providers?$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237484
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237475
-@@||workers.dev^$xmlhttprequest,third-party,stealth=referrer,domain=cinelove.live|netplayz.top
+@@||workers.dev^$xmlhttprequest,third-party,stealth=referrer,domain=cinelove.live|netplayz.*
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237389
 @@/master.m3u8|$xmlhttprequest,third-party,stealth=referrer,domain=nxsha.app
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237448
@@ -236,7 +250,9 @@
 @@.mp4?$media,stealth=referrer,domain=vidlink.pro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233830
 @@||ksdpictures.site/embed/$subdocument,stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/239438
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233843
+@@.jpg$stealth=referrer,domain=streamingnow.mov
 @@.m3u8|$stealth=referrer,domain=streamingnow.mov
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233764
 @@||hsnstore.*^$stealth=flash|java
@@ -1609,8 +1625,8 @@
 @@assets/dist//bts2$xmlhttprequest,stealth=referrer,domain=previbes.online
 @@/scripts/*m3u8$xmlhttprequest,stealth=referrer,domain=1stream.eu|streameast.app|thecrackstreams.live
 @@/scripts/*js|$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|1stream.eu|streameast.app|thecrackstreams.live|buffstreams.app
-@@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|streameast.app|1stream.eu|buffstreams.app
-@@playlist/*/load-playlist$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|1stream.eu|streameast.app|thecrackstreams.live|buffstreams.app
+@@/playlist/*caxi$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|streameast.app|1stream.eu|buffstreams.app|gooz.aapmains.net
+@@playlist/*/load-playlist$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|1stream.eu|streameast.app|thecrackstreams.live|buffstreams.app|gooz.aapmains.net
 @@/chunklist/*.m3u8$xmlhttprequest,stealth=referrer,domain=decmelfot.xyz|usgate.xyz|arcasiangrocer.store
 @@/hls*/*.m3u8$stealth=referrer,domain=techclips.net|b4ucast.com
 @@/hls/*.ts$stealth=referrer,domain=techclips.net
