@@ -92,6 +92,14 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||appli.mixh.jp/appli.mixh.jp/app/*-track.php
+||a.pixiv.org/yufulight-cdn/track.js
+bg-mania.jp##.section-pr-osusume
+||rmc-cx.api.rakuten.co.jp/v3/web/events
+||automaton-media.com/rw7f/
+||kobe-np.co.jp/api/audience-data
+news.golfdigest.co.jp#%#//scriptlet('remove-node-text', 'script', 'MkiTracUUID')
+news.golfdigest.co.jp##.recommend_articles
 ||bitget.com/v*/monitor/events|
 ||techrepublic.com/api/ado/
 ||player.instaread.co/js/inarticle-metrics.js
@@ -293,7 +301,7 @@ mashable.com#%#//scriptlet('href-sanitizer', 'a[href^="https://cc.mashable.com/v
 ||iculture.nl/ic-cgi/report/
 ||majikichi.com/js/tracking.js
 ||plantet.pl/products/ping/
-||liveball.sx/albert
+||liveball.*/albert
 ||ext-api.perfluence.net/pixel?
 ||lighthouselabs.eu^$image
 ||dditsadn.com^$domain=livesex.com
@@ -523,7 +531,7 @@ play.xumo.com#%#//scriptlet('set-local-storage-item', '_xumo_ifaId', '$remove$')
 ||avito.ru/clickstream/events/
 ||mon.avito.ru^
 ||cdn.amplitude.com/engagement-browser/
-||www.history.com/editorial/vendor/
+||history.com/editorial/vendor/adobe/
 ||static.rebelboost.com/tracking/
 /rptracker.js$domain=rshb.ru
 burger-king.by#%#//scriptlet('set-local-storage-item', 'mindboxDeviceUUID', '$remove$')
@@ -1689,8 +1697,6 @@ hindustantimes.com#%#//scriptlet('set-local-storage-item', '/^_c(b|hartbeat)/', 
 ||optimizer.poxo.com/ca2/analytics.js
 canadiantire.ca#%#//scriptlet('set-local-storage-item', 'signifydSessionIdInfo', '$remove$')
 ||canadiantire.ca/aiq/analytics_ctr_prod.js
-||api.chzzk.naver.com/service/*/ad/display-status
-||api.chzzk.naver.com/ad-polling/*/lives/*/ad
 ||aiv-delivery.net/*/TrackingEvents?
 ||lespresso.it/js/gtm-helper.js
 ||lespresso.it/js/usercentrics-helper.js
@@ -2821,7 +2827,7 @@ device4game.ru##.tg-first-footer-widget
 ||urldefense.proofpoint.com^*analytics_insight.min.js
 ||uq.force.com/auraAnalytics^
 ||hurriyet.com.tr/banalytics.js
-lmaga.jp,lasisa.net,president.jp##.recommend
+news.ntv.co.jp,lmaga.jp,lasisa.net,president.jp##.recommend
 ||zatsubitown.com/mailfriend/kaiseki
 ||doda.jp/DodaCommon/Html/js/RtoasterTrack.js
 ||doda.jp/resources/dcfront/js/usrclkTracking.js
