@@ -28,6 +28,10 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||posthog.worldshopping.global^
+||aka.asiae.co.kr^
+||analytics.watchott.org^
+||bat.bing.net^
 ||excess-ga.duolingo.com^
 ||excess.duolingo.com^
 ||p.softmedia.cz^
