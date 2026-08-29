@@ -10,6 +10,11 @@
 ! ATTENTION: The rules in this section must be accompanied by a link of an issue, where the problem will be fixed
 ! or with clear description what to do next
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239572
+! https://github.com/AdguardTeam/PopupBlocker/issues/352
+! TODO: remove it after the issue above has been fixed
+! aglint-disable-next-line
+@@||euroauto.ru^$extension='AdGuard Popup Blocker'|'AdGuard Popup Blocker (Beta)'
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239409
 ! https://github.com/AdguardTeam/PopupBlocker/issues/351
 ! TODO: remove it after the issue above has been fixed
@@ -157,6 +162,8 @@ $popup,third-party,domain=dood.ws,badfilter
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239554
+people.com#@#.mm-ads-leaderboard-spacer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239204
 !+ PLATFORM(ext_chromium_mv3)
 ||offer.alibaba.com/cps/*rc=$popup,badfilter
@@ -206,7 +213,7 @@ collider.com#@#.ad-zone-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236826
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234817
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235352
-windguru.cz,nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
+fluidtopics.com,windguru.cz,nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234825
 ! It looks like a website issue. Injecting any stylesheet (even if not via an ad blocker)
 ! containing "[style]" inside ":has()" causes the website to freeze when the copy button is clicked
