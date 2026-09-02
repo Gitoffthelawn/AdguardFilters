@@ -14,6 +14,7 @@ sport-express.ru,gorod24.online,vedomosti.ru,kommersant.ru,rg.ru,glavbukh.ru,che
 !
 ! NOTE: Specific rules
 !
+fayneporno.com#?#.video-spot
 keeneticported.dev##.aside-block-img
 iphones.ru##.header__menu-project-cont
 iphones.ru##.postitem_ad_block
@@ -463,7 +464,6 @@ transportspb.com##.inner_route_social
 link.softoroom.org,losslessflac.ru##center > a[target="_blank"] > img
 motogonki.ru##div[style^="float:"]:has(> div[style] a[onclick*="/go/click.php?"])
 motogonki.ru##div[style^="float:"]:has(> div[style] > div[id^="yandex_rtb"])
-||tests.newsmedia.ru/t/$subdocument
 life.ru##div[class^="styles_rightColumn"]:has(> div[id^="adfox"])
 life.ru##div[class^="indentRules"]:has(> div[class*="styles_testNewsmedia"])
 nnmclub.to##a[name="pagestart"] + center > center > a > img
