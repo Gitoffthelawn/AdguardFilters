@@ -92,6 +92,10 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||golem.de/assets/scripts/golem-snw.js
+||api.mercadolibre.com/melidata/tracks
+||o11y-proxy-otel-frontend.meli.com^
+wildberries.ru#%#//scriptlet('trusted-set-local-storage-item', 'wbAnalitic', '$now$')
 ||api.a-bly.com/api/*/retail_ad/display-event
 ||api.a-bly.com/api/*/ad/events/
 ||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
@@ -809,7 +813,6 @@ octobrowser.net#%#//scriptlet('set-local-storage-item', 'oc_uuid', '$remove$')
 ||cjdropshipping.com/common-public/fingerprintjs
 ||api.pagepulse.info/webanalytics/
 ||ridgemerino.com/api/collect
-||static.klaviyo.com/onsite/js/event_adapter.
 ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
 fashiontechnews.zozo.com##div[class^="style-module--contentAreaInne"] > div[class^="style-module--bottomContainer--"]:has(> div[class^="style-module--footer"] > div[class^="style-module--reactions"])
 olympics.com##section[data-cy="story-parts-wrapper"] > div:not([data-cy]):has(rect[clip-path="url(#loading)"])
