@@ -28,6 +28,8 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||emergency.zeta-ai.io^
+||carmen2.golem.de^
 ||ue.a-bly.com^
 ||pixel-frontend.avito.ru^
 ||pausible.flaq.ai^
@@ -2619,7 +2621,6 @@ prd.api.bleacherreport.com^
 ||logconfig.polarisoffice.com^
 ||logger-*.dailymotion.com^
 ||logger.applovefrom.com^
-||logger.bzu.kr^
 ||logger.goeuro.com^
 ||logger.nerdwallet.com^
 ||logger.snackly.co^
@@ -3007,8 +3008,6 @@ prd.api.bleacherreport.com^
 ||sp.yorkdispatch.com^
 ||sp.zanesvilletimesrecorder.com^
 ||spade.twitch.tv^
-||spanids.dictionary.com^
-||spanids.thesaurus.com^
 ||spixel.socy.es^
 ||spoods.rce.veeseo.com^
 ||spr.bild.de^
