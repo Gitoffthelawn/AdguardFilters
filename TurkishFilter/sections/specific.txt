@@ -4570,18 +4570,18 @@ pelitcanlitv.com##.bg-link
 pelitcanlitv.com##div[class^="ad-"]
 !#endif
 !
-! Frequently changed domains: hazdolu.com
-! Source: hazdolu.com
-.gif|$domain=hazdolu.com
-hazdolu.com##.onwin-top-wrap
-hazdolu.com##a[href^="/tk/siteleriniz"]
-hazdolu.com##a[rel="nofollow noopener noreferrer sponsored"]
-hazdolu.com###tg-cta-container
-hazdolu.com##.banner-grid-wrap
-hazdolu.com###hcExit
-hazdolu.com##.pd-adbn
-hazdolu.com#$##offerBox { display: none !important; }
-hazdolu.com#$##mainVideo { display: block !important; }
+! Frequently changed domains: gunlukmola.com
+! Source: gunlukmola.com
+.gif|$domain=gunlukmola.com
+gunlukmola.com##.onwin-top-wrap
+gunlukmola.com##a[href^="/tk/siteleriniz"]
+gunlukmola.com##a[rel="nofollow noopener noreferrer sponsored"]
+gunlukmola.com###tg-cta-container
+gunlukmola.com##.banner-grid-wrap
+gunlukmola.com###hcExit
+gunlukmola.com##.pd-adbn
+gunlukmola.com#$##offerBox { display: none !important; }
+gunlukmola.com#$##mainVideo { display: block !important; }
 !
 ! Frequently changed domains: lionlinehd*.com
 ! Source: lionlinehd165.com
@@ -5250,8 +5250,8 @@ turkifsaclub130.sbs,turkifsaclub176.sbs,turkifsaclub177.sbs,turkifsaclub131.sbs,
 [$domain=/yavasgir\d+\.(com\|live)/]###ads-inside-main
 [$domain=/yavasgir\d+\.(com\|live)/]#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-yavasgir136.live###ads-inside-main
-yavasgir136.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
+yavasgir136.live,yavasgir137.live,yavasgir138.live,yavasgir139.live,yavasgir140.live,yavasgir141.live,yavasgir142.live,yavasgir143.live,yavasgir144.live,yavasgir145.live,yavasgir146.live,yavasgir147.live,yavasgir148.live,yavasgir149.live,yavasgir150.live###ads-inside-main
+yavasgir136.live,yavasgir137.live,yavasgir138.live,yavasgir139.live,yavasgir140.live,yavasgir141.live,yavasgir142.live,yavasgir143.live,yavasgir144.live,yavasgir145.live,yavasgir146.live,yavasgir147.live,yavasgir148.live,yavasgir149.live,yavasgir150.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#endif
 !
 ! Frequently changed domains: cimcime*.*
@@ -5734,7 +5734,7 @@ justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,
 tvjustin.*,justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*##a[target="_blank"][rel*="noopener"] > img
 justintvsh.baby,dmlstechnology.com,justintvde.com,justin-tv.org,inattvgiris.pro,justintv.*#%#//scriptlet('set-constant', 'window.config.adv.enabled', '0')
 ! CASE 2
-justintvizle730.top###video_reklam
+justintvizle732.top###video_reklam
 ||justintvizle*.top/dimg/*.gif
 ||justintvizle*.top/cdn/r/
 ||selcuksports*.top/dimg/*.gif

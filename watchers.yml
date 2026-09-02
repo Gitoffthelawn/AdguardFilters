@@ -172,10 +172,10 @@ sites:
     failed_days: 30
     potentially_dead: true
   Yavasgir (yavasgir*.live):
-    last_known_mirror: yavasgir135.live
+    last_known_mirror: yavasgir136.live
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-07-25 13:33
+    success_since: 2026-09-01 13:14
   Dahahizli (dahahizli*.live):
     last_known_mirror: dahahizli144.live
     success_since: 2026-08-28 17:04
@@ -264,7 +264,7 @@ sites:
     last_known_mirror: pasizle862.com
     success_since: 2026-08-25 13:22
   Justintvizle (justintvizle*.top):
-    last_known_mirror: justintvizle730.top
+    last_known_mirror: justintvizle732.top
     failed_since: 2026-08-07 19:23
     failed_days: 25
     potentially_dead: true
@@ -359,3 +359,10 @@ sites:
     initial_domain: tvapp.ws
     last_known_mirror: thetvapp.plus
     success_since: 2026-08-27 22:24
+  MovieBox (officialmoviebox.*):
+    # initial_domain: themoviebox.org
+    last_known_mirror: officialmoviebox.com
+    success_since: 2026-09-01 13:14
+  gunlukmola.com:
+    last_known_mirror: gunlukmola.com
+    success_since: 2026-09-01 13:14
