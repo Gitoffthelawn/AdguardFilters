@@ -18,6 +18,8 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+newspicks.com##div[class^="css-"]:has(> div > img[src="/resources/images/banner-app-download.png"])
+newspicks.com#?#div[role="dialog"]:has(> div > button > div > span:contains(/解説をアプリで見る|無料でアプリをダウンロード/))
 crushnovels.net###cn-appdl
 plusizle.org##.v110-app-promo
 shop.lashinbang.com#%#//scriptlet('set-cookie-reload', 'is_app_install', '0')
@@ -3699,7 +3701,7 @@ video.az##.sidebar-right > .text-center > a[href*="/app"] > img
 autoblog.com###toaster_autoblog-app
 wallstreet-online.de##.app-advertising
 besplatka.ua##.footer_bottom > div#applications
-kinogo.tm,klook.com,m.globalsources.com,megamarket.ru,prioritypass.com,trainman.in,klook.com,newchic.com,m.zaful.com,c.mi.com,m.vseinstrumenti.ru##.app-download
+kinogo.org,kinogo.tm,klook.com,m.globalsources.com,megamarket.ru,prioritypass.com,trainman.in,klook.com,newchic.com,m.zaful.com,c.mi.com,m.vseinstrumenti.ru##.app-download
 ozon.ru##.bMobileAppBanner
 sport.de##a.hs-app
 ||klavyer.com/android/klavyer-android-uygulamamiz.jpg
@@ -4351,6 +4353,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+mm.ru##.smart-banner
 investidor10.com.br##app-download-bar
 yenisafak.com#%#//scriptlet('trusted-set-local-storage-item', 'app-download-dismissed:yenisafak', '{"reason":"store","at":9999999999999}')
 m.sporx.com##.detail-body > a[href^="https://bit.ly/"]
@@ -4528,7 +4531,8 @@ x.com###react-root main[class^="css-"] > div[class^="css-"] > div[class^="css-"]
 x.com###react-root main[class^="css-"] > div[class^="css-"] > div[class^="css-"]:has(> a[href^="market://details?id=com.twitter.android&referrer"])
 trivago.com.tr##aside[data-testid="app-install-mobile-banner"]
 aeroflot.ru###mobileAppInfo
-indeed.com###mosaic-provider-app-download-promos-service
+indeed.com#$##mosaic-provider-app-download-promos-service { display: none !important; }
+indeed.com#$#body { overflow: auto !important; position: unset !important; }
 massimodutti.com##app-top-notification
 englishhome.com#$#body.smartActive #headerNew { padding-top: 0 !important; }
 flormar.com.tr##div[class^="wis-container"]
