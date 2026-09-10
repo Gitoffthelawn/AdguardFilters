@@ -70,6 +70,8 @@
 !
 !
 !
+||cloudx.io^
+||lndrsapi.com^
 ||ac.conel.jp^
 ||migstat.com^
 ||kameleoon.io^
