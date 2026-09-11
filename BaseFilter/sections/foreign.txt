@@ -3097,6 +3097,7 @@ autopapa.ge##.top-rek
 !
 ! NOTE: Greek
 !
+filathlos.gr##article.h-entry > div.mx-auto:has(> #taboola-alternating-below-article)
 filathlos.gr##.col-span-1:has(> div.flex > div[data-ocm-ad])
 filathlos.gr##img[alt="ad banner"]
 enikonomia.gr##.inner-sidebar-ad-widget
@@ -14210,8 +14211,6 @@ phimgi.tv#%#//scriptlet('prevent-window-open')
 anime3s.com#%#//scriptlet("set-constant", "arrPreroll", "undefined")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67660
 nettruyen.com#%#//scriptlet("abort-current-inline-script", "document.write", "Ads.")
-! https://github.com/AdguardTeam/AdguardFilters/issues/66763
-downfile.site##img[alt^="Banner"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65955
 ||traderviet.com/data/Siropu/$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65885
