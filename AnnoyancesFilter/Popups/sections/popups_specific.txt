@@ -44,6 +44,13 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+jprime.jp###js-wipe-recommend
+ekoturk.com###ekoturk-mini-player
+tea1986.com.tr,thaifeber.no#$#.POPUPS_ROOT { display: none !important; }
+tea1986.com.tr,thaifeber.no#$#.siteScrollingBlockedIOSFix { overflow: auto !important; }
+arzuhalci.com.tr#%#//scriptlet('set-local-storage-item', 'arzuhalci_beta_modal_seen', 'true')
+footballpredictions.net###popupModal
+footballpredictions.net##.modal-backdrop
 zap-hosting.com##.social-proof-container
 cinra.net##.js-feedbackFloatingPanel
 ytv.co.jp##.follow-content
@@ -7828,13 +7835,6 @@ evensi.de#$#.modal-backdrop{display:none!important;}
 !
 forum.autoua.net#$#.fader-social { display: none!important; }
 forum.autoua.net#$#body { overflow: visible!important; }
-!
-telsat.az#$##myModalhello { display: none!important; }
-telsat.az#$#.modal-backdrop { display: none!important; }
-telsat.az#$#.modal-open { overflow: initial!important; }
-!
-subscribe.ru##.blockUI
-subscribe.ru#$#body { overflow: initial!important; }
 ! lifenews.ru - всплывающее сообщение с предложениями
 lifenews.ru##html > body > div.lifecorr-banner
 ! https://forum.adguard.com/index.php?threads/11649/
