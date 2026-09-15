@@ -30,6 +30,10 @@ instagram.com##._aagw:empty
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/240263
+comparema.ru##.timeout__vw-location-topright
+! https://github.com/AdguardTeam/AdguardFilters/issues/241301
+yirmidort.tv###embedVideoFooter
 ! Hdrezka
 ! https://github.com/AdguardTeam/AdguardFilters/issues/240379
 [$domain=/rezka/]##.b-wrapper:has(> div.vk-group)
@@ -3176,6 +3180,7 @@ yasir252.com#%#document.addEventListener('DOMContentLoaded', function(){setTimeo
 ||trimay.ru/?
 !
 !
+tv100.com##.widget-partnership
 kg.ua##section > p:has(> a[href="https://kg.ua/news/dopomozhit-kremenchuckiy-gazeti-stati-krashche-proydit-opituvannya"])
 ortadogugazetesi.com##.detailside-inner-ad
 euyansang.com##.fixed-footer-email-signup
