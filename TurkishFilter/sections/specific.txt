@@ -71,6 +71,8 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+harbitv.site##a[href^="https://harbilink.pro"]
+||compare.busbud.com/x/pas?placementId=
 yirmidort.tv##div[style="width:300px;height:250px;min-height:250px;"]
 canlitvvolo.com##.mobile-top-ads
 canlitvvolo.com##.container [style]:has(> .adsbygoogle:only-child)
@@ -5344,8 +5346,8 @@ yavasgir136.live,yavasgir137.live,yavasgir138.live,yavasgir139.live,yavasgir140.
 [$domain=/cimcime\d+\.\w+$/]###ads-inside-main
 [$domain=/cimcime\d+\.\w+$/]#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-cimcime157.live###ads-inside-main
-cimcime157.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
+cimcime158.live###ads-inside-main
+cimcime158.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#endif
 !
 ! Frequently changed domains: askimyavas*.com
