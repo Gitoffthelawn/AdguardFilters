@@ -9,8 +9,8 @@
 !
 !############### TEMPORARY ###############
 !
+! BUG: https://github.com/AdguardTeam/CoreLibs/issues/2102 (blank and unresponsive)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/242052
-! Probably a bug
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android || adguard_app_cli)
 @@||ticketlink.co.kr^$stealth=location|useragent|push|webrtc|1p-cookie|donottrack
 ! aglint-disable-next-line
@@ -32,6 +32,11 @@
 !
 ! NOTE: Specific rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/242556
+@@/playlist/*.m3u8|$third-party,xmlhttprequest,stealth=referrer,domain=xpass.top
+@@.html|$third-party,xmlhttprequest,stealth=referrer,domain=xpass.top
+! https://github.com/AdguardTeam/AdguardFilters/issues/241312
+@@||streetviewpixels-pa.clients6.google.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/242414
 @@||storage*.porngameshub.com/*/index.html$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241968
@@ -454,10 +459,10 @@
 @@/r2/cdn2/*$xmlhttprequest,third-party,stealth=referrer,domain=vidfast.vc|vidup.to
 @@/vd/*/seg-*.jpg|$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidking.net|vidfast.vc
 @@||api.*/seed?mediaId=$third-party,xmlhttprequest,stealth=referrer
-@@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|111movies.net|vidcore.net
+@@/\/[a-z0-9]{8}\/[a-zA-Z0-9_-]{200,900}/$xmlhttprequest,third-party,match-case,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net|111movies.net|vidcore.io|vidcore.*
 @@/sources-with-title?title=*&mediaType=$third-party,xmlhttprequest,stealth=referrer
 @@/*/*=|$third-party,xmlhttprequest,media,stealth=referrer,domain=player.videasy.*|vidking.net
-@@.m3u8$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidfast.vc|vidking.net|vidup.to
+@@.m3u8$third-party,xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidfast.vc|vidking.net|vidup.to|movy.sx|vidcore.io|vidcore.*
 @@q=$xmlhttprequest,stealth=referrer,domain=player.videasy.*|vidup.to|vidfast.vc|vidking.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228086
 @@||setplay.shop/player/$subdocument,stealth=referrer,domain=hdfilmcehennemi.now
