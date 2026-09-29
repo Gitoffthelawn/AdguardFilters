@@ -4,8 +4,14 @@
 ! Good: example.org###rek; ||example.com/ads/
 ! Bad: example.org#@##banner_ad (for instance, should be in allowlist.txt or in antiadblock.txt)
 !
+! NOTE: Specific rules
 !
-!
+dts24.pl##div[data-layout="block-ad-wide"]
+dts24.pl##div[data-sas-name]
+hi-fi.com.pl,zoonews.pl##.bsaProItem
+zycieczestochowy.pl##.sideelement-all
+zycieczestochowy.pl##.header-elements
+resinet.pl##.aa-zone
 !
 !
 !
@@ -45,6 +51,8 @@ roweroweporady.pl#@#.ad_container
 @@||lib.wtg-ads.com/prebid/prebid_*.js$domain=tvn.pl
 !
 !
+e-legnickie.pl###sp-main > section[id^="sp-section-"]:has(div.ad_prev_main)
+wroclawon.pl##.polskaon-ad
 komputerswiat.pl##.ods-ads__ad-space
 3d-info.pl##.a-wrap
 3d-info.pl##.elementor-widget-image:has(> .elementor-widget-container > a[target="_blank"] > img)
@@ -710,7 +718,7 @@ ebok.pgnig.pl##.slick-track > .slick-slide:has(> div > .news-lists-ad)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187699
 opoka.org.pl##.webpart-wrap-raw_html:has(> a[name="reklama"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187669
-otodom.pl#$##__next > div[class^="css-"] > div[class^="css-"]:has(> div[class*="css-"] > a[href="/"][aria-label]) { padding-top: 0 !important; }
+otodom.pl#$##__next > div[class^="css-"] > div:is([class^="css-"], [data-cy="nexus-header"]):has(> div[class*="css-"] > a[href="/"][aria-label]) { padding-top: 0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187207
 pogonsportnet.pl##aside > .widget > a > img[src*="://i.postimg.cc/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186966
@@ -2333,6 +2341,7 @@ histmag.org###article > .my-12:has(> .mx-4:only-child > .py-4:first-child + #our
 histmag.org#?##article > div.css-nil:has(> div:contains(REKLAMA))
 histmag.org#?##content > div > p:has(> div.css-nil > div:contains(REKLAMA))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192421
+ppe.pl##.samsung-badge
 ppe.pl##.content > .content-array__media-expert
 ppe.pl##body .navbar__ad-opera
 ppe.pl#$#a.opera-bar + .navbar-wrapper { background-image: none !important; }
@@ -2359,7 +2368,6 @@ wiocha.pl###bnewsm
 wiocha.pl##div[id^="mrectinfo"]
 wiocha.pl##iframe[src^="https://www.wiocha.pl/subpages/"][src*=".php"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104601
-zoonews.pl##.bsaProItem
 zoonews.pl#?#.elementor-text-editor > span:contains(/^Reklama$/)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106396
 pasazer.com##.adv_body
@@ -4976,6 +4984,7 @@ filmweb.pl#%#//scriptlet('set-constant', 'rodo.canProfileVisitor', 'noopPromiseR
 filmweb.pl#%#//scriptlet('set-cookie', 'ws_ad', '1')
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=filmweb.pl,important
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53431
+filmweb.pl#%#//scriptlet('trusted-json-set', 'Array.prototype.filter', '$.*.[?(@.name && @.placement && (@.config.click=/smartadserver/ || @.config.items.*.linkUrl=/smartadserver/ || @.config.data.linkUrl=/smartadserver/))]', '$remove$', '', 'this')
 filmweb.pl##.faStaticBanner > a
 filmweb.pl#%#//scriptlet('remove-attr', 'style', 'header#mainPageHeader[style^="height:"]')
 filmweb.pl#$#body.isSponsoringSticky .header.header--main { top: 0 !important; }
@@ -4983,7 +4992,7 @@ filmweb.pl#$#header#mainPageHeader[style^="top:"] { top: 0 !important; }
 filmweb.pl#$##mainSkyBanner-pl_PL { position: absolute !important; left: -3000px !important; }
 filmweb.pl#$#body.ws { overflow: visible!important; }
 filmweb.pl#%#//scriptlet("abort-current-inline-script", "addEventListener", "/faBar[\s\S]*?insertAdjacentElement/")
-filmweb.pl#?#.page__group > .filmWhereToWatchLinkSection > .page__container > .subPageLinkBlock:has(> .subPageLinkBlock__container > a[href^="https://pro.hit.gemius.pl/hitredir"])
+filmweb.pl##.page__group > .filmWhereToWatchLinkSection > .page__container > .subPageLinkBlock:has(> .subPageLinkBlock__container > a[href^="https://pro.hit.gemius.pl/hitredir"])
 ||fwcdn.pl/el/kk/player/032020/672.html
 !+ NOT_PLATFORM(ios, ext_android_cb, ext_safari)
 filmweb.pl##.page__group > .fa.faBar > iframe[src*="fwcdn.pl/el/kk/player/"]
