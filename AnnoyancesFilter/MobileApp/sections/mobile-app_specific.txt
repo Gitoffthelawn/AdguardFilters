@@ -18,6 +18,9 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+furusato-tax.jp##.app-promotion-modal
+furusato-tax.jp##.top-app-download
+moz.de#%#//scriptlet('trusted-set-cookie', 'bannerClosed', '9999999999999')
 netkeiba.com##.banner320
 igeeksblog.com##.section-below-fold.section-ebooks
 wallpaperscraft.com#%#//scriptlet('trusted-click-element', '.app-new .app-new__banner > .JS-Hint-Close', '!cookie:wlc-app-hint', '2500')
@@ -1196,7 +1199,7 @@ teller.jp##div[style*="/install-app-pc-banner/"]
 vaughn.live##.vs_mobileapp_promo
 medyascope.tv##.elementor-element-5bded82f
 thehindu.com##.read-in-app-floating-btn
-2gis.ru#?#div[style="position:relative;z-index:0;height:100%"] div[tabindex] ~ div:has(> div > div > div > div:contains(Мобильное))
+2gis.ru#?#div[style="position:relative;z-index:0;height:100%"] div[tabindex]  div[style="width:100%"] > div > div > div > div > div:has(> div > div:has(svg) > div > div:contains(Мобильное))
 potreningu.pl##.mobile-popup-window
 donanimhaber.com##.open-with-app-popup
 testbook.com##.continue-app-btn
@@ -2685,7 +2688,6 @@ r.gnavi.co.jp##div[class^="style_appAdvertise__"]
 dcard.tw##.__portal > button
 pdfdrive.com##img[title="PDF Drive App"]
 rapidgator.net##a[href="https://play.google.com/store/apps/details?id=net.rapidgator"]
-xn--pckua2a7gp15o89zb.com##.p-appFootBnr
 xn--pckua2a7gp15o89zb.com##.p-balloon_bm
 girlswalker.com##.gw-header-app
 world.rugby###laws_landing_app_wrap
@@ -4112,6 +4114,8 @@ wear.jp#%#//scriptlet('trusted-set-session-storage-item', 'status_of_app_redirec
 !
 !
 !+ NOT_OPTIMIZED
+xn--pckua2a7gp15o89zb.com##.p-appFootBnr
+!+ NOT_OPTIMIZED
 ntv.com.tr##.inread-content-area > div.w-full:has(> div.relative a[href^="https://play.google.com/store/apps/details?id=com.dogus.ntv"])
 !+ NOT_OPTIMIZED
 camp-fire.jp##.app-install-banner-sp
@@ -4387,7 +4391,11 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+clientsecure.me##.ember-application > div.ember-view:has(> div.banner-container)
 nol.yanolja.com#%#//scriptlet('set-cookie', 'top-smart-banner', 'Y', '/', 'yanolja.com')
+kream.co.kr#$#.header-wrapper { z-index: 3; width: 100%; position: fixed; top: 0; left: 0; }
+kream.co.kr##.top-app-download-banner
+kream.co.kr#%#//scriptlet('set-cookie', 'web_to_app_dismiss', 'true')
 m.wavve.com##.mobile-to-app
 wanted.co.kr#$#body { overflow: auto !important; position: static !important; }
 wanted.co.kr#$#div[data-cy="appDownloadPopup"] { display: none !important; }
@@ -4452,11 +4460,14 @@ reclameaqui.com.br#%#//scriptlet('set-session-storage-item', 'appHandoffSheet:di
 reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] { display: none !important; }
 reclameaqui.com.br#$#div[data-testid="complete-header"] > div[data-testid="banner-container"] + header > div[style^="top:"] { top: 0 !important; }
 bananamovies.org##.tr-install-banner
-m.vk.ru##.PageBottomBanner--unauth
+vk.com,vk.ru##div[data-testid="unauthorized_banner"]
+vk.com,vk.ru##.PageBottomBanner--unauth
 newsbreak.com##a[aria-label="Download App"]
 tchibo.com.tr###app-install-banner
 speedtest.net#$#body[style^="overflow:"] { overflow: auto !important; }
-speedtest.net#$#.MuiDialog-root:has(> div.MuiDialog-container > div.MuiPaper-root > a[href="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"]) { display: none !important; }
+speedtest.net##a[href^="itms-apps://itunes.apple.com/app/apple-store/id300704847"]
+speedtest.net#$#.MuiDialog-root:has(> div.MuiDialog-container > div.MuiPaper-root > a[href^="itms-apps://itunes.apple.com/app/apple-store/id300704847"]) { display: none !important; }
+speedtest.net#$#.MuiDialog-root:has(> div.MuiDialog-container > div.MuiPaper-root > a[href^="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"]) { display: none !important; }
 speedtest.net##.flex:has(> a[href^="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"])
 speedtest.net##a[href^="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"]
 m.kshop.co.kr##div[class^="Header_bandBanner"]
@@ -4519,16 +4530,15 @@ oceans-nadia.com##div[class^="GetAppButton_wrap"]
 oceans-nadia.com##div[class^="AppPopup_popUpWrap"]
 oceans-nadia.com##div[class^="AppPopup_popUpBack"]
 yamap.com##.SideBar__is--loaded > .SideBar__Download:has(> img[src*="common_app_banner_"])
-yamap.com##.MomentsId__Main__Footer
+yamap.com###yamap-app-root > div[class^="css-"] > section[class^="css-"]:has(> img[src*="/smart_app_banner/"])
+yamap.com#$#.AppDownloadBanner { display: none !important; }
 hokkaido-np.co.jp#$##js-smart-banner { display: none !important; }
 hokkaido-np.co.jp#$#.header { padding-top: 0px !important; }
 hokkaido-np.co.jp#$#body.has-banner { padding-top: 0px !important; }
 hokkaido-np.co.jp##a[href^="https://id.hokkaido-np.co.jp/page/doshinapp/"]
 alfalfalfa.com##.ldapp > a[href^="https://alfalfalfa.com/_/ldapp_notifier"]
-yamap.com###yamap-app-root > div[class^="css-"] > section[class^="css-"]:has(> img[src*="/smart_app_banner/"])
 greg.app###download-banner-wrapper
 greg.app###download-modal
-yamap.com##.DownloadBanner
 www.kinopoisk.ru#%#//scriptlet('set-cookie', 'kp_mobile_app_sheet', 'true')
 etsy.com##div[data-appears-component-name="app_download"]
 jobs.meinestadt.de##.o-smartBanner
@@ -4710,9 +4720,6 @@ lifecell.ua#%#//scriptlet('set-cookie', 'lfcl_mlap', 'true')
 soundstream.media##.stores-buttons
 hotokami.jp##.mx-auto:has(> div.py-4 > a.app_banner_mobile)
 bbcgoodfood.com##.zephr-banner-wrapper
-yamap.com#$#.AppDownloadBanner { display: none !important; }
-yamap.com#$#.SmartAppBanner { display: none !important; }
-yamap.com#$#.Main__GlobalHeader--showSmartAppBanner { padding-top: 0 !important; }
 familydollar.com#%#//scriptlet('set-local-storage-item', 'isDisplayDownloadAppSection', '0')
 vevor.*,vevor.co.uk##.AppDrainage
 hh.ru##div[class^="magritte-card"]:has(a[href^="https://hhlink.onelink.me/"])
@@ -4875,7 +4882,6 @@ meesho.com#%#//scriptlet('set-cookie', 'isDownloadCta', 'false')
 pickaboo.com##div[class^="ApplicationBanner"]
 gidadedektifi.com##div[class^="XDownloadApp_"]
 akakce.com#%#//scriptlet('set-local-storage-item', 'AppPrompt', 'yes')
-moz.de##.u-app-banner-wrapper
 makemytrip.com##.minContainer > div[style]:has(> div[data-testid="pwa-header-strip-download"])
 m.shopcider.com#%#//scriptlet('trusted-set-local-storage-item', 'cider-mobile-site-web2app-banner-hidden', '99999999999999')
 m.shopcider.com#%#//scriptlet('trusted-set-local-storage-item', 'cider-site-web2app-banner-hidden', '99999999999999')
