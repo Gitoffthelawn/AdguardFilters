@@ -92,7 +92,7 @@ krknews.pl##div[data-ad-slot]
 krknews.pl##div[class*="-section"][class*="__banner"]
 swiadomaoc.org##div[data-element_type="container"]:has(> div[data-widget_type="cs-banner.default"])
 swiadomaoc.org##.cs-banner-entry
-dziennikzwiazkowy.com,radiozamosc.pl,dziennikwschodni.pl##.tipad_tag
+tygodnikziemiopolskiej.info,dziennikzwiazkowy.com,radiozamosc.pl,dziennikwschodni.pl##.tipad_tag
 radiolodz.pl##.elementor-widget-premium-carousel-widget
 radiolodz.pl##.elementor-element > div > figure:has(> a[target="_blank"] ~ figcaption)
 radiolodz.pl##.elementor-widget-wrap > div.elementor-element:has(> div.elementor-widget-container > h6)
@@ -3515,7 +3515,7 @@ pisupisu.pl#%#//scriptlet('prevent-setInterval', '.offsetParent === null')
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||pisupisu.pl^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238440
-purepc.pl##.content > p > a[href^="https://www.mediaexpert.pl/"] > img
+purepc.pl##.content > p > a:is([href^="https://www.mediaexpert.pl/"], [href^="https://msi.gm/"]) > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126626
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54021
 purepc.pl##.artbox .content > p > a[href^="https://lp."][href*="&utm_campaign="] > img
