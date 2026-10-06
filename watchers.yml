@@ -400,7 +400,7 @@ sites:
     # initial_domain: worldfree4u.gd
     last_known_mirror: worldfree4u.expert
     failed_since: 2026-10-05 19:14
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   Canlı Maç izle (canlimacizlemax*.top):
     accept_antibot: true
@@ -416,14 +416,16 @@ sites:
     last_known_mirror: cobephim.cfd
     success_since: 2026-09-25 01:24
   dizipalorjinal (dizipalorjinal*.com):
-    last_known_mirror: dizipalorjinal12.com
-    success_since: 2026-10-01 13:17
+    last_known_mirror: dizipalorjinal13.com
+    success_since: 2026-10-06 18:49
   Pornocudayi (pornocudayi*.com):
     last_known_mirror: pornocudayi43.com
     success_since: 2026-10-01 01:40
   Turkifsa (turkifsa*.best):
     last_known_mirror: turkifsa14.best
-    success_since: 2026-10-01 13:17
+    failed_since: 2026-10-06 18:49
+    failed_days: 0
+    potentially_dead: true
   Hadi TV (hadibettv*.com):
-    last_known_mirror: hadibettv6.com
-    success_since: 2026-10-01 01:40
+    last_known_mirror: hadibettv7.com
+    success_since: 2026-10-06 18:49
