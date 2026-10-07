@@ -28,6 +28,14 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||data.petri.com^
+||c3.wildwolf.name^
+||tips.delt.io^
+||unami.delt.io^
+||servt.ergadx.com^
+||one01.stright.bizris.com^
+||analytics.infomaniak.com^
+||biprx.n12.co.il^
 ||apm.volccdn.com^
 ||apmplus.volces.com^
 ||evs.segwww.incident.io^
