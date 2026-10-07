@@ -71,6 +71,7 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+proje724.com##aside:has(> div > a[data-ad-link])
 turkifsa.blog##.center-overlay
 ||cdn.okiksdelivery.com^$script,domain=turkifsa.blog
 ||get.atechspace.live/pops-request
@@ -4595,6 +4596,15 @@ lovefilmizle.net,elzemfilm.org,dizicaps.*,erotikfilmtube.com,sexfilmleriizle.com
 ! except some sites that use non-template domain names of mirror sites
 !
 !
+! Frequently changed domains: patronlig*.cfd
+! Source: patronspor.is
+! aglint-disable no-invalid-modifiers
+!+ NOT_VALIDATE
+||blogger.googleusercontent.com/img/$domain=/patronlig\d+\.cfd$/
+! aglint-enable no-invalid-modifiers
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
+patronlig20.cfd##.footer-links
+!#endif
 ! Frequently changed domains: hadibettv*.com
 ! Source: hadibettv6.com
 [$domain=/hadibettv\d+\.com$/]##.footer-links
@@ -4620,9 +4630,9 @@ videoplays.cfd##.vast-ad-overlay
 /rek.xml|$domain=videoplays.cfd
 videoplays.cfd#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'getAdMountPoint')
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-dizipalorjinal12.com##body > a[class^="pageskin-"]
-dizipalorjinal12.com##[aria-label="Reklam"]
-dizipalorjinal12.com#$#.has-pageskin { background-image: none !important; }
+dizipalorjinal13.com##body > a[class^="pageskin-"]
+dizipalorjinal13.com##[aria-label="Reklam"]
+dizipalorjinal13.com#$#.has-pageskin { background-image: none !important; }
 !#endif
 !
 ! Frequently changed domains: golbettv*.com
