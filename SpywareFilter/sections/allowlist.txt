@@ -17,6 +17,11 @@
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/243514
+@@||liveapi.yext.com^$domain=answers.business.lloydsbank.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/243470
+@@||power.mhi.com/modules/contrib/google_tag/js/gtm.js$domain=power.mhi.com
+@@||googletagmanager.com/gtm.js$domain=power.mhi.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/243386
 @@||cmp.optimizely.com/assets/$image,domain=roadscholar.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/243436
@@ -25,6 +30,7 @@
 @@||googletagmanager.com/gtm.js$domain=mizuhobank.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/243416
 @@||googletagmanager.com/gtm.js$domain=unicef.or.jp
+@@||googletagmanager.com/gtag/js$domain=unicef.or.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/242943
 @@||priem.menu^$cookie=_ga
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241876
