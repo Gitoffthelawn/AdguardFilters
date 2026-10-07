@@ -70,6 +70,7 @@
 !
 !
 !
+||buballmighty.com^
 ||heatmap-tracking-do-to-s3-worker-prod.flipdesk.workers.dev^
 ||ymzu9eeo1y.ru^
 ||a3kvau184uea.com^
@@ -126,7 +127,8 @@
 ||api.firwinds.site^
 ||geniuslinkcdn.com^
 ||opendatastats.net^$third-party
-||assets.onedollarstats.com^
+||onedollarstats.com^$third-party
+||lilstts.com^
 ||u.lessbutbetter.studio^
 ||analytics.autoodb.com^
 ||cdn.seline.com^
