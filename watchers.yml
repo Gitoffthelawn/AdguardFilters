@@ -4,12 +4,14 @@ sites:
     force_search_ahead: true
     last_known_mirror: gmatv61.live
     failed_since: 2026-09-03 19:11
-    failed_days: 33
+    failed_days: 34
     potentially_dead: true
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
     accept_antibot: true
-    success_since: 2026-09-24 01:25
+    failed_since: 2026-10-07 06:53
+    failed_days: 0
+    potentially_dead: true
   VidFast (vidfast.*):
     last_known_mirror: vidfast.vc
     success_since: 2026-08-19 13:21
@@ -179,7 +181,9 @@ sites:
     success_since: 2026-09-16 01:24
   FilmMoly (filmmoly.*):
     last_known_mirror: www.filmmolly.cc
-    success_since: 2026-09-15 01:26
+    failed_since: 2026-10-07 06:53
+    failed_days: 0
+    potentially_dead: true
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     heuristic_history:
@@ -400,7 +404,7 @@ sites:
     # initial_domain: worldfree4u.gd
     last_known_mirror: worldfree4u.expert
     failed_since: 2026-10-05 19:14
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Canlı Maç izle (canlimacizlemax*.top):
     accept_antibot: true
@@ -425,7 +429,8 @@ sites:
     last_known_mirror: turkifsa14.best
     success_since: 2026-10-01 13:17
   Hadi TV (hadibettv*.com):
-    last_known_mirror: hadibettv6.com
-    success_since: 2026-10-01 01:40
+    last_known_mirror: hadibettv7.com
+    success_since: 2026-10-07 06:53
   PatronLig / Patronspor (patronlig*.cfd):
     last_known_mirror: patronlig20.cfd
+    success_since: 2026-10-07 06:53
