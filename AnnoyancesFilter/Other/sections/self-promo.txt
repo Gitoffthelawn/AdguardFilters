@@ -227,6 +227,9 @@ www.kinopoisk.ru##footer > div:has(> div > div[data-testid="kp-ui.amediateka-foo
 !
 ! SECTION: Self-promo - Regular rules
 !
+tv100.com##.bottom-video
+crypto.ru##.wprv-box
+ru.getflix.com###notificationContainer
 cash-ntt.kontur.ru##div[data-tid$="PresentBanner"]
 strawberrynet.com#%#//scriptlet('set-cookie', 'exitIntentFirstEntryShown', 'true')
 strawberrynet.com#%#//scriptlet('set-cookie', 'exitIntentShown', 'true')
@@ -239,6 +242,8 @@ salon.com##.sub_promo
 buyhatke.com##.w-full:has(> div[class] > div.grid > div.bg-white > a[href="https://a.buyhatke.com/homePageBBd"])
 buyhatke.com##.relative:has(> div[class] > a[href="https://a.buyhatke.com/crossPlatformInstallproduct"])
 ratatype.com##a[href="/es/ratatype-plus/"]
+ssg.com##.ssgcard_swiper
+www.ssg.com###lp_gnbTopBanr
 ratatype.com##.not-prose
 ratatype.com###header > div.message
 trafficnews.jp##.premium-banner-sp
