@@ -18,6 +18,10 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+bankadunyasi.com###bd-app-bar
+tvp.info##.module-banner-ad
+tvp.info##.footer__app-banner
+oschadbank.ua##.get-app-buttons
 balkantelevizija.net##.superpwa-sticky-banner
 banki.ru##a[data-test="currency-subscription-banner"]
 qeeq.com###download-app-banner-slot
@@ -3948,7 +3952,7 @@ ask.fm#$#body.appPromoBody{ margin: 0!important; }
 ecvip.pchome.com.tw,24h.m.pchome.com.tw#$?##smartbanner { remove: true; }
 ecvip.pchome.com.tw,24h.m.pchome.com.tw#$##smartbanner[class*="shown"] + #WRAPPER .block_H { top: 0 !important; }
 ecvip.pchome.com.tw,24h.m.pchome.com.tw#$##smartbanner[class*="shown"] + #WRAPPER { margin-top: 0px !important; }
-9gag.com##.download-app-container
+dji.com,9gag.com##.download-app-container
 9gag.com##a[class="get-the-app-banner"]
 9gag.com#$#.open-in-app { display: none !important; }
 9gag.com#$#body { overflow: auto !important; }
@@ -4431,8 +4435,16 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+yamap.com##main a[data-gtm-install-app-link]
+m.ssg.com###m_header_app_down
+m.ssg.com##.gnb-banner
+m.facebook.com##div[id^="root_"] div[class="wbloks_1"][style]:has(> div[class] > div[class] > div[class] > div[class] > img[src="https://z-m-static.xx.fbcdn.net/rsrc.php/yw/r/gLamC64FCJF.webp"])
 bbegi.com##body > div#modal:has(> div[class^="modalLegacy__ModalContainer-sc"])
 proton.me##astro-island[props*="drive_qrcode_popup"]
+lomad.co.kr###goAppGuide
+frip.co.kr#%#//scriptlet('set-cookie','BOTTOM_POPUP_BANNER_COOKIE', 'true')
+koreanair.com#%#//scriptlet('set-session-storage-item', 'mbbnInboundApp', 'true')
+m.flyasiana.com###appOpenNotification
 tavriav.ua##div[class*="appDrawer_drawer_"]
 m.onoffmix.com##.start_popup
 m.incruit.com###divAppDownLayer
