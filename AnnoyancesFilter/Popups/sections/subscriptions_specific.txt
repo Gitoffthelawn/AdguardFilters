@@ -57,11 +57,15 @@ przegladsportowy.onet.pl,dailymail.com,tavovaikas.lt,thehill.com,gardenbetty.com
 !
 ! SECTION: Subscriptions - Regular rules
 !
+bolognatoday.it##a[href^="//www.google.com/preferences/source?q="]
+cheerfulcook.com##div.wprm-recipe > div.fluentform_wrapper_3.ffs_custom_wrap
+emogram.sankei.com##.area-google_preferred
+vice.com##.wp-block-button--google-cta
 bd-bulletin.com##.dtl_google_news
 mylomza.pl##div.grid__row > div.grid__col.grid__col--1:has(> div#newsletterform)
 mezamashi.media##.js-piano-right-banner04
 gazetawroclawska.pl,pomorska.pl##.atomsArticleHead__mediaTool
-medonet.pl,plejada.pl##a[data-google-preferred-source]
+onet.pl,auto-swiat.pl,medonet.pl,plejada.pl##a[data-google-preferred-source]
 crypto.ru##.widget--subscribe
 paperpaper.io##.main-socials
 deadspin.com##a[href^="https://discord.com/invite/"]
@@ -4481,7 +4485,7 @@ dot.asahi.com##.g-sidebar-magazine
 politico.com##.story-enhancement > #weekend-promo
 x.com,twitter.com#?#div[style^="transform"]:has(div[data-testid="inlinePrompt"] > div > a[href="/i/premium_sign_up?referring_page=timeline_prompt"])
 frankwatching.com##.container-fullwidth-subscription
-apogeum.com.pl,sofra.com.tr,ckpodgorza.pl,explorethearchive.com,rtl.hu##.newsletter-modal
+thomas-philipps.de,apogeum.com.pl,sofra.com.tr,ckpodgorza.pl,explorethearchive.com,rtl.hu##.newsletter-modal
 weeronline.nl##div[class^="Audience__Container-"]
 sud.ua#?#.b-news-list > ul > li:has(> div.b-news-item a[href="https://t.me/sudua"])
 bulgarianmilitary.com#?#.post-content > div[class]:has(> div[id] > a[href^="https://news.google.com/publications/"])
