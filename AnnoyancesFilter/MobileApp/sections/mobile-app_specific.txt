@@ -18,6 +18,13 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+koco.com##section > article:has(> div[data-button="/apps"])
+7msport.com##.v-pop-wrap
+ktmyr.com###popupAppDownload
+ykdaldabang.com###app-popup
+ykdaldabang.com##button[class^="host_common_popup_bg__"]
+costco.com##div[data-testid^="AdSet-all-"][data-testid$="_app_warehouse_row"]
+hyundailivart.co.kr###layer-app-popup
 m.liivm.com###popup_appdown_id
 bworld.co.kr#%#//scriptlet('set-cookie', 'popupToastShown', 'true')
 reformparty.kr##.app-dl-ov
@@ -39,7 +46,7 @@ vake.io#%#//scriptlet('trusted-set-cookie', 'app_download_bottom_sheet_24h', '$n
 vake.io###vingle-app [data-scroll-lock-scrollable] div[class^="Wrapper-sc-"]:has(button[aria-label="close app download banner"])
 allpick.kr#%#//scriptlet('set-cookie', 'app_banner', 'Y')
 m.dongwonmall.com###topAppDownLinkDiv
-lcdv.kr###mCafe24DirectToApp
+treemingbird.com,lcdv.kr###mCafe24DirectToApp
 m.bunjang.co.kr#%#//scriptlet('trusted-click-element', '.bun-ui-portal section[class*="BottomSheet_contentRecipe__"] ._button_1cw4e_1', 'containsText:괜찮아요, 모바일 웹에서 볼게요.')
 cleanlabelproject.org##header > div.elementor-element > div.e-con-inner:has(> div.elementor-widget > a[href="https://cleanlabelproject.org/app/"])
 cleanlabelproject.org##div.elementor > div.elementor-element:has(> div.e-con-inner > div.elementor-element a[href^="https://apps.apple.com/us/app/clean-label-project-mobile/"])
@@ -4366,7 +4373,7 @@ aumo.jp#$##js-smartBannerLink { display: none!important; }
 !+ NOT_OPTIMIZED
 aumo.jp#$##wrapper-js[style^="padding-top:"] { padding-top: 48px!important; }
 !+ NOT_OPTIMIZED
-rtrp.jp##.btnApp
+ssgdfs.com,rtrp.jp##.btnApp
 !+ NOT_OPTIMIZED
 clubdam.com##.bnr-app
 !+ NOT_OPTIMIZED
@@ -4442,6 +4449,10 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+m.store.hanssem.com##.AppDownloadPopupWrapper
+kfckorea.com##.m-header[header-mob-sub] > .panel[style="position: fixed; z-index: 999; box-shadow: gray 11px 10px 15px;"]
+m.62life.com###appLoadPop
+kasina.co.kr###portal:has(> #layerModalBUSE_MOBILE)
 m.sporx.com##.main_page_xtra_img:has(> a#appLink)
 m.sporx.com###manset > div.row > div.media-news:has(a[href*="/mobil"])
 lge.co.kr#%#//scriptlet('set-cookie', '__LGAPP_DLOG_STORE__', 'hide')
