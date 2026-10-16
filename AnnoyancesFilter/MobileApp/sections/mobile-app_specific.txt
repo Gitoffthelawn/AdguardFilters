@@ -18,6 +18,17 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+m.enuri.com###installApp
+m.enuri.com#%#//scriptlet('set-cookie-reload', 'installBanner_dismiss', '1')
+iamhereshop.com###mobile-wrap
+paypal.com#$##PPAppDownloadBanner_Desktop { display: none !important; }
+paypal.com#$#.PP__DesktopBanner__Top_Margin { top: 0 !important; }
+paypal.com#$#.PP__DesktopBanner .vx_foreground-container { top: 0 !important; }
+us-insight.com#%#//scriptlet('trusted-set-local-storage-item', 'appDownloadDismissedUntil', '2099-12-31T23:59:59.999Z')
+us-insight.com#%#//scriptlet('trusted-set-local-storage-item', 'appDownloadBannerDismissedUntil', '2099-12-31T23:59:59.999Z')
+easyonmail.com###intro_before_app
+easyonmail.com#$##headroom[style="height:50px"]:has(img[src="/images/icon/icon_download.png"]) { display: none !important; }
+easyonmail.com#$##wrap #header[style="margin: 50px auto 0px;"] { margin-top: 0px !important; }
 koco.com##section > article:has(> div[data-button="/apps"])
 7msport.com##.v-pop-wrap
 ktmyr.com###popupAppDownload
@@ -46,7 +57,7 @@ vake.io#%#//scriptlet('trusted-set-cookie', 'app_download_bottom_sheet_24h', '$n
 vake.io###vingle-app [data-scroll-lock-scrollable] div[class^="Wrapper-sc-"]:has(button[aria-label="close app download banner"])
 allpick.kr#%#//scriptlet('set-cookie', 'app_banner', 'Y')
 m.dongwonmall.com###topAppDownLinkDiv
-treemingbird.com,lcdv.kr###mCafe24DirectToApp
+godnatt.kr,treemingbird.com,lcdv.kr###mCafe24DirectToApp
 m.bunjang.co.kr#%#//scriptlet('trusted-click-element', '.bun-ui-portal section[class*="BottomSheet_contentRecipe__"] ._button_1cw4e_1', 'containsText:괜찮아요, 모바일 웹에서 볼게요.')
 cleanlabelproject.org##header > div.elementor-element > div.e-con-inner:has(> div.elementor-widget > a[href="https://cleanlabelproject.org/app/"])
 cleanlabelproject.org##div.elementor > div.elementor-element:has(> div.e-con-inner > div.elementor-element a[href^="https://apps.apple.com/us/app/clean-label-project-mobile/"])
@@ -55,6 +66,7 @@ buyhatke.com##.relative:has(> div[class] > a[href="https://a.buyhatke.com/crossP
 proje724.com##section[data-mobile-app-promo]
 op.gg##.pokemon-champions-app-banner
 spiele123.com##.pwa__popup
+panel.freemcserver.net###main-wrapper > .topbar > .platform-top-alert
 wear.jp##div[role="dialog"]:has(> div[class] > a[href^="https://app.adjust.com/"])
 wear.jp##.sticky:has(> div[class]:only-child > div[class] > .box-content > a[href^="https://app.adjust.com/"])
 wear.jp#$#.sticky:has(> div[class]:only-child > div[class] > .box-content > a[href^="https://app.adjust.com/"]) + .sticky { top: 0px !important; }
@@ -4449,6 +4461,10 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+m.lotteshopping.com#$#.dimmed-bg:has(~ .popup__section) { display: none !important; }
+m.lotteshopping.com#$#.popup__section { display: none !important; }
+m.lotteshopping.com#$#body { overflow: auto !important; }
+m.lotteshopping.com##.section-banner-app
 m.store.hanssem.com##.AppDownloadPopupWrapper
 kfckorea.com##.m-header[header-mob-sub] > .panel[style="position: fixed; z-index: 999; box-shadow: gray 11px 10px 15px;"]
 m.62life.com###appLoadPop
