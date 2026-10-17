@@ -83,6 +83,10 @@ gjirafa.com##div[id^="an-holder-"]
 !
 ! NOTE: Arabian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/244113
+ouedkniss.dz##div[class]:has(> div[class*="promo-"])
+ouedkniss.dz##.v-overlay-container:has( .promo-loader-interstitial)
+ouedkniss.dz##.v-container:has(> .search-carousel:only-child .o-carousel:only-child > .v-skeleton-loader:only-child > div[class]:only-child:empty)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/242022
 ||shoffree.cc/ajax/get-random-ad.php
 shoffree.cc###shoffreePlusModal
@@ -2976,6 +2980,7 @@ pakkotoisto.com##.notice-content:has(> a[target="_blank"])
 !+ NOT_OPTIMIZED
 kaaoszine.fi##.adnm-html-topscroll-frame-wrapper
 !
+nettiauto.com##.huge-banner__wrapper
 huutokaupat.com##div[data-test="entry-list-container"] > article:not([data-test]):has(a[data-external="true"][variant="primary"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199220
 akaanseutu.fi##.kaupungin-tiedotteetsidebar
