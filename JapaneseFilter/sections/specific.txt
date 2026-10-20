@@ -60,6 +60,10 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+kandatasokuho.com##div[align="center"] > a[href^="https://link.amazon/"] > img
+kandatasokuho.com##fieldset[style="border: 3px dotted blue; font-size: 100%;padding: 5px; background-color: #f0f8ff;"]
+kandatasokuho.com##div[style="padding: 10px; margin-bottom: 10px; border: 2px dashed green;"]
+kandatasokuho.com##div[style="position: relative; margin: 2.5em 0em; padding: 1em 1em 0.5em 1em; border: 4px double blue; background-color: #f0f8ff;"]
 bitcoinpost24.com##.block-area.mx-auto[style="width:300px;"]
 japan.storm.mg##.adGeneral
 japan.storm.mg##div[data-test-comp="AdTaboola"]
@@ -4006,7 +4010,7 @@ totoneko.net###pc_text-19
 totoneko.net###pc_text-23
 free.foto.ne.jp##.list_row3_ad_2column
 ||zadankai.club/ads/
-signalskey.signal-st.com,empire.miyaco.moe,stormskey.works,m.eskey.click,labo.wovs.tk,nukers-misskey.hpc-densi.f5.si,msk.kitamiss.com,uneune.one,posskey.com,redfuku.com,misskey.secinet.jp,msk.ilnk.info,uttaeruyo.com,ikaskey.bktsk.com,live-theater.net,misskey.resonite.love,misskeytsf.love,misskirara.net,p1.a9z.dev,takusuki.com,trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.*##div[class][data-scroll-anchor] > div[tabindex] + div[class]:has(> div > div[class] > a[rel])
+signalskey.signal-st.com,empire.miyaco.moe,stormskey.works,m.eskey.click,labo.wovs.tk,nukers-misskey.hpc-densi.f5.si,msk.kitamiss.com,uneune.one,posskey.com,redfuku.com,misskey.secinet.jp,msk.ilnk.info,uttaeruyo.com,ikaskey.bktsk.com,live-theater.net,misskey.resonite.love,misskeytsf.love,misskirara.net,p1.a9z.dev,takusuki.com,trpger.us,mk.yopo.work,sushi.ski,warpday.net,zadankai.club,misskey.*##div[data-scroll-anchor] > div[tabindex] + div[class]:has(> div > div[class] > a[rel])
 aaieba.livedoor.biz###more > div[align="center"]:last-of-type > table
 aaieba.livedoor.biz###scroll
 aaieba.livedoor.biz##.aaieba-e
