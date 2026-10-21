@@ -44,6 +44,9 @@ sport-express.ru,pikabu.ru##iframe[src^="https://autofill.yandex.ru/suggest?"]
 !
 ! SECTION: Popups - Regular rules
 !
+thegazette.com##.dappier-dockable-toggle
+thegazette.com##.dappier-dockable-teaser
+startpage.com#%#//scriptlet('set-local-storage-item', 'SERP_DELIGHT_STAGE', '2')
 processon.io##.dlg-newfunction
 processon.io##.window-mask
 booking.com#$?#body > div[class]:has(> div[data-bui-trap-root] > div[role="dialog"] div[data-testid="auth-link-in-view"]) { remove: true; }
@@ -54,7 +57,7 @@ elektro-wandelt.de##.ks-marketing-popup
 ||xeon-e5450.ru/img/tg_welcome.png
 ||e5450.com/wp-content/plugins/wp-popups-lite/
 bidfood.pl###ppup
-fin.land.naver.com##div#content[class^="PCLayout-"] div[data-sentry-component="FloatingCenterBanner"]:has(a[href^="https://blog.naver.com/land_admin/"])
+||fin.land.naver.com/front-api/v1/data-service/banner/propertyCommon$xmlhttprequest
 e-n-cars.ru##.radio-corner-banner
 benzinga.com#$##bz-market-interstitial { display: none !important; }
 benzinga.com#$#body { overflow: auto !important; }
@@ -165,9 +168,9 @@ techloy.com###tlsvOverlay
 iphone-mania.jp###custom-chat-embed-v3-root > .fixed > div.bottom-full
 raptorsupplies.co.uk,raptorsupplies.com,raptorsupplies.com.au,raptorsupplies.com.sg,raptorsupplies.de,raptorsupplies.es,raptorsupplies.nl,raptorsupplies.pl###introducing-chatmro
 zflix.me##body > div[style$="overlayIn;"]:has(> div[style] a[href="https://zflix.me/discord"])
-main-spitze.de,hnonline.sk#$#.tp-modal { display: none !important; }
-main-spitze.de,hnonline.sk#$#.tp-backdrop { display: none !important; }
-main-spitze.de,hnonline.sk#$#body.tp-modal-open { overflow: auto !important; }
+nzz.ch,main-spitze.de,hnonline.sk#$#.tp-modal { display: none !important; }
+nzz.ch,main-spitze.de,hnonline.sk#$#.tp-backdrop { display: none !important; }
+nzz.ch,main-spitze.de,hnonline.sk#$#body.tp-modal-open { overflow: auto !important; }
 animextv.tech###root > div.fixed.slide-in-from-bottom-8
 socradar.io###hello_bar
 de.milwaukeetool.eu##div[class^="PopupSignUpstyles__Wrapper"]
