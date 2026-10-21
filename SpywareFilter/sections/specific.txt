@@ -92,6 +92,9 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||koin.com/wp-content/plugins/chartbeat/build/chartbeat-user-tracking.*.js
+||cdn.vector.co/pixel.js
+||external.citynews.it/~shared/do/api/plausible/
 ||partner-events.favicdn.net/*/partnerEventsTracking.js
 ||diablochairs.com/static/*/RedChamps_OrderAnalyticalInfo/js/referral.min.js
 ||diablochairs.com/datalayer/index/events?
@@ -5821,10 +5824,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||l2.io/ip.js
 ||licdn.com/*li.lms-analytics/
 ||linkedin.com/emimp/
-||livefyre.com/libs/tracker/
-||livefyre.com/tracking/
-||livefyre.com^*/tracker.js
-||livefyre.com^*/tracking/
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestream.com^*/analytics/
