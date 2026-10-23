@@ -92,6 +92,15 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||api.atmosvere.eu/api/*/traffic/*/collect-update
+||query.reachit.network/*?l=
+||cdn.brita.net/.resources/scripts/gtmEventTracking-*.js
+||ftbucket.info/*/track.php
+||wayfair.com/api/observability/v*/log|
+||wayfair.com/*/wf_auth/authentication/log_frontend_event_data|
+||sinoptik.*/stats/
+||pla.fwdcdn.com/api/event|
+||verbraucherzentrale.de/plugins/HeatmapSessionRecording/
 ||shasetsu.jp/metrics.js
 /ces/v1/telemetry/$app=chatgpt.exe
 ||bangbrosnetwork.com/_i?
