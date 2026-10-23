@@ -30,6 +30,8 @@
 !
 ! NOTE: Specific rules
 !
+||data.vzhh.de^
+||applytics.zwyr157wwiu6eior.com^
 ||zwjvbnvhnzme.heise.de^
 ||b.allegrocdp.com^
 ||metrics.shasetsu.jp^
