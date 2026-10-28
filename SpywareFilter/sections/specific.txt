@@ -92,6 +92,9 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||data.dailyhunt.in/topics/analytics-events
+||iceporn.net/ajax/log/
+||bloxd.io/social/analytics/
 ||antigravity.google/_astro/AnalyticsBootstrap.*.js
 ||haberturk.com/cdn/player/released/plugins/analytics.min.js
 ||socialcrosspromo.com/track|
@@ -103,6 +106,7 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 ||search.11st.co.kr/js/searchWebFront/search/public/rakeLog-mobile-search.js
 ||gleams.dev/api/customers/usage-beacon
 ||offer-link.com/collect-click.php
+||tokenpost.kr/tracking/ajax/$xmlhttprequest
 ||nijiurachan.net/analytics/
 ||electroverse.com/view/insights/script.js
 ||miniwebtool.com/js/mwt-analytics.
@@ -579,7 +583,6 @@ kio.ac#%#//scriptlet('set-local-storage-item', 'affiliate_advertiser_stats', '$r
 ||cdn.viberu.ru/dist/tracking.*.js
 ||rugbypass.com/api/tracking/
 ||static0.pocketlintimages.com/assets/sentinel-events-tracker.*.js
-||dulo.*/api/ping
 ||happycow.net/analytics_socket|
 ||operationsports.com/plow-lite-bundle
 ||shingakunet.com/rnet/dlpo/
@@ -6082,10 +6085,10 @@ dreamprogs.net##td[width="88"][height="31"]
 ||yandex.ru/clck/click|
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241118
+! https://github.com/AdguardTeam/AdguardFilters/issues/245483
 !#if (!adguard_app_ios && !adguard_ext_android_cb && !adguard_ext_safari)
 ||phncdn.com/www-static/js/lib/user-clogs.js
 pornhub.com#%#//scriptlet('set-constant', 'userClogTracking', 'noopFunc')
-pornhub.com#%#//scriptlet('set-constant', 'updateClogTracking', 'noopFunc')
 !#endif
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238893
