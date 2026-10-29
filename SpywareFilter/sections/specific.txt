@@ -92,6 +92,11 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||live-xo.lovable.app/~api/analytics
+||live-xo.lovable.app/*/trackevents
+||bigjoy.com.tr/metrics/
+||bigjoy.com.tr/api/analytics/
+||zenox.lol/api/analytics/ping|
 ||data.dailyhunt.in/topics/analytics-events
 ||iceporn.net/ajax/log/
 ||bloxd.io/social/analytics/
@@ -106,7 +111,7 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 ||search.11st.co.kr/js/searchWebFront/search/public/rakeLog-mobile-search.js
 ||gleams.dev/api/customers/usage-beacon
 ||offer-link.com/collect-click.php
-||tokenpost.kr/tracking/ajax/$xmlhttprequest
+||tokenpost.kr/tracking/ajax/
 ||nijiurachan.net/analytics/
 ||electroverse.com/view/insights/script.js
 ||miniwebtool.com/js/mwt-analytics.
@@ -713,7 +718,6 @@ abc.net.au#%#//scriptlet('set-local-storage-item', 'snowplowOutQueue_Presentatio
 ||rudderstack.com/v1/batch?writeKey=
 ||simplywall.st/backend/flags/proxy/client/metrics
 ||doofinder.com/api/v*/stats/
-||chatgpt.com/backend-api/beacons/
 ||chatgpt.com/backend-api/sentinel/ping
 ||lg-chatbot.com/chatbot/v*/api/client_logger
 ||cv-library.co.uk/assets/js/ext/amplitude-
