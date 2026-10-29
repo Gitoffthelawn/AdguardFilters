@@ -83,6 +83,7 @@ gjirafa.com##div[id^="an-holder-"]
 !
 ! NOTE: Arabian
 !
+share4max.com###adfox-cover
 ! https://github.com/AdguardTeam/AdguardFilters/issues/244113
 ouedkniss.dz##div[class]:has(> div[class*="promo-"])
 ouedkniss.dz##.v-overlay-container:has( .promo-loader-interstitial)
@@ -1509,6 +1510,7 @@ mob.hr##.side_banner
 !
 ! NOTE: Czech and Slovakian
 !
+pravda.sk##.banner
 eurozpravy.cz##.main__bg__wrapper
 eurozpravy.cz##.sticky-column__content.sticky-column__content--sticky
 svetserialu.io,svetserialu.to,svetserialu.*##.alert_premiumExpired
