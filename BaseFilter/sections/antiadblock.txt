@@ -1277,6 +1277,8 @@ youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
 !
 ! NOTE: Regular rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/245575
+||capitanstrims.st/assets/js/nx.js?v=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/245356
 @@||waiting.info/rad_singlepageapp.js^$domain=waiting.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/245622
@@ -1965,6 +1967,9 @@ okteve.com#%#//scriptlet('set-constant', 'xpv.v', 'true')
 okteve.com#%#//scriptlet('adjust-setTimeout', 'verifyAndPlay', '*', '0.001')
 okteve.com#%#//scriptlet('abort-current-inline-script', 'setTimeout', '/pagead2\.googlesyndication\.com|\.clientHeight===0/')
 okteve.com#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.addEventListener', '/pagead2\.googlesyndication\.com|\.clientHeight===0/')
+! https://github.com/AdguardTeam/AdguardFilters/issues/245657
+||strcsh.xyz/s/*.js|$script,redirect=noopjs
+strcsh.xyz#%#//scriptlet('set-constant', '__dtRan', 'true')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234088
 /js/pk-*.js?$domain=streamcash.to|strcsh.xyz
 /js/detect.js$domain=streamcash.to|strcsh.xyz
@@ -8554,8 +8559,6 @@ cdkm.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
 @@||freereceivesms.com/*.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121076
 @@||smartnator.com/assets/js/prebid-ads.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/93416
-cryptofans.news#%#//scriptlet('prevent-setTimeout', 'swal')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/197642
 hentaihaven.xxx#%#//scriptlet('trusted-create-element', '.related-reading-wrap ins[data-revive-zoneid]', 'div')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183483
