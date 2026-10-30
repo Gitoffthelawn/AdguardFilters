@@ -18,6 +18,9 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+thuisarts.nl##main > div.layout-wrapper:has(> div.layout-wrapper__inner > div.promotion-block)
+halara.*,thehalara.*##a[id^="observerImg"][href^="https://halara.onelink.me/"]
+flatfy.ua##.native-app-banner-spacer
 follow.yahoo.co.jp##div[class*="_AppPromotion"]
 tedi.com.tr#$#.mobil-app-bar { visibility: hidden !important; }
 sheepesports.com#%#//scriptlet('set-session-storage-item', 'sheepesports:mobile-app-launch:popup-session-dismissed', 'true')
@@ -3062,7 +3065,6 @@ zeenews.india.com##.float-btn
 kt.wowkorea.jp##a[href="https://wowkorea.page.link/Tn65"]
 kt.wowkorea.jp##div[style="background-color:#FFFFFF; border:1px solid #D4D4D4; width:95%;-webkit-border-radius:10px;-moz-border-radius:10px;"]
 gamewith.jp##.gdb-game-header-follow-btn-only
-byjusexamprep.com##.gradeup-info-banner
 telesputnik.ru##.applications
 leverageedu.com##div[class^="downloadBtn"]
 leverageedu.com##.show-content > p ~ div[class$="course"]
@@ -4487,8 +4489,8 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+freetv.com##body > div:is(.install-android, .install-ios)
 mfuns.net##.m-open-app
-m.youtube.com##.scwnr-content > lazy-list > yt-video-metadata-carousel-view-model[aria-label]:has(button-view-model > a[href^="https://ytkids.app.goo.gl/"])
 m.ohprint.me#%#//scriptlet('set-session-storage-item', 'OH_PRINT_ME_APP_NOTIFICATION_VISITED', 'true')
 skecherskorea.co.kr##.header-app-open-content
 tokenpost.kr##.app_download_banner_wrap
