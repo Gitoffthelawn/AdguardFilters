@@ -92,6 +92,12 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||hepsiburada.com/metrics/
+||matomo.cloud/apmginternational.matomo.cloud/
+||mautic.apmg-international.com/mtc.js
+||stats.thuisarts.nl/plugins/HeatmapSessionRecording/
+||stats.thuisarts.nl/piwik.php
+||backenmachtgluecklich.de/__bmg-edge/
 ||live-xo.lovable.app/~api/analytics
 ||live-xo.lovable.app/*/trackevents
 ||bigjoy.com.tr/metrics/
