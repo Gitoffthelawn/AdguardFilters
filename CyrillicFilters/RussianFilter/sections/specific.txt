@@ -14,6 +14,9 @@ sport-express.ru,gorod24.online,vedomosti.ru,kommersant.ru,rg.ru,glavbukh.ru,che
 !
 ! NOTE: Specific rules
 !
+sersoap.ru,zseek.ru#$#body { background-image: none !important; }
+sersoap.ru,zseek.ru#%#//scriptlet('remove-node-text', 'style', 'background-position')
+sersoap.ru,zseek.ru#%#//scriptlet('abort-current-inline-script', '$', 'adOnClick')
 esports.ru##[class]:has(> div[class] > a:is([href^="https://pari.ru/"], [href^="https://tracker.partnersmelbet.ru/"]))
 esports.ru##main div.flex-col:has(> div.js-catfish-close)
 meat.bluesystem.me##tr:has(> td > a[target="_blank"][href$=".php"])
@@ -11011,6 +11014,7 @@ health.mail.ru##div[data-view="SlotView.mimic.240x400"]
 !
 dom.mail.ru###Rubric-root div[data-qa="ArticlesList"] > div[class]:not([data-qa="ArticleThumb"])
 !
+hi-tech.mail.ru##div[article-item-type="partnerslot"]
 hi-tech.mail.ru##div[class^="box box_block margin_top_"][class*=" rb_"][class*="js-smoky-end"]
 hi-tech.mail.ru##.pm-toolbar__banner_submenu
 hi-tech.mail.ru##.cols__inner > div.spring
