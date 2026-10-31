@@ -4,7 +4,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: gmatv61.live
     failed_since: 2026-09-03 19:11
-    failed_days: 56
+    failed_days: 57
     potentially_dead: true
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
@@ -47,8 +47,8 @@ sites:
       - Redirecting...
     probe_text:
       - /jwplayer.js
-    last_known_mirror: ashleyhardat.com
-    success_since: 2026-10-26 01:28
+    last_known_mirror: shanelocaldog.com
+    success_since: 2026-10-30 07:11
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
@@ -97,7 +97,7 @@ sites:
   Mapple-1 (mapple.*):
     last_known_mirror: mapple.fun
     failed_since: 2026-10-29 01:11
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Mapple-2 (mapplee.com):
     # probably with another domain name scheme
@@ -105,9 +105,9 @@ sites:
     accept_antibot: true
     success_since: 2026-09-17 13:13
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime176.live
+    last_known_mirror: cimcime177.live
     accept_antibot: true
-    success_since: 2026-10-28 13:11
+    success_since: 2026-10-30 13:10
   PatronGol / Patronspor (patrongol*.cfd):
     last_known_mirror: patrongol41.cfd
     accept_antibot: true
@@ -199,7 +199,7 @@ sites:
     # Fake Taraftarium24
     last_known_mirror: taraftarium24canlimacyayini.online
     failed_since: 2026-10-08 19:12
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   Patron Futbol (patronfutbol*.cfd):
     last_known_mirror: patronfutbol63.cfd
@@ -229,7 +229,7 @@ sites:
   Kralsports HD (kralsportshd*.xyz):
     last_known_mirror: kralsportshd8.xyz
     failed_since: 2026-10-11 13:13
-    failed_days: 18
+    failed_days: 19
     potentially_dead: true
   KickAssAnime (kaa.*):
     # initial_domain: kaa.to
@@ -243,7 +243,7 @@ sites:
     pattern_changed: true
     non_pattern_mirror: www.google.com
     failed_since: 2026-10-15 07:18
-    failed_days: 15
+    failed_days: 16
     potentially_dead: true
   Xsportv (xsportv-*.xyz):
     last_known_mirror: www.xsportv-de596bbe2f.xyz
@@ -294,7 +294,7 @@ sites:
   Pelitcanlitv (pelitcanlitv*.com):
     last_known_mirror: pelitcanlitv.com
     failed_since: 2026-10-11 19:11
-    failed_days: 18
+    failed_days: 19
     potentially_dead: true
   MMA Box (mmabox.*):
     last_known_mirror: mmabox.me
@@ -368,7 +368,9 @@ sites:
       - ibizatv1.com
     pattern_changed: true
     non_pattern_mirror: www.google.com
-    success_since: 2026-09-14 13:14
+    failed_since: 2026-10-30 13:10
+    failed_days: 0
+    potentially_dead: true
   Sampiyon TV (sampiyontv*.xyz):
     accept_antibot: true
     force_search_ahead: true
@@ -406,7 +408,7 @@ sites:
     # initial_domain: worldfree4u.gd
     last_known_mirror: worldfree4u.expert
     failed_since: 2026-10-05 19:14
-    failed_days: 24
+    failed_days: 25
     potentially_dead: true
   Canlı Maç izle (canlimacizlemax*.top):
     accept_antibot: true
