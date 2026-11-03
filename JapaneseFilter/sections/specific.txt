@@ -60,6 +60,12 @@ gundamlog.com###more > iframe[src^="https://richlink.blogsys.jp"]
 !
 ! NOTE: Specific rules
 !
+city.yubari.lg.jp##.wrap_banner5
+||city.yubari.lg.jp/uploaded/banner/
+goal.com##.fco-affiliate-button
+goal.com##.fco-affiliate-promo-panel
+||slorepo.com/v*/assets/srmeasure.js^
+slorepo.com##.sr-ad-hold
 bowlroll.net##.infeed-ad
 twidouga.net###video-grid > div.grid-item--wide[style]:not([data-id])
 ||5ch.io/adstir.html
@@ -141,6 +147,7 @@ matsukiyococokara-online.com##.p-section__inner[class$="-000"]:has(> div.p-conte
 ||vw.mangaz.com/navi/$urltransform=/navi(\/\d+(?:\/i:\d+)?)/virgo\/view\$1/
 ! aglint-enable no-invalid-modifiers
 mangaz.com#%#//scriptlet('trusted-click-element', '#instWrapper > div > a.btn')
+/network-config.json$domain=soraraw.net|soraraw.site|rawfree.top|mangaruu.com|trogiupnhanh.com|wakuraw.com|klmanga.cloud
 mangaruu.com,rawfree.top,soraraw.*##div[class^="ReactionPanel_chapterEndAd"]
 androplus.jp##.post_content > fieldset:has(> div.please-dont-block)
 bestcalendar.jp#$#body > div[style^="min-height: "]:has(> ins.adsbygoogle) { min-height: 0 !important; height: 0 !important; }
