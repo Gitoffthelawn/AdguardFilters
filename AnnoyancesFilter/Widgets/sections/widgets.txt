@@ -1986,6 +1986,7 @@ full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND
 ||comm100.com^$third-party
 /livechat.ashx?siteId=$script,third-party
 !
+||chat.loopsai.com^$third-party
 ||widget.brambles.ai^
 ||barry3.controld.com^
 ||dante-ai.com^$third-party
@@ -2064,6 +2065,7 @@ daddyhd.com##.sidebar__inner
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 litres.ru###call_support
 !
+on.com.tr###chatapp-icon
 yepas.com##.tusla-livechat
 armyandoutdoors.com##.rp-micro-app-dummy-icon-container
 turkiyegazetesi.com.tr##.tg-ai-chat-btn
@@ -2280,6 +2282,8 @@ zebratechnologies.force.com##.zbrbot-container
 !
 !   SECTION: Uncategorized
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/246155
+lifestyle.yahoo.com,news.yahoo.com##.relative:has(> iframe[src*="compass.pressekompass.net/compasses"])
 !  visible on mobile
 ! https://github.com/AdguardTeam/AdguardFilters/issues/245235
 news.nextapple.com#$#.scrollTool > a { visibility: hidden !important; pointer-events: none !important; }
