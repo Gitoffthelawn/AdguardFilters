@@ -71,6 +71,7 @@ dirilispostasi.com,turkuazgazetesi.net,yenialanya.com,bugunkocaeli.com.tr,cagdas
 !
 ! NOTE: Specific rules
 !
+shiftdelete.net##body > div#header-container:has(> div#mastheadslot)
 patronspor.is##a[rel="sponsored noopener"]
 onedio.com##.theme-brand
 ||diziizle.wiki/e/s$xmlhttprequest
@@ -4653,12 +4654,21 @@ tulipbettv117.com##.footer-links
 patronlig21.cfd,patronsaha1.cfd#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', '/prerollEnabled\s*:\s*true/g', 'prerollEnabled: false')
 patronlig21.cfd,patronsaha1.cfd##.footer-links
 !#endif
+!
 ! Frequently changed domains: hadibettv*.com
-! Source: hadibettv6.com
-[$domain=/hadibettv\d+\.com$/]##.footer-links
+! Source: hadibettv10.com
 ||hadibettv*.com/view/theme/ultimate/img/*.gif
+[$domain=/hadibettv\d+\.com$/]##div[class^="reklam-"]
+[$domain=/hadibettv\d+\.com$/]##body > header
+[$domain=/hadibettv\d+\.com$/]##.footer-links
+[$domain=/hadibettv\d+\.com$/]##.odds-container
+[$domain=/hadibettv\d+\.com$/]##.header-top > div.header-text
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-hadibettv10.com##.footer-links
+hadibettv11.com##div[class^="reklam-"]
+hadibettv11.com##body > header
+hadibettv11.com##.footer-links
+hadibettv11.com##.odds-container
+hadibettv11.com##.header-top > div.header-text
 !#endif
 !
 ! Frequently changed domains: pornocudayi*.com
@@ -4678,9 +4688,9 @@ videoplays.cfd##.vast-ad-overlay
 /rek.xml|$domain=videoplays.cfd
 videoplays.cfd#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'getAdMountPoint')
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-dizipalorjinal18.com##body > a[class^="pageskin-"]
-dizipalorjinal18.com##[aria-label="Reklam"]
-dizipalorjinal18.com#$#.has-pageskin { background-image: none !important; }
+dizipalorjinal19.com##body > a[class^="pageskin-"]
+dizipalorjinal19.com##[aria-label="Reklam"]
+dizipalorjinal19.com#$#.has-pageskin { background-image: none !important; }
 !#endif
 !
 ! Frequently changed domains: golbettv*.com
@@ -4693,14 +4703,19 @@ golbettv6.com##.bnr
 !#endif
 !
 ! Frequently changed domains: bahsinetv*.site
-! Source: bahsinetv8.site
-[$domain=/bahsinetv\d+\.site$/]##body > a[target="_blank"]
-[$domain=/bahsinetv\d+\.site$/]##body > div[class^="reklam-"]
+! Source: bahsinetv16.site
+||bahsinetv*.site/view/theme/ultimate/img/*.gif
+[$domain=/bahsinetv\d+\.site$/]##div[class^="reklam-"]
+[$domain=/bahsinetv\d+\.site$/]##body > header
 [$domain=/bahsinetv\d+\.site$/]##.footer-links
+[$domain=/bahsinetv\d+\.site$/]##.odds-container
+[$domain=/bahsinetv\d+\.site$/]##.header-top > div.header-text
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-bahsinetv16.site##body > a[target="_blank"]
-bahsinetv16.site##body > div[class^="reklam-"]
+bahsinetv16.site##div[class^="reklam-"]
+bahsinetv16.site##body > header
 bahsinetv16.site##.footer-links
+bahsinetv16.site##.odds-container
+bahsinetv16.site##.header-top > div.header-text
 !#endif
 !
 ! Frequently changed domains: piatv*.site
@@ -4805,9 +4820,19 @@ kodamantv21.com#%#//scriptlet('prevent-window-open')
 !
 ! Frequently changed domains: bahisotv*.com
 ! Source: bahisotv35.com
+! aglint-disable no-invalid-modifiers
+!+ NOT_VALIDATE
+.gif$image,domain=/bahisotv\d+\.com$/
+!+ NOT_VALIDATE
+||cdn.asekyazilim.pro^$media,domain=/bahisotv\d+\.com$/
+! aglint-enable no-invalid-modifiers
 [$domain=/bahisotv\d+\.com$/]##div[style^="margin:"]:has(> a[href][target="_blank"])
 [$domain=/bahisotv\d+\.com$/]##.footer-links
+[$domain=/bahisotv\d+\.com$/]##.sb-player-gifs
+[$domain=/bahisotv\d+\.com$/]##.site-banner-bottom
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
+bahisotv37.com##.sb-player-gifs
+bahisotv37.com##.site-banner-bottom
 bahisotv37.com##div[style^="margin:"]:has(> a[href][target="_blank"])
 bahisotv37.com##.footer-links
 !#endif
