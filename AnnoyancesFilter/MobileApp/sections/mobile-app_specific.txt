@@ -18,6 +18,8 @@ rxgo.com,alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepe
 !
 !
 !
+parismatch.com##.hidden > .items-center:has(> div.flex + img[alt*="Paris Match"])
+privatbank.ua##.p24-app
 inyourarea.co.uk##a[href*="/app"]
 medtochka.ru##.footer-banner > div.v-img > div.v-responsive__content
 tatilsepeti.com##.footerAppButtonsContainer
@@ -4506,6 +4508,10 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+likebus.ua###likebus-app-banner
+rome2rio.com#%#//scriptlet('set-session-storage-item', 'appPromoNudgeDismissed_modal_v7_android', 'true')
+rome2rio.com#%#//scriptlet('set-session-storage-item', 'appPromoNudgeDismissed_modal_v7', 'true')
+bus.tickets.ua###app-top-banner
 medtochka.ru##.footer-banner_mobile
 digitalx.miraeasset.com#%#//scriptlet('set-cookie', 'mobileExchangeAppGuide', 'true')
 orbitz.com#%#//scriptlet('set-cookie', 'SheetBannerClose', 'yes')
@@ -5578,7 +5584,7 @@ dcarshare.docomo.ne.jp###app-link
 thebank.vn##.popup_vitas
 thebank.vn##.black_overlayss
 fikfap.com##.min-h-screen-fixed > div.bottom-14.items-center
-tokubai.co.jp##.smart_app_banner
+dealseek.com,tokubai.co.jp##.smart_app_banner
 tokubai.co.jp##.refusable_app_banner_wrapper
 m.digi24.ro#$#div.smartbanner { display: none !important; }
 m.digi24.ro#%#//scriptlet('remove-class', 'smartbanner-visible', 'body')
