@@ -78,6 +78,8 @@ kasemato.net,itsoku.org,nizimoenews.livedoor.blog,butumori.com,netizen-voice.blo
 !
 ! NOTE: Blogroll specific rules
 !
+||enoge.org/js/blogroll_
+enoge.org###body-0-rss
 lovelive-ss.com##.blogroll-container
 polandball.jp###rssRole
 ||kasemato.net/blogframe/$domain=kasemato.net
@@ -1986,6 +1988,7 @@ full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND
 ||comm100.com^$third-party
 /livechat.ashx?siteId=$script,third-party
 !
+||web.moveo.ai^$third-party
 ||chat.loopsai.com^$third-party
 ||widget.brambles.ai^
 ||barry3.controld.com^
@@ -2065,6 +2068,7 @@ daddyhd.com##.sidebar__inner
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 litres.ru###call_support
 !
+privatbank.ua##.chat-icon-load
 on.com.tr###chatapp-icon
 yepas.com##.tusla-livechat
 armyandoutdoors.com##.rp-micro-app-dummy-icon-container
