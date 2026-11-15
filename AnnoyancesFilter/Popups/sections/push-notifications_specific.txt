@@ -26,6 +26,14 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+footyheadlines.com##.push-badge
+viciados.net##.vp-fim
+kari.com##section[aria-label="Подписка на уведомления"]
+dramadizilerim1.com###instantPushModal
+dramadizilerim1.com###floatingPushBell
+aljazeera.com##.nudge
+made-in-china.com##div[faw-module="push_subscribe"]
+turizmguncel.com##div[aria-label="Bildirim izni"]
 r7.com#%#//scriptlet('set-cookie', 'push_notification_denied', 'true')
 inyourarea.co.uk##div[data-event="OneSignal Notification Prompt_Displayed"]
 tatilsepeti.com##.pc-webpush-overlay
@@ -794,7 +802,7 @@ trinixy.ru##.b-notification-push
 turkuvazradyolar.com,anews.com.tr,yeniasir.com.tr,aspor.com.tr,fikriyat.com,ahaber.com.tr,sabah.com.tr##.notBar
 haberturk.com##.notifacition-area
 haber7.com##.notification-box
-chitai-gorod.ru,firstwefeast.com,complex.com,ifunny.co,teatroporno.com,antena3.ro,webtekno.com##.push-notification
+speedtest.ru,chitai-gorod.ru,firstwefeast.com,complex.com,ifunny.co,teatroporno.com,antena3.ro,webtekno.com##.push-notification
 inside-digital.de,sanalbasin.com##.push-wrapper
 kommersant.ru##.push_notification
 apkdayi.com##.subsbar
